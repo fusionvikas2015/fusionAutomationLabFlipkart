@@ -1,0 +1,13 @@
+--------- beginning of main
+12-11 15:08:42.626  5321  5344 I TestRunner: finished: startServer(io.appium.uiautomator2.server.test.AppiumUiAutomator2Server)
+12-11 15:08:42.630  5321  5321 I MonitoringInstr: Activities that are still in CREATED to STOPPED: 0
+12-11 15:08:42.631  5321  5344 I TestRunner: run finished: 1 tests, 0 failed, 0 ignored
+12-11 15:08:42.947  5321  5344 I MonitoringInstr: waitForActivitiesToComplete() took: 0ms
+12-11 15:08:42.947  5321  5321 I MonitoringInstr: Activities that are still in CREATED to STOPPED: 0
+--------- beginning of system
+12-11 15:08:42.952  1406  3319 W WindowManager: removeWindowToken: Attempted to remove non-existing token: android.os.Binder@ea129fb
+12-11 15:08:42.967  1406  1741 I ActivityManager: Force stopping io.appium.uiautomator2.server appid=10303 user=0: finished inst
+12-11 15:08:42.969  1406  1741 I ActivityManager: Killing 5321:io.appium.uiautomator2.server/u0a303 (adj 0): stop io.appium.uiautomator2.server due to finished inst
+12-11 15:08:42.981  5303  5303 D AndroidRuntime: Shutting down VM
+12-11 15:08:43.013   868   868 I Zygote  : Process 5321 exited due to signal 9 (Killed)
+12-11 15:08:43.048  1406  1477 I libprocessgroup: Successfully killed process cgroup uid 10303 pid 5321 in 77ms

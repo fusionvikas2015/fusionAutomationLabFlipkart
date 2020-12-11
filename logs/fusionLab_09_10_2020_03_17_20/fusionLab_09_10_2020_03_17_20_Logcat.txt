@@ -1,0 +1,1274 @@
+--------- beginning of main
+10-09 15:19:42.332 31470 31503 I MonitoringInstr: waitForActivitiesToComplete() took: 0ms
+10-09 15:19:42.333 31470 31470 I MonitoringInstr: Activities that are still in CREATED to STOPPED: 0
+--------- beginning of system
+10-09 15:19:42.336  1365  2403 W WindowManager: removeWindowToken: Attempted to remove non-existing token: android.os.Binder@b49962c
+10-09 15:19:42.350  1365  3002 I ActivityManager: Force stopping io.appium.uiautomator2.server appid=10487 user=0: finished inst
+10-09 15:19:42.351  1365  1466 W WindowManager: Cannot find window which accessibility connection is added to
+10-09 15:19:42.351 31455 31455 D AndroidRuntime: Shutting down VM
+10-09 15:19:42.355  1365  3002 I ActivityManager: Killing 31470:io.appium.uiautomator2.server/u0a487 (adj 0): stop io.appium.uiautomator2.server due to finished inst
+10-09 15:19:42.395   862   862 I Zygote  : Process 31470 exited due to signal 9 (Killed)
+10-09 15:19:42.422  1365  1473 I libprocessgroup: Successfully killed process cgroup uid 10487 pid 31470 in 65ms
+10-09 15:19:42.890  1365  2403 V UserManagerService: dumpPackageWhitelistProblems(): using mode ENFORCE|IMPLICIT_WHITELIST|IMPLICIT_WHITELIST_SYSTEM
+10-09 15:19:43.082   888   888 I android.hardware.health@2.0-service.wahoo: SRAM data: 3661000
+10-09 15:19:43.091  1787 15123 D PowerUI : can't show warning due to - plugged: true status unknown: false
+10-09 15:19:43.817 32460 32462 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+10-09 15:19:44.011 32480 32482 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+10-09 15:19:44.115  1365  2052 V UserManagerService: dumpPackageWhitelistProblems(): using mode ENFORCE|IMPLICIT_WHITELIST|IMPLICIT_WHITELIST_SYSTEM
+10-09 15:19:44.161   643   643 I servicemanager: Since 'apexservice' could not be found, trying to start it as a lazy AIDL service
+10-09 15:19:44.223   643   643 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+10-09 15:19:44.224   643   643 I servicemanager: Tried to unregister apexservice, but there is about to be a client.
+10-09 15:19:44.680   888   888 I android.hardware.health@2.0-service.wahoo: SRAM data: 3661000
+10-09 15:19:44.697  1787 15650 D PowerUI : can't show warning due to - plugged: true status unknown: false
+10-09 15:19:45.416  1365  2052 V UserManagerService: dumpPackageWhitelistProblems(): using mode ENFORCE|IMPLICIT_WHITELIST|IMPLICIT_WHITELIST_SYSTEM
+10-09 15:19:45.922   643   643 I servicemanager: Notifying apexservice they have clients: 1
+10-09 15:19:49.438 11370 18035 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.icing.service.IcingGcmTaskService started execution. cause:4 exec_start_elapsed_seconds: 410193 [CONTEXT service_id=218 ]
+10-09 15:19:49.444 11370 17124 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.icing.service.IcingGcmTaskService finished executing. cause:4 result: 1 elapsed_millis: 31 uptime_millis: 31 exec_start_elapsed_seconds: 410193 [CONTEXT service_id=218 ]
+10-09 15:19:47.967  1365  2052 I chatty  : uid=1000(system) Binder:1365_8 identical 2 lines
+10-09 15:19:49.232  1365  2052 V UserManagerService: dumpPackageWhitelistProblems(): using mode ENFORCE|IMPLICIT_WHITELIST|IMPLICIT_WHITELIST_SYSTEM
+10-09 15:19:50.486  1365  2403 V UserManagerService: dumpPackageWhitelistProblems(): using mode ENFORCE|IMPLICIT_WHITELIST|IMPLICIT_WHITELIST_SYSTEM
+10-09 15:19:53.982  1146  1146 E adbd    : failed to connect to socket 'tcp:6790': Connection refused
+10-09 15:19:51.730  1365  2403 I chatty  : uid=1000(system) Binder:1365_9 identical 1 line
+10-09 15:19:52.986  1365  2403 V UserManagerService: dumpPackageWhitelistProblems(): using mode ENFORCE|IMPLICIT_WHITELIST|IMPLICIT_WHITELIST_SYSTEM
+10-09 15:19:54.114  1365  2403 I ActivityManager: Force stopping io.appium.uiautomator2.server.test appid=10488 user=0: from pid 32626
+10-09 15:19:54.124 32626 32629 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+10-09 15:19:54.124  2101  2101 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntentAndPhone: No UICC
+10-09 15:19:54.124  2101  2101 D CarrierSvcBindHelper: No carrier app for: 0
+10-09 15:19:54.131 17997 32632 I EuiccGoogle: [15268] EuiccServiceImpl.onGetEuiccProfileInfoList: onGetEuiccProfileInfoList: slotId = -1
+10-09 15:19:54.134  2957  2957 D RegisteredNfcFServicesCache: Service unchanged, not updating
+10-09 15:19:54.141  1916  1916 D QcrilMsgTunnelIfaceManager: handleMessage what = 1
+10-09 15:19:54.142  1916  1916 I QcrilOemhookMsgTunnel: [0]invokeOemRilRequestRaw: serial=1452 length=16
+10-09 15:19:54.148  1916  1952 I QcrilOemhookMsgTunnel: [0]processOemHookResponse serial no: 1452 error: 0length=88
+10-09 15:19:54.148  1916  1916 D QcrilMsgTunnelIfaceManager: handleMessage what = 2
+10-09 15:19:54.149 17997 32632 I EuiccGoogle: [15268] UiccLogicalChannel.open: Locked on aid: A0000005591010FFFFFFFF8900000100
+10-09 15:19:54.152  2101  2101 E PhoneInterfaceManager: [PhoneIntfMgr] iccOpenLogicalChannel: No UICC
+10-09 15:19:54.153 17997 32632 E EuiccGoogle: [15268] UiccLogicalChannel.open: selectResponse is null. Unlocked for aid: A0000005591010FFFFFFFF8900000100
+10-09 15:19:54.154 17997 32632 W EuiccGoogle: [15268] EuiccServiceImpl.onGetEuiccProfileInfoList: slotId=-1. No eUICC is active. Return null.
+10-09 15:19:54.246  1365  3487 V UserManagerService: dumpPackageWhitelistProblems(): using mode ENFORCE|IMPLICIT_WHITELIST|IMPLICIT_WHITELIST_SYSTEM
+10-09 15:19:54.261 32633 32633 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+10-09 15:19:54.265 32633 32633 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+10-09 15:19:54.265 32633 32633 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+10-09 15:19:54.265 32633 32633 I AndroidRuntime: Using default boot image
+10-09 15:19:54.265 32633 32633 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+10-09 15:19:54.265 32633 32633 I AndroidRuntime: Leaving lock profiling enabled
+10-09 15:19:54.266 32633 32633 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+10-09 15:19:54.262 32633 32633 W app_process: type=1400 audit(0.0:7042): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=17856 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+10-09 15:19:54.262 32633 32633 I chatty  : uid=2000(shell) main identical 2 lines
+10-09 15:19:54.262 32633 32633 W app_process: type=1400 audit(0.0:7045): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=17856 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+10-09 15:19:54.366 32633 32633 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+10-09 15:19:54.367 32633 32633 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+10-09 15:19:54.379 32633 32633 I app_process: The ClassLoaderContext is a special shared library.
+10-09 15:19:54.394 32633 32633 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+10-09 15:19:54.400 32633 32633 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+10-09 15:19:54.406  1365  3487 I ActivityManager: Force stopping io.appium.uiautomator2.server appid=10487 user=0: start instr
+10-09 15:19:54.408  1365  3487 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10487; state: DISABLED
+10-09 15:19:54.408  1365  1472 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10487; state: DISABLED
+10-09 15:19:54.416   862   862 D Zygote  : Forked child process 32651
+10-09 15:19:54.421  1365  1472 I ActivityManager: Start proc 32651:io.appium.uiautomator2.server/u0a487 for added application io.appium.uiautomator2.server
+10-09 15:19:54.422 32651 32651 I tomator2.serve: Late-enabling -Xcheck:jni
+10-09 15:19:54.449 32651 32651 I tomator2.serve: Unquickening 12 vdex files!
+10-09 15:19:54.461  1146  1206 I adbd    : jdwp connection from 32651
+10-09 15:19:54.508 32651 32651 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+10-09 15:19:54.510 32651 32651 I tomator2.serve: The ClassLoaderContext is a special shared library.
+10-09 15:19:54.511 32651 32651 I chatty  : uid=10487(io.appium.uiautomator2.server) identical 1 line
+10-09 15:19:54.516 32651 32651 I tomator2.serve: The ClassLoaderContext is a special shared library.
+10-09 15:19:54.641 32651 32651 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+10-09 15:19:54.641 32651 32651 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+10-09 15:19:54.645 32651 32651 I tomator2.serve: The ClassLoaderContext is a special shared library.
+10-09 15:19:54.652 32651 32651 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+10-09 15:19:54.652 32651 32651 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+10-09 15:19:54.653 32651 32651 I tomator2.serve: The ClassLoaderContext is a special shared library.
+10-09 15:19:54.657 32651 32651 I chatty  : uid=10487(io.appium.uiautomator2.server) identical 2 lines
+10-09 15:19:54.658 32651 32651 I tomator2.serve: The ClassLoaderContext is a special shared library.
+10-09 15:19:54.751 32651 32651 W tomator2.serve: Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Landroid/app/Activity;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (greylist, linking, allowed)
+10-09 15:19:54.751 32651 32651 W tomator2.serve: Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Ljava/lang/String;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (greylist, linking, allowed)
+10-09 15:19:54.758 32651 32651 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+10-09 15:19:54.759 32651 32651 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+10-09 15:19:54.778 32651 32651 I MonitoringInstr: Instrumentation started!
+10-09 15:19:54.779 32651 32651 I MonitoringInstr: Setting context classloader to 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/system/framework/android.test.base.jar", zip file "/data/app/~~xN2SESFGzH4yA1n4ZA-G8A==/io.appium.uiautomator2.server.test-nbFP3kO2GE82pghKjugTlw==/base.apk", zip file "/data/app/~~PdQymxfO7tzEJgn_bEMRMw==/io.appium.uiautomator2.server-3W4AFDbmk8nUdTCf6yu34Q==/base.apk"],nativeLibraryDirectories=[/data/app/~~xN2SESFGzH4yA1n4ZA-G8A==/io.appium.uiautomator2.server.test-nbFP3kO2GE82pghKjugTlw==/lib/arm64, /data/app/~~PdQymxfO7tzEJgn_bEMRMw==/io.appium.uiautomator2.server-3W4AFDbmk8nUdTCf6yu34Q==/lib/arm64, /system/lib64, /system/product/lib64]]]', Original: 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/system/framework/android.test.base.jar", zip file "/data/app/~~xN2SESFGzH4yA1n4ZA-G8A==/io.appium.uiautomator2.server.test-nbFP3kO2GE82pghKjugTlw==/base.apk", zip file "/data/app/~~PdQymxfO7tzEJgn_bEMRMw==/io.appium.uiautomator2.server-3W4AFDbmk8nUdTCf6yu34Q==/base.apk"],nativeLibraryDirectories=[/data/app/~~xN2SESFGzH4yA1n4ZA-G8A==/io.appium.uiautomator2.server.test-nbFP3kO2GE82pghKjugTlw==/lib/arm64, /data/app/~~PdQymxfO7tzEJgn_bEMRMw==/io.appium.uiautomator2.server-3W4AFDbmk8nUdTCf6yu34Q==/lib/arm64, /system/lib64, /system/product/lib64]]]'
+10-09 15:19:54.784 32651 32651 I MonitoringInstr: No JSBridge.
+10-09 15:19:54.786 32651 32673 I MonitoringInstr: Setting context classloader to 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/system/framework/android.test.base.jar", zip file "/data/app/~~xN2SESFGzH4yA1n4ZA-G8A==/io.appium.uiautomator2.server.test-nbFP3kO2GE82pghKjugTlw==/base.apk", zip file "/data/app/~~PdQymxfO7tzEJgn_bEMRMw==/io.appium.uiautomator2.server-3W4AFDbmk8nUdTCf6yu34Q==/base.apk"],nativeLibraryDirectories=[/data/app/~~xN2SESFGzH4yA1n4ZA-G8A==/io.appium.uiautomator2.server.test-nbFP3kO2GE82pghKjugTlw==/lib/arm64, /data/app/~~PdQymxfO7tzEJgn_bEMRMw==/io.appium.uiautomator2.server-3W4AFDbmk8nUdTCf6yu34Q==/lib/arm64, /system/lib64, /system/product/lib64]]]', Original: 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/system/framework/android.test.base.jar", zip file "/data/app/~~xN2SESFGzH4yA1n4ZA-G8A==/io.appium.uiautomator2.server.test-nbFP3kO2GE82pghKjugTlw==/base.apk", zip file "/data/app/~~PdQymxfO7tzEJgn_bEMRMw==/io.appium.uiautomator2.server-3W4AFDbmk8nUdTCf6yu34Q==/base.apk"],nativeLibraryDirectories=[/data/app/~~xN2SESFGzH4yA1n4ZA-G8A==/io.appium.uiautomator2.server.test-nbFP3kO2GE82pghKjugTlw==/lib/arm64, /data/app/~~PdQymxfO7tzEJgn_bEMRMw==/io.appium.uiautomator2.server-3W4AFDbmk8nUdTCf6yu34Q==/lib/arm64, /system/lib64, /system/product/lib64]]]'
+10-09 15:19:54.815 32651 32673 I UsageTrackerFacilitator: Usage tracking enabled
+10-09 15:19:54.821 32651 32673 I TestRequestBuilder: Scanning classpath to find tests in paths [/data/app/~~xN2SESFGzH4yA1n4ZA-G8A==/io.appium.uiautomator2.server.test-nbFP3kO2GE82pghKjugTlw==/base.apk]
+10-09 15:19:54.822 32651 32673 W tomator2.serve: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+10-09 15:19:55.012 32651 32673 D TestExecutor: Adding listener androidx.test.internal.runner.listener.LogRunListener
+10-09 15:19:55.012 32651 32673 D TestExecutor: Adding listener androidx.test.internal.runner.listener.InstrumentationResultPrinter
+10-09 15:19:55.012 32651 32673 D TestExecutor: Adding listener androidx.test.internal.runner.listener.ActivityFinisherRunListener
+10-09 15:19:55.013 32651 32673 I TestRunner: run started: 1 tests
+10-09 15:19:55.015 32651 32673 I TestRunner: started: startServer(io.appium.uiautomator2.server.test.AppiumUiAutomator2Server)
+10-09 15:19:55.017 32651 32651 I MonitoringInstr: Activities that are still in CREATED to STOPPED: 0
+10-09 15:19:55.026 32651 32673 I appium  : [AppiumUiAutomator2Server] Starting Server
+10-09 15:19:55.173  1146  1146 E adbd    : failed to connect to socket 'tcp:6790': Connection refused
+10-09 15:19:55.569  1365  3487 V UserManagerService: dumpPackageWhitelistProblems(): using mode ENFORCE|IMPLICIT_WHITELIST|IMPLICIT_WHITELIST_SYSTEM
+10-09 15:19:56.089 32651 32673 I appium  : AndroidServer created on port 6790
+10-09 15:19:56.089 32651 32673 I appium  : io.appium.uiautomator2.server started:
+10-09 15:19:56.153  1365  1466 W WindowManager: Cannot find window which accessibility connection is added to
+10-09 15:19:56.170 32651 32686 I appium  : Started UiAutomator2 io.appium.uiautomator2.http io.appium.uiautomator2.server on port 6790
+10-09 15:19:56.184  1146  1146 E adbd    : failed to connect to socket 'tcp:6790': Connection refused
+10-09 15:19:56.241 32651 32688 W tomator2.serve: Accessing hidden method Lsun/misc/VM;->maxDirectMemory()J (greylist, reflection, allowed)
+10-09 15:19:56.250 32651 32688 W tomator2.serve: Accessing hidden field Lsun/nio/ch/SelectorImpl;->selectedKeys:Ljava/util/Set; (greylist, reflection, allowed)
+10-09 15:19:56.250 32651 32688 W tomator2.serve: Accessing hidden field Lsun/nio/ch/SelectorImpl;->publicSelectedKeys:Ljava/util/Set; (greylist, reflection, allowed)
+10-09 15:19:56.272 32651 32651 W Thread-3: type=1400 audit(0.0:7046): avc: denied { read } for name="somaxconn" dev="proc" ino=3880579 scontext=u:r:untrusted_app_27:s0:c231,c257,c512,c768 tcontext=u:object_r:proc_net:s0 tclass=file permissive=0 app=io.appium.uiautomator2.server
+10-09 15:19:56.900  1365  2403 V UserManagerService: dumpPackageWhitelistProblems(): using mode ENFORCE|IMPLICIT_WHITELIST|IMPLICIT_WHITELIST_SYSTEM
+10-09 15:19:57.314 32651 32701 I appium  : channel read invoked!
+10-09 15:19:57.315 32651 32701 I appium  : channel read: GET /wd/hub/status
+10-09 15:19:57.328 32651 32701 I appium  : AppiumResponse: {"sessionId":"None","value":{"ready":true,"message":"UiAutomator2 Server is ready to accept commands"}}
+10-09 15:19:57.347 32651 32701 I appium  : channel read invoked!
+10-09 15:19:57.348 32651 32701 I appium  : channel read: POST /wd/hub/session
+10-09 15:19:57.356 32651 32701 W tomator2.serve: Accessing hidden field Landroid/app/UiAutomation;->mOnAccessibilityEventListener:Landroid/app/UiAutomation$OnAccessibilityEventListener; (greylist-max-o, reflection, allowed)
+10-09 15:19:57.356 32651 32701 I appium  : Created the new session with SessionID: 3cf16f52-2604-4a79-a935-b345b3c890af
+10-09 15:19:57.358 32651 32701 I appium  : AppiumResponse: {"sessionId":"3cf16f52-2604-4a79-a935-b345b3c890af","value":{"sessionId":"3cf16f52-2604-4a79-a935-b345b3c890af","capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"loca...
+10-09 15:19:57.380 32651 32701 I appium  : channel read invoked!
+10-09 15:19:57.380 32651 32701 I appium  : channel read: GET /wd/hub/session/3cf16f52-2604-4a79-a935-b345b3c890af/appium/device/info
+10-09 15:19:57.381 32651 32701 I appium  : Get Device Info command
+10-09 15:19:57.389 32651 32701 I TetheringManager: registerTetheringEventCallback:io.appium.uiautomator2.server
+10-09 15:19:57.422 32651 32701 W tomator2.serve: Accessing hidden field Landroid/net/NetworkCapabilities;->mSignalStrength:I (greylist-max-p, reflection, allowed)
+10-09 15:19:57.422 32651 32701 W tomator2.serve: Accessing hidden field Landroid/net/NetworkCapabilities;->mNetworkSpecifier:Landroid/net/NetworkSpecifier; (greylist-max-o, reflection, allowed)
+10-09 15:19:57.422 32651 32701 W tomator2.serve: Accessing hidden field Landroid/net/NetworkCapabilities;->mSSID:Ljava/lang/String; (greylist-max-o, reflection, allowed)
+10-09 15:19:57.449 32651 32701 I appium  : AppiumResponse: {"sessionId":"3cf16f52-2604-4a79-a935-b345b3c890af","value":{"androidId":"5ffc083a0992a604","manufacturer":"Google","model":"Pixel 2 XL","brand":"google","apiVersion":"30","platformVersion":"11","carrierName":"","realDisplaySize":"1440x2880","displayDensity":560,"networks":[{"type":1,"typeName":"...
+10-09 15:19:57.740  1365  2403 I ActivityManager: Force stopping com.amazon.mShop.android.shopping appid=10489 user=0: from pid 32707
+10-09 15:19:57.752  2101  2101 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntentAndPhone: No UICC
+10-09 15:19:57.752  2101  2101 D CarrierSvcBindHelper: No carrier app for: 0
+10-09 15:19:57.758  2957  2957 D RegisteredNfcFServicesCache: Service unchanged, not updating
+10-09 15:19:57.760 17997 32710 I EuiccGoogle: [15269] EuiccServiceImpl.onGetEuiccProfileInfoList: onGetEuiccProfileInfoList: slotId = -1
+10-09 15:19:57.769  1916  1916 D QcrilMsgTunnelIfaceManager: handleMessage what = 1
+10-09 15:19:57.771  1916  1916 I QcrilOemhookMsgTunnel: [0]invokeOemRilRequestRaw: serial=1453 length=16
+10-09 15:19:57.777  1916  1952 I QcrilOemhookMsgTunnel: [0]processOemHookResponse serial no: 1453 error: 0length=88
+10-09 15:19:57.778  1916  1916 D QcrilMsgTunnelIfaceManager: handleMessage what = 2
+10-09 15:19:57.778 17997 32710 I EuiccGoogle: [15269] UiccLogicalChannel.open: Locked on aid: A0000005591010FFFFFFFF8900000100
+10-09 15:19:57.781  2101  2101 E PhoneInterfaceManager: [PhoneIntfMgr] iccOpenLogicalChannel: No UICC
+10-09 15:19:57.782 17997 32710 E EuiccGoogle: [15269] UiccLogicalChannel.open: selectResponse is null. Unlocked for aid: A0000005591010FFFFFFFF8900000100
+10-09 15:19:57.783 17997 32710 W EuiccGoogle: [15269] EuiccServiceImpl.onGetEuiccProfileInfoList: slotId=-1. No eUICC is active. Return null.
+10-09 15:19:58.004  1365  2403 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.amazon.mShop.android.shopping/com.amazon.mShop.splashscreen.StartupActivity} from uid 2000
+10-09 15:19:58.006  1365  1465 D EventSequenceValidator: IntentStarted during UNKNOWN. Intent { flg=0x10000000 cmp=com.amazon.mShop.android.shopping/com.amazon.mShop.splashscreen.StartupActivity }
+10-09 15:19:58.006  1365  1465 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+10-09 15:19:58.006  1365  1465 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+10-09 15:19:58.006  1365  1465 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentStarted(EventSequenceValidator.java:106)
+10-09 15:19:58.006  1365  1465 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentStarted(LaunchObserverRegistryImpl.java:139)
+10-09 15:19:58.006  1365  1465 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$veRn_GhgLZLlOHOJ0ZYT6KcfYqo(Unknown Source:0)
+10-09 15:19:58.006  1365  1465 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$veRn_GhgLZLlOHOJ0ZYT6KcfYqo.accept(Unknown Source:10)
+10-09 15:19:58.006  1365  1465 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+10-09 15:19:58.006  1365  1465 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+10-09 15:19:58.006  1365  1465 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+10-09 15:19:58.006  1365  1465 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+10-09 15:19:58.006  1365  1465 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-09 15:19:58.006  1365  1465 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+10-09 15:19:58.006  1365  1465 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-09 15:19:58.006  1365  1465 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+10-09 15:19:58.006  1365  1465 D EventSequenceValidator: inc AccIntentStartedEvents to 4
+10-09 15:19:58.015  1032  1032 I perfetto: ing_service_impl.cc:758 Configured tracing session 1429, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:1, uid:1071 session name: ""
+10-09 15:19:58.016  1031  1031 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=1429)
+10-09 15:19:58.025   675   675 D android.hardware.power@1.3-service.pixel-libperfmgr: LAUNCH: 1
+10-09 15:19:58.028  1031  1031 I perfetto: ftrace_procfs.cc:176    enabled ftrace
+10-09 15:19:58.039  1365  1465 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10489; state: DISABLED
+10-09 15:19:58.039  1365  1472 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10489; state: DISABLED
+10-09 15:19:58.039  1365  1465 D EventSequenceValidator: onActivityLaunched during UNKNOWN.
+10-09 15:19:58.039  1365  1465 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+10-09 15:19:58.039  1365  1465 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+10-09 15:19:58.039  1365  1465 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onActivityLaunched(EventSequenceValidator.java:149)
+10-09 15:19:58.039  1365  1465 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnActivityLaunched(LaunchObserverRegistryImpl.java:157)
+10-09 15:19:58.039  1365  1465 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$UGY1OclnLIQLMEL9B55qjERFf4o(Unknown Source:0)
+10-09 15:19:58.039  1365  1465 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$UGY1OclnLIQLMEL9B55qjERFf4o.accept(Unknown Source:10)
+10-09 15:19:58.039  1365  1465 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+10-09 15:19:58.039  1365  1465 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+10-09 15:19:58.039  1365  1465 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+10-09 15:19:58.039  1365  1465 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+10-09 15:19:58.039  1365  1465 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-09 15:19:58.039  1365  1465 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+10-09 15:19:58.039  1365  1465 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-09 15:19:58.039  1365  1465 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+10-09 15:19:58.044   863   863 D Zygote  : Forked child process 32722
+10-09 15:19:58.046  1365  1472 I ActivityManager: Start proc 32722:com.amazon.mShop.android.shopping/u0a489 for pre-top-activity {com.amazon.mShop.android.shopping/com.amazon.mShop.splashscreen.StartupActivity}
+10-09 15:19:58.059 32722 32722 E ndroid.shoppin: Not starting debugger since process cannot load the jdwp agent.
+10-09 15:19:58.085 32722 32722 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+10-09 15:19:58.087 32722 32722 I ndroid.shoppin: The ClassLoaderContext is a special shared library.
+10-09 15:19:58.099 32722 32722 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+10-09 15:19:58.099 32722 32722 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+10-09 15:19:58.103 32722 32722 V ApplicationStateListener: Application is created at time: 1602236998103
+10-09 15:19:58.115 32722 32722 I TetheringManager: registerTetheringEventCallback:com.amazon.mShop.android.shopping
+10-09 15:19:58.118 32722 32722 I com.amazon.device.crashmanager.CrashDetectionHelper: Installing crash detector as default exception handler.
+10-09 15:19:58.120 32722 32749 I DPLogger: DPLogger - Name was too long. Truncating; original name: AbstractDetArtifactProcessor, truncated name: AbstractDetArtifactProc
+10-09 15:19:58.120 32722 32749 I DPLogger: DPLogger - Name was too long. Truncating; original name: JavaCrashArtifactProcessor, truncated name: JavaCrashArtifactProces
+10-09 15:19:58.122 32722 32749 I ArtifactUploader: ArtifactUploader - Finished uploading artifacts. Uploaded 0 artifacts.;
+10-09 15:19:58.129 32722 32722 D PluginParser: Loading configuration with prefix com.amazon.platform.plugin.
+10-09 15:19:58.130   888   888 I android.hardware.health@2.0-service.wahoo: SRAM data: 3661000
+10-09 15:19:58.130 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.httpUrlDeepLink' = com.amazon.mShop.android.shopping:array/deeplinking_plugins
+10-09 15:19:58.130 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:array/deeplinking_plugins
+10-09 15:19:58.130 32722 32722 E ndroid.shoppin: Resource 7f080015 is a complex map type.
+10-09 15:19:58.130 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/deeplinking_plugin
+10-09 15:19:58.131 32722 32722 D PluginParser: Adding access for plugin: com.amazon.mShop.appgrade.startup
+10-09 15:19:58.131 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/deeplinking_weblabs
+10-09 15:19:58.131 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.amazonStore' = com.amazon.mShop.android.shopping:array/amazonstore_plugins
+10-09 15:19:58.131 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:array/amazonstore_plugins
+10-09 15:19:58.132 32722 32722 E ndroid.shoppin: Resource 7f08000e is a complex map type.
+10-09 15:19:58.132 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/chrome_extension_plugin
+10-09 15:19:58.132 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/amazon_store_weblab_plugin
+10-09 15:19:58.132 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.inlineSearchSuggestionsLibPlugins' = com.amazon.mShop.android.shopping:array/iss_plugins
+10-09 15:19:58.132 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:array/iss_plugins
+10-09 15:19:58.132 32722 32722 E ndroid.shoppin: Resource 7f080019 is a complex map type.
+10-09 15:19:58.132 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/iss_weblabs
+10-09 15:19:58.132  1787  8438 D PowerUI : can't show warning due to - plugged: true status unknown: false
+10-09 15:19:58.132 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.regionmonitoring' = com.amazon.mShop.android.shopping:xml/regionmonitoring_plugin
+10-09 15:19:58.132 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/regionmonitoring_plugin
+10-09 15:19:58.133 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.packard' = com.amazon.mShop.android.shopping:xml/packard_weblabs
+10-09 15:19:58.133 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/packard_weblabs
+10-09 15:19:58.133 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.ps_ssnap' = com.amazon.mShop.android.shopping:xml/ps_plugin
+10-09 15:19:58.133 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/ps_plugin
+10-09 15:19:58.133 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.chrome' = com.amazon.mShop.android.shopping:array/chrome_plugins
+10-09 15:19:58.133 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:array/chrome_plugins
+10-09 15:19:58.133 32722 32722 E ndroid.shoppin: Resource 7f080013 is a complex map type.
+10-09 15:19:58.133 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/chrome_startup_plugin
+10-09 15:19:58.133 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/chrome_plugin
+10-09 15:19:58.134 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/appx_weblabs
+10-09 15:19:58.134 32722 32751 I WebViewFactory: Loading com.google.android.webview version 85.0.4183.127 (code 418312783)
+10-09 15:19:58.135  1365  3532 V UserManagerService: dumpPackageWhitelistProblems(): using mode ENFORCE|IMPLICIT_WHITELIST|IMPLICIT_WHITELIST_SYSTEM
+10-09 15:19:58.136 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.shortcut' = com.amazon.mShop.android.shopping:array/shortcut_plugins
+10-09 15:19:58.137 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:array/shortcut_plugins
+10-09 15:19:58.138 32722 32722 E ndroid.shoppin: Resource 7f08002b is a complex map type.
+10-09 15:19:58.138 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/shortcut_startup_plugin
+10-09 15:19:58.139 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/shortcut_weblab_plugin
+10-09 15:19:58.139 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.searchLibPlugins' = com.amazon.mShop.android.shopping:array/search_plugins
+10-09 15:19:58.139 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:array/search_plugins
+10-09 15:19:58.139 32722 32722 E ndroid.shoppin: Resource 7f080029 is a complex map type.
+10-09 15:19:58.139 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/search_weblabs
+10-09 15:19:58.139 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.mshopmetrics' = com.amazon.mShop.android.shopping:xml/mshopmetrics_plugin
+10-09 15:19:58.139 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/mshopmetrics_plugin
+10-09 15:19:58.140 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.a9vsPlugins' = com.amazon.mShop.android.shopping:array/weblab_plugins
+10-09 15:19:58.140 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:array/weblab_plugins
+10-09 15:19:58.140 32722 32722 E ndroid.shoppin: Resource 7f080040 is a complex map type.
+10-09 15:19:58.140 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/modes_weblab_plugin
+10-09 15:19:58.140 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.core' = com.amazon.mShop.android.shopping:xml/core_plugin
+10-09 15:19:58.140 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/core_plugin
+10-09 15:19:58.140 32722 32722 D PluginParser: Adding access for plugin: com.amazon.platform.core
+10-09 15:19:58.140 32722 32722 D PluginParser: Adding access for plugin: com.amazon.mShop.android.startup
+10-09 15:19:58.140 32722 32722 D PluginParser: Adding access for plugin: com.amazon.mShop.riolib
+10-09 15:19:58.141 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.dash' = com.amazon.mShop.android.shopping:xml/dash_plugin
+10-09 15:19:58.141 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/dash_plugin
+10-09 15:19:58.141 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.font' = com.amazon.mShop.android.shopping:array/fontplugins
+10-09 15:19:58.141 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:array/fontplugins
+10-09 15:19:58.141 32722 32722 E ndroid.shoppin: Resource 7f080017 is a complex map type.
+10-09 15:19:58.142 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/ember_v2_weblab
+10-09 15:19:58.142 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.vision' = com.amazon.mShop.android.shopping:xml/vision_plugin
+10-09 15:19:58.142 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/vision_plugin
+10-09 15:19:58.142 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.weblab' = com.amazon.mShop.android.shopping:xml/weblab_plugin
+10-09 15:19:58.142 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/weblab_plugin
+10-09 15:19:58.143 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.issWidgetsPlugins' = com.amazon.mShop.android.shopping:array/iss_widgets_plugins
+10-09 15:19:58.143 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:array/iss_widgets_plugins
+10-09 15:19:58.143 32722 32722 E ndroid.shoppin: Resource 7f08001a is a complex map type.
+10-09 15:19:58.143 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/iss_widgets_weblabs
+10-09 15:19:58.143 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.aeeResolver' = com.amazon.mShop.android.shopping:array/aee_plugins
+10-09 15:19:58.143 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:array/aee_plugins
+10-09 15:19:58.143 32722 32722 E ndroid.shoppin: Resource 7f08000c is a complex map type.
+10-09 15:19:58.143 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/aee_resolver_startup_plugin
+10-09 15:19:58.143 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.searchScopePlugins' = com.amazon.mShop.android.shopping:array/search_scope_plugins
+10-09 15:19:58.143 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:array/search_scope_plugins
+10-09 15:19:58.143 32722 32722 E ndroid.shoppin: Resource 7f08002a is a complex map type.
+10-09 15:19:58.143 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/search_scope_weblabs
+10-09 15:19:58.144 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.localizationService' = com.amazon.mShop.android.shopping:xml/ls_weblabs
+10-09 15:19:58.144 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/ls_weblabs
+10-09 15:19:58.144 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.outboundMarketingPlugins' = com.amazon.mShop.android.shopping:array/outbound_marketing_plugins
+10-09 15:19:58.144 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:array/outbound_marketing_plugins
+10-09 15:19:58.144 32722 32722 E ndroid.shoppin: Resource 7f080024 is a complex map type.
+10-09 15:19:58.144 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/outbound_marketing_weblab
+10-09 15:19:58.144 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.a9vsARViewPlugins' = com.amazon.mShop.android.shopping:array/arview_weblab_plugins
+10-09 15:19:58.144 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:array/arview_weblab_plugins
+10-09 15:19:58.144 32722 32722 E ndroid.shoppin: Resource 7f080012 is a complex map type.
+10-09 15:19:58.144 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/a9vs_weblab_plugin
+10-09 15:19:58.144 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.shoppingaids' = com.amazon.mShop.android.shopping:xml/shopping_aids_weblabs
+10-09 15:19:58.144 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/shopping_aids_weblabs
+10-09 15:19:58.145 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.searchBarPlugins' = com.amazon.mShop.android.shopping:array/search_bar_plugins
+10-09 15:19:58.145 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:array/search_bar_plugins
+10-09 15:19:58.145 32722 32722 E ndroid.shoppin: Resource 7f080028 is a complex map type.
+10-09 15:19:58.145 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/search_bar_weblabs
+10-09 15:19:58.145 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.appgrade' = com.amazon.mShop.android.shopping:array/appgrade_plugins
+10-09 15:19:58.145 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:array/appgrade_plugins
+10-09 15:19:58.145 32722 32722 E ndroid.shoppin: Resource 7f080010 is a complex map type.
+10-09 15:19:58.145 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/appgrade_plugin
+10-09 15:19:58.145 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/appgrade_weblabs
+10-09 15:19:58.146 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.i18n_smash' = com.amazon.mShop.android.shopping:xml/i18n_smash_plugin
+10-09 15:19:58.146 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/i18n_smash_plugin
+10-09 15:19:58.146 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.phoneLibPlugins' = com.amazon.mShop.android.shopping:array/plugins
+10-09 15:19:58.146 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:array/plugins
+10-09 15:19:58.146 32722 32722 E ndroid.shoppin: Resource 7f080025 is a complex map type.
+10-09 15:19:58.146 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/phonelib_plugin
+10-09 15:19:58.147 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/startup_plugin
+10-09 15:19:58.147 32722 32722 D PluginParser: Adding access for plugin: com.amazon.mShop.android.net
+10-09 15:19:58.147 32722 32722 D PluginParser: Adding access for plugin: com.amazon.mShop.android.startup
+10-09 15:19:58.147 32722 32722 D PluginParser: Adding access for plugin: com.amazon.mShop.fling.startup
+10-09 15:19:58.147 32722 32722 D PluginParser: Adding access for plugin: com.amazon.mShop.pushnotification.startup
+10-09 15:19:58.147 32722 32722 D PluginParser: Adding access for plugin: com.amazon.mShop.CustomerInfo
+10-09 15:19:58.147 32722 32722 D PluginParser: Adding access for plugin: com.amazon.mShop.freshLib.startup
+10-09 15:19:58.147 32722 32722 D PluginParser: Adding access for plugin: com.amazon.mShop.chrome.startup
+10-09 15:19:58.147 32722 32722 D PluginParser: Adding access for plugin: com.amazon.mShop.appgrade.startup
+10-09 15:19:58.147 32722 32722 D PluginParser: Adding access for plugin: com.amazon.mShop.shortcut.startup
+10-09 15:19:58.147 32722 32722 D PluginParser: Adding access for plugin: com.amazon.mShop.aeeResolver.startup
+10-09 15:19:58.147 32722 32722 D PluginParser: Adding access for plugin: com.amazon.mShop.permission.v2.plugin
+10-09 15:19:58.147 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/networking_plugin
+10-09 15:19:58.147 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/core_team_weblabs
+10-09 15:19:58.147 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/push_notification_weblabs
+10-09 15:19:58.148 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/i18n_weblabs
+10-09 15:19:58.148 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/push_notification_startup_plugin
+10-09 15:19:58.148 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/customer_info_plugin
+10-09 15:19:58.148 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/alexa_plugin
+10-09 15:19:58.148 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/contextual_navigation
+10-09 15:19:58.148 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/real_name_verification_weblabs
+10-09 15:19:58.149 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/upi_weblabs
+10-09 15:19:58.149 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/appnav_search_bar_weblabs
+10-09 15:19:58.149 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/mash_weblabs
+10-09 15:19:58.149 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/ssnap_weblabs
+10-09 15:19:58.149 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/mobile_growth_weblabs
+10-09 15:19:58.149 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/bootstrap_sso_weblabs
+10-09 15:19:58.150 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/appx_team_weblabs
+10-09 15:19:58.150 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/account_switcher_weblabs
+10-09 15:19:58.150 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/user_listener_plugin
+10-09 15:19:58.150 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/localization_plugin
+10-09 15:19:58.150 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/signin_event_plugin
+10-09 15:19:58.150 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/mobile_metrics_plugin
+10-09 15:19:58.151 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.trendingSearchesPlugins' = com.amazon.mShop.android.shopping:array/trending_searches_plugins
+10-09 15:19:58.151 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:array/trending_searches_plugins
+10-09 15:19:58.151 32722 32722 E ndroid.shoppin: Resource 7f08002f is a complex map type.
+10-09 15:19:58.151 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/trending_searches_weblabs
+10-09 15:19:58.151 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.location' = com.amazon.mShop.android.shopping:array/location_plugins_list
+10-09 15:19:58.151 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:array/location_plugins_list
+10-09 15:19:58.151 32722 32722 E ndroid.shoppin: Resource 7f08001e is a complex map type.
+10-09 15:19:58.151 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/location_weblabs
+10-09 15:19:58.151 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/location_service_plugin
+10-09 15:19:58.152 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.startPlugins' = com.amazon.mShop.android.shopping:xml/startup_weblabs
+10-09 15:19:58.152 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/startup_weblabs
+10-09 15:19:58.152 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.mshop_mls' = com.amazon.mShop.android.shopping:xml/mshop_mls_plugin
+10-09 15:19:58.152 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/mshop_mls_plugin
+10-09 15:19:58.152 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.clouddrive' = com.amazon.mShop.android.shopping:xml/cloud_drive_plugin
+10-09 15:19:58.152 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/cloud_drive_plugin
+10-09 15:19:58.152 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.rviPlugins' = com.amazon.mShop.android.shopping:array/rvi_plugins
+10-09 15:19:58.152 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:array/rvi_plugins
+10-09 15:19:58.152 32722 32722 E ndroid.shoppin: Resource 7f080027 is a complex map type.
+10-09 15:19:58.152 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/rvi_weblabs
+10-09 15:19:58.152 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.permission.v2' = com.amazon.mShop.android.shopping:xml/permission_service_shopkit_plugin
+10-09 15:19:58.152 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/permission_service_shopkit_plugin
+10-09 15:19:58.153 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.alexa' = com.amazon.mShop.android.shopping:array/alexa_plugins
+10-09 15:19:58.153 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:array/alexa_plugins
+10-09 15:19:58.153 32722 32722 E ndroid.shoppin: Resource 7f08000d is a complex map type.
+10-09 15:19:58.153 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/alexa_weblabs
+10-09 15:19:58.153 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.fling' = com.amazon.mShop.android.shopping:array/fling_plugins
+10-09 15:19:58.153 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:array/fling_plugins
+10-09 15:19:58.153 32722 32722 E ndroid.shoppin: Resource 7f080016 is a complex map type.
+10-09 15:19:58.153 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/fling_startup_plugin
+10-09 15:19:58.153 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/fling_weblab_plugin
+10-09 15:19:58.153 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.nexus' = com.amazon.mShop.android.shopping:xml/nexus_weblabs
+10-09 15:19:58.153 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/nexus_weblabs
+10-09 15:19:58.153 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.qtips' = com.amazon.mShop.android.shopping:xml/qtips_weblabs
+10-09 15:19:58.153 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/qtips_weblabs
+10-09 15:19:58.154 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.smile' = com.amazon.mShop.android.shopping:xml/smile_plugin
+10-09 15:19:58.154 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/smile_plugin
+10-09 15:19:58.154 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.ssnap' = com.amazon.mShop.android.shopping:xml/ssnap_plugin
+10-09 15:19:58.154 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/ssnap_plugin
+10-09 15:19:58.154 32722 32722 D PluginParser: Adding configuration for meta-data key 'com.amazon.platform.plugin.freshLib' = com.amazon.mShop.android.shopping:array/fresh_plugins
+10-09 15:19:58.154 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:array/fresh_plugins
+10-09 15:19:58.154 32722 32722 E ndroid.shoppin: Resource 7f080018 is a complex map type.
+10-09 15:19:58.154 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/fresh_startup_plugin
+10-09 15:19:58.154 32722 32722 D PluginParser: Loading configuration from com.amazon.mShop.android.shopping:xml/f3_weblab_plugin
+10-09 15:19:58.155 32722 32722 D PluginParser: Done loading configuration with prefix com.amazon.platform.plugin.
+10-09 15:19:58.155 32722 32722 I RegistryFactory: ExtensionRegistryImpl{18 extension points, 97 extensions} initialized in 21ms
+10-09 15:19:58.169 32722 32751 I cr_LibraryLoader: Loaded native library version number "85.0.4183.127"
+10-09 15:19:58.169 32722 32751 I cr_CachingUmaRecorder: Flushed 5 samples from 5 histograms.
+10-09 15:19:58.202 32722 32722 I AmazonBooksAndroidModule: Initializing Amazon Books ContentDecorator...
+10-09 15:19:58.221 32722 32722 W LanguageCookieService: Default CookieHandler was null
+10-09 15:19:58.227 32722 32722 E OftDaggerModule: initialize
+10-09 15:19:58.230 32722 32722 D SunsetShopKitModule: Registering Sunset Task
+10-09 15:19:58.258 32722 32722 D FeatureIntegrationFileManager: Using last downloaded FIF version 5.0.666.0
+10-09 15:19:58.267 32722 32722 D WeblabRegistration: Fetched 59 weblabs from the ssnap FIF version 5.0.666.0
+10-09 15:19:58.267 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab EGGO_MSHOP_CATEGORY_TOOLTIP_NEW_219991
+10-09 15:19:58.267 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab PACKARD_ANDROID_GPS_174170
+10-09 15:19:58.267 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab NOTIFICATION_HUB_ANDROID_LAUNCH_108232
+10-09 15:19:58.267 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab OKHTTP_MAX_IDLE_CONECTION_213481
+10-09 15:19:58.267 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab SEARCH_BIDI_188297
+10-09 15:19:58.267 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab PERMISSION_SERVICE_ALLOW_ALL_213491
+10-09 15:19:58.267 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab A9VS_STYLESNAP_LAYOUT_199811
+10-09 15:19:58.267 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab SSNAP_SEARCH_UNNECESSARY_VIEW_REMOVAL_215607
+10-09 15:19:58.267 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab SEARCH_202624
+10-09 15:19:58.267 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab OKHTTP_REUSING_CONNECTION_POOL_213270
+10-09 15:19:58.267 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab SEARCH_201853
+10-09 15:19:58.267 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab EGGO_TEAM_MEMBER_195586
+10-09 15:19:58.267 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab AB_MOBILE_SUPPLYROOM_CREATE_NEW_LIST_224292
+10-09 15:19:58.267 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab AB_MOBILE_SUPPLYROOM_BARCODE_SCANNING_217710
+10-09 15:19:58.267 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab EGGO_MSHOP_FOREGROUND_POLLER_219695
+10-09 15:19:58.267 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab C7X_PLACE_CARDS_SSNAP_EU_TEST_151018
+10-09 15:19:58.267 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab A9VS_STYLESNAP_LAYOUT_165604
+10-09 15:19:58.267 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab SEARCH_191991
+10-09 15:19:58.267 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab SEARCH_191990
+10-09 15:19:58.267 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab EGGO_FAVORITE_LIST_213548
+10-09 15:19:58.267 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab AMAZON_PRINTS_MSHOP_CANVAS_162118
+10-09 15:19:58.267 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab C7X_PLACE_CARDS_SSNAP_JP_TEST_151013
+10-09 15:19:58.267 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab SSNAP_214386
+10-09 15:19:58.267 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab EGGO_RECIPE_ON_LIST_214844
+10-09 15:19:58.267 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab SEARCH_156138
+10-09 15:19:58.267 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab SEARCH_156137
+10-09 15:19:58.267 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab SEARCH_156136
+10-09 15:19:58.267 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab SEARCH_156135
+10-09 15:19:58.268 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab SEARCH_156139
+10-09 15:19:58.268 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab HSA_SB_197941
+10-09 15:19:58.268 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab PANTRY_SSNAP_RN_TO_HTML_SF_286459
+10-09 15:19:58.268 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab PANTRY_214267
+10-09 15:19:58.268 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab PANTRY_214266
+10-09 15:19:58.268 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab EGGO_LOCALIZATION_225038
+10-09 15:19:58.268 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab SSNAP_TEST_85580
+10-09 15:19:58.268 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab SEARCH_156141
+10-09 15:19:58.268 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab EGGO_SHOPPING_LIST_CATEGORY_VIEW_194247
+10-09 15:19:58.268 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab SEARCH_156140
+10-09 15:19:58.268 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab SEARCH_156144
+10-09 15:19:58.268 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab SEARCH_156143
+10-09 15:19:58.268 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab SEARCH_156142
+10-09 15:19:58.268 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab EGGO_CHANGE_CATEGORY_218340
+10-09 15:19:58.268 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab AB_MOBILE_SUPPLYROOM_UNIFIED_LIST_EXPERIENCE_216098
+10-09 15:19:58.268 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab SSNAP_205846
+10-09 15:19:58.268 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab C7X_PLACE_CARDS_SSNAP_102773
+10-09 15:19:58.268 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab SEARCH_208265
+10-09 15:19:58.268 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab EGGO_BOTTOMSHEET_217797
+10-09 15:19:58.268 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab ALEXA_SHOPPING_LIST_POPULAR_RECS_PROD_218512
+10-09 15:19:58.268 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab EGGO_MSHOP_AMPLITUDE_BACKEND_CALL_288312
+10-09 15:19:58.268 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab EGGO_MSHOP_LIST_EDIT_DELETE_210652
+10-09 15:19:58.268 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab AMAZON_PRINTS_LAUNCH_PHOTOBOOK_191331
+10-09 15:19:58.268 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab PACKARD_GLOW_RN_BOTTOMSHEET_ANDROID_186692
+10-09 15:19:58.268 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab PANTRY_187689
+10-09 15:19:58.268 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab AMAZON_PRINTS_MSHOP_WALL_DECOR_161748
+10-09 15:19:58.268 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab EGGO_MSHOP_CUSTOM_ASL_INGRESS_217570
+10-09 15:19:58.268 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab EGGO_ROOT_RENDER_MEASUREMENT_217369
+10-09 15:19:58.268 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab EGGO_MSHOP_SPEAKER_NAME_ATTRIBUTION_209891
+10-09 15:19:58.268 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab C7X_PLACE_CARDS_SSNAP_JP_EXP_151016
+10-09 15:19:58.268 32722 32722 D WeblabRegistration: Adding ssnap dynamic weblab HSA_SB_192224
+10-09 15:19:58.278 32722 32722 I DPLogger: DPLogger - Name was too long. Truncating; original name: BaseMetricsServiceFactory, truncated name: BaseMetricsServiceFacto
+10-09 15:19:58.278 32722 32722 I DPLogger: DPLogger - Name was too long. Truncating; original name: MetricsConfigurationParser, truncated name: MetricsConfigurationPar
+10-09 15:19:58.278 32722 32722 I MetricsConfigurationPar: MetricsConfigurationParser - Picking configuration; Domain: prod, Build: user, isDebuggable: false
+10-09 15:19:58.281 32722 32722 I DPLogger: DPLogger - Name was too long. Truncating; original name: AndroidDeviceInfoManager, truncated name: AndroidDeviceInfoManage
+10-09 15:19:58.282 32722 32722 W BaseMetricsServiceFacto: createMetricsService - Skipping batch pipeline setup for Priority NORMAL and Channel LOCATION because no configuration is provided.;
+10-09 15:19:58.282 32722 32722 I DPLogger: DPLogger - Name was too long. Truncating; original name: Metrics:BoundedByteArrayQueue, truncated name: Metrics:BoundedByteArra
+10-09 15:19:58.282 32722 32722 I DPLogger: DPLogger - Name was too long. Truncating; original name: Metrics:NonVolatileBoundedByteArrayQueue, truncated name: Metrics:NonVolatileBoun
+10-09 15:19:58.283 32722 32722 I DPLogger: DPLogger - Name was too long. Truncating; original name: OverridingDeviceInfoManager, truncated name: OverridingDeviceInfoMan
+10-09 15:19:58.285 32722 32722 I DPLogger: DPLogger - Name was too long. Truncating; original name: Metrics:BatchTransmitter, truncated name: Metrics:BatchTransmitte
+10-09 15:19:58.285 32722 32722 I DPLogger: DPLogger - Name was too long. Truncating; original name: Metrics:ThreadPoolBatchTransmitter, truncated name: Metrics:ThreadPoolBatch
+10-09 15:19:58.285 32722 32722 I DPLogger: DPLogger - Name was too long. Truncating; original name: PeriodicBatchTransmitter, truncated name: PeriodicBatchTransmitte
+10-09 15:19:58.285 32722 32722 W BaseMetricsServiceFacto: createMetricsService - Skipping batch pipeline setup for Priority HIGH and Channel LOCATION because no configuration is provided.;
+10-09 15:19:58.286 32722 32722 I DPLogger: DPLogger - Name was too long. Truncating; original name: Metrics:VolatileBoundedByteArrayQueue, truncated name: Metrics:VolatileBounded
+10-09 15:19:58.286 32722 32722 I DPLogger: DPLogger - Name was too long. Truncating; original name: Metrics:UrgentBatchTransmitter, truncated name: Metrics:UrgentBatchTran
+10-09 15:19:58.287 32722   484 I Metrics:BatchTransmitte: QueuePusher.sendBatches - Drained batch queue.; Number of HIGH_ANONYMOUS queue batches sent: 0
+10-09 15:19:58.287 32722 32722 I DPLogger: DPLogger - Name was too long. Truncating; original name: MetricsBroadcastReceiver, truncated name: MetricsBroadcastReceive
+10-09 15:19:58.287 32722   502 I Metrics:BatchTransmitte: QueuePusher.sendBatches - Drained batch queue.; Number of HIGH_NON_ANONYMOUS queue batches sent: 0
+10-09 15:19:58.288 32722   483 I ProvidedOAuthMetricsTransport: Acquiring wake lock with timeout: 300000ms
+10-09 15:19:58.288 32722   482 I ProvidedOAuthMetricsTransport: Acquiring wake lock with timeout: 300000ms
+10-09 15:19:58.289 32722   483 I ProvidedOAuthMetricsTransport: Acquiring wifi lock
+10-09 15:19:58.289 32722   482 I ProvidedOAuthMetricsTransport: Acquiring wifi lock
+10-09 15:19:58.290  1365  3532 I WifiService: acquireWifiLock uid=10489 lockMode=3
+10-09 15:19:58.290  1365  2052 I WifiService: acquireWifiLock uid=10489 lockMode=3
+10-09 15:19:58.291 32722 32722 D AdsHelper: calling AmazonOOAdRegistration.setAppDefinedMarketplace with: IN for marketplace: en_IN
+10-09 15:19:58.292 32722   483 I ProvidedOAuthMetricsTransport: Manually releasing wifi lock
+10-09 15:19:58.292 32722   482 I ProvidedOAuthMetricsTransport: Manually releasing wifi lock
+10-09 15:19:58.292  1365  2052 I WifiService: releaseWifiLock uid=10489
+10-09 15:19:58.292  1365  2992 I WifiService: releaseWifiLock uid=10489
+10-09 15:19:58.293 32722   482 I ProvidedOAuthMetricsTransport: Manually releasing wake lock
+10-09 15:19:58.293 32722   482 I ProvidedOAuthMetricsTransport: Attempting transmission using fallback transport
+10-09 15:19:58.293 32722   482 I StaticCredentialMetricsTransport: Acquiring wake lock with timeout: 300000ms
+10-09 15:19:58.294 32722   482 I StaticCredentialMetricsTransport: Acquiring wifi lock
+10-09 15:19:58.294 32722   483 I ProvidedOAuthMetricsTransport: Manually releasing wake lock
+10-09 15:19:58.295 32722   483 I ProvidedOAuthMetricsTransport: Attempting transmission using fallback transport
+10-09 15:19:58.295  1365  2052 I WifiService: acquireWifiLock uid=10489 lockMode=3
+10-09 15:19:58.295 32722   483 I StaticCredentialMetricsTransport: Acquiring wake lock with timeout: 300000ms
+10-09 15:19:58.296 32722   483 I StaticCredentialMetricsTransport: Acquiring wifi lock
+10-09 15:19:58.296  1365  2992 I WifiService: acquireWifiLock uid=10489 lockMode=3
+10-09 15:19:58.296 32722   482 E StaticCredentialMetricsTransport: Static token cannot be null or empty
+10-09 15:19:58.296 32722   482 I StaticCredentialMetricsTransport: Manually releasing wifi lock
+10-09 15:19:58.297  1365  2052 I WifiService: releaseWifiLock uid=10489
+10-09 15:19:58.297 32722   483 E StaticCredentialMetricsTransport: Static token cannot be null or empty
+10-09 15:19:58.297 32722   483 I StaticCredentialMetricsTransport: Manually releasing wifi lock
+10-09 15:19:58.297  1365  2992 I WifiService: releaseWifiLock uid=10489
+10-09 15:19:58.297 32722   482 I StaticCredentialMetricsTransport: Manually releasing wake lock
+10-09 15:19:58.298 32722   482 W Metrics:BatchTransmitte: QueuePusher.sendBatches - Batch transmission failed on credentials error, re-enqueuing batch.;
+10-09 15:19:58.298 32722   483 I StaticCredentialMetricsTransport: Manually releasing wake lock
+10-09 15:19:58.298 32722   482 I Metrics:BatchTransmitte: QueuePusher.sendBatches - Partial number of NORMAL_ANONYMOUS queue batches sent; 0
+10-09 15:19:58.298 32722   483 W Metrics:BatchTransmitte: QueuePusher.sendBatches - Batch transmission failed on credentials error, re-enqueuing batch.;
+10-09 15:19:58.298 32722   483 I Metrics:BatchTransmitte: QueuePusher.sendBatches - Partial number of NORMAL_NON_ANONYMOUS queue batches sent; 0
+10-09 15:19:58.301 32722 32722 I WebViewSuspensionPolicy: Registering timer controller
+10-09 15:19:58.302 32722 32722 I CordovaLog: Changing log level to 6
+10-09 15:19:58.305 32722 32722 D MobileLoggingSuite: SushiLoggerConfig created with source group 'com.amazon.eel.mls.nexus.msh.prod.nexus' and parentDir '/data/user/0/com.amazon.mShop.android.shopping/files/mls/nexus'
+10-09 15:19:58.306 32722 32722 I MlsIntegration: Successfully initialized MLS!
+10-09 15:19:58.311 32722   505 I ...h.device.api.MAPInit: Initializing MAP (130050002 / MAPAndroidLib-1.1.211498.0) for app com.amazon.mShop.android.shopping. MAP release version: 20190628P1
+10-09 15:19:58.312 32722   505 I ....android.shopping/li: ThirdParty DCP metrics is supported
+10-09 15:19:58.312 32722   505 I ....android.shopping/li: Using the ThirdPartyPlatformDCPMetricsCollector
+10-09 15:19:58.313 32722   505 I ...mDCPMetricsCollector: Successfully create ThirdPartyPlatformDCPMetricsCollector
+10-09 15:19:58.313 32722   505 I ....android.shopping/li: ThirdParty Periodic metrics is supported
+10-09 15:19:58.314 32722   505 I ...odicMetricsCollector: Successfully create ThirdPartyPeriodicMetricsCollector
+10-09 15:19:58.314 32722   505 I ...h.device.api.MAPInit: Running MAPInit on main thread: false
+10-09 15:19:58.317 32722   346 W UnsafeUtil: platform method missing - proto runtime falling back to safer methods: java.lang.NoSuchMethodException: sun.misc.Unsafe.copyMemory [class java.lang.Object, long, class java.lang.Object, long, long]
+10-09 15:19:58.318 32722   505 I ...IsolatedModeSwitcher: Application supports runtime isolated mode switch.
+10-09 15:19:58.319 32722   505 I ...IsolatedModeSwitcher: Restoring current runtime isolated mode: false
+10-09 15:19:58.319 32722   505 I ...ntity.auth.device.cf: Caching feature IsolateApplication as false
+10-09 15:19:58.320 32722   505 I ...ntity.auth.device.gt: Cannot find amazon authenticator. returning null
+10-09 15:19:58.320 32722   505 I ...ntity.auth.device.gt: No central apk detected. This should be a 3P device.
+10-09 15:19:58.320 32722   505 I ...ntity.auth.device.fi: Creating new DataStorageFactoryImpl
+10-09 15:19:58.320 32722   505 I ...ntity.auth.device.fi: Initializing new DataStorage
+10-09 15:19:58.320 32722   505 I ...IsolatedModeSwitcher: Application supports runtime isolated mode switch.
+10-09 15:19:58.320 32722   505 I ...ntity.auth.device.fi: Creating and using RuntimeSwitchableDataStorage
+10-09 15:19:58.320 32722   505 I ...ntity.auth.device.fu: Constructing RuntimeSwitchableDataStorage
+10-09 15:19:58.320 32722   505 I ...ntity.auth.device.fo: Constructing LocalDataStorageV2
+10-09 15:19:58.321 32722   505 I ...ntity.auth.device.fo: Constructing LocalDataStorageDBHelper
+10-09 15:19:58.321 32722   505 I ...ntity.auth.device.fo: Database map_data_storage_v2.db exists: false
+10-09 15:19:58.321 32722   505 I ...ntity.auth.device.fc: Constructing CentralLocalDataStorage
+10-09 15:19:58.322 32722   505 I ...ntity.auth.device.gt: Cannot find amazon authenticator. returning null
+10-09 15:19:58.322 32722   505 I ...ntity.auth.device.gt: No central apk detected. This should be a 3P device.
+10-09 15:19:58.322 32722   505 I ...ntity.auth.device.fu: Using DistributedDataStorage as SSO storage
+10-09 15:19:58.322 32722   505 I ...ntity.auth.device.dz: Trying to use default signature based package trust logic. This should be on 3P device
+10-09 15:19:58.323 32722   505 I ...ntity.auth.device.dz: Setting package trust logic as: signature based package trust logic
+10-09 15:19:58.325 32722 32722 V AmazonApplication: Unable to execute setConfigCallbackForViewRoot on Android Platform11
+10-09 15:19:58.326 32722 32722 I StartupSequenceSupplier: in context loading
+10-09 15:19:58.326 32722   567 I ...ntity.auth.device.dg: Get DataStorage instance for initialization
+10-09 15:19:58.326 32722   567 I ...ntity.auth.device.dg: Initialize DataStorage instance
+10-09 15:19:58.326 32722   570 D SecondDexEntry: Copying jar has error
+10-09 15:19:58.326 32722   570 D SecondDexEntry: java.io.FileNotFoundException: dependencies/jarlist.txt
+10-09 15:19:58.326 32722   570 D SecondDexEntry: 	at android.content.res.AssetManager.nativeOpenAsset(Native Method)
+10-09 15:19:58.326 32722   570 D SecondDexEntry: 	at android.content.res.AssetManager.open(AssetManager.java:874)
+10-09 15:19:58.326 32722   570 D SecondDexEntry: 	at android.content.res.AssetManager.open(AssetManager.java:851)
+10-09 15:19:58.326 32722   570 D SecondDexEntry: 	at com.amazon.mShop.android.platform.dex.DexUtils.getDexFileListFromAssets(DexUtils.java:116)
+10-09 15:19:58.326 32722   570 D SecondDexEntry: 	at com.amazon.mShop.android.platform.dex.DexUtils.copyJarsToAppPrivateFolder(DexUtils.java:51)
+10-09 15:19:58.326 32722   570 D SecondDexEntry: 	at com.amazon.mShop.android.platform.dex.SecondDexEntry.extractDexAndLoad(SecondDexEntry.java:275)
+10-09 15:19:58.326 32722   570 D SecondDexEntry: 	at com.amazon.mShop.android.platform.dex.SecondDexEntry$ExtractAndFillClassLoader.run(SecondDexEntry.java:300)
+10-09 15:19:58.326 32722   570 D SecondDexEntry: 	at java.lang.Thread.run(Thread.java:923)
+10-09 15:19:58.327 32722 32722 W ExternalImplementationProvider: com.amazon.mShop.autorefresh.AutoAppRefresherImpl is not available in this build
+10-09 15:19:58.327 32722 32722 W ExternalImplementationProvider: java.lang.ClassNotFoundException: com.amazon.mShop.autorefresh.AutoAppRefresherImpl
+10-09 15:19:58.327 32722 32722 W ExternalImplementationProvider: 	at java.lang.Class.classForName(Native Method)
+10-09 15:19:58.327 32722 32722 W ExternalImplementationProvider: 	at java.lang.Class.forName(Class.java:454)
+10-09 15:19:58.327 32722 32722 W ExternalImplementationProvider: 	at com.amazon.mShop.autorefresh.utils.ExternalImplementationProvider.queryForImplementationInBuild(ExternalImplementationProvider.java:106)
+10-09 15:19:58.327 32722 32722 W ExternalImplementationProvider: 	at com.amazon.mShop.autorefresh.utils.ExternalImplementationProvider.<init>(ExternalImplementationProvider.java:66)
+10-09 15:19:58.327 32722 32722 W ExternalImplementationProvider: 	at com.amazon.mShop.autorefresh.utils.AutoAppRefreshProvider.<init>(AutoAppRefreshProvider.java:44)
+10-09 15:19:58.327 32722 32722 W ExternalImplementationProvider: 	at com.amazon.mShop.autorefresh.utils.AutoAppRefreshProvider$AutoAppRefreshHolder.<clinit>(AutoAppRefreshProvider.java:36)
+10-09 15:19:58.327 32722 32722 W ExternalImplementationProvider: 	at com.amazon.mShop.autorefresh.utils.AutoAppRefreshProvider$AutoAppRefreshHolder.access$000(AutoAppRefreshProvider.java:35)
+10-09 15:19:58.327 32722 32722 W ExternalImplementationProvider: 	at com.amazon.mShop.autorefresh.utils.AutoAppRefreshProvider.getInstance(AutoAppRefreshProvider.java:29)
+10-09 15:19:58.327 32722 32722 W ExternalImplementationProvider: 	at com.amazon.mShop.autorefresh.utils.AutoAppRefreshProviderUtil.getOptionalAutoAppRefreshInstance(AutoAppRefreshProviderUtil.java:24)
+10-09 15:19:58.327 32722 32722 W ExternalImplementationProvider: 	at com.amazon.mShop.AmazonApplication.onCreate(AmazonApplication.java:213)
+10-09 15:19:58.327 32722 32722 W ExternalImplementationProvider: 	at com.amazon.mShop.MShopApplication.onCreate(MShopApplication.java:156)
+10-09 15:19:58.327 32722 32722 W ExternalImplementationProvider: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1192)
+10-09 15:19:58.327 32722 32722 W ExternalImplementationProvider: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6712)
+10-09 15:19:58.327 32722 32722 W ExternalImplementationProvider: 	at android.app.ActivityThread.access$1300(ActivityThread.java:237)
+10-09 15:19:58.327 32722 32722 W ExternalImplementationProvider: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1913)
+10-09 15:19:58.327 32722 32722 W ExternalImplementationProvider: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+10-09 15:19:58.327 32722 32722 W ExternalImplementationProvider: 	at android.os.Looper.loop(Looper.java:223)
+10-09 15:19:58.327 32722 32722 W ExternalImplementationProvider: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+10-09 15:19:58.327 32722 32722 W ExternalImplementationProvider: 	at java.lang.reflect.Method.invoke(Native Method)
+10-09 15:19:58.327 32722 32722 W ExternalImplementationProvider: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+10-09 15:19:58.327 32722 32722 W ExternalImplementationProvider: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+10-09 15:19:58.327 32722 32722 W ExternalImplementationProvider: Caused by: java.lang.ClassNotFoundException: com.amazon.mShop.autorefresh.AutoAppRefresherImpl
+10-09 15:19:58.327 32722 32722 W ExternalImplementationProvider: 	... 21 more
+10-09 15:19:58.328 32722 32722 W DeviceMetricsLoggerProvider: Device Metrics Logging is not Available in this build
+10-09 15:19:58.328 32722 32722 W DeviceMetricsLoggerProvider: java.lang.ClassNotFoundException: com.amazon.mShop.devicemetricslogging.DeviceMetricsLoggerImpl
+10-09 15:19:58.328 32722 32722 W DeviceMetricsLoggerProvider: 	at java.lang.Class.classForName(Native Method)
+10-09 15:19:58.328 32722 32722 W DeviceMetricsLoggerProvider: 	at java.lang.Class.forName(Class.java:454)
+10-09 15:19:58.328 32722 32722 W DeviceMetricsLoggerProvider: 	at com.amazon.mShop.devicemetricslogging.utils.DeviceMetricsLoggerProvider.queryForDeviceMetricsLoggerInBuild(DeviceMetricsLoggerProvider.java:84)
+10-09 15:19:58.328 32722 32722 W DeviceMetricsLoggerProvider: 	at com.amazon.mShop.devicemetricslogging.utils.DeviceMetricsLoggerProvider.<init>(DeviceMetricsLoggerProvider.java:58)
+10-09 15:19:58.328 32722 32722 W DeviceMetricsLoggerProvider: 	at com.amazon.mShop.devicemetricslogging.utils.DeviceMetricsLoggerProvider.<init>(DeviceMetricsLoggerProvider.java:11)
+10-09 15:19:58.328 32722 32722 W DeviceMetricsLoggerProvider: 	at com.amazon.mShop.devicemetricslogging.utils.DeviceMetricsLoggerProvider$DeviceMetricsLoggerSingletonHolder.<clinit>(DeviceMetricsLoggerProvider.java:38)
+10-09 15:19:58.328 32722 32722 W DeviceMetricsLoggerProvider: 	at com.amazon.mShop.devicemetricslogging.utils.DeviceMetricsLoggerProvider$DeviceMetricsLoggerSingletonHolder.access$100(DeviceMetricsLoggerProvider.java:37)
+10-09 15:19:58.328 32722 32722 W DeviceMetricsLoggerProvider: 	at com.amazon.mShop.devicemetricslogging.utils.DeviceMetricsLoggerProvider.getInstance(DeviceMetricsLoggerProvider.java:47)
+10-09 15:19:58.328 32722 32722 W DeviceMetricsLoggerProvider: 	at com.amazon.mShop.devicemetricslogging.utils.DeviceMetricsLoggerUtil.getOptionalDeviceMetricsLoggerInstance(DeviceMetricsLoggerUtil.java:30)
+10-09 15:19:58.328 32722 32722 W DeviceMetricsLoggerProvider: 	at com.amazon.mShop.AmazonApplication.onCreate(AmazonApplication.java:219)
+10-09 15:19:58.328 32722 32722 W DeviceMetricsLoggerProvider: 	at com.amazon.mShop.MShopApplication.onCreate(MShopApplication.java:156)
+10-09 15:19:58.328 32722 32722 W DeviceMetricsLoggerProvider: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1192)
+10-09 15:19:58.328 32722 32722 W DeviceMetricsLoggerProvider: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6712)
+10-09 15:19:58.328 32722 32722 W DeviceMetricsLoggerProvider: 	at android.app.ActivityThread.access$1300(ActivityThread.java:237)
+10-09 15:19:58.328 32722 32722 W DeviceMetricsLoggerProvider: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1913)
+10-09 15:19:58.328 32722 32722 W DeviceMetricsLoggerProvider: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+10-09 15:19:58.328 32722 32722 W DeviceMetricsLoggerProvider: 	at android.os.Looper.loop(Looper.java:223)
+10-09 15:19:58.328 32722 32722 W DeviceMetricsLoggerProvider: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+10-09 15:19:58.328 32722 32722 W DeviceMetricsLoggerProvider: 	at java.lang.reflect.Method.invoke(Native Method)
+10-09 15:19:58.328 32722 32722 W DeviceMetricsLoggerProvider: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+10-09 15:19:58.328 32722 32722 W DeviceMetricsLoggerProvider: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+10-09 15:19:58.328 32722 32722 W DeviceMetricsLoggerProvider: Caused by: java.lang.ClassNotFoundException: com.amazon.mShop.devicemetricslogging.DeviceMetricsLoggerImpl
+10-09 15:19:58.328 32722 32722 W DeviceMetricsLoggerProvider: 	... 21 more
+10-09 15:19:58.330 32722   567 I ...ntity.auth.device.dg: Setup DataStorage instance
+10-09 15:19:58.332 32722   505 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:58.333 32722   573 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:58.334 32722   573 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:58.337 32722   567 I ...IsolatedModeSwitcher: Application supports runtime isolated mode switch.
+10-09 15:19:58.337 32722   567 I ...IsolatedModeSwitcher: Restoring current runtime isolated mode: false
+10-09 15:19:58.339 32722   573 I ...entity.auth.device.z: Returning Default multiple profile settings
+10-09 15:19:58.340 32722   573 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:58.341 32722   567 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:58.342 32722 32722 V ApplicationStateListener: onActivityCreated: com.amazon.mShop.splashscreen.StartupActivity@91a57cd time:1602236998342
+10-09 15:19:58.348 32722 32722 W Amazon  : missing associate tag : 
+10-09 15:19:58.348 32722 32722 D ActiveActivityTracker: onActivityCreated: com.amazon.mShop.splashscreen.StartupActivity@91a57cd
+10-09 15:19:58.355 32722   567 I ....android.shopping/li: Using the ThirdPartyPlatformDCPMetricsCollector
+10-09 15:19:58.355 32722 32722 I StartupSequenceSupplier: start HOME activity
+10-09 15:19:58.355 32722 32722 V ApplicationStateListener: Startup Activity is created at time: 1602236998355
+10-09 15:19:58.355 32722   567 I ...mDCPMetricsCollector: Successfully create ThirdPartyPlatformDCPMetricsCollector
+10-09 15:19:58.355 32722   567 I ...ntity.auth.device.dg: Start update legacy authportal domain in database if needed
+10-09 15:19:58.358 32722   591 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:58.359 32722   591 D AmazonMobileAds AdsIdentity: No Amazon account found.
+10-09 15:19:58.375  1365  2052 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10489; state: DISABLED
+10-09 15:19:58.375  1365  1472 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10489; state: ENABLED
+10-09 15:19:58.386  1997  1997 D Zygote  : Forked child process 634
+10-09 15:19:58.389  1365  1472 I ActivityManager: Start proc 634:com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0/u0i82 for  {com.amazon.mShop.android.shopping/org.chromium.content.app.SandboxedProcessService0:0}
+10-09 15:19:58.398  1365  3487 D CompatibilityChangeReporter: Compat change id reported: 136274596; UID 10489; state: DISABLED
+10-09 15:19:58.401 32722   601 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:58.401   634   634 E ocessService0:: Not starting debugger since process cannot load the jdwp agent.
+10-09 15:19:58.409  1365  2998 D CompatibilityChangeReporter: Compat change id reported: 136274596; UID 10489; state: DISABLED
+10-09 15:19:58.417 32722   601 I StartupSequenceSupplier: GatewayTask started
+10-09 15:19:58.417 32722   601 I StartupSequenceSupplier: GatewayTask: start HOME activity
+10-09 15:19:58.418 32722   601 D BlackjackParamServiceImpl: LSS data: Country available: false, Language available: false, Device language updated: false, Device locale: en_US, Previous locale: null, App update: false
+10-09 15:19:58.419 32722   601 W Amazon  : missing associate tag : 
+10-09 15:19:58.420 32722   601 V ApplicationStateListener: ApplicationCreateTime:1602236998103 IsApplicationCreatedInForeground:true ActivityCreateTime:1602236998355
+10-09 15:19:58.420 32722   601 V ApplicationStateListener: getAppStartTime:1602236998103
+10-09 15:19:58.424   634   634 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+10-09 15:19:58.425   634   634 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+10-09 15:19:58.426  1787  1787 W Choreographer: Frame time is 0.309786 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+10-09 15:19:58.426  9061  9061 W Choreographer: Frame time is 0.305984 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+10-09 15:19:58.427   634   634 I cr_ChildProcessService: Creating new ChildProcessService pid=634
+10-09 15:19:58.436  1365  2998 D ConnectivityService: requestNetwork for uid/pid:10489/32722 NetworkRequest [ TRACK_DEFAULT id=4838, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10489 AdministratorUids: [] RequestorUid: 10489 RequestorPackageName: com.amazon.mShop.android.shopping] ]
+10-09 15:19:58.436  1365  1652 D ConnectivityService: NetReassign [4838 : null → 108]
+10-09 15:19:58.436  1365  1748 D Ethernet: got request NetworkRequest [ TRACK_DEFAULT id=4838, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10489 AdministratorUids: [] RequestorUid: 10489 RequestorPackageName: com.amazon.mShop.android.shopping] ] with score 60 and providerId 5
+10-09 15:19:58.436  1365  1626 D UntrustedWifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=4838, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10489 AdministratorUids: [] RequestorUid: 10489 RequestorPackageName: com.amazon.mShop.android.shopping] ] with score 60 and providerId 5
+10-09 15:19:58.436  1365  1626 D WifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=4838, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10489 AdministratorUids: [] RequestorUid: 10489 RequestorPackageName: com.amazon.mShop.android.shopping] ] with score 60 and providerId 5
+10-09 15:19:58.436  1365  1745 D WIFI_AWARE_FACTORY: got request NetworkRequest [ TRACK_DEFAULT id=4838, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10489 AdministratorUids: [] RequestorUid: 10489 RequestorPackageName: com.amazon.mShop.android.shopping] ] with score 60 and providerId 5
+10-09 15:19:58.436  2101  2101 D PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ TRACK_DEFAULT id=4838, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10489 AdministratorUids: [] RequestorUid: 10489 RequestorPackageName: com.amazon.mShop.android.shopping] ] with score 60 and providerId 5
+10-09 15:19:58.437  1365  1652 D ConnectivityService: NetReassign [no changes]
+10-09 15:19:58.438  1787  1787 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+10-09 15:19:58.439  2101  2101 D Telephony: isEmergencyPreferredAccount: subId=-1, activeData=-1
+10-09 15:19:58.439  2101  2101 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+10-09 15:19:58.443 32722   573 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:58.443  1365  1652 D ConnectivityService: NetReassign [no changes]
+10-09 15:19:58.445  1365  3487 I ActivityTaskManager: START u0 {act=intentActionStartActivity flg=0x4000000 cmp=com.amazon.mShop.android.shopping/com.amazon.mShop.home.web.MShopWebGatewayActivity (has extras)} from uid 10489
+10-09 15:19:58.447   675   675 D android.hardware.power@1.3-service.pixel-libperfmgr: LAUNCH: 1
+10-09 15:19:58.448 32722   573 I RedstoneWeblabController: Initialized 378 weblabs
+10-09 15:19:58.453 32722   596 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:58.454 32722   596 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:58.456 32722   595 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:58.459 32722   595 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:58.478 32722   573 D MobileWeblabAndroidClient: Loaded 398 assignments from the disk.
+10-09 15:19:58.492 32722 32722 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+10-09 15:19:58.500 32722 32722 V ApplicationStateListener: Is Application.onCreate() for foreground: true
+10-09 15:19:58.507  1365  2992 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (225114473)
+10-09 15:19:58.520 32722   575 I AdrenoGLES-0: QUALCOMM build                   : 02fe52e, Ie73904e3bd
+10-09 15:19:58.520 32722   575 I AdrenoGLES-0: Build Date                       : 06/27/20
+10-09 15:19:58.520 32722   575 I AdrenoGLES-0: OpenGL ES Shader Compiler Version: EV031.31.04.00
+10-09 15:19:58.520 32722   575 I AdrenoGLES-0: Local Branch                     : gfx-adreno.lnx.2.0
+10-09 15:19:58.520 32722   575 I AdrenoGLES-0: Remote Branch                    : quic/gfx-adreno.lnx.2.0
+10-09 15:19:58.520 32722   575 I AdrenoGLES-0: Remote Branch                    : NONE
+10-09 15:19:58.520 32722   575 I AdrenoGLES-0: Reconstruct Branch               : NOTHING
+10-09 15:19:58.520 32722   575 I AdrenoGLES-0: Build Config                     : S L 10.0.5 AArch32
+10-09 15:19:58.520 32722   575 I AdrenoGLES-0: Driver Path                      : /vendor/lib/egl/libGLESv2_adreno.so
+10-09 15:19:58.524 32722   575 I AdrenoGLES-0: PFP: 0x005ff112, ME: 0x005ff066
+10-09 15:19:58.526 32722   575 W AdrenoUtils: <ReadGpuID_from_sysfs:197>: Failed to open /sys/class/kgsl/kgsl-3d0/gpu_model
+10-09 15:19:58.526 32722   575 W AdrenoUtils: <ReadGpuID:221>: Failed to read chip ID from gpu_model. Fallback to use the GSL path
+10-09 15:19:58.534  9061  9095 I AudioRequestLSAdapter: StopListeningStatus result: # com.google.android.libraries.search.c.bj@7bca4
+10-09 15:19:58.534  9061  9095 I AudioRequestLSAdapter: StopListeningStatus result: # com.google.android.libraries.search.c.bj@7bca4
+10-09 15:19:58.536  9061 27355 I PBSessionCacheImpl: Deleted sessionId[39852301532032262] from persistence.
+10-09 15:19:58.540   644   644 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+10-09 15:19:58.540 32722   575 I Gralloc4: mapper 4.x is not supported
+10-09 15:19:58.542   644   644 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@3.0::IMapper/default in either framework or device manifest.
+10-09 15:19:58.542 32722   575 W Gralloc3: mapper 3.x is not supported
+10-09 15:19:58.556 32722 32722 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:58.557 32722 32722 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:58.558 32722 32722 D ActiveActivityTracker: onActivityCreated: com.amazon.mShop.home.web.MShopWebGatewayActivity@4bc7e83
+10-09 15:19:58.578 32722   764 D LogMetricsUtil: Metrics recorded for Navigation to both PMET and Clickstream: [ [msp_ap_am_gps_v_20.36.15,1.0,1] ,  [appVersion,11,1] ,  [HTTP_USER_AGENT,AMZN(Smartphone/Pixel 2 XL/A1MPSLFC7L5AFK,Android/11,Amazon_Android/MShop/18.14.0.100),1] ,  [locale,en_IN,1] ,  [ref-override,msp_ap_am_gps_v_20.36.15,1] ,  [page-type,Navigation-DataOnly,1] ,  [hitType,dataOnly,1] ,  [team-name,Navigation,1] ,  [site_variant,Android App,1] ,  [RequestId,D96473F965BE513E771C,1] ]
+10-09 15:19:58.582 32722   764 D LogMetricsUtil: Metrics recorded for Navigation to both PMET and Clickstream: [ [msp_ap_am_gps_v_20.36.15_so,1.0,1] ,  [appVersion,11,1] ,  [HTTP_USER_AGENT,AMZN(Smartphone/Pixel 2 XL/A1MPSLFC7L5AFK,Android/11,Amazon_Android/MShop/18.14.0.100),1] ,  [locale,en_IN,1] ,  [ref-override,msp_ap_am_gps_v_20.36.15_so,1] ,  [page-type,Navigation-DataOnly,1] ,  [hitType,dataOnly,1] ,  [team-name,Navigation,1] ,  [site_variant,Android App,1] ,  [RequestId,5804A33333D4ADB99657,1] ]
+10-09 15:19:58.585 32722   764 D AppChromeNexusMetricsLogger: Appnav Nexus metrics updated weblabs, size=10
+10-09 15:19:58.612 32722 32722 D com.amazon.mShop.rdc@AppNav_nav_menu: RDC thread started: id = com.amazon.mShop.rdc@AppNav_nav_menu
+10-09 15:19:58.614 32722 32722 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:58.615 32722   764 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:58.617 32722   764 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:58.623 32722 32722 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:58.625 32722   823 D MobileLoggingSuite: Stopping the flush scheduler with flushCount=0 & flushAttempt=true
+10-09 15:19:58.625 32722   764 D MobileLoggingSuite: MlsNexusLogger upload priority is: ULTRA
+10-09 15:19:58.631 32722   824 D MobileLoggingSuite: Executing Sushi InitializationTask...
+10-09 15:19:58.633 32722   824 D MobileLoggingSuite: Created Sushi FileUploader with source group 'com.amazon.eel.mls.nexus.msh.prod.nexus'
+10-09 15:19:58.633 32722   824 D MobileLoggingSuite: Created Sushi FileWriteLoader with parentDir '/data/user/0/com.amazon.mShop.android.shopping/files/mls/nexus/sushi_normal
+10-09 15:19:58.633 32722   824 D MobileLoggingSuite: No previous Sushi file found
+10-09 15:19:58.634 32722   764 D AppChromeNexusMetricsLogger: Nexus metrics v4 recorded for MAIN_MENU::null::UNDEFINED::null::null::null
+10-09 15:19:58.634 32722   824 D MobileLoggingSuite: Created Sushi FileRingLoader with parentDir '/data/user/0/com.amazon.mShop.android.shopping/files/mls/nexus/sushi_normal' and maxStorageBytes 2097152
+10-09 15:19:58.635 32722   824 D MobileLoggingSuite: Finished executing Sushi InitializationTask
+10-09 15:19:58.635 32722   827 D MobileLoggingSuite: Unschedule BackupUploader for MLS with jobId: -1056554524
+10-09 15:19:58.636 32722   764 D LogMetricsUtil: Metrics recorded for Navigation to both PMET and Clickstream: [ [msp_ap_am_nav_exp_sky_c,1.0,1] ,  [appVersion,11,1] ,  [HTTP_USER_AGENT,AMZN(Smartphone/Pixel 2 XL/A1MPSLFC7L5AFK,Android/11,Amazon_Android/MShop/18.14.0.100),1] ,  [locale,en_IN,1] ,  [ref-override,msp_ap_am_nav_exp_sky_c,1] ,  [page-type,Navigation-DataOnly,1] ,  [hitType,dataOnly,1] ,  [team-name,Navigation,1] ,  [site_variant,Android App,1] ,  [RequestId,7E43439622428B9C3090,1] ]
+10-09 15:19:58.638 32722   764 D LogMetricsUtil: Metrics recorded for Navigation to both PMET and Clickstream: [ [msp_ap_am_nav_exp_sky_c_so,1.0,1] ,  [appVersion,11,1] ,  [HTTP_USER_AGENT,AMZN(Smartphone/Pixel 2 XL/A1MPSLFC7L5AFK,Android/11,Amazon_Android/MShop/18.14.0.100),1] ,  [locale,en_IN,1] ,  [ref-override,msp_ap_am_nav_exp_sky_c_so,1] ,  [page-type,Navigation-DataOnly,1] ,  [hitType,dataOnly,1] ,  [team-name,Navigation,1] ,  [site_variant,Android App,1] ,  [RequestId,93814856BB25A24248AA,1] ]
+10-09 15:19:58.640 32722   764 D LogMetricsUtil: Metrics recorded for Navigation to both PMET and Clickstream: [ [msp_ap_am_wnd_weblab,1.0,1] ,  [appVersion,11,1] ,  [HTTP_USER_AGENT,AMZN(Smartphone/Pixel 2 XL/A1MPSLFC7L5AFK,Android/11,Amazon_Android/MShop/18.14.0.100),1] ,  [locale,en_IN,1] ,  [ref-override,msp_ap_am_wnd_weblab,1] ,  [page-type,Navigation-DataOnly,1] ,  [hitType,dataOnly,1] ,  [team-name,Navigation,1] ,  [site_variant,Android App,1] ,  [RequestId,6EE9B75C488AACE9C153,1] ]
+10-09 15:19:58.643 32722   764 D LogMetricsUtil: Metrics recorded for Navigation to both PMET and Clickstream: [ [msp_ap_am_wnd_weblab_so,1.0,1] ,  [appVersion,11,1] ,  [HTTP_USER_AGENT,AMZN(Smartphone/Pixel 2 XL/A1MPSLFC7L5AFK,Android/11,Amazon_Android/MShop/18.14.0.100),1] ,  [locale,en_IN,1] ,  [ref-override,msp_ap_am_wnd_weblab_so,1] ,  [page-type,Navigation-DataOnly,1] ,  [hitType,dataOnly,1] ,  [team-name,Navigation,1] ,  [site_variant,Android App,1] ,  [RequestId,40EC5485BBB88F83F692,1] ]
+10-09 15:19:58.643 32722   827 D MobileLoggingSuite: Successfully scheduled upload job; sourceGroup: com.amazon.eel.mls.nexus.msh.prod.nexus; sushiDir: /data/user/0/com.amazon.mShop.android.shopping/files/mls/nexus/sushi_normal
+10-09 15:19:58.644 32722   764 D LogMetricsUtil: Timer Metrics recorded for Navigation to both PMET and Clickstream: [ [msp_ap_am_anm_fetch_time_so,0.0,1] ,  [appVersion,11,1] ,  [locale,en_IN,1] ]
+10-09 15:19:58.645 32722 32722 D com.amazon.mShop.rdc@AppNav_subnav: RDC thread started: id = com.amazon.mShop.rdc@AppNav_subnav
+10-09 15:19:58.647 32722 32722 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:58.647 32722   764 D LogMetricsUtil: Metrics recorded for Navigation to both PMET and Clickstream: [ [msp_ap_am_nav_nm_c,1.0,1] ,  [appVersion,11,1] ,  [HTTP_USER_AGENT,AMZN(Smartphone/Pixel 2 XL/A1MPSLFC7L5AFK,Android/11,Amazon_Android/MShop/18.14.0.100),1] ,  [locale,en_IN,1] ,  [ref-override,msp_ap_am_nav_nm_c,1] ,  [page-type,Navigation-DataOnly,1] ,  [hitType,dataOnly,1] ,  [team-name,Navigation,1] ,  [site_variant,Android App,1] ,  [RequestId,1B42B295AE552F29FD64,1] ]
+10-09 15:19:58.649 32722 32722 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:58.652 32722   764 D LogMetricsUtil: Metrics recorded for Navigation to both PMET and Clickstream: [ [msp_ap_am_nav_nm_c_so,1.0,1] ,  [appVersion,11,1] ,  [HTTP_USER_AGENT,AMZN(Smartphone/Pixel 2 XL/A1MPSLFC7L5AFK,Android/11,Amazon_Android/MShop/18.14.0.100),1] ,  [locale,en_IN,1] ,  [ref-override,msp_ap_am_nav_nm_c_so,1] ,  [page-type,Navigation-DataOnly,1] ,  [hitType,dataOnly,1] ,  [team-name,Navigation,1] ,  [site_variant,Android App,1] ,  [RequestId,F2D53420E8C149E5873D,1] ]
+10-09 15:19:58.652 32722   764 D LogMetricsUtil: Timer Metrics recorded for Navigation to both PMET and Clickstream: [ [msp_ap_am_nav_m_lat_o_so,51.0,1] ,  [appVersion,11,1] ,  [locale,en_IN,1] ]
+10-09 15:19:58.652 32722   764 D LogMetricsUtil: Timer Metrics recorded for Navigation to both PMET and Clickstream: [ [msp_ap_am_anm_fetch_time_so,0.0,1] ,  [appVersion,11,1] ,  [locale,en_IN,1] ]
+10-09 15:19:58.670 32722 32722 D ChromeActionBarView: Action Bar using migrated package
+10-09 15:19:58.671 32722 32722 I SmileMarketplaceChecker: Marketplace not supported for smile: A21TJRUUN4KGV
+10-09 15:19:58.674 32722 32722 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:58.675 32722 32722 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:58.691 32722   822 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:58.694 32722   822 I chatty  : uid=10489(com.amazon.mShop.android.shopping) com.amazon.mSho identical 1 line
+10-09 15:19:58.705 32722   822 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:58.730 32722 32722 I SmileMarketplaceChecker: Marketplace not supported for smile: A21TJRUUN4KGV
+10-09 15:19:58.732  1049  2054 W ServiceManager: Permission failure: android.permission.SYSTEM_CAMERA from uid=10489 pid=32722
+10-09 15:19:58.732  1049  2054 I chatty  : uid=1047(cameraserver) Binder:1049_4 identical 2 lines
+10-09 15:19:58.732  1049  2054 W ServiceManager: Permission failure: android.permission.SYSTEM_CAMERA from uid=10489 pid=32722
+10-09 15:19:58.734 32722 32722 I ....android.shopping/li: Using the ThirdPartyPlatformDCPMetricsCollector
+10-09 15:19:58.734 32722 32722 I ...mDCPMetricsCollector: Successfully create ThirdPartyPlatformDCPMetricsCollector
+10-09 15:19:58.735 32722 32722 D AbstractMetricsFactoryImpl: record : No valid data points in metrics event
+10-09 15:19:58.735 32722 32722 I ....android.shopping/li: Using the ThirdPartyPlatformDCPMetricsCollector
+10-09 15:19:58.735 32722 32722 I ...mDCPMetricsCollector: Successfully create ThirdPartyPlatformDCPMetricsCollector
+10-09 15:19:58.735 32722 32722 I ...ntity.auth.device.gz: com.amazon.mShop.android.shopping is trying to get device type
+10-09 15:19:58.735 32722 32722 I ...onInformationQueryer: Populate change for remote MAP info.
+10-09 15:19:58.735 32722 32722 I ...onInformationQueryer: CacheContainsPartialResults? true
+10-09 15:19:58.737 32722 32722 I ...ntity.auth.device.cf: Caching feature OverrideDeviceAttributes as true
+10-09 15:19:58.738 32722 32722 I ...onInformationQueryer: Get map info for com.amazon.mShop.android.shopping, device type: A1MPSLFC7L5AFK
+10-09 15:19:58.738 32722 32722 D AbstractMetricsFactoryImpl: record : No valid data points in metrics event
+10-09 15:19:58.745 32722 32722 D InteractionNavigationListener: Received forward navigation
+10-09 15:19:58.745 32722 32722 D InteractionMonitor: Creating new interaction for context com.amazon.mShop.web.MShopWebView{4bfec1c VFEDH.C.. .F....I. 0,0-0,0}
+10-09 15:19:58.760 32722 32722 D SmashBootstrapper: Bootstrapping registered with asset cordova-mash-full-1.11.js
+10-09 15:19:58.763 32722 32751 D RemoteConfigurationManager: Skipping default configuration saving
+10-09 15:19:58.766 32722 32722 D AmazonBooksInStoreHandler: Created bookstore URL handler!
+10-09 15:19:58.771 32722 32722 W Amazon  : missing associate tag : 
+10-09 15:19:58.781   634   716 I cr_LibraryLoader: Loaded native library version number "85.0.4183.127"
+10-09 15:19:58.782   634   716 I cr_CachingUmaRecorder: Flushed 1 samples from 1 histograms.
+10-09 15:19:58.782 32722 32722 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:58.784 32722 32722 I chatty  : uid=10489(com.amazon.mShop.android.shopping) identical 1 line
+10-09 15:19:58.788 32722 32722 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:58.789 32722 32722 I CountryDetector: Getting network based country iso: in
+10-09 15:19:58.790 32722 32722 D DCMMetricsRecorder: Sending intech.ls.appStarted metrics event.
+10-09 15:19:58.792 32722   764 D LogMetricsUtil: Metrics recorded for Navigation to both PMET and Clickstream: [ [msp_ap_am_nav_session_start,1.0,1] ,  [appVersion,11,1] ,  [HTTP_USER_AGENT,AMZN(Smartphone/Pixel 2 XL/A1MPSLFC7L5AFK,Android/11,Amazon_Android/MShop/18.14.0.100),1] ,  [locale,en_IN,1] ,  [ref-override,msp_ap_am_nav_session_start,1] ,  [page-type,Navigation-DataOnly,1] ,  [hitType,dataOnly,1] ,  [team-name,Navigation,1] ,  [site_variant,Android App,1] ,  [RequestId,3F545D99166D2663A3C9,1] ]
+10-09 15:19:58.794 32722   764 D LogMetricsUtil: Metrics recorded for Navigation to both PMET and Clickstream: [ [msp_ap_am_nav_session_start_so,1.0,1] ,  [appVersion,11,1] ,  [HTTP_USER_AGENT,AMZN(Smartphone/Pixel 2 XL/A1MPSLFC7L5AFK,Android/11,Amazon_Android/MShop/18.14.0.100),1] ,  [locale,en_IN,1] ,  [ref-override,msp_ap_am_nav_session_start_so,1] ,  [page-type,Navigation-DataOnly,1] ,  [hitType,dataOnly,1] ,  [team-name,Navigation,1] ,  [site_variant,Android App,1] ,  [RequestId,30E91A43C0ACCB731F14,1] ]
+10-09 15:19:58.796 32722 32749 I ArtifactUploader: ArtifactUploader - Finished uploading artifacts. Uploaded 0 artifacts.;
+10-09 15:19:58.796 32722   764 D LogMetricsUtil: Metrics recorded for Navigation to both PMET and Clickstream: [ [msp_ap_am_loc_perm_fine,1.0,1] ,  [appVersion,11,1] ,  [HTTP_USER_AGENT,AMZN(Smartphone/Pixel 2 XL/A1MPSLFC7L5AFK,Android/11,Amazon_Android/MShop/18.14.0.100),1] ,  [locale,en_IN,1] ,  [ref-override,msp_ap_am_loc_perm_fine,1] ,  [page-type,Navigation-DataOnly,1] ,  [hitType,dataOnly,1] ,  [team-name,Navigation,1] ,  [site_variant,Android App,1] ,  [RequestId,34E1CBFCCF06D73FC423,1] ]
+10-09 15:19:58.797 32722 32722 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:58.798 32722 32722 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:58.798 32722 32722 I SmileMarketplaceChecker: Marketplace not supported for smile: A21TJRUUN4KGV
+10-09 15:19:58.801 32722   764 D LogMetricsUtil: Metrics recorded for Navigation to both PMET and Clickstream: [ [msp_ap_am_loc_perm_fine_so,1.0,1] ,  [appVersion,11,1] ,  [HTTP_USER_AGENT,AMZN(Smartphone/Pixel 2 XL/A1MPSLFC7L5AFK,Android/11,Amazon_Android/MShop/18.14.0.100),1] ,  [locale,en_IN,1] ,  [ref-override,msp_ap_am_loc_perm_fine_so,1] ,  [page-type,Navigation-DataOnly,1] ,  [hitType,dataOnly,1] ,  [team-name,Navigation,1] ,  [site_variant,Android App,1] ,  [RequestId,87CD4A049BE7C98A3C04,1] ]
+10-09 15:19:58.804 32722   764 D LogMetricsUtil: Metrics recorded for Navigation to both PMET and Clickstream: [ [msp_ap_am_loc_on_net_gps,1.0,1] ,  [appVersion,11,1] ,  [HTTP_USER_AGENT,AMZN(Smartphone/Pixel 2 XL/A1MPSLFC7L5AFK,Android/11,Amazon_Android/MShop/18.14.0.100),1] ,  [locale,en_IN,1] ,  [ref-override,msp_ap_am_loc_on_net_gps,1] ,  [page-type,Navigation-DataOnly,1] ,  [hitType,dataOnly,1] ,  [team-name,Navigation,1] ,  [site_variant,Android App,1] ,  [RequestId,67C91779D4217B697264,1] ]
+10-09 15:19:58.808 32722   870 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:58.808 32722   764 D LogMetricsUtil: Metrics recorded for Navigation to both PMET and Clickstream: [ [msp_ap_am_loc_on_net_gps_so,1.0,1] ,  [appVersion,11,1] ,  [HTTP_USER_AGENT,AMZN(Smartphone/Pixel 2 XL/A1MPSLFC7L5AFK,Android/11,Amazon_Android/MShop/18.14.0.100),1] ,  [locale,en_IN,1] ,  [ref-override,msp_ap_am_loc_on_net_gps_so,1] ,  [page-type,Navigation-DataOnly,1] ,  [hitType,dataOnly,1] ,  [team-name,Navigation,1] ,  [site_variant,Android App,1] ,  [RequestId,ECCDDDB427C8886D8AB1,1] ]
+10-09 15:19:58.818 32722   764 D LogMetricsUtil: Metrics recorded for Navigation to both PMET and Clickstream: [ [msp_ap_am_anm_remote_s,1.0,1] ,  [appVersion,11,1] ,  [HTTP_USER_AGENT,AMZN(Smartphone/Pixel 2 XL/A1MPSLFC7L5AFK,Android/11,Amazon_Android/MShop/18.14.0.100),1] ,  [locale,en_IN,1] ,  [ref-override,msp_ap_am_anm_remote_s,1] ,  [page-type,Navigation-DataOnly,1] ,  [hitType,dataOnly,1] ,  [team-name,Navigation,1] ,  [site_variant,Android App,1] ,  [RequestId,F00D44310149F1AFC68D,1] ]
+10-09 15:19:58.821 32722   764 D LogMetricsUtil: Metrics recorded for Navigation to both PMET and Clickstream: [ [msp_ap_am_anm_remote_s_so,1.0,1] ,  [appVersion,11,1] ,  [HTTP_USER_AGENT,AMZN(Smartphone/Pixel 2 XL/A1MPSLFC7L5AFK,Android/11,Amazon_Android/MShop/18.14.0.100),1] ,  [locale,en_IN,1] ,  [ref-override,msp_ap_am_anm_remote_s_so,1] ,  [page-type,Navigation-DataOnly,1] ,  [hitType,dataOnly,1] ,  [team-name,Navigation,1] ,  [site_variant,Android App,1] ,  [RequestId,2F48B5A59BDFAEE5D329,1] ]
+10-09 15:19:58.825 32722   764 D LogMetricsUtil: Metrics recorded for Navigation to both PMET and Clickstream: [ [msp_ap_am_nav_lt_cps,1.0,1] ,  [appVersion,11,1] ,  [HTTP_USER_AGENT,AMZN(Smartphone/Pixel 2 XL/A1MPSLFC7L5AFK,Android/11,Amazon_Android/MShop/18.14.0.100),1] ,  [locale,en_IN,1] ,  [ref-override,msp_ap_am_nav_lt_cps,1] ,  [page-type,Navigation-DataOnly,1] ,  [hitType,dataOnly,1] ,  [team-name,Navigation,1] ,  [site_variant,Android App,1] ,  [RequestId,D0F554D9FA30F112502D,1] ]
+10-09 15:19:58.827 32722   764 D LogMetricsUtil: Metrics recorded for Navigation to both PMET and Clickstream: [ [msp_ap_am_nav_lt_cps_so,1.0,1] ,  [appVersion,11,1] ,  [HTTP_USER_AGENT,AMZN(Smartphone/Pixel 2 XL/A1MPSLFC7L5AFK,Android/11,Amazon_Android/MShop/18.14.0.100),1] ,  [locale,en_IN,1] ,  [ref-override,msp_ap_am_nav_lt_cps_so,1] ,  [page-type,Navigation-DataOnly,1] ,  [hitType,dataOnly,1] ,  [team-name,Navigation,1] ,  [site_variant,Android App,1] ,  [RequestId,49E438884CEAE74BEF0B,1] ]
+10-09 15:19:58.837 32722 32722 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:58.870 32722   822 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:58.872 32722   822 I chatty  : uid=10489(com.amazon.mShop.android.shopping) com.amazon.mSho identical 1 line
+10-09 15:19:58.879 32722   822 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:58.891 32722   505 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:58.892  1365  1465 D EventSequenceValidator: onActivityLaunchFinished during UNKNOWN.
+10-09 15:19:58.892  1365  1465 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+10-09 15:19:58.892  1365  1465 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+10-09 15:19:58.892  1365  1465 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onActivityLaunchFinished(EventSequenceValidator.java:185)
+10-09 15:19:58.892  1365  1465 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnActivityLaunchFinished(LaunchObserverRegistryImpl.java:175)
+10-09 15:19:58.892  1365  1465 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$QcawcFcJtEX4EhYptq_Vb4j368Y(Unknown Source:0)
+10-09 15:19:58.892  1365  1465 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$QcawcFcJtEX4EhYptq_Vb4j368Y.accept(Unknown Source:10)
+10-09 15:19:58.892  1365  1465 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+10-09 15:19:58.892  1365  1465 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+10-09 15:19:58.892  1365  1465 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+10-09 15:19:58.892  1365  1465 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+10-09 15:19:58.892  1365  1465 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-09 15:19:58.892  1365  1465 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+10-09 15:19:58.892  1365  1465 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-09 15:19:58.892  1365  1465 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+10-09 15:19:58.892  1365  1465 D EventSequenceValidator: dec AccIntentStartedEvents to 3
+10-09 15:19:58.893 32707 32709 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+10-09 15:19:58.895  1365  1470 D ArtManagerInternalImpl: /data/misc/iorapd/com.amazon.mShop.android.shopping/1241165010/com.amazon.mShop.home.web.MShopWebGatewayActivity/compiled_traces/compiled_trace.pb doesn't exist
+10-09 15:19:58.897  1365  1470 I ActivityTaskManager: Displayed com.amazon.mShop.android.shopping/com.amazon.mShop.home.web.MShopWebGatewayActivity: +886ms
+10-09 15:19:58.905 32651 32701 I appium  : channel read invoked!
+10-09 15:19:58.905 32651 32701 I appium  : channel read: GET /wd/hub/session/3cf16f52-2604-4a79-a935-b345b3c890af/appium/device/pixel_ratio
+10-09 15:19:58.906 32651 32701 I appium  : Get device pixel ratio
+10-09 15:19:58.906 32651 32701 I appium  : AppiumResponse: {"sessionId":"3cf16f52-2604-4a79-a935-b345b3c890af","value":3.5}
+10-09 15:19:58.914 32651 32701 I appium  : channel read invoked!
+10-09 15:19:58.914 32651 32701 I appium  : channel read: GET /wd/hub/session/3cf16f52-2604-4a79-a935-b345b3c890af/appium/device/system_bars
+10-09 15:19:58.914 32722 32722 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:58.915 32722 32722 W Amazon  : missing associate tag : 
+10-09 15:19:58.915 32651 32701 I appium  : Get status bar height of the device
+10-09 15:19:58.915 32722   694 W chromium: [WARNING:jni_string.cc(30)] ConvertJavaStringToUTF8 called with null string.
+10-09 15:19:58.916 32651 32701 I appium  : AppiumResponse: {"sessionId":"3cf16f52-2604-4a79-a935-b345b3c890af","value":{"statusBar":98}}
+10-09 15:19:58.924 32651 32701 I appium  : channel read invoked!
+10-09 15:19:58.924 32651 32701 I appium  : channel read: GET /wd/hub/session/3cf16f52-2604-4a79-a935-b345b3c890af/window/current/size
+10-09 15:19:58.924 32651 32701 I appium  : Get window size of the device
+10-09 15:19:58.924 32722 32722 D MobileLoggingSuite: MLS backup uploader job started
+10-09 15:19:58.924 32722 32722 D MobileLoggingSuite: Not executing backup job because it was called to soon after it was scheduled
+10-09 15:19:58.925 32651 32701 I appium  : AppiumResponse: {"sessionId":"3cf16f52-2604-4a79-a935-b345b3c890af","value":{"height":2712,"width":1440}}
+10-09 15:19:58.936 32722 32722 I MShopGCMRegistrationJobService: Executing GCM Register job forandroid.app.job.JobParameters@7fa96a9
+10-09 15:19:58.937 32722   908 I MShopGCMRegistrationOrchestrator: GCM Registration Token: dgTt-9pjG64:APA91bGolZ0SUbhpMQ7og3tQeeO2hqksy3LMUCSeSzI6URNTdDGda7UMkhSdnHIi9lGGX4Uk2B3-BbKamSwzkKg9hc4AqCiwowo-m3Tu7e4lPccXIjBzIxJfdY33slZkwA68Kqllfnz2
+10-09 15:19:58.940  9061  9115 W SearchServiceCore: Abort, client detached.
+10-09 15:19:58.945  9061  9115 I StreamController: cleanUpControllerScope(nowcards-15-1864ab5b-bbb2)
+10-09 15:19:58.951 32722   764 D LogMetricsUtil: Metrics recorded for Navigation to both PMET and Clickstream: [ [msp_ap_am_cspromo_fetch_s,1.0,1] ,  [appVersion,11,1] ,  [HTTP_USER_AGENT,AMZN(Smartphone/Pixel 2 XL/A1MPSLFC7L5AFK,Android/11,Amazon_Android/MShop/18.14.0.100),1] ,  [locale,en_IN,1] ,  [ref-override,msp_ap_am_cspromo_fetch_s,1] ,  [page-type,Navigation-DataOnly,1] ,  [hitType,dataOnly,1] ,  [team-name,Navigation,1] ,  [site_variant,Android App,1] ,  [RequestId,80E4BB9A55E4EFEFF9BF,1] ]
+10-09 15:19:58.953 32722   764 D LogMetricsUtil: Metrics recorded for Navigation to both PMET and Clickstream: [ [msp_ap_am_cspromo_fetch_s_so,1.0,1] ,  [appVersion,11,1] ,  [HTTP_USER_AGENT,AMZN(Smartphone/Pixel 2 XL/A1MPSLFC7L5AFK,Android/11,Amazon_Android/MShop/18.14.0.100),1] ,  [locale,en_IN,1] ,  [ref-override,msp_ap_am_cspromo_fetch_s_so,1] ,  [page-type,Navigation-DataOnly,1] ,  [hitType,dataOnly,1] ,  [team-name,Navigation,1] ,  [site_variant,Android App,1] ,  [RequestId,9A23ED1FF54987853F7F,1] ]
+10-09 15:19:58.959  1365  1365 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10441; state: DISABLED
+10-09 15:19:58.959  1365  1472 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10441; state: DISABLED
+10-09 15:19:58.961 32722 32722 W Amazon  : missing associate tag : 
+10-09 15:19:58.962 32722 32722 I AmazonMobileAds AmazonOOAdRegistration: Transport Layer Security enabled by default.
+10-09 15:19:58.963 32722   764 D LogMetricsUtil: Metrics recorded for Navigation to both PMET and Clickstream: [ [msp_ap_am_anm_fetch_s,1.0,1] ,  [appVersion,11,1] ,  [HTTP_USER_AGENT,AMZN(Smartphone/Pixel 2 XL/A1MPSLFC7L5AFK,Android/11,Amazon_Android/MShop/18.14.0.100),1] ,  [locale,en_IN,1] ,  [ref-override,msp_ap_am_anm_fetch_s,1] ,  [page-type,Navigation-DataOnly,1] ,  [hitType,dataOnly,1] ,  [team-name,Navigation,1] ,  [site_variant,Android App,1] ,  [RequestId,22944D4BE63D42C287C4,1] ]
+10-09 15:19:58.966 32722   764 D LogMetricsUtil: Metrics recorded for Navigation to both PMET and Clickstream: [ [msp_ap_am_anm_fetch_s_so,1.0,1] ,  [appVersion,11,1] ,  [HTTP_USER_AGENT,AMZN(Smartphone/Pixel 2 XL/A1MPSLFC7L5AFK,Android/11,Amazon_Android/MShop/18.14.0.100),1] ,  [locale,en_IN,1] ,  [ref-override,msp_ap_am_anm_fetch_s_so,1] ,  [page-type,Navigation-DataOnly,1] ,  [hitType,dataOnly,1] ,  [team-name,Navigation,1] ,  [site_variant,Android App,1] ,  [RequestId,8E406FA8754219BA9F26,1] ]
+10-09 15:19:58.967   862   862 D Zygote  : Forked child process 912
+10-09 15:19:58.969 32722   764 D LogMetricsUtil: Metrics recorded for Navigation to both PMET and Clickstream: [ [msp_ap_am_nav_err_lt_rs,1.0,1] ,  [appVersion,11,1] ,  [HTTP_USER_AGENT,AMZN(Smartphone/Pixel 2 XL/A1MPSLFC7L5AFK,Android/11,Amazon_Android/MShop/18.14.0.100),1] ,  [locale,en_IN,1] ,  [ref-override,msp_ap_am_nav_err_lt_rs,1] ,  [page-type,Navigation-DataOnly,1] ,  [hitType,dataOnly,1] ,  [team-name,Navigation,1] ,  [site_variant,Android App,1] ,  [RequestId,96A1C4EF98BA9920AFCD,1] ]
+10-09 15:19:58.974  1365  1472 I ActivityManager: Start proc 912:com.microsoft.office.outlook/u0a441 for service {com.microsoft.office.outlook/com.evernote.android.job.v21.PlatformJobService}
+10-09 15:19:58.976 11662 11662 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3184 
+10-09 15:19:58.977 32722 32722 D MASHWebView: Clearing timeout
+10-09 15:19:58.977 11662 11662 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1830 
+10-09 15:19:58.977 32722   764 D LogMetricsUtil: Metrics recorded for Navigation to both PMET and Clickstream: [ [msp_ap_am_nav_err_lt_rs_so,1.0,1] ,  [appVersion,11,1] ,  [HTTP_USER_AGENT,AMZN(Smartphone/Pixel 2 XL/A1MPSLFC7L5AFK,Android/11,Amazon_Android/MShop/18.14.0.100),1] ,  [locale,en_IN,1] ,  [ref-override,msp_ap_am_nav_err_lt_rs_so,1] ,  [page-type,Navigation-DataOnly,1] ,  [hitType,dataOnly,1] ,  [team-name,Navigation,1] ,  [site_variant,Android App,1] ,  [RequestId,E04FF2AD5E5C42C7D78A,1] ]
+10-09 15:19:58.981   912   912 E .office.outloo: Not starting debugger since process cannot load the jdwp agent.
+10-09 15:19:59.005   912   912 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+10-09 15:19:59.007   912   912 I .office.outloo: The ClassLoaderContext is a special shared library.
+10-09 15:19:59.065   912   912 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+10-09 15:19:59.065 32722   911 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:59.067   912   912 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+10-09 15:19:59.082 32651 32701 I appium  : channel read invoked!
+10-09 15:19:59.082 32651 32701 I appium  : channel read: POST /wd/hub/session/3cf16f52-2604-4a79-a935-b345b3c890af/orientation
+10-09 15:19:59.117   912   912 I HxCore  : FlightSnapshotValidator: shouldEnableHxCore: target is prod, forcing ON
+10-09 15:19:59.139   912   912 I MAMInfo : MAMInfo initialized. Debug=false, Agent=PRODUCTION, ManagedDialogDisabled=false, PolicyRequired=false, MultiIdentityEnabled=true, FullBackupContent=true, UseDefaultEnrollment=false, ExceptionOnInit=false, Debuggable=false
+10-09 15:19:59.158   912   912 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+10-09 15:19:59.277  1365  3002 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10447; state: DISABLED
+10-09 15:19:59.277  1365  1472 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10447; state: DISABLED
+10-09 15:19:59.283  1365  2403 V UserManagerService: dumpPackageWhitelistProblems(): using mode ENFORCE|IMPLICIT_WHITELIST|IMPLICIT_WHITELIST_SYSTEM
+10-09 15:19:59.289   862   862 D Zygote  : Forked child process 972
+10-09 15:19:59.292 21525 23886 I native  : device_profile_database_helpers.cc:506 Found nothing for EPGFqD
+10-09 15:19:59.292 21525 23886 I native  : device_profile_database_helpers.cc:506 Found nothing for taimen/taimen
+10-09 15:19:59.292 21525 23886 I native  : device_profile_database_helpers.cc:493 Considering UpIlK1:9
+10-09 15:19:59.292 21525 23886 I native  : device_profile_database_helpers.cc:493 Considering UpIlK1:O
+10-09 15:19:59.292 21525 23886 I native  : device_profile_database_helpers.cc:493 Considering UpIlK1:8.1
+10-09 15:19:59.292 21525 23886 I native  : device_profile_database_helpers.cc:493 Considering UpIlK1:8.0
+10-09 15:19:59.292 21525 23886 I native  : device_profile_database_helpers.cc:452 Device profile for google/taimen/taimen:11/RP1A.200720.009/6720564:user/release-keys: UpIlK1:9
+10-09 15:19:59.293  1365  1472 I ActivityManager: Start proc 972:com.microsoft.windowsintune.companyportal:omadm_client_process/u0a447 for content provider {com.microsoft.windowsintune.companyportal/com.microsoft.omadm.apppolicy.AppPolicyContentProvider}
+10-09 15:19:59.300   972   972 E _client_proces: Not starting debugger since process cannot load the jdwp agent.
+10-09 15:19:59.317   972   972 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+10-09 15:19:59.318   972   972 I _client_proces: The ClassLoaderContext is a special shared library.
+10-09 15:19:59.321 32722   942 D SmashBootstrapper: Initializing local loading using cordova-mash-full-1.11.js
+10-09 15:19:59.330   972   972 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+10-09 15:19:59.331   972   972 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+10-09 15:19:59.336   972   972 I MultiDex: VM with version 2.1.0 has multidex support
+10-09 15:19:59.336   972   972 I MultiDex: Installing application
+10-09 15:19:59.336   972   972 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+10-09 15:19:59.350   675   675 D android.hardware.power@1.3-service.pixel-libperfmgr: LAUNCH: 0
+10-09 15:19:59.371   972   972 W         : root logger set to level: FINEST
+10-09 15:19:59.380   972   972 I         : Initialized logging to file pattern: /data/user/0/com.microsoft.windowsintune.companyportal/files/OMADMLog_%g.log
+10-09 15:19:59.383   972   972 D ActivityThread: Loading provider com.microsoft.omadm.preferences.preferencesprovider: com.microsoft.intune.common.settings.PreferencesContentProvider
+10-09 15:19:59.387   972   972 I Services: Using MDM backend NATIVE
+10-09 15:19:59.428 32722   942 D SmashBootstrapper: Loaded cordova-mash-full-1.11.js in 10ms
+10-09 15:19:59.436   972  1113 I IsUserSovereignUseCase: MAM primary user is not a US Gov account
+10-09 15:19:59.436   972  1114 I IsUserSovereignUseCase: MAM primary user is not a China account
+10-09 15:19:59.437   972  1114 I GlobalInitializer: Setting WPJ telemetry to enabled
+10-09 15:19:59.445   972   972 I TetheringManager: registerTetheringEventCallback:com.microsoft.windowsintune.companyportal
+10-09 15:19:59.450 32722 32722 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:59.453 32722 32722 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:59.456 32722   822 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:59.460 32722   822 I chatty  : uid=10489(com.amazon.mShop.android.shopping) com.amazon.mSho identical 1 line
+10-09 15:19:59.471 32722   822 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:19:59.526 32722 32722 D CordovaNetworkManager: toLower : wifi
+10-09 15:19:59.526 32722 32722 D CordovaNetworkManager: wifi : wifi
+10-09 15:19:59.526 32722 32722 D CordovaNetworkManager: Connection Type: wifi
+10-09 15:19:59.526 32722 32722 D CordovaNetworkManager: Connection Extra Info: 
+10-09 15:19:59.526 32722   942 D CordovaNetworkManager: toLower : wifi
+10-09 15:19:59.526 32722   942 D CordovaNetworkManager: wifi : wifi
+10-09 15:19:59.526 32722   942 D CordovaNetworkManager: Connection Type: wifi
+10-09 15:19:59.526 32722   942 D CordovaNetworkManager: Connection Extra Info: 
+10-09 15:19:59.559 32722 32722 V ApplicationStateListener: ApplicationCreateTime:1602236998103 IsApplicationCreatedInForeground:true ActivityCreateTime:1602236998355
+10-09 15:19:59.584   972   972 D FirebaseApp: com.google.firebase.auth.FirebaseAuth is not linked. Skipping initialization.
+10-09 15:19:59.584   972   972 D FirebaseApp: com.google.firebase.crash.FirebaseCrash is not linked. Skipping initialization.
+10-09 15:19:59.589   972  1187 W zzd     : Application name is not set. Call Builder#setApplicationName.
+10-09 15:19:59.591   972   972 W zzd     : Application name is not set. Call Builder#setApplicationName.
+10-09 15:19:59.592   972   972 W FirebaseRemoteConfig: An entry in the defaults XML has an invalid key and/or value tag.
+10-09 15:19:59.629   972   972 W FirebaseRemoteConfig: An entry in the defaults XML has an invalid key and/or value tag.
+10-09 15:19:59.662   912   912 W .office.outlook: type=1400 audit(0.0:7047): avc: granted { execute } for path="/data/user/0/com.microsoft.office.outlook/mam_libs/arm64-v8a/libmsmam-pre.so" dev="sda13" ino=1090057 scontext=u:r:untrusted_app_29:s0:c185,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c185,c257,c512,c768 tclass=file app=com.microsoft.office.outlook
+10-09 15:19:59.669   912   912 W .office.outlook: type=1400 audit(0.0:7048): avc: granted { execute } for path="/data/user/0/com.microsoft.office.outlook/mam_libs/arm64-v8a/libunwind.so" dev="sda13" ino=1090064 scontext=u:r:untrusted_app_29:s0:c185,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c185,c257,c512,c768 tclass=file app=com.microsoft.office.outlook
+10-09 15:19:59.672   912   912 W .office.outlook: type=1400 audit(0.0:7049): avc: granted { execute } for path="/data/user/0/com.microsoft.office.outlook/mam_libs/arm64-v8a/libcrypto.1.0.0.so" dev="sda13" ino=1090065 scontext=u:r:untrusted_app_29:s0:c185,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c185,c257,c512,c768 tclass=file app=com.microsoft.office.outlook
+10-09 15:19:59.679   912   912 W .office.outlook: type=1400 audit(0.0:7050): avc: granted { execute } for path="/data/user/0/com.microsoft.office.outlook/mam_libs/arm64-v8a/libmsmdmarp.so" dev="sda13" ino=1090068 scontext=u:r:untrusted_app_29:s0:c185,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c185,c257,c512,c768 tclass=file app=com.microsoft.office.outlook
+10-09 15:19:59.692  1365  1652 D ConnectivityService: NetReassign [no changes]
+10-09 15:19:59.712   912   912 W .office.outlook: type=1400 audit(0.0:7051): avc: denied { getattr } for path="/persist" dev="sda4" ino=2 scontext=u:r:untrusted_app_29:s0:c185,c257,c512,c768 tcontext=u:object_r:persist_file:s0 tclass=dir permissive=0 app=com.microsoft.office.outlook
+10-09 15:19:59.744   912   912 W SQLiteCompatibilityWalFlags: Cannot read global setting sqlite_compatibility_wal_flags - Application state not available
+10-09 15:19:59.753   972  1183 I FA      : Collection disabled with firebase_analytics_collection_deactivated=1
+10-09 15:19:59.756   972  1183 I FA      : App measurement is starting up, version: 16250
+10-09 15:19:59.756   972  1183 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+10-09 15:19:59.756   972  1183 I FA      : To enable faster debug mode event logging run:
+10-09 15:19:59.756   972  1183 I FA      :   adb shell setprop debug.firebase.analytics.app com.microsoft.windowsintune.companyportal
+10-09 15:19:59.819   972  1227 W FirebaseRemoteConfig: No value of type 'Boolean' exists for parameter key 'mam_ptraceless_hooking'.
+10-09 15:19:59.819   972  1227 W FirebaseRemoteConfig: No value of type 'Boolean' exists for parameter key 'mam_ptraceless_hooking'.
+10-09 15:19:59.852  1365  1376 W System  : A resource failed to call release. 
+10-09 15:19:59.853  1365  1376 I chatty  : uid=1000(system) FinalizerDaemon identical 5 lines
+10-09 15:19:59.853  1365  1376 W System  : A resource failed to call release. 
+10-09 15:19:59.877   912   912 D FirebaseApp: com.google.firebase.auth.FirebaseAuth is not linked. Skipping initialization.
+10-09 15:19:59.877   912   912 D FirebaseApp: com.google.firebase.crash.FirebaseCrash is not linked. Skipping initialization.
+10-09 15:19:59.877   912   912 I FirebaseInitProvider: FirebaseApp initialization successful
+10-09 15:19:59.891   912   912 W com.facebook.UserSettingsManager: The value for AdvertiserIDCollectionEnabled is currently set to FALSE so you're sending app events without collecting Advertiser ID. This can affect the quality of your advertising and analytics results.
+10-09 15:19:59.902   912  1255 E GraphResponse: GraphRequest can't be used when Facebook SDK isn't fully initialized
+10-09 15:19:59.903   912  1255 E GraphResponse: GraphRequest can't be used when Facebook SDK isn't fully initialized
+10-09 15:19:59.920   912  1249 I FA      : App measurement is starting up, version: 16250
+10-09 15:19:59.921   912  1249 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+10-09 15:19:59.922   912  1249 I FA      : To enable faster debug mode event logging run:
+10-09 15:19:59.922   912  1249 I FA      :   adb shell setprop debug.firebase.analytics.app com.microsoft.office.outlook
+10-09 15:19:59.930   912   912 D OutlookExecutor: OM_DEFAULT_EXECUTOR
+10-09 15:19:59.934   912   912 V CrashReportManagerUtil: Using APP_CENTER id : e051a564-ed6c-489c-b7a8-0037e8a07491
+10-09 15:19:59.944   912   912 D AppCenterBootCrashReportManager: Initializing AppCenterBootCrashReportManager
+10-09 15:19:59.944   912  1265 I TetheringManager: registerTetheringEventCallback:com.microsoft.office.outlook
+10-09 15:19:59.947   912   912 W AppCenter: App Center may only be configured once.
+10-09 15:19:59.948   912  1273 D AppCenter: Network 108 is available.
+10-09 15:19:59.948   912  1273 D AppCenter: Network has been connected.
+10-09 15:19:59.952   912  1265 I AppCenter: Changed maximum database size to 10485760 bytes.
+10-09 15:19:59.952   912  1265 D AppCenter: addGroup(group_core)
+10-09 15:19:59.953   912  1265 D AppCenter: checkPendingLogs(group_core) pendingLogCount=0 batchTimeInterval=3000
+10-09 15:19:59.953   912  1265 D AppCenter: App Center initialized.
+10-09 15:19:59.953   912  1265 D AppCenter: removeGroup(groupErrors)
+10-09 15:19:59.953   912  1265 D AppCenter: removeGroup(groupErrors/one)
+10-09 15:19:59.953   912  1265 D AppCenter: addGroup(groupErrors)
+10-09 15:19:59.954   912  1265 D AppCenter: checkPendingLogs(groupErrors) pendingLogCount=0 batchTimeInterval=3000
+10-09 15:19:59.954   912  1265 D AppCenter: addGroup(groupErrors/one)
+10-09 15:19:59.954   912  1265 D AppCenter: checkPendingLogs(groupErrors/one) pendingLogCount=0 batchTimeInterval=3000
+10-09 15:19:59.957   912  1265 I AppCenter: Crashes service started from application.
+10-09 15:19:59.957   912  1265 D AppCenter: removeGroup(group_analytics)
+10-09 15:19:59.957   912  1265 D AppCenter: removeGroup(group_analytics/one)
+10-09 15:19:59.957   912  1265 D AppCenter: addGroup(group_analytics)
+10-09 15:19:59.957   912  1265 D AppCenter: checkPendingLogs(group_analytics) pendingLogCount=0 batchTimeInterval=3000
+10-09 15:19:59.957   912  1265 D AppCenter: addGroup(group_analytics/one)
+10-09 15:19:59.958   912  1265 D AppCenter: checkPendingLogs(group_analytics/one) pendingLogCount=0 batchTimeInterval=3000
+10-09 15:19:59.958   912  1265 D AppCenter: addGroup(group_analytics_critical)
+10-09 15:19:59.958   912  1265 D AppCenter: checkPendingLogs(group_analytics_critical) pendingLogCount=0 batchTimeInterval=3000
+10-09 15:19:59.958   912  1265 D AppCenter: addGroup(group_analytics_critical/one)
+10-09 15:19:59.959   912  1265 D AppCenter: checkPendingLogs(group_analytics_critical/one) pendingLogCount=0 batchTimeInterval=3000
+10-09 15:19:59.959   912  1265 I AppCenter: Analytics service started from application.
+10-09 15:19:59.962   912  1265 D AppCenter: Storing a log to the Persistence database for log type startService with flags=1
+10-09 15:19:59.978   912  1265 D AppCenter: Stored a log to the Persistence database for log type startService with databaseId=115
+10-09 15:19:59.978   912  1265 D AppCenter: enqueue(group_core) pendingLogCount=1
+10-09 15:19:59.978   912  1265 D AppCenter: checkPendingLogs(group_core) pendingLogCount=1 batchTimeInterval=3000
+10-09 15:19:59.981   912   912 D AppCenterBootCrashReportManager: AppCenter Crash service has been enabled
+10-09 15:19:59.988   912   912 I NativeHockeyExceptionHandler: JNI_OnLoad()
+10-09 15:19:59.989   912  1275 I NativeHockeyExceptionHandler: Log file path: '/data/user/0/com.microsoft.office.outlook/files/error/minidump/new/e88c7484-d5fd-4459-a5d0-e2f03dbe62cd/log.txt'
+10-09 15:19:59.989   912  1275 D AppCenterBootCrashReportManager: Break-pad setup complete
+10-09 15:19:59.990   912   912 D OutlookExecutor: OM_BOOT_MAIN
+10-09 15:20:00.005   912  1284 W FlavorComponent: initialize not provided
+10-09 15:20:00.005   912  1284 W BuildTypeComponent: initialize not provided
+10-09 15:20:00.012   912   912 D OutlookExecutor: OM_LOGGERS_EXECUTOR
+10-09 15:20:00.033   912   912 I MAMAppConfigManagerImpl: Updated App Config cache for user User-397147753
+10-09 15:20:00.033   912   912 I MAMAppConfigManagerImpl: Found cached app config data, returning it.
+10-09 15:20:00.034   912   912 D AcompliApplication: Phase 1
+10-09 15:20:00.047   972  1191 I FirebaseRemoteConfig: Fetch succeeded!
+10-09 15:20:00.049   912  1278 D OutlookExecutor: OM_UI_RESULTS_EXECUTOR
+10-09 15:20:00.085   912  1278 W JobConfig: setApiEnabled - WORK_MANAGER, false
+10-09 15:20:00.085   912  1278 D OutlookExecutor: OM_JOBS_EXECUTOR
+10-09 15:20:00.147   912  1283 I HxShared::ThreadContext: InitializeJvm called
+10-09 15:20:00.165   912  1283 I HxCoreComponentDependent: Hx telemetry verbosity level: Critical
+10-09 15:20:00.175   912  1283 D OutlookExecutor: OM_HXCORE_EXECUTOR
+10-09 15:20:00.205   912  1283 E COST    : bootstrap:30
+10-09 15:20:00.217   912  1332 D HxStorageStateChangeDelegate: Storage state change to Store_Boot_Complete
+10-09 15:20:00.220   912   912 D OutlookExecutor: OM_SERIAL_EXECUTOR
+10-09 15:20:00.221   912   912 D OutlookExecutor: OM_DATABASE_TRANSACTION_EXECUTOR
+10-09 15:20:00.226   912   912 I ACAccountManager: Loading accounts
+10-09 15:20:00.247   912   912 I ACAccountManager: Loaded account id=32768 type=Office365 syncKey=null policyKey=
+10-09 15:20:00.260   912   912 D HxServices: Loaded Hx Accounts that will be cached. ObjectId 00000003-0000-0000-0000-000000000000 Count 1
+10-09 15:20:00.261   912   912 D HxServices: Summary of AC<->Hx Account count 1
+10-09 15:20:00.261   912   912 D HxServices: AC Account id 32768 HxAccount [73 00000000-0000-0000-1735-040000000000] MarkedForDelete false
+10-09 15:20:00.262   912   912 D HxServices: Summary of Hx<->AC Account count 1
+10-09 15:20:00.262   912   912 D HxServices: Hx Account [73 00000000-0000-0000-1735-040000000000] AC Account id 32768
+10-09 15:20:00.263   912   912 D HxServices: Summary of deleted Hx accounts count 0
+10-09 15:20:00.271   912   912 D LocalCalendarManager: registerAccountsChangeListener()
+10-09 15:20:00.272   912   912 D LocalCalendarManager: Updating calendar content observer registration.
+10-09 15:20:00.273   912   912 D LocalCalendarManager: No local calendar accounts, removing observer.
+10-09 15:20:00.273   912   912 D LocalCalendarManager: Already removed, ignoring.
+10-09 15:20:00.275   912   912 D AcompliApplication: Phase 1 end
+10-09 15:20:00.284   912  1285 D EmergencyModeWorkItem: Emergency mode value -1
+10-09 15:20:00.284   912  1278 I Iconic  : create...
+10-09 15:20:00.291   912   912 D AppCenterCrashReportManager: Initializing AppCenterCrashReportManager
+10-09 15:20:00.296   912  1283 D HxFoldersCacheManagement: Build cache of HxFolders. Hx Accounts count 1
+10-09 15:20:00.296   912   912 E NativeCrashManager: NativeCrashManager is already enabled. Updating listener
+10-09 15:20:00.298   912   912 D AppCenterCrashReportManager: Processing 0 pending errors
+10-09 15:20:00.300   912   912 D TokenSharingManager_v1.5.8: Library works in release mode
+10-09 15:20:00.303   912   912 V AcompliApplication: Starting up version 4.2038.4 (2038808) initial version was 4.2037.2 (2037805)
+10-09 15:20:00.305   912   912 D outlook.Outlook: isGooglePlayServicesAvailable: true. Code: 0
+10-09 15:20:00.306   912  1283 D HxFoldersCacheManagement: Registering for MailAccountData's view collection change notification to update folder cache. ViewId 00000000-0000-0000-1735-040000000000 Count 13
+10-09 15:20:00.308   912  1283 D HxFoldersCacheManagement: Registering for Group collection change notification to update folder cache. CollectionId 00000000-0000-0000-1735-040000000000 
+10-09 15:20:00.310   912   912 V IntuneAppConfigManager: Loading Intune app config...
+10-09 15:20:00.311   912  1283 D HxFoldersCacheManagement: Registering for Favorite collection change notification to update folder cache. CollectionId 00000001-0000-0000-1735-040000000000 
+10-09 15:20:00.312   912   912 I MAMAppConfigManagerImpl: Found cached app config data, returning it.
+10-09 15:20:00.313   912   912 V IntuneAppConfigManager:Provider: Retrieve MDM configs from Convenience API.
+10-09 15:20:00.316   912  1283 D HxFoldersCacheManagement: Build cache of HxFolders for Hx Account 00000000-0000-0000-1735-040000000000. Total count of UI folders is 14 - Total count of hidden folders is 1
+10-09 15:20:00.317   912  1283 V HxFoldersCacheManagement: No delta summary specified - Summary UI folders count is 13 - Hidden folders count is 1
+10-09 15:20:00.320   912   912 D AcompliApplication: Phase 2
+10-09 15:20:00.326   912  1379 D OlmDoNotDisturbStatusManager: Cleared 0 expired entries.
+10-09 15:20:00.327   912  1379 D OlmDoNotDisturbStatusManager: No alarm found to dismiss.
+10-09 15:20:00.328   912  1379 D OlmDoNotDisturbStatusManager: No alarm to update.
+10-09 15:20:00.328   912  1379 D OutlookCoreJobCreator: Dismiss all DND jobs.
+10-09 15:20:00.335   912   912 D AcompliApplication: Phase 2 end
+10-09 15:20:00.336   912   912 D OutlookExecutor: OM_APP_SESSION_MANAGER_SERIAL_EXECUTOR
+10-09 15:20:00.336   912   912 D AcompliApplication: Create end
+10-09 15:20:00.339   912  1397 D OlmAppSessionManager: dispatchAppStarting
+10-09 15:20:00.340   912  1397 D OlmAppSessionManager: onAppStarting com.acompli.accore.ACAppSessionEventHandler
+10-09 15:20:00.340   912  1397 D OlmAppSessionManager: onAppStarting com.microsoft.office.outlook.hx.managers.HxAppSessionEventHandler
+10-09 15:20:00.341   912  1397 D HxAppSessionEventHandler: mBootComplete true mAppFirstActivityPostResumed false
+10-09 15:20:00.341   912  1397 D HxContactChangeEventHelper: initialize. Accounts count 1
+10-09 15:20:00.344   912  1397 D HxAppSessionEventHandler: Running AccountWatchdog on storage boot complete
+10-09 15:20:00.344   912  1397 D UnderTheHoodMigrationManager: Running underTheHood migration on storage boot complete
+10-09 15:20:00.344   912  1397 D UnderTheHoodAccountMigrationManager: Setting up account changed notification handler
+10-09 15:20:00.345   912  1397 D OlmAppSessionManager: onAppStarting com.microsoft.office.outlook.boothandlers.PicassoAppSessionStartingEventHandler
+10-09 15:20:00.347   912  1397 I Picasso : onAppStarting
+10-09 15:20:00.351   912   912 V IntuneAppConfigManager: Applying Intune app config...
+10-09 15:20:00.356   912  1379 V IntuneAppConfigManager: Default Signature Enabled: true
+10-09 15:20:00.357   912  1379 I MAMAppConfigManagerImpl: Found cached app config data, returning it.
+10-09 15:20:00.367   912  1408 D PlatformJobService: Run job, request{id=1078, tag=EventNotificationJob_Master, transient=false}, waited 01:55:11, interval 00:15:00, flex 00:05:00
+10-09 15:20:00.367   912  1408 D OutlookCoreJobCreator: create EventNotificationJob_Master
+10-09 15:20:00.368   912  1408 D OutlookApplicationJobCreator: create EventNotificationJob_Master
+10-09 15:20:00.373   912  1408 I JobExecutor: Executing request{id=1078, tag=EventNotificationJob_Master, transient=false}, context PlatformJobService
+10-09 15:20:00.373   912  1397 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+10-09 15:20:00.380   912  1420 D EventNotificationJob: Running EventNotificationJob, isDetail=false
+10-09 15:20:00.389   912  1420 D HxCalendarDataObjectsHelper: safelyGetCalendarDataList will not include HxCalendarData from deleted accounts
+10-09 15:20:00.390   912  1420 D HxCalendarDataObjectsHelper: safelyGetCalendarDataList result count 4
+10-09 15:20:00.391   912  1339 D ACCalendarManager: Prepare for calendar sync, 4 calendars changed
+10-09 15:19:59.946  1365  1652 D ConnectivityService: NetReassign [no changes]
+10-09 15:20:00.457  1365  2403 V UserManagerService: dumpPackageWhitelistProblems(): using mode ENFORCE|IMPLICIT_WHITELIST|IMPLICIT_WHITELIST_SYSTEM
+10-09 15:20:00.504   912  1420 D EventNotificationJob: processEventList() on [24] events. First cleaning up expired notifications.
+10-09 15:20:00.586   912  1420 D EventNotificationJob: Finished cleaning up notifications. Event notification list had 0 items, 0 unique IDs, added 0 notifications in id set.
+10-09 15:20:00.588   912  1420 D EventNotificationJob:   finished processing events.
+10-09 15:20:00.589   912  1420 I JobExecutor: Finished job{id=1078, finished=true, result=SUCCESS, canceled=false, periodic=true, class=EventNotificationJob, tag=EventNotificationJob_Master}
+10-09 15:20:00.602   912  1408 D PlatformJobService: Finished job, request{id=1078, tag=EventNotificationJob_Master, transient=false} SUCCESS
+10-09 15:20:00.866   912  1397 D OlmAppSessionManager: dispatchAppStartCompleted: inForeground false
+10-09 15:20:00.867   912  1397 D OlmAppSessionManager: onAppStartCompleted com.acompli.accore.ACAppSessionEventHandler isInForeground false
+10-09 15:20:00.868   912  1397 D OlmAppSessionManager: onAppStartCompleted com.microsoft.office.outlook.hx.managers.HxAppSessionEventHandler isInForeground false
+10-09 15:20:00.870   912  1397 D HxAppSessionEventHandler: HxActorAPIs.OnBootCompleted()
+10-09 15:20:00.884   912  1336 I HxAppSessionEventHandler: AllowUserDataNetworkConnections call succeeded
+10-09 15:20:00.891   912  1397 D outlook.Outlook: isGooglePlayServicesAvailable: true. Code: 0
+10-09 15:20:00.892   912  1397 I FcmTokenReaderWriter: isPushSyncAvailable: Token[true] PlaySvc[true] ForceUnavailable[false]
+10-09 15:20:00.892   912  1397 I OutlookCoreJobCreator: shouldSchedulePeriodicSyncJob PushSyncAvailable[true] Gallatin[false] DirectSync[false]
+10-09 15:20:00.892   912  1397 D HxAppSessionEventHandler: Initialize HxAutoDismissNotifications
+10-09 15:20:00.919   912  1397 D HxAutoDismissNotifications: adding listener HxAccount 73 00000000-0000-0000-1735-040000000000 HxCollection 212 00000000-0000-0000-c835-040000000000
+10-09 15:20:00.920   643   643 I servicemanager: Notifying apexservice they have clients: 0
+10-09 15:20:00.921   643   643 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+10-09 15:20:00.921   912  1397 D HxBatteryStatusReceiver: calculateBootBatteryStatus PluggedIn
+10-09 15:20:00.922   912  1397 D HxBatteryStatusReceiver: updateBootBatteryStatus PluggedIn
+10-09 15:20:00.926   912  1430 D HxBatteryStatusReceiver: Update Battery Status: LatestHxBatteryStatus PluggedIn NewHxBatteryStatus PluggedIn ShouldUpdate false
+10-09 15:20:00.927   912  1397 D HxNetworkStatusReceiver: Active Network Type WIFI IsConnected true isAvailable true isConnectedOrConnecting true State CONNECTED IsRoaming false
+10-09 15:20:00.928   912  1397 D HxNetworkStatusReceiver: Network Status of the active network is Unrestricted
+10-09 15:20:00.928   912  1397 D HxNetworkStatusReceiver: calculateBootNetworkStatus Unrestricted
+10-09 15:20:00.928   912  1397 D HxNetworkStatusReceiver: updateBootNetworkStatus Unrestricted
+10-09 15:20:00.928   912  1397 D HxNetworkStatusReceiver: Updating network status in HxCore. Current network status is Unrestricted and new network status is Unrestricted 
+10-09 15:20:00.929   912  1397 D HxAppSessionEventHandler: HxActorAPIs.PrepareToSuspendHxCore()
+10-09 15:20:00.935   912  1397 D OlmAppSessionManager: onAppStartCompleted com.acompli.acompli.utils.-$$Lambda$Watchdog$DefaultWatchdogListener$5Yh-LCT8ZAH04rCmY1e2lg293pc isInForeground false
+10-09 15:20:00.936   912   912 D HxNetworkStatusReceiver: HxNetworkStatusReceiver:onReceive()
+10-09 15:20:00.937   912  1430 D HxNetworkStatusReceiver: Active Network Type WIFI IsConnected true isAvailable true isConnectedOrConnecting true State CONNECTED IsRoaming false
+10-09 15:20:00.938   912  1430 D HxNetworkStatusReceiver: Network Status of the active network is Unrestricted
+10-09 15:20:00.938   912  1430 D HxNetworkStatusReceiver: Updating network status in HxCore. Current network status is Unrestricted and new network status is Unrestricted 
+10-09 15:20:00.941   912  1397 D OlmAppSessionManager: onAppStartCompleted com.microsoft.office.outlook.hx.util.HxAuthDelegate isInForeground false
+10-09 15:20:00.941   912  1397 D HxAuthDelegate: onAppStartCompleted isInForeground false
+10-09 15:20:00.941   912  1397 D HxAuthDelegate: onAppStartCompleted no accounts that need their token refreshed
+10-09 15:20:00.942   912  1397 D OlmAppSessionManager: onAppStartCompleted com.microsoft.office.outlook.boothandlers.AdManagerServerBootstrapAppStartedEventHandler isInForeground false
+10-09 15:20:00.942   912  1397 D AdPolicyChecker: areAccountsEligibleForAds called
+10-09 15:20:00.948   912  1397 D AdPolicyChecker: Account configured with authType Office365Hx. Returning server_type_not_support
+10-09 15:20:00.949   912  1397 D AdServerBootstrap: AdPolicyCheckResult adsAllowed false OTAdNotShownReason server_type_not_support
+10-09 15:20:00.949   912  1397 D OlmAppSessionManager: onAppStartCompleted com.microsoft.office.outlook.boothandlers.CursorLeakTrackerAppSessionStartCompletedEventHandler isInForeground false
+10-09 15:20:00.949   912  1397 D OlmAppSessionManager: onAppStartCompleted com.microsoft.office.outlook.boothandlers.PowerLiftAppSessionStartCompletedEventHandler isInForeground false
+10-09 15:20:00.954   912  1397 V PLConfig: PowerLift client-side analysis enabled: true
+10-09 15:20:00.994   912  1397 D OlmAppSessionManager: onAppStartCompleted com.microsoft.office.outlook.boothandlers.HelpshiftAppSessionStartedCompletedEventHandler isInForeground false
+10-09 15:20:01.114   912  1397 D OlmAppSessionManager: onAppStartCompleted com.microsoft.office.outlook.boothandlers.ClpAppSessionStartCompletedEventHandler isInForeground false
+10-09 15:20:01.117   912  1397 D HxClpHelper: parsing Labels for accounts
+10-09 15:20:01.117   912  1397 D HxClpHelper: Clp supported for account ID:: 32768
+10-09 15:20:01.135 32722 32722 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:20:01.143 32722 32722 W nAnnotationIntrospector: Unable to load JDK7 annotation types; will have to skip
+10-09 15:20:01.159 32722 32722 V Javascript: Running Jacascript: ((function(args) {var badPageElement = []; var badPageDescription = []; if (document.getElementById('navbar')) { badPageElement.push('navbar'); badPageDescription.push('double nav bar for the mshop page'); } return ({ bad_page: badPageElement, bad_page_description: badPageDescription });})({})||{})
+10-09 15:20:01.159 32722   573 D com.amazon.mShop.startup.task.FFSServiceTaskDescriptor: scheduleFFSStart
+10-09 15:20:01.162   912  1408 V PL_SyncIncident: Beginning incident sync
+10-09 15:20:01.164 32722   603 D GoalsOrchestrator: Handling intent with action MODULE_START_ACTION
+10-09 15:20:01.168 32722   573 D MobileLoggingSuite: Updating MLS weblab MLS_APRIL_BACKGROUND_UPLOADER_206952 with treatment T1
+10-09 15:20:01.169 32722   573 D MobileLoggingSuite: Updating MLS weblab MLS_SLA_164569 with treatment C_Client
+10-09 15:20:01.169 32722   573 D MobileLoggingSuite: Updating MLS weblab MLS_NEXUS_FREQUENCY_MARCH_199907 with treatment T4
+10-09 15:20:01.176 32722   603 D CompatibilityChangeReporter: Compat change id reported: 148180766; UID 10489; state: DISABLED
+10-09 15:20:01.177 32722 32722 E ...ntity.auth.device.aa: No account mapping found for any account, returning null
+10-09 15:20:01.181 32722  1457 D FeatureIntegrationFileManager: Downloading new FIF from https://m.media-amazon.com/images/S/ssnap-msa/prod/featureInteg/android/v5/prod-feature-integration.json
+10-09 15:20:01.183   912  1408 V PL_SyncFeedbacks: Beginning feedback sync
+10-09 15:20:01.186   912  1408 V PL_SyncFeedbacks: No queued feedback
+10-09 15:20:01.188   912  1408 V PL_SyncFiles: Beginning log uploads
+10-09 15:20:01.191   912  1408 V PL_SyncFiles: No queued uploads
+10-09 15:20:01.193   912  1408 V PL_SyncEngine: Sync iteration finished; result=SUCCESS
+10-09 15:20:01.202 32722 32722 D LatencyEventLogger: dump events
+10-09 15:20:01.219 32651 32701 I appium  : AppiumResponse: {"sessionId":"3cf16f52-2604-4a79-a935-b345b3c890af","value":"PORTRAIT"}
+10-09 15:20:01.255 32722  1540 V fb-UnpackingSoSource: locked dso store /data/user/0/com.amazon.mShop.android.shopping/lib-main
+10-09 15:20:01.258 32722  1540 I fb-UnpackingSoSource: dso store is up-to-date: /data/user/0/com.amazon.mShop.android.shopping/lib-main
+10-09 15:20:01.258 32722  1540 V fb-UnpackingSoSource: releasing dso store lock for /data/user/0/com.amazon.mShop.android.shopping/lib-main
+10-09 15:20:01.296 32722  1540 I ndroid.shoppin: Thread[136,tid=1540,Native,Thread*=0xaad8c410,peer=0x13600718,"pool-10-thread-6"] recursive attempt to load library "/data/app/~~FQmCLEx1XLgBK38HQRAG6A==/com.amazon.mShop.android.shopping-Ycuwhu75qZ5Y91o2oVxutw==/lib/arm/libreactnativejni.so"
+10-09 15:20:01.298 32722 32722 D ReactNative: ReactInstanceManager.ctor()
+10-09 15:20:01.300 32722 32722 D ReactNative: ReactInstanceManager.createReactContextInBackground()
+10-09 15:20:01.300 32722 32722 D ReactNative: ReactInstanceManager.recreateReactContextInBackgroundInner()
+10-09 15:20:01.300 32722 32722 D ReactNative: ReactInstanceManager.recreateReactContextInBackgroundFromBundleLoader()
+10-09 15:20:01.300 32722 32722 D ReactNative: ReactInstanceManager.recreateReactContextInBackground()
+10-09 15:20:01.300 32722 32722 D ReactNative: ReactInstanceManager.runCreateReactContextOnNewThread()
+10-09 15:20:01.307 32722  1598 D ReactNative: ReactInstanceManager.createReactContext()
+10-09 15:20:01.320 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+10-09 15:20:01.322 32722  1457 D FeatureIntegrationFileManager: Successfully downloaded FIF
+10-09 15:20:01.323 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ProgressBarShadowNode
+10-09 15:20:01.326 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+10-09 15:20:01.328   912  1397 D HxClpHelper: mip labels available, parsing them count is ::16
+10-09 15:20:01.329 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+10-09 15:20:01.330 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+10-09 15:20:01.331 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextShadowNode
+10-09 15:20:01.332 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+10-09 15:20:01.332 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.lwansbrough.RCTCamera.RCTCameraViewManager
+10-09 15:20:01.333 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.amazon.eucx.cloneimageview.CloneImageViewManager
+10-09 15:20:01.335 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.amazon.ace.reactnative.RNAceVideoManager
+10-09 15:20:01.337 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.checkbox.ReactCheckBoxManager
+10-09 15:20:01.337 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+10-09 15:20:01.339 32722  1457 D FeatureIntegrationFileManager: Merge was skipped because current FIF version 5.0.666.0 is the same as the new FIF version 5.0.666.0
+10-09 15:20:01.339 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+10-09 15:20:01.340 32722  1457 D FeatureIntegrationFileManager: Successfully copied downloaded FIF version 5.0.666.0
+10-09 15:20:01.340 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager$ReactSwitchShadowNode
+10-09 15:20:01.341 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTShapeViewManager
+10-09 15:20:01.341 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTShapeShadowNode
+10-09 15:20:01.341 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTGroupViewManager
+10-09 15:20:01.341 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTGroupShadowNode
+10-09 15:20:01.341 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.picker.ReactDialogPickerManager
+10-09 15:20:01.342 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.toolbar.ReactToolbarManager
+10-09 15:20:01.344 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.brentvatne.react.ReactVideoViewManager
+10-09 15:20:01.346 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.webview.ReactWebViewManager
+10-09 15:20:01.346   912  1397 D OlmAppSessionManager: onAppStartCompleted com.microsoft.office.outlook.boothandlers.PerformanceTrackerAppSessionListener isInForeground false
+10-09 15:20:01.347   912  1397 D PerformanceTrackerAppSessionListener: App started in background. Disable performance tracker
+10-09 15:20:01.347   912  1397 D OlmAppSessionManager: onAppStartCompleted com.microsoft.office.outlook.partner.sdkmanager.PartnerSdkAppSessionStartCompletedEventHandler isInForeground false
+10-09 15:20:01.347 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+10-09 15:20:01.348   912  1397 I PartnerSdkManager: Initializing partner SDK with version: 1.0
+10-09 15:20:01.348 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ModalHostShadowNode
+10-09 15:20:01.348   912  1397 I PartnerSdkManager: Building the partner CONFIG map
+10-09 15:20:01.348 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageViewManager
+10-09 15:20:01.348 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageShadowNode
+10-09 15:20:01.348 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+10-09 15:20:01.349 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.viewpager.ReactViewPagerManager
+10-09 15:20:01.350 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager
+10-09 15:20:01.351 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager$ReactSliderShadowNode
+10-09 15:20:01.351   912  1397 I PartnerAssetManager: No files to download for partner: EdgeWebView
+10-09 15:20:01.351 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTSurfaceViewManager
+10-09 15:20:01.351 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTSurfaceViewShadowNode
+10-09 15:20:01.352   912  1397 I PartnerAssetManager: No files to download for partner: Cortini
+10-09 15:20:01.352 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+10-09 15:20:01.353 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.picker.ReactDropdownPickerManager
+10-09 15:20:01.354 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.amazon.mobile.ssnap.modules.fling.FlingRegionManager
+10-09 15:20:01.355 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+10-09 15:20:01.356 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextViewManager
+10-09 15:20:01.356 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextShadowNode
+10-09 15:20:01.356 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTTextViewManager
+10-09 15:20:01.356 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTTextShadowNode
+10-09 15:20:01.356 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+10-09 15:20:01.358 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextManager
+10-09 15:20:01.358 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextShadowNode
+10-09 15:20:01.359 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+10-09 15:20:01.360   912  1397 D OlmAppSessionManager: onAppStartCompleted com.microsoft.office.outlook.boothandlers.LottieAppSessionStartedCompletedEventHandler isInForeground false
+10-09 15:20:01.361 32722  1598 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputShadowNode
+10-09 15:20:01.361   912  1336 I PartnerSdkManager: UpdateDesiredCdnFiles - Completed - result: true
+10-09 15:20:01.365   912  1397 D OlmAppSessionManager: onAppStartCompleted com.acompli.acompli.feedback.RatingPrompterAppSessionStartedCompletedEventHandler isInForeground false
+10-09 15:20:01.366   912  1397 D OlmAppSessionManager: onAppStartCompleted com.acompli.acompli.-$$Lambda$AcompliApplication$I2eaA2_ZNZrapATsAn5AayODGd4 isInForeground false
+10-09 15:20:01.366   912  1336 I PartnerSdkManager: Partner needs file downloads: com.microsoft.office.outlook.partner.commute
+10-09 15:20:01.366   912  1336 I PartnerSdkManager: Partner does not need file downloads: com.microsoft.office.outlook.partner.cortini
+10-09 15:20:01.366   912  1336 I PartnerSdkManager: Partner does not need file downloads: com.microsoft.office.outlook.partner.edgewebview
+10-09 15:20:01.367   912  1336 I PartnerSdkManager: IsFeatureEnabled Partner[com.microsoft.office.outlook.partner.commute] Requirements[playEmails Or playEmailsCommercial] IsOn[true]
+10-09 15:20:01.367   912  1336 I PartnerSdkManager: createPartnerAsync called for partner[com.microsoft.office.outlook.partner.commute]
+10-09 15:20:01.368   912  1336 D PartnerAssetManager: Downloading assets for partner: Commute
+10-09 15:20:01.369 32722  1598 D MShopReactOkHttpClientFactory: Set OkHttpClient's max requests per host to 10
+10-09 15:20:01.374   912  1336 I PartnerAssetManager: Fetching 1 assets for partner Commute
+10-09 15:20:01.376   912  1336 I PartnerSdkManager: IsFeatureEnabled Partner[com.microsoft.office.outlook.partner.cortini] Requirements[VoiceSearchCortini] IsOn[false]
+10-09 15:20:01.376   912  1336 I PartnerSdkManager: Skipping loading for [com.microsoft.office.outlook.partner.cortini] since flight is disabled.
+10-09 15:20:01.377   912  1336 I PartnerSdkManager: IsFeatureEnabled Partner[com.microsoft.office.outlook.partner.edgewebview] Requirements[edgeIntegration] IsOn[true]
+10-09 15:20:01.377   912  1336 I PartnerSdkManager: createPartnerAsync called for partner[com.microsoft.office.outlook.partner.edgewebview]
+10-09 15:20:01.377   912  1336 D PartnerAssetManager: Downloading assets for partner: EdgeWebView
+10-09 15:20:01.381   912  1336 I PartnerSdkManager: Attempting to create partner: com.microsoft.office.outlook.partner.edgewebview
+10-09 15:20:01.387   912  1336 I EdgeWebView: Edge Web View partner initialized.
+10-09 15:20:01.387   912  1336 V PartnerSdkManager: Successfully created partner [com.microsoft.office.outlook.partner.edgewebview]
+10-09 15:20:01.387   912  1336 I PartnerSdkManager: Completed loading all serial partners
+10-09 15:20:01.387   912  1336 I PartnerAssetManager: Fetching 14 assets for partner Commute
+10-09 15:20:01.389   912  1336 I PartnerAssetManager: CDN download success - partner [Commute] asset [assets/android/commute/v1/heycortana_en-US.table]
+10-09 15:20:01.389   912  1336 I PartnerAssetManager: CDN onActorWithResultsSucceeded 1 assets for partner Commute
+10-09 15:20:01.391 32722  1598 D MShopReactOkHttpClientFactory: Set OkHttpClient's max requests per host to 10
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: com.amazon.mShop.metrics.nexus.context.MShopRunContext not found for base interface com.amazon.client.metrics.nexus.RunContext
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: java.lang.ClassNotFoundException: com.amazon.mShop.metrics.nexus.context.MShopRunContext
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at java.lang.Class.classForName(Native Method)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at java.lang.Class.forName(Class.java:454)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.amazon.client.metrics.nexus.CustomClassThroughReflectionProvider.getCustomClass(CustomClassThroughReflectionProvider.java:87)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.amazon.client.metrics.nexus.CustomClassThroughReflectionProvider.getInstance(CustomClassThroughReflectionProvider.java:69)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.amazon.client.metrics.nexus.EventModule.provideRunContext(EventModule.java:75)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.amazon.client.metrics.nexus.EventModule_ProvideRunContextFactory.get(EventModule_ProvideRunContextFactory.java:35)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.amazon.client.metrics.nexus.EventModule_ProvideRunContextFactory.get(EventModule_ProvideRunContextFactory.java:9)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at dagger.internal.DoubleCheck.get(DoubleCheck.java:46)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.amazon.client.metrics.nexus.EventModule_ProvideDALFactoryFactory.get(EventModule_ProvideDALFactoryFactory.java:36)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.amazon.client.metrics.nexus.EventModule_ProvideDALFactoryFactory.get(EventModule_ProvideDALFactoryFactory.java:8)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at dagger.internal.DoubleCheck.get(DoubleCheck.java:46)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.amazon.client.metrics.nexus.NexusEventRecorder_MembersInjector.injectMembers(NexusEventRecorder_MembersInjector.java:60)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.amazon.client.metrics.nexus.NexusEventRecorder_MembersInjector.injectMembers(NexusEventRecorder_MembersInjector.java:7)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.amazon.client.metrics.nexus.DaggerEventComponent.inject(DaggerEventComponent.java:177)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.amazon.client.metrics.nexus.NexusEventRecorder.<init>(NexusEventRecorder.java:50)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.amazon.client.metrics.nexus.NexusEventRecorder.get(NexusEventRecorder.java:85)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.amazon.mShop.permission.v2.di.MShopPermissionServiceInternalModule.providesRecorderConfig(MShopPermissionServiceInternalModule.java:169)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.amazon.mShop.permission.v2.di.MShopPermissionServiceInternalModule_ProvidesRecorderConfigFactory.get(MShopPermissionServiceInternalModule_ProvidesRecorderConfigFactory.java:27)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.amazon.mShop.permission.v2.di.MShopPermissionServiceInternalModule_ProvidesRecorderConfigFactory.get(MShopPermissionServiceInternalModule_ProvidesRecorderConfigFactory.java:10)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at dagger.internal.DoubleCheck.get(DoubleCheck.java:46)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.amazon.mShop.permission.v2.di.MShopPermissionServiceInternalModule_ProvidesNexusMetricsManagerFactory.get(MShopPermissionServiceInternalModule_ProvidesNexusMetricsManagerFactory.java:28)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.amazon.mShop.permission.v2.di.MShopPermissionServiceInternalModule_ProvidesNexusMetricsManagerFactory.get(MShopPermissionServiceInternalModule_ProvidesNexusMetricsManagerFactory.java:10)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at dagger.internal.DoubleCheck.get(DoubleCheck.java:46)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.amazon.mShop.permission.v2.util.MShopPermissionInterstitialRenderer_Factory.get(MShopPermissionInterstitialRenderer_Factory.java:53)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.amazon.mShop.permission.v2.util.MShopPermissionInterstitialRenderer_Factory.get(MShopPermissionInterstitialRenderer_Factory.java:13)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.amazon.mShop.permission.v2.util.PermissionInterstitialRenderer_Factory.get(PermissionInterstitialRenderer_Factory.java:31)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.amazon.mShop.permission.v2.util.PermissionInterstitialRenderer_Factory.get(PermissionInterstitialRenderer_Factory.java:7)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at dagger.internal.DoubleCheck.get(DoubleCheck.java:46)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.amazon.mShop.permission.v2.state.PermissionStateMachine_Factory.get(PermissionStateMachine_Factory.java:38)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.amazon.mShop.permission.v2.state.PermissionStateMachine_Factory.get(PermissionStateMachine_Factory.java:11)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at dagger.internal.DoubleCheck.get(DoubleCheck.java:46)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.amazon.mShop.permission.v2.MShopPermissionService_MembersInjector.injectMembers(MShopPermissionService_MembersInjector.java:63)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.amazon.mShop.permission.v2.MShopPermissionService_MembersInjector.injectMembers(MShopPermissionService_MembersInjector.java:12)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.amazon.mShop.permission.di.DaggerMShopPermissionComponent.inject(DaggerMShopPermissionComponent.java:524)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.amazon.mShop.permission.v2.MShopPermissionService.<init>(MShopPermissionService.java:53)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at java.lang.Class.newInstance(Native Method)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.amazon.platform.extension.internal.ExecutableCache.put(ExecutableCache.java:46)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.amazon.platform.service.ServiceRegistryImpl.instantiateService(ServiceRegistryImpl.java:187)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.amazon.platform.service.ServiceRegistryImpl.getService(ServiceRegistryImpl.java:170)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.amazon.platform.service.ServiceRegistryImpl.getService(ServiceRegistryImpl.java:150)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.amazon.platform.service.ServiceRegistryImpl.getService(ServiceRegistryImpl.java:129)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.amazon.platform.service.ShopKitProvider.getService(ShopKitProvider.java:23)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.amazon.mShop.permission.ssnap.InternalPermissionServiceSSNAPModule.<init>(InternalPermissionServiceSSNAPModule.java:34)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.amazon.mobile.ssnap.components.MShopSsnapSharedComponentsReactPackage.createNativeModules(MShopSsnapSharedComponentsReactPackage.java:48)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.facebook.react.CompositeReactPackage.createNativeModules(CompositeReactPackage.java:76)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.facebook.react.NativeModuleRegistryBuilder.processPackage(NativeModuleRegistryBuilder.java:102)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.facebook.react.ReactInstanceManager.processPackage(ReactInstanceManager.java:1170)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.facebook.react.ReactInstanceManager.processPackages(ReactInstanceManager.java:1140)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.facebook.react.ReactInstanceManager.createReactContext(ReactInstanceManager.java:1081)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.facebook.react.ReactInstanceManager.access$900(ReactInstanceManager.java:113)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at com.facebook.react.ReactInstanceManager$5.run(ReactInstanceManager.java:911)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	at java.lang.Thread.run(Thread.java:923)
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: Caused by: java.lang.ClassNotFoundException: com.amazon.mShop.metrics.nexus.context.MShopRunContext
+10-09 15:20:01.427 32722  1598 W CustomClassThroughReflectionProvider: 	... 52 more
+10-09 15:20:01.428 32722  1598 I Nexus:AmazonShopping: Starting PersistentEventStorage HandlerThread
+10-09 15:20:01.429 32722  1598 I Nexus:AmazonShopping: File ring not initialized, initializing
+10-09 15:20:01.430 32722  1598 I Nexus:AmazonShopping: Found existing file at /data/user/0/com.amazon.mShop.android.shopping/files/mshopcoremetric/file.0000000000000000001
+10-09 15:20:01.430 32722  1598 I Nexus:AmazonShopping: Found 1 files in ring, total size 0 bytes
+10-09 15:20:01.431 32722  1639 I Nexus:AmazonShopping: Opened file for writing: /data/user/0/com.amazon.mShop.android.shopping/files/mshopcoremetric/file.0000000000000000001
+10-09 15:20:01.433 32722  1598 D ReactNative: Initializing React Xplat Bridge.
+10-09 15:20:01.433   912  1336 D HxNotificationsHandler: HxEvent Fire Notifications for HxCollection -> ObjectID:[1 00000003-0000-0000-0000-000000000000] Virtualized false AddedCount:0 RemovedIdCount: 0 ChangedCount:1
+10-09 15:20:01.434 32722  1598 D ReactNative: Initializing React Xplat Bridge before initializeBridge
+10-09 15:20:01.438 32722  1598 D ReactNative: Initializing React Xplat Bridge after initializeBridge
+10-09 15:20:01.438 32722  1598 D ReactNative: CatalystInstanceImpl.runJSBundle()
+10-09 15:20:01.443   912  1336 I PartnerAssetManager: CDN download success - partner [Commute] asset [assets/android/commute/v1/commute_hang_on.wav]
+10-09 15:20:01.443   912  1336 I PartnerAssetManager: CDN download success - partner [Commute] asset [assets/android/commute/v1/commute_hang_on_male.wav]
+10-09 15:20:01.443   912  1336 I PartnerAssetManager: CDN download success - partner [Commute] asset [assets/android/commute/v1/commute_moving_on.wav]
+10-09 15:20:01.443   912  1336 I PartnerAssetManager: CDN download success - partner [Commute] asset [assets/android/commute/v1/commute_moving_on_male.wav]
+10-09 15:20:01.444   912  1336 I PartnerAssetManager: CDN download success - partner [Commute] asset [assets/android/commute/v1/commute_try_again.wav]
+10-09 15:20:01.444   912  1336 I PartnerAssetManager: CDN download success - partner [Commute] asset [assets/android/commute/v1/commute_try_again_male.wav]
+10-09 15:20:01.444   912  1336 I PartnerAssetManager: CDN download success - partner [Commute] asset [assets/android/commute/v1/commute_auth_error.wav]
+10-09 15:20:01.444   912  1336 I PartnerAssetManager: CDN download success - partner [Commute] asset [assets/android/commute/v1/commute_auth_error_male.wav]
+10-09 15:20:01.444   912  1336 I PartnerAssetManager: CDN download success - partner [Commute] asset [assets/android/commute/v1/commute_api_error.wav]
+10-09 15:20:01.444   912  1336 I PartnerAssetManager: CDN download success - partner [Commute] asset [assets/android/commute/v1/commute_api_error_male.wav]
+10-09 15:20:01.444   912  1336 I PartnerAssetManager: CDN download success - partner [Commute] asset [assets/android/commute/v1/commute_network_error.wav]
+10-09 15:20:01.444   912  1336 I PartnerAssetManager: CDN download success - partner [Commute] asset [assets/android/commute/v1/commute_network_error_male.wav]
+10-09 15:20:01.444   912  1336 I PartnerAssetManager: CDN download success - partner [Commute] asset [assets/android/commute/v1/commute_catch_all_error.wav]
+10-09 15:20:01.444   912  1336 I PartnerAssetManager: CDN download success - partner [Commute] asset [assets/android/commute/v1/commute_catch_all_error_male.wav]
+10-09 15:20:01.445   912  1336 I PartnerAssetManager: CDN onActorWithResultsSucceeded 14 assets for partner Commute
+10-09 15:20:01.445   912  1336 I PartnerSdkManager: Attempting to create partner: com.microsoft.office.outlook.partner.commute
+10-09 15:20:01.445   912  1336 I Commute : Commute initialize
+10-09 15:20:01.452 32722  1649 D ReactNative: ReactInstanceManager.setupReactContext()
+10-09 15:20:01.452 32722  1649 D ReactNative: CatalystInstanceImpl.initialize()
+10-09 15:20:01.453 32722  1649 D MShopReactOkHttpClientFactory: Set OkHttpClient's max requests per host to 10
+10-09 15:20:01.463   912  1336 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+10-09 15:20:01.464   912  1336 V PartnerSdkManager: Successfully created partner [com.microsoft.office.outlook.partner.commute]
+10-09 15:20:01.464   912  1336 I PartnerSdkManager: Completed loading all file download partners
+10-09 15:20:01.464   912  1336 I PartnerSdkManager: All partners loaded. Processing contributions
+10-09 15:20:01.464   912  1336 I PartnerSdkManager: Building the partner CONTRIBUTION map size[3]
+10-09 15:20:01.465   912  1336 I PartnerSdkManager: Partner com.microsoft.office.outlook.partner.commute has 4 contributors.
+10-09 15:20:01.465   912  1336 I PartnerSdkManager: Partner[com.microsoft.office.outlook.partner.commute] Contribution[com.microsoft.office.outlook.commute.settings.CommuteSettingsContribution]
+10-09 15:20:01.465   912  1336 I PartnerSdkManager: Partner[com.microsoft.office.outlook.partner.commute] Contribution[com.microsoft.office.outlook.commute.CommuteDrawerMenuContribution]
+10-09 15:20:01.465   912  1336 I PartnerSdkManager: Partner[com.microsoft.office.outlook.partner.commute] Contribution[com.microsoft.office.outlook.commute.CommuteDiagnosticsContribution]
+10-09 15:20:01.465   912  1336 V PartnerSdkManager: Adding to partner contribution map: failed to add com.microsoft.office.outlook.partner.commute contrib com.microsoft.office.outlook.commute.CommuteDiagnosticsContribution
+10-09 15:20:01.465   912  1336 I PartnerSdkManager: Partner[com.microsoft.office.outlook.partner.commute] Contribution[com.microsoft.office.outlook.commute.CommuteActivityEventsContribution]
+10-09 15:20:01.465   912  1336 I PartnerSdkManager: Partner[com.microsoft.office.outlook.partner.cortini] is null. Not getting contributors.
+10-09 15:20:01.465   912  1336 I PartnerSdkManager: Partner com.microsoft.office.outlook.partner.edgewebview has 1 contributors.
+10-09 15:20:01.466   912  1336 I PartnerSdkManager: Partner[com.microsoft.office.outlook.partner.edgewebview] Contribution[com.microsoft.office.outlook.edgeintegration.EdgePartnerContribution]
+10-09 15:20:01.466   912  1336 I PartnerSdkManager: Handling contribution requests
+10-09 15:20:01.466   912  1336 I PartnerSdkManager: initializeAsync complete
+10-09 15:20:01.516 32722  1444 I Appgrade: Empty campaign.  Cancel the existing campaign
+10-09 15:20:01.520 32722 32751 E ...ntity.auth.device.aa: No account mapping found for any account, returning null

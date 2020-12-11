@@ -1,0 +1,885 @@
+--------- beginning of main
+12-11 11:00:03.537 26162 26202 I appium  : channel read invoked!
+12-11 11:00:03.537 26162 26202 I appium  : channel read: GET /wd/hub/status
+12-11 11:00:03.543 26162 26202 I appium  : AppiumResponse: {"sessionId":"None","value":{"ready":true,"message":"UiAutomator2 Server is ready to accept commands"}}
+12-11 11:00:03.557 26162 26202 I appium  : channel read invoked!
+12-11 11:00:03.557 26162 26202 I appium  : channel read: POST /wd/hub/session
+12-11 11:00:03.561 26162 26202 W tomator2.serve: Accessing hidden field Landroid/app/UiAutomation;->mOnAccessibilityEventListener:Landroid/app/UiAutomation$OnAccessibilityEventListener; (greylist-max-o, reflection, allowed)
+12-11 11:00:03.562 26162 26202 I appium  : Created the new session with SessionID: d9573d1f-218d-47b6-b267-712cec9cec5b
+12-11 11:00:03.563 26162 26202 I appium  : AppiumResponse: {"sessionId":"d9573d1f-218d-47b6-b267-712cec9cec5b","value":{"sessionId":"d9573d1f-218d-47b6-b267-712cec9cec5b","capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"loca...
+12-11 11:00:03.582 26162 26202 I appium  : channel read invoked!
+12-11 11:00:03.582 26162 26202 I appium  : channel read: GET /wd/hub/session/d9573d1f-218d-47b6-b267-712cec9cec5b/appium/device/info
+12-11 11:00:03.583 26162 26202 I appium  : Get Device Info command
+12-11 11:00:03.587 26162 26202 I TetheringManager: registerTetheringEventCallback:io.appium.uiautomator2.server
+12-11 11:00:03.599 26162 26202 W tomator2.serve: Accessing hidden field Landroid/net/NetworkCapabilities;->mSignalStrength:I (greylist-max-p, reflection, allowed)
+12-11 11:00:03.600 26162 26202 W tomator2.serve: Accessing hidden field Landroid/net/NetworkCapabilities;->mNetworkSpecifier:Landroid/net/NetworkSpecifier; (greylist-max-o, reflection, allowed)
+12-11 11:00:03.600 26162 26202 W tomator2.serve: Accessing hidden field Landroid/net/NetworkCapabilities;->mSSID:Ljava/lang/String; (greylist-max-o, reflection, allowed)
+12-11 11:00:03.616 26162 26202 I appium  : AppiumResponse: {"sessionId":"d9573d1f-218d-47b6-b267-712cec9cec5b","value":{"androidId":"6a840bcba1727937","manufacturer":"Google","model":"Pixel 2 XL","brand":"google","apiVersion":"30","platformVersion":"11","carrierName":"Vi India","realDisplaySize":"1440x2880","displayDensity":560,"networks":[{"type":1,"typ...
+--------- beginning of system
+12-11 11:00:03.693  1406  4299 W ActivityManager: Permission Denial: getIntentForIntentSender() from pid=26203, uid=2000 requires android.permission.GET_INTENT_SENDER_INTENT
+12-11 11:00:03.794  1406  4299 I ActivityManager: Force stopping com.flipkart.android appid=10340 user=0: from pid 26208
+12-11 11:00:03.801  2117  2117 D CarrierSvcBindHelper: No carrier app for: 0
+12-11 11:00:03.804  1406  4297 W ActivityManager: Permission Denial: Accessing service com.google.android.music/.dial.DialMediaRouteProviderService from pid=21762, uid=10190 that is not exported from uid 10167
+12-11 11:00:03.804 18590 26214 I EuiccGoogle: [55071] EuiccServiceImpl.onGetEuiccProfileInfoList: onGetEuiccProfileInfoList: slotId = -1
+12-11 11:00:03.805  3305  3305 D RegisteredNfcFServicesCache: Service unchanged, not updating
+12-11 11:00:03.811  1916  1916 D QcrilMsgTunnelIfaceManager: handleMessage what = 1
+12-11 11:00:03.811  1916  1916 I QcrilOemhookMsgTunnel: [0]invokeOemRilRequestRaw: serial=2420 length=16
+12-11 11:00:03.815  1916  1945 I QcrilOemhookMsgTunnel: [0]processOemHookResponse serial no: 2420 error: 0length=88
+12-11 11:00:03.815  1916  1916 D QcrilMsgTunnelIfaceManager: handleMessage what = 2
+12-11 11:00:03.815 18590 26214 I EuiccGoogle: [55071] UiccLogicalChannel.open: Locked on aid: A0000005591010FFFFFFFF8900000100
+12-11 11:00:03.848  2117  2117 E PhoneInterfaceManager: [PhoneIntfMgr] iccOpenLogicalChannel: Exception: com.android.internal.telephony.CommandException: NO_SUCH_ELEMENT
+12-11 11:00:03.850 18590 26214 E EuiccGoogle: [55071] UiccLogicalChannel.open: selectResponse is null. Unlocked for aid: A0000005591010FFFFFFFF8900000100
+12-11 11:00:03.850 18590 26214 W EuiccGoogle: [55071] EuiccServiceImpl.onGetEuiccProfileInfoList: slotId=-1. No eUICC is active. Return null.
+12-11 11:00:04.055  1406  4299 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.flipkart.android/.activity.HomeFragmentHolderActivity} from uid 2000
+12-11 11:00:04.058  1406  1469 D EventSequenceValidator: IntentStarted during UNKNOWN. Intent { flg=0x10000000 cmp=com.flipkart.android/.activity.HomeFragmentHolderActivity }
+12-11 11:00:04.058  1406  1469 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+12-11 11:00:04.058  1406  1469 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+12-11 11:00:04.058  1406  1469 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentStarted(EventSequenceValidator.java:106)
+12-11 11:00:04.058  1406  1469 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentStarted(LaunchObserverRegistryImpl.java:139)
+12-11 11:00:04.058  1406  1469 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$veRn_GhgLZLlOHOJ0ZYT6KcfYqo(Unknown Source:0)
+12-11 11:00:04.058  1406  1469 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$veRn_GhgLZLlOHOJ0ZYT6KcfYqo.accept(Unknown Source:10)
+12-11 11:00:04.058  1406  1469 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+12-11 11:00:04.058  1406  1469 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+12-11 11:00:04.058  1406  1469 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+12-11 11:00:04.058  1406  1469 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+12-11 11:00:04.058  1406  1469 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+12-11 11:00:04.058  1406  1469 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+12-11 11:00:04.058  1406  1469 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+12-11 11:00:04.058  1406  1469 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+12-11 11:00:04.058  1406  1469 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+12-11 11:00:04.082   671   671 D android.hardware.power@1.3-service.pixel-libperfmgr: LAUNCH: 1
+12-11 11:00:04.095  1406  1469 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10340; state: DISABLED
+12-11 11:00:04.095  1406  1476 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10340; state: DISABLED
+12-11 11:00:04.095  1406  1469 D EventSequenceValidator: onActivityLaunched during UNKNOWN.
+12-11 11:00:04.095  1406  1469 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+12-11 11:00:04.095  1406  1469 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+12-11 11:00:04.095  1406  1469 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onActivityLaunched(EventSequenceValidator.java:149)
+12-11 11:00:04.095  1406  1469 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnActivityLaunched(LaunchObserverRegistryImpl.java:157)
+12-11 11:00:04.095  1406  1469 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$UGY1OclnLIQLMEL9B55qjERFf4o(Unknown Source:0)
+12-11 11:00:04.095  1406  1469 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$UGY1OclnLIQLMEL9B55qjERFf4o.accept(Unknown Source:10)
+12-11 11:00:04.095  1406  1469 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+12-11 11:00:04.095  1406  1469 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+12-11 11:00:04.095  1406  1469 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+12-11 11:00:04.095  1406  1469 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+12-11 11:00:04.095  1406  1469 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+12-11 11:00:04.095  1406  1469 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+12-11 11:00:04.095  1406  1469 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+12-11 11:00:04.095  1406  1469 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+12-11 11:00:04.096  1035  1035 I perfetto: ing_service_impl.cc:758 Configured tracing session 5708, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:1, uid:1071 session name: ""
+12-11 11:00:04.097  1034  1034 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=5708)
+12-11 11:00:04.102  1034  1034 I perfetto: ftrace_procfs.cc:176    enabled ftrace
+12-11 11:00:04.103   868   868 D Zygote  : Forked child process 26222
+12-11 11:00:04.108  1406  1476 I ActivityManager: Start proc 26222:com.flipkart.android/u0a340 for pre-top-activity {com.flipkart.android/com.flipkart.android.activity.HomeFragmentHolderActivity}
+12-11 11:00:04.115 26222 26222 E lipkart.androi: Not starting debugger since process cannot load the jdwp agent.
+12-11 11:00:04.148 26222 26222 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+12-11 11:00:04.149 26222 26222 I lipkart.androi: The ClassLoaderContext is a special shared library.
+12-11 11:00:04.171 26222 26222 I LoadedApk: No resource references to update in package com.flipkart.android.chat
+12-11 11:00:04.172 26222 26222 I LoadedApk: No resource references to update in package com.flipkart.android.condition_assessor
+12-11 11:00:04.172 26222 26222 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+12-11 11:00:04.174 26222 26222 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+12-11 11:00:04.202 26222 26222 I MultiDex: VM with version 2.1.0 has multidex support
+12-11 11:00:04.202 26222 26222 I MultiDex: Installing application
+12-11 11:00:04.202 26222 26222 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+12-11 11:00:04.237 26222 26222 I FirebaseApp: Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+12-11 11:00:04.268 26222 26252 W cd      : Application name is not set. Call Builder#setApplicationName.
+12-11 11:00:04.269 26222 26222 W FirebaseCrashlytics: A new version of the Google Analytics for Firebase SDK is now available. For improved performance and compatibility with Crashlytics, please update to the latest version.
+12-11 11:00:04.279 26222 26222 I FirebaseCrashlytics: Initializing Crashlytics 17.2.2
+12-11 11:00:04.293 26222 26222 W cd      : Application name is not set. Call Builder#setApplicationName.
+12-11 11:00:04.298 26222 26222 I FirebaseInitProvider: FirebaseApp initialization successful
+12-11 11:00:04.314 26222 26222 I TetheringManager: registerTetheringEventCallback:com.flipkart.android
+12-11 11:00:04.335 26222 26250 I FA      : App measurement is starting up, version: 16250
+12-11 11:00:04.335 26222 26250 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+12-11 11:00:04.335 26222 26250 I FA      : To enable faster debug mode event logging run:
+12-11 11:00:04.335 26222 26250 I FA      :   adb shell setprop debug.firebase.analytics.app com.flipkart.android
+12-11 11:00:04.362 26222 26283 E ADBMobile: ADBMobile Error : Wearable - Failed to load class com.adobe.mobile.ConfigSynchronizer
+12-11 11:00:04.374  1406  4297 D CompatibilityChangeReporter: Compat change id reported: 136274596; UID 10340; state: DISABLED
+12-11 11:00:04.399 26222 26282 I Tune#a():107: Initializing Tune Version 4.16.0
+12-11 11:00:04.446 26222 26222 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:04.446 26222 26222 D FirebasePerformance: Creating a new Non Verbose Session: ddeb4d912594410f90c7bb66a279d79e
+12-11 11:00:04.447 26222 26222 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:04.447 26222 26222 D FirebasePerformance: Creating a new Non Verbose Session: e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:04.464 26222 26222 I PlayCore: UID: [10340]  PID: [26222] AppUpdateService : requestUpdateInfo(com.flipkart.android)
+12-11 11:00:04.467 26222 26312 I PlayCore: UID: [10340]  PID: [26222] AppUpdateService : Initiate binding to the service.
+12-11 11:00:04.474 26222 26252 I FirebaseRemoteConfig: Fetch succeeded!
+12-11 11:00:04.477 26222 26250 I FA      : Tag Manager is not found and thus will not be used
+12-11 11:00:04.495  1791  1791 W Choreographer: Frame time is 0.310898 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+12-11 11:00:04.537  1406  4297 D ConnectivityService: requestNetwork for uid/pid:10340/26222 NetworkRequest [ TRACK_DEFAULT id=23428, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10340 AdministratorUids: [] RequestorUid: 10340 RequestorPackageName: com.flipkart.android] ]
+12-11 11:00:04.537  1406  1644 D ConnectivityService: NetReassign [23428 : null → 457]
+12-11 11:00:04.537  1406  1720 D Ethernet: got request NetworkRequest [ TRACK_DEFAULT id=23428, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10340 AdministratorUids: [] RequestorUid: 10340 RequestorPackageName: com.flipkart.android] ] with score 60 and providerId 5
+12-11 11:00:04.538  1406  1619 D UntrustedWifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=23428, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10340 AdministratorUids: [] RequestorUid: 10340 RequestorPackageName: com.flipkart.android] ] with score 60 and providerId 5
+12-11 11:00:04.538  2117  2117 D PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ TRACK_DEFAULT id=23428, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10340 AdministratorUids: [] RequestorUid: 10340 RequestorPackageName: com.flipkart.android] ] with score 60 and providerId 5
+12-11 11:00:04.538  1406  1619 D WifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=23428, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10340 AdministratorUids: [] RequestorUid: 10340 RequestorPackageName: com.flipkart.android] ] with score 60 and providerId 5
+12-11 11:00:04.538  1406  1719 D WIFI_AWARE_FACTORY: got request NetworkRequest [ TRACK_DEFAULT id=23428, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10340 AdministratorUids: [] RequestorUid: 10340 RequestorPackageName: com.flipkart.android] ] with score 60 and providerId 5
+12-11 11:00:04.544  2117  2117 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+12-11 11:00:04.544  2117  2117 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+12-11 11:00:04.553  1406  1644 D ConnectivityService: NetReassign [no changes]
+12-11 11:00:04.564  1791  1791 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+12-11 11:00:04.565 26222 26222 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:04.567  1791  1791 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=899186000[****] simSlotIndex=0 carrierId=1963 displayName=Vodafone IN carrierName=Vodafone IN nameSource=0 iconTint=-16746133 number=[****] dataRoaming=0 iconBitmap=android.graphics.Bitmap@8df6054 mcc=404 mnc=86 countryIso=in isEmbedded=false nativeAccessRules=null cardString=899186000[****] cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=[] hplmns=[40486] subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+12-11 11:00:04.584 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'trace_flimit_time'.
+12-11 11:00:04.584 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'trace_flimit_events'.
+12-11 11:00:04.585 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'trace_blimit_time'.
+12-11 11:00:04.585 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'trace_blimit_events'.
+12-11 11:00:04.585 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'network_flimit_time'.
+12-11 11:00:04.585 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'network_flimit_events'.
+12-11 11:00:04.585 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'network_blimit_time'.
+12-11 11:00:04.585 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'network_blimit_events'.
+12-11 11:00:04.646 26222 26222 D FirebasePerformance: onResume(): com.flipkart.android.activity.HomeFragmentHolderActivity: 424130 microseconds
+12-11 11:00:04.649 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:04.649 26222 26222 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:04.653 26222 26344 E TUNETuneParameters#getGoogleAdTrackingLimited():31: Error parsing googleAdTrackingLimited value null
+12-11 11:00:04.653 26222 26344 E TUNETuneParameters#getGoogleAdTrackingLimited():31: java.lang.NumberFormatException: s == null
+12-11 11:00:04.653 26222 26344 E TUNETuneParameters#getGoogleAdTrackingLimited():31: 	at java.lang.Integer.parseInt(Integer.java:577)
+12-11 11:00:04.653 26222 26344 E TUNETuneParameters#getGoogleAdTrackingLimited():31: 	at java.lang.Integer.parseInt(Integer.java:650)
+12-11 11:00:04.653 26222 26344 E TUNETuneParameters#getGoogleAdTrackingLimited():31: 	at com.tune.TuneParameters.getGoogleAdTrackingLimited(Unknown Source:6)
+12-11 11:00:04.653 26222 26344 E TUNETuneParameters#getGoogleAdTrackingLimited():31: 	at com.tune.c.a(Unknown Source:924)
+12-11 11:00:04.653 26222 26344 E TUNETuneParameters#getGoogleAdTrackingLimited():31: 	at com.tune.Tune$4.run(Unknown Source:164)
+12-11 11:00:04.653 26222 26344 E TUNETuneParameters#getGoogleAdTrackingLimited():31: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+12-11 11:00:04.653 26222 26344 E TUNETuneParameters#getGoogleAdTrackingLimited():31: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+12-11 11:00:04.653 26222 26344 E TUNETuneParameters#getGoogleAdTrackingLimited():31: 	at java.lang.Thread.run(Thread.java:923)
+12-11 11:00:04.654 26222 26222 I PlayCore: UID: [10340]  PID: [26222] SplitInstallListenerRegistry : registerListener
+12-11 11:00:04.654 26222 26344 E TUNETuneParameters#getFireAdTrackingLimited():31: Error parsing fireAdTrackingLimited value null
+12-11 11:00:04.654 26222 26344 E TUNETuneParameters#getFireAdTrackingLimited():31: java.lang.NumberFormatException: s == null
+12-11 11:00:04.654 26222 26344 E TUNETuneParameters#getFireAdTrackingLimited():31: 	at java.lang.Integer.parseInt(Integer.java:577)
+12-11 11:00:04.654 26222 26344 E TUNETuneParameters#getFireAdTrackingLimited():31: 	at java.lang.Integer.parseInt(Integer.java:650)
+12-11 11:00:04.654 26222 26344 E TUNETuneParameters#getFireAdTrackingLimited():31: 	at com.tune.TuneParameters.getFireAdTrackingLimited(Unknown Source:6)
+12-11 11:00:04.654 26222 26344 E TUNETuneParameters#getFireAdTrackingLimited():31: 	at com.tune.c.a(Unknown Source:940)
+12-11 11:00:04.654 26222 26344 E TUNETuneParameters#getFireAdTrackingLimited():31: 	at com.tune.Tune$4.run(Unknown Source:164)
+12-11 11:00:04.654 26222 26344 E TUNETuneParameters#getFireAdTrackingLimited():31: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+12-11 11:00:04.654 26222 26344 E TUNETuneParameters#getFireAdTrackingLimited():31: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+12-11 11:00:04.654 26222 26344 E TUNETuneParameters#getFireAdTrackingLimited():31: 	at java.lang.Thread.run(Thread.java:923)
+12-11 11:00:04.655 26222 26241 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10340; state: DISABLED
+12-11 11:00:04.669 26222 26340 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:04.679 26222 26222 I PlayCore: UID: [10340]  PID: [26222] AppUpdateService : ServiceConnectionImpl.onServiceConnected(ComponentInfo{com.android.vending/com.google.android.finsky.installservice.DevTriggeredUpdateService})
+12-11 11:00:04.680 26222 26312 I PlayCore: UID: [10340]  PID: [26222] AppUpdateService : linkToDeath
+12-11 11:00:04.698 26222 26343 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:04.709 15503 26354 I Finsky  : [5233] sap.a(5): Using cached document to get update info
+12-11 11:00:04.709 15503 26354 W Finsky  : [5233] sdg.e(2): No cached information about app com.flipkart.android, while trying to retrieve app details.
+12-11 11:00:04.710 15503 26354 E Finsky  : [5233] sap.a(7): In-app-update: Missing AppDetails!
+12-11 11:00:04.722 15503 26354 W Finsky  : [5233] sau.a(3): No cached information about app com.flipkart.android, while trying to retrieve the available version code.
+12-11 11:00:04.729 26222 26312 I PlayCore: UID: [10340]  PID: [26222] AppUpdateService : Unbind from service.
+12-11 11:00:04.729 26222 26240 I PlayCore: UID: [10340]  PID: [26222] OnRequestInstallCallback : onRequestInfo
+12-11 11:00:04.749 26222 26304 I AdrenoGLES-0: QUALCOMM build                   : 02fe52e, Ie73904e3bd
+12-11 11:00:04.749 26222 26304 I AdrenoGLES-0: Build Date                       : 06/27/20
+12-11 11:00:04.749 26222 26304 I AdrenoGLES-0: OpenGL ES Shader Compiler Version: EV031.31.04.00
+12-11 11:00:04.749 26222 26304 I AdrenoGLES-0: Local Branch                     : gfx-adreno.lnx.2.0
+12-11 11:00:04.749 26222 26304 I AdrenoGLES-0: Remote Branch                    : quic/gfx-adreno.lnx.2.0
+12-11 11:00:04.749 26222 26304 I AdrenoGLES-0: Remote Branch                    : NONE
+12-11 11:00:04.749 26222 26304 I AdrenoGLES-0: Reconstruct Branch               : NOTHING
+12-11 11:00:04.749 26222 26304 I AdrenoGLES-0: Build Config                     : S L 10.0.5 AArch64
+12-11 11:00:04.749 26222 26304 I AdrenoGLES-0: Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+12-11 11:00:04.751 26222 26222 E RecyclerView: No adapter attached; skipping layout
+12-11 11:00:04.754 26222 26222 E RecyclerView: No adapter attached; skipping layout
+12-11 11:00:04.763 26222 26304 I AdrenoGLES-0: PFP: 0x005ff112, ME: 0x005ff066
+12-11 11:00:04.765 26222 26304 W AdrenoUtils: <ReadGpuID_from_sysfs:197>: Failed to open /sys/class/kgsl/kgsl-3d0/gpu_model
+12-11 11:00:04.765 26222 26304 W AdrenoUtils: <ReadGpuID:221>: Failed to read chip ID from gpu_model. Fallback to use the GSL path
+12-11 11:00:04.778 26222 26277 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=d671fce5-f69a-47c3-819f-0a0c92f5c754, tags={ com.flipkart.android.notification.FkPNTaskWorker } ]
+12-11 11:00:04.789   638   638 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+12-11 11:00:04.789 26222 26304 I Gralloc4: mapper 4.x is not supported
+12-11 11:00:04.790   638   638 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@3.0::IMapper/default in either framework or device manifest.
+12-11 11:00:04.790 26222 26304 W Gralloc3: mapper 3.x is not supported
+12-11 11:00:04.816 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:04.816 26222 26356 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:04.832  1406  1469 D EventSequenceValidator: onActivityLaunchFinished during UNKNOWN.
+12-11 11:00:04.832  1406  1469 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+12-11 11:00:04.832  1406  1469 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+12-11 11:00:04.832  1406  1469 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onActivityLaunchFinished(EventSequenceValidator.java:185)
+12-11 11:00:04.832  1406  1469 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnActivityLaunchFinished(LaunchObserverRegistryImpl.java:175)
+12-11 11:00:04.832  1406  1469 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$QcawcFcJtEX4EhYptq_Vb4j368Y(Unknown Source:0)
+12-11 11:00:04.832  1406  1469 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$QcawcFcJtEX4EhYptq_Vb4j368Y.accept(Unknown Source:10)
+12-11 11:00:04.832  1406  1469 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+12-11 11:00:04.832  1406  1469 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+12-11 11:00:04.832  1406  1469 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+12-11 11:00:04.832  1406  1469 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+12-11 11:00:04.832  1406  1469 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+12-11 11:00:04.832  1406  1469 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+12-11 11:00:04.832  1406  1469 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+12-11 11:00:04.832  1406  1469 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+12-11 11:00:04.832  1406  1469 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+12-11 11:00:04.841  1406  1474 D ArtManagerInternalImpl: /data/misc/iorapd/com.flipkart.android/1200017/com.flipkart.android.activity.HomeFragmentHolderActivity/compiled_traces/compiled_trace.pb doesn't exist
+12-11 11:00:04.843  1406  1474 I ActivityTaskManager: Displayed com.flipkart.android/.activity.HomeFragmentHolderActivity: +776ms
+12-11 11:00:04.847 26222 26222 D SoLoader: init start
+12-11 11:00:04.847 26222 26222 D SoLoader: adding system library source: /vendor/lib
+12-11 11:00:04.847 26222 26222 D SoLoader: adding system library source: /system/lib
+12-11 11:00:04.847 26222 26222 D SoLoader: adding application source: com.facebook.soloader.c[root = /data/app/~~AyNcwMNVTgJJmuyoQ36DuQ==/com.flipkart.android-2FPjidu9cl0MIe0Lo372nw==/lib/arm64 flags = 0]
+12-11 11:00:04.848 26222 26222 D SoLoader: adding backup source from : com.facebook.soloader.a[root = /data/user/0/com.flipkart.android/lib-main flags = 1]
+12-11 11:00:04.848 26222 26222 D SoLoader: Preparing SO source: com.facebook.soloader.c[root = /system/lib flags = 2]
+12-11 11:00:04.848 26222 26222 D SoLoader: Preparing SO source: com.facebook.soloader.c[root = /vendor/lib flags = 2]
+12-11 11:00:04.848 26222 26222 D SoLoader: Preparing SO source: com.facebook.soloader.c[root = /data/app/~~AyNcwMNVTgJJmuyoQ36DuQ==/com.flipkart.android-2FPjidu9cl0MIe0Lo372nw==/lib/arm64 flags = 0]
+12-11 11:00:04.848 26222 26222 D SoLoader: Preparing SO source: com.facebook.soloader.a[root = /data/user/0/com.flipkart.android/lib-main flags = 1]
+12-11 11:00:04.849 26222 26222 V fb-UnpackingSoSource: locked dso store /data/user/0/com.flipkart.android/lib-main
+12-11 11:00:04.849 26162 26202 I appium  : channel read invoked!
+12-11 11:00:04.850 26162 26202 I appium  : channel read: GET /wd/hub/session/d9573d1f-218d-47b6-b267-712cec9cec5b/appium/device/pixel_ratio
+12-11 11:00:04.850 26162 26202 I appium  : Get device pixel ratio
+12-11 11:00:04.851 26162 26202 I appium  : AppiumResponse: {"sessionId":"d9573d1f-218d-47b6-b267-712cec9cec5b","value":3.5}
+12-11 11:00:04.854 26222 26222 V fb-UnpackingSoSource: deps mismatch on deps store: regenerating
+12-11 11:00:04.854 26222 26222 V fb-UnpackingSoSource: so store dirty: regenerating
+12-11 11:00:04.859 26162 26202 I appium  : channel read invoked!
+12-11 11:00:04.859 26162 26202 I appium  : channel read: GET /wd/hub/session/d9573d1f-218d-47b6-b267-712cec9cec5b/appium/device/system_bars
+12-11 11:00:04.859 26162 26202 I appium  : Get status bar height of the device
+12-11 11:00:04.860 26162 26202 I appium  : AppiumResponse: {"sessionId":"d9573d1f-218d-47b6-b267-712cec9cec5b","value":{"statusBar":98}}
+12-11 11:00:04.868 26162 26202 I appium  : channel read invoked!
+12-11 11:00:04.868 26162 26202 I appium  : channel read: GET /wd/hub/session/d9573d1f-218d-47b6-b267-712cec9cec5b/window/current/size
+12-11 11:00:04.868 26162 26202 I appium  : Get window size of the device
+12-11 11:00:04.869 26162 26202 I appium  : AppiumResponse: {"sessionId":"d9573d1f-218d-47b6-b267-712cec9cec5b","value":{"height":2712,"width":1440}}
+12-11 11:00:04.909 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:04.909 26222 26222 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libF7Library.so: deferring to libdir
+12-11 11:00:04.909 26222 26222 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libc++_shared.so: deferring to libdir
+12-11 11:00:04.909 26222 26222 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libfb.so: deferring to libdir
+12-11 11:00:04.909 26222 26222 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libfolly_futures.so: deferring to libdir
+12-11 11:00:04.909 26222 26222 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libfolly_json.so: deferring to libdir
+12-11 11:00:04.909 26222 26222 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libglog.so: deferring to libdir
+12-11 11:00:04.909 26222 26222 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libglog_init.so: deferring to libdir
+12-11 11:00:04.909 26222 26222 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libhermes-executor-release.so: deferring to libdir
+12-11 11:00:04.909 26222 26222 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libhermes.so: deferring to libdir
+12-11 11:00:04.909 26222 26222 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libimagepipeline.so: deferring to libdir
+12-11 11:00:04.909 26222 26347 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:04.909 26222 26222 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libjsijniprofiler.so: deferring to libdir
+12-11 11:00:04.909 26222 26222 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libjsinspector.so: deferring to libdir
+12-11 11:00:04.909 26222 26222 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libmyjni.so: deferring to libdir
+12-11 11:00:04.910 26222 26222 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libnative-filters.so: deferring to libdir
+12-11 11:00:04.910 26222 26222 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libnative-imagetranscoder.so: deferring to libdir
+12-11 11:00:04.910 26222 26222 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libopustool.so: deferring to libdir
+12-11 11:00:04.910 26222 26222 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreactnativejni.so: deferring to libdir
+12-11 11:00:04.910 26222 26222 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libyoga.so: deferring to libdir
+12-11 11:00:04.910 26222 26222 V fb-UnpackingSoSource: regenerating DSO store com.facebook.soloader.a
+12-11 11:00:04.910 26222 26222 V fb-UnpackingSoSource: Finished regenerating DSO store com.facebook.soloader.a
+12-11 11:00:04.911 26222 26222 V fb-UnpackingSoSource: starting syncer worker
+12-11 11:00:04.915 26222 26222 V fb-UnpackingSoSource: releasing dso store lock for /data/user/0/com.flipkart.android/lib-main (from syncer thread)
+12-11 11:00:04.915 26222 26222 V fb-UnpackingSoSource: not releasing dso store lock for /data/user/0/com.flipkart.android/lib-main (syncer thread started)
+12-11 11:00:04.915 26222 26222 D SoLoader: init finish: 4 SO sources prepared
+12-11 11:00:04.915 26222 26222 D SoLoader: init exiting
+12-11 11:00:04.919 26222 26316 D BinaryFileManagerRunner: Attempting operation for module: multiWidget
+12-11 11:00:04.919 26222 26316 D BinaryFileManagerRunner: Starting operation for module: multiWidget
+12-11 11:00:04.921 26222 26316 D BinaryFileManager: Returning current bundle
+12-11 11:00:04.930 26222 26222 W System.err: java.net.MalformedURLException: no protocol: homepage
+12-11 11:00:04.930 26222 26222 W System.err: 	at java.net.URL.<init>(URL.java:601)
+12-11 11:00:04.930 26222 26222 W System.err: 	at java.net.URL.<init>(URL.java:498)
+12-11 11:00:04.930 26222 26222 W System.err: 	at java.net.URL.<init>(URL.java:447)
+12-11 11:00:04.930 26222 26222 W System.err: 	at com.flipkart.android.utils.cc.getUrlPath(Unknown Source:2)
+12-11 11:00:04.930 26222 26222 W System.err: 	at com.flipkart.android.bottomnavigation.c.a(Unknown Source:139)
+12-11 11:00:04.930 26222 26222 W System.err: 	at com.flipkart.android.bottomnavigation.c.update(Unknown Source:135)
+12-11 11:00:04.930 26222 26222 W System.err: 	at com.flipkart.android.reactnative.nativeuimodules.reactbottombar.ReactBottomNavigationFragment.emitAlreadyExistingResponse(Unknown Source:15)
+12-11 11:00:04.930 26222 26222 W System.err: 	at com.flipkart.android.reactnative.nativeuimodules.reactbottombar.ReactBottomNavigationFragment.onViewCreated(Unknown Source:8)
+12-11 11:00:04.930 26222 26222 W System.err: 	at androidx.fragment.app.h.a(Unknown Source:632)
+12-11 11:00:04.930 26222 26222 W System.err: 	at androidx.fragment.app.h.f(Unknown Source:38)
+12-11 11:00:04.930 26222 26222 W System.err: 	at androidx.fragment.app.a.h(Unknown Source:150)
+12-11 11:00:04.930 26222 26222 W System.err: 	at androidx.fragment.app.h.b(Unknown Source:38)
+12-11 11:00:04.930 26222 26222 W System.err: 	at androidx.fragment.app.h.a(Unknown Source:113)
+12-11 11:00:04.930 26222 26222 W System.err: 	at androidx.fragment.app.h.b(Unknown Source:88)
+12-11 11:00:04.930 26222 26222 W System.err: 	at androidx.fragment.app.h.k(Unknown Source:21)
+12-11 11:00:04.930 26222 26222 W System.err: 	at androidx.fragment.app.h.f(Unknown Source:9)
+12-11 11:00:04.930 26222 26222 W System.err: 	at androidx.fragment.app.h.s(Unknown Source:6)
+12-11 11:00:04.930 26222 26222 W System.err: 	at androidx.fragment.app.Fragment.performActivityCreated(Unknown Source:24)
+12-11 11:00:04.930 26222 26222 W System.err: 	at androidx.fragment.app.h.a(Unknown Source:663)
+12-11 11:00:04.930 26222 26222 W System.err: 	at androidx.fragment.app.h.f(Unknown Source:38)
+12-11 11:00:04.930 26222 26222 W System.err: 	at androidx.fragment.app.a.h(Unknown Source:150)
+12-11 11:00:04.930 26222 26222 W System.err: 	at androidx.fragment.app.h.b(Unknown Source:38)
+12-11 11:00:04.930 26222 26222 W System.err: 	at androidx.fragment.app.h.a(Unknown Source:113)
+12-11 11:00:04.931 26222 26222 W System.err: 	at androidx.fragment.app.h.b(Unknown Source:88)
+12-11 11:00:04.931 26222 26222 W System.err: 	at androidx.fragment.app.h.k(Unknown Source:21)
+12-11 11:00:04.931 26222 26222 W System.err: 	at androidx.fragment.app.h$1.run(Unknown Source:2)
+12-11 11:00:04.931 26222 26222 W System.err: 	at android.os.Handler.handleCallback(Handler.java:938)
+12-11 11:00:04.931 26222 26222 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+12-11 11:00:04.931 26222 26222 W System.err: 	at android.os.Looper.loop(Looper.java:223)
+12-11 11:00:04.931 26222 26222 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+12-11 11:00:04.931 26222 26222 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+12-11 11:00:04.931 26222 26222 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+12-11 11:00:04.931 26222 26222 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+12-11 11:00:04.932  1406  1474 W NotificationHistory: Attempted to remove conversation for locked/gone/disabled user 0
+12-11 11:00:04.932 26222 26222 D SoLoader: About to load: libreactnativejni.so
+12-11 11:00:04.933 26222 26222 D SoLoader: libreactnativejni.so not found on /data/user/0/com.flipkart.android/lib-main
+12-11 11:00:04.933 26222 26222 D SoLoader: libreactnativejni.so found on /data/app/~~AyNcwMNVTgJJmuyoQ36DuQ==/com.flipkart.android-2FPjidu9cl0MIe0Lo372nw==/lib/arm64
+12-11 11:00:04.933 26222 26222 D SoLoader: Not resolving dependencies for libreactnativejni.so
+12-11 11:00:04.974 26222 26222 D SoLoader: Loaded: libreactnativejni.so
+12-11 11:00:04.974 26222 26222 D SoLoader: About to load: libfb.so
+12-11 11:00:04.975 26222 26222 D SoLoader: libfb.so not found on /data/user/0/com.flipkart.android/lib-main
+12-11 11:00:04.975 26222 26222 D SoLoader: libfb.so found on /data/app/~~AyNcwMNVTgJJmuyoQ36DuQ==/com.flipkart.android-2FPjidu9cl0MIe0Lo372nw==/lib/arm64
+12-11 11:00:04.975 26222 26222 D SoLoader: Not resolving dependencies for libfb.so
+12-11 11:00:04.977 26222 26222 D SoLoader: About to load: libfb.so
+12-11 11:00:04.977 26222 26222 D SoLoader: libfb.so not found on /data/user/0/com.flipkart.android/lib-main
+12-11 11:00:04.977 26222 26222 D SoLoader: libfb.so found on /data/app/~~AyNcwMNVTgJJmuyoQ36DuQ==/com.flipkart.android-2FPjidu9cl0MIe0Lo372nw==/lib/arm64
+12-11 11:00:04.977 26222 26222 D SoLoader: Not resolving dependencies for libfb.so
+12-11 11:00:04.977 26222 26222 I lipkart.androi: Thread[1,tid=26222,Native,Thread*=0x789b4d1380,peer=0x726593a8,"main"] recursive attempt to load library "/data/app/~~AyNcwMNVTgJJmuyoQ36DuQ==/com.flipkart.android-2FPjidu9cl0MIe0Lo372nw==/lib/arm64/libfb.so"
+12-11 11:00:04.977 26222 26222 D SoLoader: Loaded: libfb.so
+12-11 11:00:04.978 26222 26222 D SoLoader: Loaded: libfb.so
+12-11 11:00:04.980 26222 26222 W System.err: java.net.MalformedURLException: no protocol: homepage
+12-11 11:00:04.980 26222 26222 W System.err: 	at java.net.URL.<init>(URL.java:601)
+12-11 11:00:04.980 26222 26222 W System.err: 	at java.net.URL.<init>(URL.java:498)
+12-11 11:00:04.980 26222 26222 W System.err: 	at java.net.URL.<init>(URL.java:447)
+12-11 11:00:04.980 26222 26222 W System.err: 	at com.flipkart.android.utils.cc.getUrlPath(Unknown Source:2)
+12-11 11:00:04.980 26222 26222 W System.err: 	at com.flipkart.android.bottomnavigation.c.a(Unknown Source:139)
+12-11 11:00:04.980 26222 26222 W System.err: 	at com.flipkart.android.bottomnavigation.c.update(Unknown Source:135)
+12-11 11:00:04.980 26222 26222 W System.err: 	at com.flipkart.android.reactnative.nativeuimodules.reactbottombar.ReactBottomNavigationFragment.onResume(Unknown Source:13)
+12-11 11:00:04.980 26222 26222 W System.err: 	at androidx.fragment.app.Fragment.performResume(Unknown Source:18)
+12-11 11:00:04.980 26222 26222 W System.err: 	at androidx.fragment.app.h.a(Unknown Source:740)
+12-11 11:00:04.980 26222 26222 W System.err: 	at androidx.fragment.app.h.f(Unknown Source:38)
+12-11 11:00:04.980 26222 26222 W System.err: 	at androidx.fragment.app.h.a(Unknown Source:46)
+12-11 11:00:04.980 26222 26222 W System.err: 	at androidx.fragment.app.h.f(Unknown Source:4)
+12-11 11:00:04.981 26222 26222 W System.err: 	at androidx.fragment.app.h.u(Unknown Source:6)
+12-11 11:00:04.981 26222 26222 W System.err: 	at androidx.fragment.app.Fragment.performResume(Unknown Source:29)
+12-11 11:00:04.981 26222 26222 W System.err: 	at androidx.fragment.app.h.a(Unknown Source:740)
+12-11 11:00:04.981 26222 26222 W System.err: 	at androidx.fragment.app.h.f(Unknown Source:38)
+12-11 11:00:04.981 26222 26222 W System.err: 	at androidx.fragment.app.a.h(Unknown Source:150)
+12-11 11:00:04.981 26222 26222 W System.err: 	at androidx.fragment.app.h.b(Unknown Source:38)
+12-11 11:00:04.981 26222 26222 W System.err: 	at androidx.fragment.app.h.a(Unknown Source:113)
+12-11 11:00:04.981 26222 26222 W System.err: 	at androidx.fragment.app.h.b(Unknown Source:88)
+12-11 11:00:04.981 26222 26222 W System.err: 	at androidx.fragment.app.h.k(Unknown Source:21)
+12-11 11:00:04.981 26222 26222 W System.err: 	at androidx.fragment.app.h$1.run(Unknown Source:2)
+12-11 11:00:04.981 26222 26222 W System.err: 	at android.os.Handler.handleCallback(Handler.java:938)
+12-11 11:00:04.981 26222 26222 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+12-11 11:00:04.981 26222 26222 W System.err: 	at android.os.Looper.loop(Looper.java:223)
+12-11 11:00:04.981 26222 26222 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+12-11 11:00:04.981 26222 26222 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+12-11 11:00:04.981 26222 26222 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+12-11 11:00:04.981 26222 26222 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+12-11 11:00:04.992 26222 26280 I TableUtils: clearing table 'proteusLayout' with 'DELETE FROM `proteusLayout`
+12-11 11:00:04.993 26222 26390 D BinaryFileManager: Returning bundle: /data/user/0/com.flipkart.android/files/binaryfilemanager/multiWidget/e2d78d64513d21f5f2a1df9f48fc6be3-17.ota
+12-11 11:00:04.995 26222 26316 D BinaryFileManagerRunner: Attempting operation for module: multiWidget
+12-11 11:00:04.995 26222 26316 D BinaryFileManagerRunner: Starting operation for module: multiWidget
+12-11 11:00:05.000 26222 26316 D BinaryFileManager: No Update Available
+12-11 11:00:05.004 26222 26280 I TableUtils: clearing table 'widgetData' with 'DELETE FROM `widgetData`
+12-11 11:00:05.016 26222 26390 D BinaryFileManagerRunner: Attempting operation for module: multiWidget
+12-11 11:00:04.932  1406  1474 I chatty  : uid=1000(system) android.bg identical 1 line
+12-11 11:00:04.932  1406  1474 W NotificationHistory: Attempted to remove conversation for locked/gone/disabled user 0
+12-11 11:00:05.016  1406  1644 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=23428, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10340 AdministratorUids: [] RequestorUid: 10340 RequestorPackageName: com.flipkart.android] ] (release request)
+12-11 11:00:05.023 26222 26280 I TableUtils: clearing table 'pageContextData' with 'DELETE FROM `pageContextData`
+12-11 11:00:05.031  1791  1791 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+12-11 11:00:05.032  2117  2117 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+12-11 11:00:05.032  2117  2117 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+12-11 11:00:05.034  1791  1791 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=899186000[****] simSlotIndex=0 carrierId=1963 displayName=Vodafone IN carrierName=Vodafone IN nameSource=0 iconTint=-16746133 number=[****] dataRoaming=0 iconBitmap=android.graphics.Bitmap@b6dcbfd mcc=404 mnc=86 countryIso=in isEmbedded=false nativeAccessRules=null cardString=899186000[****] cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=[] hplmns=[40486] subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+12-11 11:00:05.039 26222 26311 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=edbb72fb-bd6c-4f07-913f-6155828565dc, tags={ com.flipkart.android.notification.FkPNTaskWorker } ]
+12-11 11:00:05.042 26222 26222 E RecyclerView: No adapter attached; skipping layout
+12-11 11:00:05.042 19878 19878 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3308 
+12-11 11:00:05.043 19878 19878 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1887 
+12-11 11:00:05.051 26222 26222 D ReactNative: ReactInstanceManager.ctor()
+12-11 11:00:05.051 26222 26222 D SoLoader: init exiting
+12-11 11:00:05.053 26222 26222 D ReactNative: ReactInstanceManager.createReactContextInBackground()
+12-11 11:00:05.053 26222 26222 D ReactNative: ReactInstanceManager.recreateReactContextInBackgroundInner()
+12-11 11:00:05.053 26222 26222 D ReactNative: ReactInstanceManager.recreateReactContextInBackgroundFromBundleLoader()
+12-11 11:00:05.053 26222 26222 D ReactNative: ReactInstanceManager.recreateReactContextInBackground()
+12-11 11:00:05.053 26222 26222 D ReactNative: ReactInstanceManager.runCreateReactContextOnNewThread()
+12-11 11:00:05.054 26222 26280 I TableUtils: clearing table 'pageLayoutData' with 'DELETE FROM `pageLayoutData`
+12-11 11:00:05.061 26222 26390 D BinaryFileManager: Returning bundle: /data/user/0/com.flipkart.android/files/binaryfilemanager/multiWidget/e2d78d64513d21f5f2a1df9f48fc6be3-17.ota
+12-11 11:00:05.061  1406  1644 D ConnectivityService: NetReassign [no changes]
+12-11 11:00:05.062 26222 26392 D BinaryFileManagerRunner: Starting operation for module: multiWidget
+12-11 11:00:05.063 26222 26392 D BinaryFileManager: No Update Available
+12-11 11:00:05.072 26222 26403 D SoLoader: About to load: libhermes.so
+12-11 11:00:05.073 26222 26403 D SoLoader: libhermes.so not found on /data/user/0/com.flipkart.android/lib-main
+12-11 11:00:05.073 26222 26403 D SoLoader: libhermes.so found on /data/app/~~AyNcwMNVTgJJmuyoQ36DuQ==/com.flipkart.android-2FPjidu9cl0MIe0Lo372nw==/lib/arm64
+12-11 11:00:05.073 26222 26403 D SoLoader: Not resolving dependencies for libhermes.so
+12-11 11:00:05.073 26222 26222 E RecyclerView: No adapter attached; skipping layout
+12-11 11:00:05.087 26222 26403 D SoLoader: Loaded: libhermes.so
+12-11 11:00:05.088 26222 26403 D SoLoader: About to load: libhermes-executor-release.so
+12-11 11:00:05.088 26222 26403 D SoLoader: libhermes-executor-release.so not found on /data/user/0/com.flipkart.android/lib-main
+12-11 11:00:05.088 26222 26403 D SoLoader: libhermes-executor-release.so found on /data/app/~~AyNcwMNVTgJJmuyoQ36DuQ==/com.flipkart.android-2FPjidu9cl0MIe0Lo372nw==/lib/arm64
+12-11 11:00:05.088 26222 26403 D SoLoader: Not resolving dependencies for libhermes-executor-release.so
+12-11 11:00:05.089 26222 26222 E RecyclerView: No adapter attached; skipping layout
+12-11 11:00:05.092 26222 26403 D SoLoader: Loaded: libhermes-executor-release.so
+12-11 11:00:05.092 26222 26403 D ReactNative: ReactInstanceManager.createReactContext()
+12-11 11:00:05.111 26222 26403 D ReactNative: Initializing React Xplat Bridge.
+12-11 11:00:05.118 26222 26403 D ReactNative: Initializing React Xplat Bridge before initializeBridge
+12-11 11:00:05.120 26222 26395 D BinaryFileManager: Returning bundle: /data/user/0/com.flipkart.android/files/binaryfilemanager/multiWidget/e2d78d64513d21f5f2a1df9f48fc6be3-17.ota
+12-11 11:00:05.124   671   671 D android.hardware.power@1.3-service.pixel-libperfmgr: LAUNCH: 0
+12-11 11:00:05.129 26222 26403 D ReactNative: Initializing React Xplat Bridge after initializeBridge
+12-11 11:00:05.129 26222 26403 D ReactNative: CatalystInstanceImpl.runJSBundle()
+12-11 11:00:05.130 26222 26405 D ReactNative: ReactInstanceManager.setupReactContext()
+12-11 11:00:05.130 26222 26405 D ReactNative: CatalystInstanceImpl.initialize()
+12-11 11:00:05.134 26222 26405 D SoLoader: init exiting
+12-11 11:00:05.137 26222 26222 D ReactNative: ReactInstanceManager.createReactContextInBackground()
+12-11 11:00:05.137 26222 26222 D ReactNative: ReactInstanceManager.attachRootViewToInstance()
+12-11 11:00:05.148  1406  3272 D ConnectivityService: requestNetwork for uid/pid:10340/26222 NetworkRequest [ TRACK_DEFAULT id=23431, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10340 AdministratorUids: [] RequestorUid: 10340 RequestorPackageName: com.flipkart.android] ]
+12-11 11:00:05.148  1406  1644 D ConnectivityService: NetReassign [23431 : null → 457]
+12-11 11:00:05.148  1406  1720 D Ethernet: got request NetworkRequest [ TRACK_DEFAULT id=23431, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10340 AdministratorUids: [] RequestorUid: 10340 RequestorPackageName: com.flipkart.android] ] with score 60 and providerId 5
+12-11 11:00:05.149  1406  1719 D WIFI_AWARE_FACTORY: got request NetworkRequest [ TRACK_DEFAULT id=23431, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10340 AdministratorUids: [] RequestorUid: 10340 RequestorPackageName: com.flipkart.android] ] with score 60 and providerId 5
+12-11 11:00:05.149  1406  1619 D UntrustedWifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=23431, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10340 AdministratorUids: [] RequestorUid: 10340 RequestorPackageName: com.flipkart.android] ] with score 60 and providerId 5
+12-11 11:00:05.149  1406  1619 D WifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=23431, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10340 AdministratorUids: [] RequestorUid: 10340 RequestorPackageName: com.flipkart.android] ] with score 60 and providerId 5
+12-11 11:00:05.149  2117  2117 D PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ TRACK_DEFAULT id=23431, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10340 AdministratorUids: [] RequestorUid: 10340 RequestorPackageName: com.flipkart.android] ] with score 60 and providerId 5
+12-11 11:00:05.149 24345 18643 W NetworkScheduler: Error inserting flex_time=3316000 job_id=-1 period=6634000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664605144 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 11:00:05.155  1791  1791 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+12-11 11:00:05.155  2117  2117 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+12-11 11:00:05.155  2117  2117 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+12-11 11:00:05.157  1791  1791 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=899186000[****] simSlotIndex=0 carrierId=1963 displayName=Vodafone IN carrierName=Vodafone IN nameSource=0 iconTint=-16746133 number=[****] dataRoaming=0 iconBitmap=android.graphics.Bitmap@49520f2 mcc=404 mnc=86 countryIso=in isEmbedded=false nativeAccessRules=null cardString=899186000[****] cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=[] hplmns=[40486] subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+12-11 11:00:05.158 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTGroupViewManager
+12-11 11:00:05.159 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTGroupShadowNode
+12-11 11:00:05.160 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTShapeViewManager
+12-11 11:00:05.160 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTShapeShadowNode
+12-11 11:00:05.160 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTTextViewManager
+12-11 11:00:05.160 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTTextShadowNode
+12-11 11:00:05.161 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.checkbox.ReactCheckBoxManager
+12-11 11:00:05.167 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+12-11 11:00:05.169 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.picker.ReactDialogPickerManager
+12-11 11:00:05.171 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+12-11 11:00:05.171 12570 21746 I PBSessionCacheImpl: Deleted sessionId[55285052306656317] from persistence.
+12-11 11:00:05.174 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.picker.ReactDropdownPickerManager
+12-11 11:00:05.174 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+12-11 11:00:05.177 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+12-11 11:00:05.180 26222 26343 E CursorWindow: Failed to read row 0, column 29 from a CursorWindow which has 1 rows, 29 columns.
+12-11 11:00:05.180 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+12-11 11:00:05.182 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ProgressBarShadowNode
+12-11 11:00:05.183 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+12-11 11:00:05.185 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager
+12-11 11:00:05.186 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager$ReactSliderShadowNode
+12-11 11:00:05.187 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+12-11 11:00:05.189 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager$ReactSwitchShadowNode
+12-11 11:00:05.190  1406  1644 D ConnectivityService: NetReassign [no changes]
+12-11 11:00:05.191 26222 26338 E CursorWindow: Failed to read row 0, column 29 from a CursorWindow which has 17 rows, 29 columns.
+12-11 11:00:05.191 26222 26340 E CursorWindow: Failed to read row 0, column 29 from a CursorWindow which has 14 rows, 29 columns.
+12-11 11:00:05.191 26222 26340 E CursorWindow: Failed to read row 1, column 29 from a CursorWindow which has 14 rows, 29 columns.
+12-11 11:00:05.192 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+12-11 11:00:05.194 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTSurfaceViewManager
+12-11 11:00:05.194 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTSurfaceViewShadowNode
+12-11 11:00:05.196 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageViewManager
+12-11 11:00:05.196 26222 26340 E CursorWindow: Failed to read row 2, column 29 from a CursorWindow which has 14 rows, 29 columns.
+12-11 11:00:05.196 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageShadowNode
+12-11 11:00:05.196 26222 26340 E CursorWindow: Failed to read row 3, column 29 from a CursorWindow which has 14 rows, 29 columns.
+12-11 11:00:05.196 24345 18433 W NetworkScheduler: Error inserting flex_time=3316000 job_id=-1 period=6634000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664605189 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 11:00:05.197 26222 26340 E CursorWindow: Failed to read row 4, column 29 from a CursorWindow which has 14 rows, 29 columns.
+12-11 11:00:05.197 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+12-11 11:00:05.199 26222 26338 E CursorWindow: Failed to read row 1, column 29 from a CursorWindow which has 17 rows, 29 columns.
+12-11 11:00:05.199 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+12-11 11:00:05.200 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ModalHostShadowNode
+12-11 11:00:05.200 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextManager
+12-11 11:00:05.201 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextShadowNode
+12-11 11:00:05.202 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+12-11 11:00:05.202 12570 12639 W SearchServiceCore: Abort, client detached.
+12-11 11:00:05.203 26222 26340 E CursorWindow: Failed to read row 5, column 29 from a CursorWindow which has 14 rows, 29 columns.
+12-11 11:00:05.203 26222 26340 E CursorWindow: Failed to read row 6, column 29 from a CursorWindow which has 14 rows, 29 columns.
+12-11 11:00:05.204 26222 26338 E CursorWindow: Failed to read row 2, column 29 from a CursorWindow which has 17 rows, 29 columns.
+12-11 11:00:05.204 26222 26340 E CursorWindow: Failed to read row 7, column 29 from a CursorWindow which has 14 rows, 29 columns.
+12-11 11:00:05.204 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputShadowNode
+12-11 11:00:05.205 26222 26340 E CursorWindow: Failed to read row 8, column 29 from a CursorWindow which has 14 rows, 29 columns.
+12-11 11:00:05.205 26222 26340 E CursorWindow: Failed to read row 9, column 29 from a CursorWindow which has 14 rows, 29 columns.
+12-11 11:00:05.206 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+12-11 11:00:05.207 26222 26338 E CursorWindow: Failed to read row 3, column 29 from a CursorWindow which has 17 rows, 29 columns.
+12-11 11:00:05.207 26222 26340 E CursorWindow: Failed to read row 10, column 29 from a CursorWindow which has 14 rows, 29 columns.
+12-11 11:00:05.207 26222 26340 E CursorWindow: Failed to read row 11, column 29 from a CursorWindow which has 14 rows, 29 columns.
+12-11 11:00:05.207 26222 26338 E CursorWindow: Failed to read row 4, column 29 from a CursorWindow which has 17 rows, 29 columns.
+12-11 11:00:05.207 26222 26340 E CursorWindow: Failed to read row 12, column 29 from a CursorWindow which has 14 rows, 29 columns.
+12-11 11:00:05.208 26222 26340 E CursorWindow: Failed to read row 13, column 29 from a CursorWindow which has 14 rows, 29 columns.
+12-11 11:00:05.209 26222 26338 E CursorWindow: Failed to read row 5, column 29 from a CursorWindow which has 17 rows, 29 columns.
+12-11 11:00:05.209 26222 26338 E CursorWindow: Failed to read row 6, column 29 from a CursorWindow which has 17 rows, 29 columns.
+12-11 11:00:05.209 26222 26338 E CursorWindow: Failed to read row 7, column 29 from a CursorWindow which has 17 rows, 29 columns.
+12-11 11:00:05.210 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextShadowNode
+12-11 11:00:05.211 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+12-11 11:00:05.213 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.viewpager.ReactViewPagerManager
+12-11 11:00:05.215 26222 26338 E CursorWindow: Failed to read row 8, column 29 from a CursorWindow which has 17 rows, 29 columns.
+12-11 11:00:05.215 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextViewManager
+12-11 11:00:05.215 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextShadowNode
+12-11 11:00:05.215 26222 26338 E CursorWindow: Failed to read row 9, column 29 from a CursorWindow which has 17 rows, 29 columns.
+12-11 11:00:05.215 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.reactuimodules.reusableviews.lineargradient.LinearGradientManager
+12-11 11:00:05.216 26222 26338 E CursorWindow: Failed to read row 10, column 29 from a CursorWindow which has 17 rows, 29 columns.
+12-11 11:00:05.216 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.reacthelpersdk.modules.nestedscrollview.ReactNestedScrollViewManager
+12-11 11:00:05.218 26222 26338 E CursorWindow: Failed to read row 11, column 29 from a CursorWindow which has 17 rows, 29 columns.
+12-11 11:00:05.219 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.reacthelpersdk.modules.nestedscrollview.ReactHorizontalNestedScrollViewManager
+12-11 11:00:05.219 26222 26338 E CursorWindow: Failed to read row 12, column 29 from a CursorWindow which has 17 rows, 29 columns.
+12-11 11:00:05.219 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.reactuimodules.reusableviews.absolutelayoutcontainer.AbsoluteLayoutContainerManager
+12-11 11:00:05.220 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.AdContainer
+12-11 11:00:05.221 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.image.SatyabhamaReactImageManager
+12-11 11:00:05.222 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.youtube.ReactYouTubeManager
+12-11 11:00:05.223 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.WishlistAnimation
+12-11 11:00:05.225 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.viewability.TrackerViewManager
+12-11 11:00:05.226 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.recyclerview.ReactNestedScrollViewabilityViewManager
+12-11 11:00:05.227 26222 26338 E CursorWindow: Failed to read row 13, column 29 from a CursorWindow which has 17 rows, 29 columns.
+12-11 11:00:05.227 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.viewability.PlaceholderViewManager
+12-11 11:00:05.228 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.material.AppBarLayoutManager
+12-11 11:00:05.229 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.material.CoordinatorLayoutManager
+12-11 11:00:05.229 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.material.BottomViewManager
+12-11 11:00:05.229 26222 26338 E CursorWindow: Failed to read row 14, column 29 from a CursorWindow which has 17 rows, 29 columns.
+12-11 11:00:05.230 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.material.toolbar.ToolbarManager
+12-11 11:00:05.232 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.oblador.shimmer.RNShimmerManager
+12-11 11:00:05.232 26222 26338 E CursorWindow: Failed to read row 15, column 29 from a CursorWindow which has 17 rows, 29 columns.
+12-11 11:00:05.233 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.image.Fk360ImageViewManager
+12-11 11:00:05.234 26222 26338 E CursorWindow: Failed to read row 16, column 29 from a CursorWindow which has 17 rows, 29 columns.
+12-11 11:00:05.235 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.ExtendedReactViewManager
+12-11 11:00:05.236 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.FKVideoViewManager
+12-11 11:00:05.236 24345 18643 W NetworkScheduler: Error inserting flex_time=3316000 job_id=-1 period=6634000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664605230 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 11:00:05.239 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.FKLiveVideoViewManager
+12-11 11:00:05.241 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.FKGifViewManager
+12-11 11:00:05.242 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.viewability.MultiConditionTrackerViewManager
+12-11 11:00:05.244 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.StoryViewManager
+12-11 11:00:05.247 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.tryonlooks.TryOnLipstickFaceView
+12-11 11:00:05.248 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.ViewWrapperManager
+12-11 11:00:05.248 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.voice.VoiceInputBarViewManager
+12-11 11:00:05.250 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.camera.CameraViewManager
+12-11 11:00:05.251 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.flipkart.android.reactnative.nativeuimodules.voice.MicViewManager
+12-11 11:00:05.253 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.webview.RNCWebViewManager
+12-11 11:00:05.255 26222 26222 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.viewpager.ReactViewPagerManager
+12-11 11:00:05.259 26222 26222 D SoLoader: About to load: libyoga.so
+12-11 11:00:05.259 26222 26222 D SoLoader: libyoga.so not found on /data/user/0/com.flipkart.android/lib-main
+12-11 11:00:05.259 26222 26222 D SoLoader: libyoga.so found on /data/app/~~AyNcwMNVTgJJmuyoQ36DuQ==/com.flipkart.android-2FPjidu9cl0MIe0Lo372nw==/lib/arm64
+12-11 11:00:05.259 26222 26222 D SoLoader: Not resolving dependencies for libyoga.so
+12-11 11:00:05.261 26222 26222 D SoLoader: Loaded: libyoga.so
+12-11 11:00:05.284 26222 26343 E CursorWindow: Failed to read row 0, column 29 from a CursorWindow which has 1 rows, 29 columns.
+12-11 11:00:05.286 26222 26222 W System.err: java.net.MalformedURLException: no protocol: homepage
+12-11 11:00:05.286 26222 26222 W System.err: 	at java.net.URL.<init>(URL.java:601)
+12-11 11:00:05.286 26222 26222 W System.err: 	at java.net.URL.<init>(URL.java:498)
+12-11 11:00:05.286 26222 26222 W System.err: 	at java.net.URL.<init>(URL.java:447)
+12-11 11:00:05.286 26222 26222 W System.err: 	at com.flipkart.android.utils.cc.getUrlPath(Unknown Source:2)
+12-11 11:00:05.286 26222 26222 W System.err: 	at com.flipkart.android.bottomnavigation.c.a(Unknown Source:139)
+12-11 11:00:05.286 26222 26222 W System.err: 	at com.flipkart.android.bottomnavigation.c.update(Unknown Source:135)
+12-11 11:00:05.286 26222 26222 W System.err: 	at com.flipkart.android.reactnative.nativeuimodules.reactbottombar.ReactBottomNavigationFragment.emitAlreadyExistingResponse(Unknown Source:15)
+12-11 11:00:05.286 26222 26222 W System.err: 	at com.flipkart.android.reactnative.nativeuimodules.reactbottombar.ReactBottomNavigationFragment.onLoadFinished(Unknown Source:84)
+12-11 11:00:05.286 26222 26222 W System.err: 	at com.flipkart.android.reactnative.nativeuimodules.reactbottombar.ReactBottomNavigationFragment.onLoadFinished(Unknown Source:2)
+12-11 11:00:05.286 26222 26222 W System.err: 	at androidx.loader.app.LoaderManagerImpl$LoaderObserver.onChanged(Unknown Source:46)
+12-11 11:00:05.286 26222 26222 W System.err: 	at androidx.lifecycle.LiveData.considerNotify(Unknown Source:29)
+12-11 11:00:05.286 26222 26222 W System.err: 	at androidx.lifecycle.LiveData.dispatchingValue(Unknown Source:44)
+12-11 11:00:05.286 26222 26222 W System.err: 	at androidx.lifecycle.LiveData.setValue(Unknown Source:14)
+12-11 11:00:05.286 26222 26222 W System.err: 	at androidx.lifecycle.s.setValue(Unknown Source:0)
+12-11 11:00:05.286 26222 26222 W System.err: 	at androidx.loader.app.LoaderManagerImpl$LoaderInfo.setValue(Unknown Source:0)
+12-11 11:00:05.286 26222 26222 W System.err: 	at androidx.loader.app.LoaderManagerImpl$LoaderInfo.onLoadComplete(Unknown Source:36)
+12-11 11:00:05.286 26222 26222 W System.err: 	at androidx.loader.content.Loader.deliverResult(Unknown Source:4)
+12-11 11:00:05.286 26222 26222 W System.err: 	at androidx.loader.content.CursorLoader.deliverResult(Unknown Source:22)
+12-11 11:00:05.286 26222 26222 W System.err: 	at androidx.loader.content.CursorLoader.deliverResult(Unknown Source:2)
+12-11 11:00:05.286 26222 26222 W System.err: 	at androidx.loader.content.AsyncTaskLoader.dispatchOnLoadComplete(Unknown Source:30)
+12-11 11:00:05.286 26222 26222 W System.err: 	at androidx.loader.content.AsyncTaskLoader$a.a(Unknown Source:2)
+12-11 11:00:05.286 26222 26222 W System.err: 	at androidx.loader.content.a.e(Unknown Source:10)
+12-11 11:00:05.287 26222 26222 W System.err: 	at androidx.loader.content.a$b.handleMessage(Unknown Source:28)
+12-11 11:00:05.287 26222 26222 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+12-11 11:00:05.287 26222 26222 W System.err: 	at android.os.Looper.loop(Looper.java:223)
+12-11 11:00:05.287 26222 26222 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+12-11 11:00:05.287 26222 26222 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+12-11 11:00:05.287 26222 26222 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+12-11 11:00:05.287 26222 26222 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+12-11 11:00:05.287 26222 26342 E CursorWindow: Failed to read row 0, column 29 from a CursorWindow which has 14 rows, 29 columns.
+12-11 11:00:05.287 26222 26342 E CursorWindow: Failed to read row 1, column 29 from a CursorWindow which has 14 rows, 29 columns.
+12-11 11:00:05.291 26222 26342 E CursorWindow: Failed to read row 2, column 29 from a CursorWindow which has 14 rows, 29 columns.
+12-11 11:00:05.291 26222 26342 E CursorWindow: Failed to read row 3, column 29 from a CursorWindow which has 14 rows, 29 columns.
+12-11 11:00:05.291 26222 26342 E CursorWindow: Failed to read row 4, column 29 from a CursorWindow which has 14 rows, 29 columns.
+12-11 11:00:05.294 26222 26342 E CursorWindow: Failed to read row 5, column 29 from a CursorWindow which has 14 rows, 29 columns.
+12-11 11:00:05.294 26222 26342 E CursorWindow: Failed to read row 6, column 29 from a CursorWindow which has 14 rows, 29 columns.
+12-11 11:00:05.298 26222 26340 E CursorWindow: Failed to read row 0, column 29 from a CursorWindow which has 17 rows, 29 columns.
+12-11 11:00:05.300 26222 26340 E CursorWindow: Failed to read row 1, column 29 from a CursorWindow which has 17 rows, 29 columns.
+12-11 11:00:05.301 26222 26222 E RecyclerView: No adapter attached; skipping layout
+12-11 11:00:05.301 26222 26340 E CursorWindow: Failed to read row 2, column 29 from a CursorWindow which has 17 rows, 29 columns.
+12-11 11:00:05.301 26222 26342 E CursorWindow: Failed to read row 7, column 29 from a CursorWindow which has 14 rows, 29 columns.
+12-11 11:00:05.302 26222 26340 E CursorWindow: Failed to read row 3, column 29 from a CursorWindow which has 17 rows, 29 columns.
+12-11 11:00:05.302 26222 26342 E CursorWindow: Failed to read row 8, column 29 from a CursorWindow which has 14 rows, 29 columns.
+12-11 11:00:05.302 26222 26342 E CursorWindow: Failed to read row 9, column 29 from a CursorWindow which has 14 rows, 29 columns.
+12-11 11:00:05.302 26222 26340 E CursorWindow: Failed to read row 4, column 29 from a CursorWindow which has 17 rows, 29 columns.
+12-11 11:00:05.305 26222 26342 E CursorWindow: Failed to read row 10, column 29 from a CursorWindow which has 14 rows, 29 columns.
+12-11 11:00:05.305 26222 26340 E CursorWindow: Failed to read row 5, column 29 from a CursorWindow which has 17 rows, 29 columns.
+12-11 11:00:05.305 26222 26342 E CursorWindow: Failed to read row 11, column 29 from a CursorWindow which has 14 rows, 29 columns.
+12-11 11:00:05.306 26222 26342 E CursorWindow: Failed to read row 12, column 29 from a CursorWindow which has 14 rows, 29 columns.
+12-11 11:00:05.307 26222 26340 E CursorWindow: Failed to read row 6, column 29 from a CursorWindow which has 17 rows, 29 columns.
+12-11 11:00:05.307 26222 26340 E CursorWindow: Failed to read row 7, column 29 from a CursorWindow which has 17 rows, 29 columns.
+12-11 11:00:05.309 26222 26342 E CursorWindow: Failed to read row 13, column 29 from a CursorWindow which has 14 rows, 29 columns.
+12-11 11:00:05.310 26222 26340 E CursorWindow: Failed to read row 8, column 29 from a CursorWindow which has 17 rows, 29 columns.
+12-11 11:00:05.310 26222 26340 E CursorWindow: Failed to read row 9, column 29 from a CursorWindow which has 17 rows, 29 columns.
+12-11 11:00:05.311 26222 26340 E CursorWindow: Failed to read row 10, column 29 from a CursorWindow which has 17 rows, 29 columns.
+12-11 11:00:05.315 26222 26340 E CursorWindow: Failed to read row 11, column 29 from a CursorWindow which has 17 rows, 29 columns.
+12-11 11:00:05.315 26222 26340 E CursorWindow: Failed to read row 12, column 29 from a CursorWindow which has 17 rows, 29 columns.
+12-11 11:00:05.330 26222 26340 E CursorWindow: Failed to read row 13, column 29 from a CursorWindow which has 17 rows, 29 columns.
+12-11 11:00:05.331 26222 26340 E CursorWindow: Failed to read row 14, column 29 from a CursorWindow which has 17 rows, 29 columns.
+12-11 11:00:05.332 26222 26340 E CursorWindow: Failed to read row 15, column 29 from a CursorWindow which has 17 rows, 29 columns.
+12-11 11:00:05.332 26222 26340 E CursorWindow: Failed to read row 16, column 29 from a CursorWindow which has 17 rows, 29 columns.
+12-11 11:00:05.364 26222 26384 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:05.365 26222 26347 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:05.366 26222 26331 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:05.377 26222 26362 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:05.378 26222 26417 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:05.460 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:05.461 26222 26384 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:05.461 26222 26383 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:05.466 26222 26417 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:05.467 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:05.467 26222 26334 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:05.469 26222 26347 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:05.469 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:05.469 26222 26417 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:05.470 26222 26331 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:05.470 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:05.471 26222 26347 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:05.479 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:05.479 26222 26362 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:05.480 26222 26336 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:05.490 26222 26347 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:05.490 26222 26417 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:05.490 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:05.491 26222 26385 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:05.491 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:05.492 26222 26331 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:05.498 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:05.498 26222 26336 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:05.498 26222 26420 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:05.500 26222 26334 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:05.500 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:05.501 26222 26336 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:05.507 26222 26331 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:05.507 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:05.508 26222 26421 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:05.512 26222 26385 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:05.512 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:05.513 26222 26417 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:05.514 26222 26383 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:05.514 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:05.514 26222 26385 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:05.518 26222 26420 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:05.518 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:05.519 26222 26384 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:05.525 26222 26336 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:05.525 26222 26421 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:05.525 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:05.525 26222 26334 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:05.526 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:05.526 26222 26336 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:05.533 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:05.533 26222 26417 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:05.534 26222 26331 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:05.540 26222 26385 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:05.541 26222 26417 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:05.541 26222 26384 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:05.541 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:05.542 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:05.542 26222 26385 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:05.542 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:05.542 26222 26336 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:05.543 26222 26384 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:05.551 26222 26222 W System.err: java.net.MalformedURLException: no protocol: homepage
+12-11 11:00:05.551 26222 26222 W System.err: 	at java.net.URL.<init>(URL.java:601)
+12-11 11:00:05.551 26222 26222 W System.err: 	at java.net.URL.<init>(URL.java:498)
+12-11 11:00:05.551 26222 26222 W System.err: 	at java.net.URL.<init>(URL.java:447)
+12-11 11:00:05.551 26222 26222 W System.err: 	at com.flipkart.android.utils.cc.getUrlPath(Unknown Source:2)
+12-11 11:00:05.551 26222 26222 W System.err: 	at com.flipkart.android.bottomnavigation.c.a(Unknown Source:139)
+12-11 11:00:05.551 26222 26222 W System.err: 	at com.flipkart.android.bottomnavigation.c.update(Unknown Source:135)
+12-11 11:00:05.551 26222 26222 W System.err: 	at com.flipkart.android.reactnative.nativeuimodules.reactbottombar.ReactBottomNavigationFragment.emitAlreadyExistingResponse(Unknown Source:15)
+12-11 11:00:05.551 26222 26222 W System.err: 	at com.flipkart.android.reactnative.nativeuimodules.reactbottombar.ReactBottomNavigationFragment.onComponentWillMount(Unknown Source:0)
+12-11 11:00:05.551 26222 26222 W System.err: 	at com.flipkart.android.reactnative.nativemodules.BottomNavigationModule$2.run(Unknown Source:10)
+12-11 11:00:05.551 26222 26222 W System.err: 	at android.os.Handler.handleCallback(Handler.java:938)
+12-11 11:00:05.551 26222 26222 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+12-11 11:00:05.551 26222 26222 W System.err: 	at android.os.Looper.loop(Looper.java:223)
+12-11 11:00:05.551 26222 26222 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+12-11 11:00:05.551 26222 26222 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+12-11 11:00:05.551 26222 26222 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+12-11 11:00:05.551 26222 26222 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+12-11 11:00:05.553 26222 26331 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:05.553 26222 26334 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:05.554 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:05.554 26222 26336 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:05.554 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:05.555 26222 26331 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:05.566 26222 26385 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:05.568 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:05.568 26222 26417 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:05.568 26222 26362 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:05.569 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:05.569 26222 26347 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:05.606 26222 26384 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:05.606 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:05.607 26222 26385 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:05.608 26222 26331 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:05.608 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:05.609 26222 26384 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:05.618 26222 26336 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:05.619 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:05.621 26222 26383 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:05.627 26222 26385 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:05.628 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:05.628 26222 26421 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:05.633 26222 26384 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:05.634 26222 26385 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:05.636 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:05.641 26222 26362 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:05.641 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:05.642 26222 26356 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:05.645 26222 26383 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:05.645 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:05.646 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:05.646 26222 26347 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:05.692 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:05.692 26222 26356 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:05.764 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:05.765 26222 26421 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:05.771 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:05.773 26222 26385 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:06.215 26222 26235 I lipkart.androi: Background young concurrent copying GC freed 635446(45MB) AllocSpace objects, 257(48MB) LOS objects, 50% free, 23MB/47MB, paused 178us total 104.155ms
+12-11 11:00:06.229 26222 26236 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.google.android.play.core.internal.i
+12-11 11:00:06.229 26222 26236 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+12-11 11:00:06.273 26222 26385 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:06.274 26222 26356 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:06.274 26222 26347 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:06.274 26222 26417 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:06.275 26222 26421 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:06.291 26222 26385 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:06.291 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:06.291 26222 26384 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:06.295 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:06.296 26222 26347 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:06.296 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:06.296 26222 26385 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:06.297 26222 26356 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:06.297 26222 26347 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:06.307 26222 26385 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:06.307 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:06.308 26222 26356 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:06.320 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:06.320 26222 26421 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:06.320 26222 26385 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:06.323 26222 26356 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:06.323 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:06.323 26222 26421 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:06.324 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:06.324 26222 26417 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:06.327 26222 26384 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:06.327 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:06.329 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:06.329 26222 26385 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:06.347 26222 26347 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:06.347 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:06.361 26222 26421 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:06.361 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:08.657 26222 26421 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:08.689 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:08.689 26222 26421 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:08.981   895   895 I android.hardware.health@2.0-service.wahoo: SRAM data: 3623000
+12-11 11:00:08.989  1791  2378 D PowerUI : can't show warning due to - plugged: true status unknown: false
+12-11 11:00:09.101  1034  1034 I perfetto: probes_producer.cc:329  Producer stop (id=5708)
+12-11 11:00:09.101  1034  1034 I perfetto: ftrace_procfs.cc:183    disabled ftrace
+12-11 11:00:09.114  1035  1035 I perfetto: ng_service_impl.cc:1948 Tracing session 5708 ended, total sessions:0
+12-11 11:00:09.248  1066 26216 I iorapd  : Perfetto TraceBuffer saved to file: /data/misc/iorapd/com.flipkart.android/1200017/com.flipkart.android.activity.HomeFragmentHolderActivity/raw_traces/1607664609239625059.perfetto_trace.pb
+12-11 11:00:10.663 26162 26202 I appium  : channel read invoked!
+12-11 11:00:10.664 26162 26202 I appium  : channel read: POST /wd/hub/session/d9573d1f-218d-47b6-b267-712cec9cec5b/element
+12-11 11:00:10.666 26162 26202 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 11:00:10.676 26162 26202 I appium  : Waiting up to 10000ms for device to be idle
+12-11 11:00:10.882 26162 26202 I appium  : AppiumResponse: {"sessionId":"d9573d1f-218d-47b6-b267-712cec9cec5b","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 11:00:11.429 26162 26202 I appium  : channel read invoked!
+12-11 11:00:11.430 26162 26202 I appium  : channel read: POST /wd/hub/session/d9573d1f-218d-47b6-b267-712cec9cec5b/element
+12-11 11:00:11.435 26162 26202 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 11:00:11.436 26162 26202 I appium  : Waiting up to 10000ms for device to be idle
+12-11 11:00:11.641 26162 26202 I appium  : AppiumResponse: {"sessionId":"d9573d1f-218d-47b6-b267-712cec9cec5b","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 11:00:12.164 26162 26202 I appium  : channel read invoked!
+12-11 11:00:12.165 26162 26202 I appium  : channel read: POST /wd/hub/session/d9573d1f-218d-47b6-b267-712cec9cec5b/element
+12-11 11:00:12.168 26162 26202 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 11:00:12.169 26162 26202 I appium  : Waiting up to 10000ms for device to be idle
+12-11 11:00:12.354 26162 26202 I appium  : AppiumResponse: {"sessionId":"d9573d1f-218d-47b6-b267-712cec9cec5b","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 11:00:12.865 26222 26421 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:12.872 26162 26202 I appium  : channel read invoked!
+12-11 11:00:12.872 26162 26202 I appium  : channel read: POST /wd/hub/session/d9573d1f-218d-47b6-b267-712cec9cec5b/element
+12-11 11:00:12.875 26162 26202 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 11:00:12.875 26162 26202 I appium  : Waiting up to 10000ms for device to be idle
+12-11 11:00:12.883 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:12.883 26222 26421 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:14.800 26162 26202 I appium  : AppiumResponse: {"sessionId":"d9573d1f-218d-47b6-b267-712cec9cec5b","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 11:00:15.340 26162 26202 I appium  : channel read invoked!
+12-11 11:00:15.340 26162 26202 I appium  : channel read: POST /wd/hub/session/d9573d1f-218d-47b6-b267-712cec9cec5b/element
+12-11 11:00:15.344 26162 26202 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 11:00:15.344 26162 26202 I appium  : Waiting up to 10000ms for device to be idle
+12-11 11:00:15.456 26162 26202 I appium  : AppiumResponse: {"sessionId":"d9573d1f-218d-47b6-b267-712cec9cec5b","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 11:00:15.979 26162 26202 I appium  : channel read invoked!
+12-11 11:00:15.979 26162 26202 I appium  : channel read: POST /wd/hub/session/d9573d1f-218d-47b6-b267-712cec9cec5b/element
+12-11 11:00:15.988 26162 26202 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 11:00:15.988 26162 26202 I appium  : Waiting up to 10000ms for device to be idle
+12-11 11:00:16.155 26162 26202 I appium  : AppiumResponse: {"sessionId":"d9573d1f-218d-47b6-b267-712cec9cec5b","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 11:00:16.673 26162 26202 I appium  : channel read invoked!
+12-11 11:00:16.674 26162 26202 I appium  : channel read: POST /wd/hub/session/d9573d1f-218d-47b6-b267-712cec9cec5b/element
+12-11 11:00:16.678 26162 26202 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 11:00:16.678 26162 26202 I appium  : Waiting up to 10000ms for device to be idle
+12-11 11:00:16.831 26162 26202 I appium  : AppiumResponse: {"sessionId":"d9573d1f-218d-47b6-b267-712cec9cec5b","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 11:00:17.075 26222 26421 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:17.127 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:17.127 26222 26421 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:17.349 26162 26202 I appium  : channel read invoked!
+12-11 11:00:17.349 26162 26202 I appium  : channel read: POST /wd/hub/session/d9573d1f-218d-47b6-b267-712cec9cec5b/element
+12-11 11:00:17.349 26162 26202 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 11:00:17.350 26162 26202 I appium  : Waiting up to 10000ms for device to be idle
+12-11 11:00:18.937 26162 26202 I appium  : AppiumResponse: {"sessionId":"d9573d1f-218d-47b6-b267-712cec9cec5b","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 11:00:19.465 26162 26202 I appium  : channel read invoked!
+12-11 11:00:19.466 26162 26202 I appium  : channel read: POST /wd/hub/session/d9573d1f-218d-47b6-b267-712cec9cec5b/element
+12-11 11:00:19.472 26162 26202 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 11:00:19.473 26162 26202 I appium  : Waiting up to 10000ms for device to be idle
+12-11 11:00:19.582 26162 26202 I appium  : AppiumResponse: {"sessionId":"d9573d1f-218d-47b6-b267-712cec9cec5b","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 11:00:20.097 26162 26202 I appium  : channel read invoked!
+12-11 11:00:20.097 26162 26202 I appium  : channel read: POST /wd/hub/session/d9573d1f-218d-47b6-b267-712cec9cec5b/element
+12-11 11:00:20.100 26162 26202 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 11:00:20.100 26162 26202 I appium  : Waiting up to 10000ms for device to be idle
+12-11 11:00:20.198 26162 26202 I appium  : AppiumResponse: {"sessionId":"d9573d1f-218d-47b6-b267-712cec9cec5b","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 11:00:20.721 26162 26202 I appium  : channel read invoked!
+12-11 11:00:20.722 26162 26202 I appium  : channel read: POST /wd/hub/session/d9573d1f-218d-47b6-b267-712cec9cec5b/element
+12-11 11:00:20.725 26162 26202 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 11:00:20.725 26162 26202 I appium  : Waiting up to 10000ms for device to be idle
+12-11 11:00:20.821 26162 26202 I appium  : AppiumResponse: {"sessionId":"d9573d1f-218d-47b6-b267-712cec9cec5b","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 11:00:21.285 26222 26421 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:21.317 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:21.317 26222 26421 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:21.338 26162 26202 I appium  : channel read invoked!
+12-11 11:00:21.338 26162 26202 I appium  : channel read: POST /wd/hub/session/d9573d1f-218d-47b6-b267-712cec9cec5b/element
+12-11 11:00:21.340 26162 26202 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 11:00:21.340 26162 26202 I appium  : Waiting up to 10000ms for device to be idle
+12-11 11:00:23.067 26162 26202 I appium  : AppiumResponse: {"sessionId":"d9573d1f-218d-47b6-b267-712cec9cec5b","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 11:00:23.622 26162 26202 I appium  : channel read invoked!
+12-11 11:00:23.623 26162 26202 I appium  : channel read: POST /wd/hub/session/d9573d1f-218d-47b6-b267-712cec9cec5b/element
+12-11 11:00:23.625 26162 26202 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 11:00:23.626 26162 26202 I appium  : Waiting up to 10000ms for device to be idle
+12-11 11:00:23.725 26162 26202 I appium  : AppiumResponse: {"sessionId":"d9573d1f-218d-47b6-b267-712cec9cec5b","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 11:00:24.253 26162 26202 I appium  : channel read invoked!
+12-11 11:00:24.253 26162 26202 I appium  : channel read: POST /wd/hub/session/d9573d1f-218d-47b6-b267-712cec9cec5b/element
+12-11 11:00:24.256 26162 26202 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 11:00:24.257 26162 26202 I appium  : Waiting up to 10000ms for device to be idle
+12-11 11:00:24.374 26162 26202 I appium  : AppiumResponse: {"sessionId":"d9573d1f-218d-47b6-b267-712cec9cec5b","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 11:00:24.892 26162 26202 I appium  : channel read invoked!
+12-11 11:00:24.893 26162 26202 I appium  : channel read: POST /wd/hub/session/d9573d1f-218d-47b6-b267-712cec9cec5b/element
+12-11 11:00:24.896 26162 26202 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 11:00:24.896 26162 26202 I appium  : Waiting up to 10000ms for device to be idle
+12-11 11:00:24.970 26162 26202 I appium  : AppiumResponse: {"sessionId":"d9573d1f-218d-47b6-b267-712cec9cec5b","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 11:00:25.491 26162 26202 I appium  : channel read invoked!
+12-11 11:00:25.492 26162 26202 I appium  : channel read: POST /wd/hub/session/d9573d1f-218d-47b6-b267-712cec9cec5b/element
+12-11 11:00:25.495 26222 26421 I FirebasePerformance: Session ID - e68819a72ab3447fa1c48e878b4ba2a2
+12-11 11:00:25.495 26162 26202 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 11:00:25.495 26162 26202 I appium  : Waiting up to 10000ms for device to be idle
+12-11 11:00:25.522 26222 26327 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 11:00:25.522 26222 26421 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 11:00:27.364 26162 26202 I appium  : AppiumResponse: {"sessionId":"d9573d1f-218d-47b6-b267-712cec9cec5b","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 11:00:27.534 26162 26202 I appium  : channel read invoked!
+12-11 11:00:27.535 26162 26202 I appium  : channel read: GET /wd/hub/session/d9573d1f-218d-47b6-b267-712cec9cec5b/screenshot
+12-11 11:00:27.536 26162 26202 I appium  : Capture screenshot command
+12-11 11:00:27.697   638   638 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+12-11 11:00:27.697 26433 26433 I Gralloc4: mapper 4.x is not supported
+12-11 11:00:27.698   638   638 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@3.0::IMapper/default in either framework or device manifest.
+12-11 11:00:27.698 26433 26433 W Gralloc3: mapper 3.x is not supported
+12-11 11:00:27.716 26433 26433 W AdrenoUtils: <ReadGpuID_from_sysfs:197>: Failed to open /sys/class/kgsl/kgsl-3d0/gpu_model
+12-11 11:00:27.716 26433 26433 W AdrenoUtils: <ReadGpuID:221>: Failed to read chip ID from gpu_model. Fallback to use the GSL path
+12-11 11:00:29.168 26162 26202 I appium  : AppiumResponse: {"sessionId":"d9573d1f-218d-47b6-b267-712cec9cec5b","value":"iVBORw0KGgoAAAANSUhEUgAABaAAAAtACAYAAADu24QXAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N13nFx1vf\/x9zln6u7O9r6b3kMLvUsXFPBeQYrSFFCQK6D3p14VFcvV\n69WLKCrNBgqCSFWUFkA6hGKoCQQIKdt7nX7O749JNtlsm01mdmZ2X8\/HI49Hspk53zNnZ2dn3udz\n...
+12-11 11:00:29.555 15503 15583 I PlayCommon: [5121] avrz.h(22): Preparing logs for uploading
+12-11 11:00:29.621 15503 15583 I PlayCommon: [5121] avrz.h(167): Connecting to server: https://play.googleapis.com/play/log?format=raw&proto_v2=true
+12-11 11:00:29.879 15503 15583 I PlayCommon: [5121] avrz.h(199): Successfully uploaded logs.
+12-11 11:00:35.065 26162 26202 I appium  : channel read invoked!
+12-11 11:00:35.065 26162 26202 I appium  : channel read: DELETE /wd/hub/session/d9573d1f-218d-47b6-b267-712cec9cec5b
+12-11 11:00:35.066 26162 26202 I appium  : Delete session command
+12-11 11:00:35.070 26162 26202 I appium  : Stopping uiautomator2 io.appium.uiautomator2.http io.appium.uiautomator2.server
+12-11 11:00:35.072 26162 26202 I appium  : AppiumResponse: {"sessionId":"d9573d1f-218d-47b6-b267-712cec9cec5b","value":null}
+12-11 11:00:35.138  1406  4299 I ActivityManager: Force stopping com.flipkart.android appid=10340 user=0: from pid 26464
+12-11 11:00:35.139  1406  4299 I ActivityManager: Killing 26222:com.flipkart.android/u0a340 (adj 0): stop com.flipkart.android due to from pid 26464
+12-11 11:00:35.141  1406  4299 W ActivityTaskManager: Force removing ActivityRecord{14c0eb5 u0 com.flipkart.android/.activity.HomeFragmentHolderActivity t3760 f}}: app died, no saved state
+12-11 11:00:35.182  1406  2061 W ActivityManager: Permission Denial: Accessing service com.google.android.music/.dial.DialMediaRouteProviderService from pid=21762, uid=10190 that is not exported from uid 10167
+12-11 11:00:35.183  2117  2117 D CarrierSvcBindHelper: No carrier app for: 0
+12-11 11:00:35.184  3305  3305 D RegisteredNfcFServicesCache: Service unchanged, not updating
+12-11 11:00:35.185 18590 26467 I EuiccGoogle: [55072] EuiccServiceImpl.onGetEuiccProfileInfoList: onGetEuiccProfileInfoList: slotId = -1
+12-11 11:00:35.188   868   868 I Zygote  : Process 26222 exited due to signal 9 (Killed)
+12-11 11:00:35.194  1406  1477 I libprocessgroup: Successfully killed process cgroup uid 10340 pid 26222 in 53ms
+12-11 11:00:35.200  1916  1916 D QcrilMsgTunnelIfaceManager: handleMessage what = 1
+12-11 11:00:35.202  1406  1439 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ TRACK_DEFAULT id=23431, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10340 AdministratorUids: [] RequestorUid: 10340 RequestorPackageName: com.flipkart.android] ], android.os.BinderProxy@e912283)
+12-11 11:00:35.202  1406  1644 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=23431, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10340 AdministratorUids: [] RequestorUid: 10340 RequestorPackageName: com.flipkart.android] ] (release request)
+12-11 11:00:35.203  1916  1916 I QcrilOemhookMsgTunnel: [0]invokeOemRilRequestRaw: serial=2421 length=16
+12-11 11:00:35.205  1916  1945 I QcrilOemhookMsgTunnel: [0]processOemHookResponse serial no: 2421 error: 0length=88
+12-11 11:00:35.206  1916  1916 D QcrilMsgTunnelIfaceManager: handleMessage what = 2
+12-11 11:00:35.206  1406  3275 W WindowManager: Cannot find window which accessibility connection is added to
+12-11 11:00:35.206 18590 26467 I EuiccGoogle: [55072] UiccLogicalChannel.open: Locked on aid: A0000005591010FFFFFFFF8900000100
+12-11 11:00:35.207  1406  1469 W ActivityManager: setHasOverlayUi called on unknown pid: 26222
+12-11 11:00:35.217  1791  1791 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+12-11 11:00:35.219  1791  1791 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=899186000[****] simSlotIndex=0 carrierId=1963 displayName=Vodafone IN carrierName=Vodafone IN nameSource=0 iconTint=-16746133 number=[****] dataRoaming=0 iconBitmap=android.graphics.Bitmap@b574031 mcc=404 mnc=86 countryIso=in isEmbedded=false nativeAccessRules=null cardString=899186000[****] cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=[] hplmns=[40486] subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+12-11 11:00:35.222  2117  2117 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+12-11 11:00:35.222  2117  2117 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+12-11 11:00:35.240  1406  1644 D ConnectivityService: NetReassign [no changes]
+12-11 11:00:35.241  2117  2117 E PhoneInterfaceManager: [PhoneIntfMgr] iccOpenLogicalChannel: Exception: com.android.internal.telephony.CommandException: NO_SUCH_ELEMENT
+12-11 11:00:35.242 18590 26467 E EuiccGoogle: [55072] UiccLogicalChannel.open: selectResponse is null. Unlocked for aid: A0000005591010FFFFFFFF8900000100
+12-11 11:00:35.242 18590 26467 W EuiccGoogle: [55072] EuiccServiceImpl.onGetEuiccProfileInfoList: slotId=-1. No eUICC is active. Return null.
+12-11 11:00:35.248 12570 12639 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+12-11 11:00:35.254 19878 19878 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3308 
+12-11 11:00:35.255 19878 19878 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1887 
+12-11 11:00:35.268 26471 26477 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+12-11 11:00:35.285 12570 12570 I BgTaskExecutorImpl: Starting EXCLUSIVE background task TNG_MINUS_ONE_SYNC.
+12-11 11:00:35.286 12570 12570 I BgTaskExecutorImpl: Starting EXCLUSIVE background task TNG_VOICE_SEARCH_SYNC.
+12-11 11:00:35.288 12570 12639 I TngMinusOneSync: Syncing TNG:-1
+12-11 11:00:35.292 12570 12639 I TngVoiceSearchSync: Syncing TNG:VoiceSearch
+12-11 11:00:35.306 26482 26484 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+12-11 11:00:35.346 26488 26490 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4

@@ -1,0 +1,720 @@
+--------- beginning of main
+12-11 10:55:10.113 24240 24273 I appium  : channel read invoked!
+12-11 10:55:10.114 24240 24273 I appium  : channel read: GET /wd/hub/status
+12-11 10:55:10.119 24240 24273 I appium  : AppiumResponse: {"sessionId":"None","value":{"ready":true,"message":"UiAutomator2 Server is ready to accept commands"}}
+12-11 10:55:10.132 24240 24273 I appium  : channel read invoked!
+12-11 10:55:10.132 24240 24273 I appium  : channel read: POST /wd/hub/session
+12-11 10:55:10.136 24240 24273 W tomator2.serve: Accessing hidden field Landroid/app/UiAutomation;->mOnAccessibilityEventListener:Landroid/app/UiAutomation$OnAccessibilityEventListener; (greylist-max-o, reflection, allowed)
+12-11 10:55:10.137 24240 24273 I appium  : Created the new session with SessionID: 628d2f11-2f0a-4446-8fb2-381aaf273d10
+12-11 10:55:10.138 24240 24273 I appium  : AppiumResponse: {"sessionId":"628d2f11-2f0a-4446-8fb2-381aaf273d10","value":{"sessionId":"628d2f11-2f0a-4446-8fb2-381aaf273d10","capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"loca...
+12-11 10:55:10.154 24240 24273 I appium  : channel read invoked!
+12-11 10:55:10.154 24240 24273 I appium  : channel read: GET /wd/hub/session/628d2f11-2f0a-4446-8fb2-381aaf273d10/appium/device/info
+12-11 10:55:10.155 24240 24273 I appium  : Get Device Info command
+12-11 10:55:10.159 24240 24273 I TetheringManager: registerTetheringEventCallback:io.appium.uiautomator2.server
+12-11 10:55:10.171 24240 24273 W tomator2.serve: Accessing hidden field Landroid/net/NetworkCapabilities;->mSignalStrength:I (greylist-max-p, reflection, allowed)
+12-11 10:55:10.171 24240 24273 W tomator2.serve: Accessing hidden field Landroid/net/NetworkCapabilities;->mNetworkSpecifier:Landroid/net/NetworkSpecifier; (greylist-max-o, reflection, allowed)
+12-11 10:55:10.171 24240 24273 W tomator2.serve: Accessing hidden field Landroid/net/NetworkCapabilities;->mSSID:Ljava/lang/String; (greylist-max-o, reflection, allowed)
+12-11 10:55:10.190 24240 24273 I appium  : AppiumResponse: {"sessionId":"628d2f11-2f0a-4446-8fb2-381aaf273d10","value":{"androidId":"6a840bcba1727937","manufacturer":"Google","model":"Pixel 2 XL","brand":"google","apiVersion":"30","platformVersion":"11","carrierName":"Vi India","realDisplaySize":"1440x2880","displayDensity":560,"networks":[{"type":1,"typ...
+--------- beginning of system
+12-11 10:55:10.250  1406  3334 W ActivityManager: Permission Denial: getIntentForIntentSender() from pid=24274, uid=2000 requires android.permission.GET_INTENT_SENDER_INTENT
+12-11 10:55:10.330  1406  3334 I ActivityManager: Force stopping com.flipkart.android appid=10340 user=0: from pid 24280
+12-11 10:55:10.337  1406  3271 W ActivityManager: Permission Denial: Accessing service com.google.android.music/.dial.DialMediaRouteProviderService from pid=21762, uid=10190 that is not exported from uid 10167
+12-11 10:55:10.338  2117  2117 D CarrierSvcBindHelper: No carrier app for: 0
+12-11 10:55:10.340  3305  3305 D RegisteredNfcFServicesCache: Service unchanged, not updating
+12-11 10:55:10.340 18590 24283 I EuiccGoogle: [55064] EuiccServiceImpl.onGetEuiccProfileInfoList: onGetEuiccProfileInfoList: slotId = -1
+12-11 10:55:10.344  1916  1916 D QcrilMsgTunnelIfaceManager: handleMessage what = 1
+12-11 10:55:10.345  1916  1916 I QcrilOemhookMsgTunnel: [0]invokeOemRilRequestRaw: serial=2416 length=16
+12-11 10:55:10.347  1916  1945 I QcrilOemhookMsgTunnel: [0]processOemHookResponse serial no: 2416 error: 0length=88
+12-11 10:55:10.347  1916  1916 D QcrilMsgTunnelIfaceManager: handleMessage what = 2
+12-11 10:55:10.348 18590 24283 I EuiccGoogle: [55064] UiccLogicalChannel.open: Locked on aid: A0000005591010FFFFFFFF8900000100
+12-11 10:55:10.374  2117  2117 E PhoneInterfaceManager: [PhoneIntfMgr] iccOpenLogicalChannel: Exception: com.android.internal.telephony.CommandException: NO_SUCH_ELEMENT
+12-11 10:55:10.375 18590 24283 E EuiccGoogle: [55064] UiccLogicalChannel.open: selectResponse is null. Unlocked for aid: A0000005591010FFFFFFFF8900000100
+12-11 10:55:10.375 18590 24283 W EuiccGoogle: [55064] EuiccServiceImpl.onGetEuiccProfileInfoList: slotId=-1. No eUICC is active. Return null.
+12-11 10:55:10.587  1406  3334 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.flipkart.android/.activity.HomeFragmentHolderActivity} from uid 2000
+12-11 10:55:10.589  1406  1469 D EventSequenceValidator: IntentStarted during UNKNOWN. Intent { flg=0x10000000 cmp=com.flipkart.android/.activity.HomeFragmentHolderActivity }
+12-11 10:55:10.589  1406  1469 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+12-11 10:55:10.589  1406  1469 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+12-11 10:55:10.589  1406  1469 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentStarted(EventSequenceValidator.java:106)
+12-11 10:55:10.589  1406  1469 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentStarted(LaunchObserverRegistryImpl.java:139)
+12-11 10:55:10.589  1406  1469 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$veRn_GhgLZLlOHOJ0ZYT6KcfYqo(Unknown Source:0)
+12-11 10:55:10.589  1406  1469 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$veRn_GhgLZLlOHOJ0ZYT6KcfYqo.accept(Unknown Source:10)
+12-11 10:55:10.589  1406  1469 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+12-11 10:55:10.589  1406  1469 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+12-11 10:55:10.589  1406  1469 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+12-11 10:55:10.589  1406  1469 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+12-11 10:55:10.589  1406  1469 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+12-11 10:55:10.589  1406  1469 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+12-11 10:55:10.589  1406  1469 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+12-11 10:55:10.589  1406  1469 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+12-11 10:55:10.589  1406  1469 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+12-11 10:55:10.598  1035  1035 I perfetto: ing_service_impl.cc:758 Configured tracing session 5706, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:1, uid:1071 session name: ""
+12-11 10:55:10.599  1034  1034 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=5706)
+12-11 10:55:10.609  1034  1034 I perfetto: ftrace_procfs.cc:176    enabled ftrace
+12-11 10:55:10.623   671   671 D android.hardware.power@1.3-service.pixel-libperfmgr: LAUNCH: 1
+12-11 10:55:10.635  1406  1469 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10340; state: DISABLED
+12-11 10:55:10.635  1406  1476 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10340; state: DISABLED
+12-11 10:55:10.636  1406  1469 D EventSequenceValidator: onActivityLaunched during UNKNOWN.
+12-11 10:55:10.636  1406  1469 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+12-11 10:55:10.636  1406  1469 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+12-11 10:55:10.636  1406  1469 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onActivityLaunched(EventSequenceValidator.java:149)
+12-11 10:55:10.636  1406  1469 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnActivityLaunched(LaunchObserverRegistryImpl.java:157)
+12-11 10:55:10.636  1406  1469 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$UGY1OclnLIQLMEL9B55qjERFf4o(Unknown Source:0)
+12-11 10:55:10.636  1406  1469 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$UGY1OclnLIQLMEL9B55qjERFf4o.accept(Unknown Source:10)
+12-11 10:55:10.636  1406  1469 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+12-11 10:55:10.636  1406  1469 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+12-11 10:55:10.636  1406  1469 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+12-11 10:55:10.636  1406  1469 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+12-11 10:55:10.636  1406  1469 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+12-11 10:55:10.636  1406  1469 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+12-11 10:55:10.636  1406  1469 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+12-11 10:55:10.636  1406  1469 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+12-11 10:55:10.647   868   868 D Zygote  : Forked child process 24289
+12-11 10:55:10.649  1406  1476 I ActivityManager: Start proc 24289:com.flipkart.android/u0a340 for pre-top-activity {com.flipkart.android/com.flipkart.android.activity.HomeFragmentHolderActivity}
+12-11 10:55:10.669 24289 24289 E lipkart.androi: Not starting debugger since process cannot load the jdwp agent.
+12-11 10:55:10.694 24289 24289 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+12-11 10:55:10.697 24289 24289 I lipkart.androi: The ClassLoaderContext is a special shared library.
+12-11 10:55:10.710 24289 24289 I LoadedApk: No resource references to update in package com.flipkart.android.chat
+12-11 10:55:10.710 24289 24289 I LoadedApk: No resource references to update in package com.flipkart.android.condition_assessor
+12-11 10:55:10.710 24289 24289 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+12-11 10:55:10.711 24289 24289 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+12-11 10:55:10.719 24289 24289 I MultiDex: VM with version 2.1.0 has multidex support
+12-11 10:55:10.719 24289 24289 I MultiDex: Installing application
+12-11 10:55:10.719 24289 24289 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+12-11 10:55:10.730 24289 24289 I FirebaseApp: Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+12-11 10:55:10.747 24289 24320 I TetheringManager: registerTetheringEventCallback:com.flipkart.android
+12-11 10:55:10.747 24289 24289 W cd      : Application name is not set. Call Builder#setApplicationName.
+12-11 10:55:10.749 24289 24322 W cd      : Application name is not set. Call Builder#setApplicationName.
+12-11 10:55:10.758 24289 24289 W FirebaseCrashlytics: A new version of the Google Analytics for Firebase SDK is now available. For improved performance and compatibility with Crashlytics, please update to the latest version.
+12-11 10:55:10.763 24289 24289 I FirebaseCrashlytics: Initializing Crashlytics 17.2.2
+12-11 10:55:10.773 24289 24289 I FirebaseInitProvider: FirebaseApp initialization successful
+12-11 10:55:10.816 24289 24348 E ADBMobile: ADBMobile Error : Wearable - Failed to load class com.adobe.mobile.ConfigSynchronizer
+12-11 10:55:10.831  1406  3938 D CompatibilityChangeReporter: Compat change id reported: 136274596; UID 10340; state: DISABLED
+12-11 10:55:10.850 24289 24347 I Tune#a():107: Initializing Tune Version 4.16.0
+12-11 10:55:10.886 24289 24317 I FA      : App measurement is starting up, version: 16250
+12-11 10:55:10.886 24289 24317 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+12-11 10:55:10.886 24289 24317 I FA      : To enable faster debug mode event logging run:
+12-11 10:55:10.886 24289 24317 I FA      :   adb shell setprop debug.firebase.analytics.app com.flipkart.android
+12-11 10:55:10.928 24289 24289 I PlayCore: UID: [10340]  PID: [24289] SplitInstallListenerRegistry : registerListener
+12-11 10:55:10.956 21818 21818 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.key.retrieval.service.START cmp=com.google.android.gms/.chimera.GmsApiService }
+12-11 10:55:10.977 24289 24289 D FirebasePerformance: Creating a new Non Verbose Session: d61775e8e25f44009a401a2c0ad87ea1
+12-11 10:55:10.978 24289 24289 D FirebasePerformance: Creating a new Non Verbose Session: 4c23fabf08074898831b865041eccf5e
+12-11 10:55:10.984 24289 24289 I PlayCore: UID: [10340]  PID: [24289] AppUpdateService : requestUpdateInfo(com.flipkart.android)
+12-11 10:55:10.985 24289 24343 I TableUtils: creating table 'flipkartProductInfo'
+12-11 10:55:10.986 24289 24393 I PlayCore: UID: [10340]  PID: [24289] AppUpdateService : Initiate binding to the service.
+12-11 10:55:10.986 24289 24343 I TableUtils: executed create table statement changed 1 rows: CREATE TABLE `flipkartProductInfo` (`combinedId` VARCHAR , `pid` VARCHAR , `time` BIGINT , `response` BLOB , `lid` VARCHAR , PRIMARY KEY (`combinedId`) , UNIQUE (`pid`,`lid`) ) 
+12-11 10:55:10.987 24289 24343 I TableUtils: creating table 'proteusLayout'
+12-11 10:55:10.989 24289 24343 I TableUtils: executed create table statement changed 1 rows: CREATE TABLE `proteusLayout` (`layoutId` VARCHAR , `layout` VARCHAR , PRIMARY KEY (`layoutId`) ) 
+12-11 10:55:10.990 24289 24343 I TableUtils: creating table 'widgetData'
+12-11 10:55:10.990 24289 24343 I TableUtils: executed create table statement changed 1 rows: CREATE TABLE `widgetData` (`creationTime` BIGINT , `widgetId` VARCHAR , `widgetResponse` BLOB , PRIMARY KEY (`widgetId`) ) 
+12-11 10:55:10.990 24289 24343 I TableUtils: creating table 'pageLayoutData'
+12-11 10:55:10.991 24289 24343 I TableUtils: creating index 'pageLayoutData_widgetId_idx' for table 'pageLayoutData
+12-11 10:55:10.991 24289 24343 I TableUtils: creating index 'pageLayoutData_pageId_idx' for table 'pageLayoutData
+12-11 10:55:10.991 24289 24343 I TableUtils: executed create table statement changed 1 rows: CREATE TABLE `pageLayoutData` (`layoutId` VARCHAR , `pageId` VARCHAR , `pageLayoutDataId` INTEGER PRIMARY KEY AUTOINCREMENT , `widgetId` VARCHAR ) 
+12-11 10:55:10.992 24289 24343 I TableUtils: executed create table statement changed 1 rows: CREATE INDEX `pageLayoutData_widgetId_idx` ON `pageLayoutData` ( `widgetId` )
+12-11 10:55:10.992 24289 24343 I TableUtils: executed create table statement changed 1 rows: CREATE INDEX `pageLayoutData_pageId_idx` ON `pageLayoutData` ( `pageId` )
+12-11 10:55:10.993 24289 24343 I TableUtils: creating table 'pageContextData'
+12-11 10:55:10.993 24289 24343 I TableUtils: executed create table statement changed 1 rows: CREATE TABLE `pageContextData` (`pageContextData` VARCHAR , `pageId` VARCHAR , PRIMARY KEY (`pageId`) ) 
+12-11 10:55:10.993 24289 24343 I TableUtils: creating table 'flipkartProductInfo'
+12-11 10:55:10.993 24289 24343 E SQLiteLog: (1) table `flipkartProductInfo` already exists in "CREATE TABLE `flipkartProductInfo` (`combinedId` VARCHAR , `pid` VARCHAR , `time` BIGINT , `response` BLOB , `lid` VARCHAR , PRIMARY KEY (`combinedId`) , UNIQUE (
+12-11 10:55:10.998 24289 24343 I TableUtils: creating table 'proteusLayout'
+12-11 10:55:10.998 24289 24343 E SQLiteLog: (1) table `proteusLayout` already exists in "CREATE TABLE `proteusLayout` (`layoutId` VARCHAR , `layout` VARCHAR , PRIMARY KEY (`layoutId`) )"
+12-11 10:55:10.998 24289 24343 I TableUtils: creating table 'widgetData'
+12-11 10:55:10.998 24289 24343 E SQLiteLog: (1) table `widgetData` already exists in "CREATE TABLE `widgetData` (`creationTime` BIGINT , `widgetId` VARCHAR , `widgetResponse` BLOB , PRIMARY KEY (`widgetId`) )"
+12-11 10:55:10.998 24289 24343 I TableUtils: creating table 'pageLayoutData'
+12-11 10:55:10.999 24289 24343 I TableUtils: creating index 'pageLayoutData_widgetId_idx' for table 'pageLayoutData
+12-11 10:55:10.999 24289 24343 I TableUtils: creating index 'pageLayoutData_pageId_idx' for table 'pageLayoutData
+12-11 10:55:10.999 24289 24343 E SQLiteLog: (1) table `pageLayoutData` already exists in "CREATE TABLE `pageLayoutData` (`layoutId` VARCHAR , `pageId` VARCHAR , `pageLayoutDataId` INTEGER PRIMARY KEY AUTOINCREMENT , `widgetId` VARCHAR )"
+12-11 10:55:10.999 24289 24343 I TableUtils: creating table 'pageContextData'
+12-11 10:55:10.999 24289 24343 E SQLiteLog: (1) table `pageContextData` already exists in "CREATE TABLE `pageContextData` (`pageContextData` VARCHAR , `pageId` VARCHAR , PRIMARY KEY (`pageId`) )"
+12-11 10:55:11.000 24289 24343 I TableUtils: creating table 'flipkartProductVInfo'
+12-11 10:55:11.002 24289 24343 I TableUtils: executed create table statement changed 1 rows: CREATE TABLE `flipkartProductVInfo` (`combinedId` VARCHAR , `pid` VARCHAR , `time` BIGINT , `response` BLOB , `lid` VARCHAR , PRIMARY KEY (`combinedId`) , UNIQUE (`pid`,`lid`) ) 
+12-11 10:55:11.010  1406  3272 I ActivityTaskManager: START u0 {cmp=com.flipkart.android/.SplashActivity (has extras)} from uid 10340
+12-11 10:55:11.012   671   671 D android.hardware.power@1.3-service.pixel-libperfmgr: LAUNCH: 1
+12-11 10:55:11.032  1791  1791 W Choreographer: Frame time is 0.205716 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+12-11 10:55:11.050 24289 24317 I FA      : Tag Manager is not found and thus will not be used
+12-11 10:55:11.080  1406  3940 D ConnectivityService: requestNetwork for uid/pid:10340/24289 NetworkRequest [ TRACK_DEFAULT id=23395, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10340 AdministratorUids: [] RequestorUid: 10340 RequestorPackageName: com.flipkart.android] ]
+12-11 10:55:11.081  1406  1644 D ConnectivityService: NetReassign [23395 : null → 457]
+12-11 10:55:11.081  1406  1720 D Ethernet: got request NetworkRequest [ TRACK_DEFAULT id=23395, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10340 AdministratorUids: [] RequestorUid: 10340 RequestorPackageName: com.flipkart.android] ] with score 60 and providerId 5
+12-11 10:55:11.081  1406  1719 D WIFI_AWARE_FACTORY: got request NetworkRequest [ TRACK_DEFAULT id=23395, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10340 AdministratorUids: [] RequestorUid: 10340 RequestorPackageName: com.flipkart.android] ] with score 60 and providerId 5
+12-11 10:55:11.081  1406  1619 D UntrustedWifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=23395, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10340 AdministratorUids: [] RequestorUid: 10340 RequestorPackageName: com.flipkart.android] ] with score 60 and providerId 5
+12-11 10:55:11.081  1406  1619 D WifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=23395, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10340 AdministratorUids: [] RequestorUid: 10340 RequestorPackageName: com.flipkart.android] ] with score 60 and providerId 5
+12-11 10:55:11.081  2117  2117 D PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ TRACK_DEFAULT id=23395, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10340 AdministratorUids: [] RequestorUid: 10340 RequestorPackageName: com.flipkart.android] ] with score 60 and providerId 5
+12-11 10:55:11.084 24289 24289 I PlayCore: UID: [10340]  PID: [24289] AppUpdateService : ServiceConnectionImpl.onServiceConnected(ComponentInfo{com.android.vending/com.google.android.finsky.installservice.DevTriggeredUpdateService})
+12-11 10:55:11.084 24289 24393 I PlayCore: UID: [10340]  PID: [24289] AppUpdateService : linkToDeath
+12-11 10:55:11.087 24289 24317 E FA      : Name must consist of letters, digits or _ (underscores). Type, name: event, Push Notification
+12-11 10:55:11.087 24289 24317 E FA      : Invalid public event name. Event will not be logged (FE): Push Notification
+12-11 10:55:11.087  1406  3940 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (461549643)
+12-11 10:55:11.090  1791  1791 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+12-11 10:55:11.091  2117  2117 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+12-11 10:55:11.091  2117  2117 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+12-11 10:55:11.093 15503 24416 I Finsky  : [5223] sap.a(5): Using cached document to get update info
+12-11 10:55:11.093 15503 24416 W Finsky  : [5223] sdg.e(2): No cached information about app com.flipkart.android, while trying to retrieve app details.
+12-11 10:55:11.093 15503 24416 E Finsky  : [5223] sap.a(7): In-app-update: Missing AppDetails!
+12-11 10:55:11.094  1791  1791 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=899186000[****] simSlotIndex=0 carrierId=1963 displayName=Vodafone IN carrierName=Vodafone IN nameSource=0 iconTint=-16746133 number=[****] dataRoaming=0 iconBitmap=android.graphics.Bitmap@30cfd99 mcc=404 mnc=86 countryIso=in isEmbedded=false nativeAccessRules=null cardString=899186000[****] cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=[] hplmns=[40486] subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+12-11 10:55:11.100 15503 24416 W Finsky  : [5223] sau.a(3): No cached information about app com.flipkart.android, while trying to retrieve the available version code.
+12-11 10:55:11.105 24289 24418 I PlayCore: UID: [10340]  PID: [24289] OnRequestInstallCallback : onRequestInfo
+12-11 10:55:11.105 24289 24393 I PlayCore: UID: [10340]  PID: [24289] AppUpdateService : Unbind from service.
+12-11 10:55:11.112  1406  1644 D ConnectivityService: NetReassign [no changes]
+12-11 10:55:11.120 24289 24289 D FirebasePerformance: Creating a new Non Verbose Session: d853757acaf446e898806cf59ab9eb13
+12-11 10:55:11.136 24289 24289 I FirebasePerformance: Session ID - d853757acaf446e898806cf59ab9eb13
+12-11 10:55:11.137 24289 24289 D FirebasePerformance: onResume(): com.flipkart.android.SplashActivity: 414640 microseconds
+12-11 10:55:11.140 24345 18433 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+12-11 10:55:11.146 24289 24432 E TUNETuneParameters#getFireAdTrackingLimited():31: Error parsing fireAdTrackingLimited value null
+12-11 10:55:11.146 24289 24432 E TUNETuneParameters#getFireAdTrackingLimited():31: java.lang.NumberFormatException: s == null
+12-11 10:55:11.146 24289 24432 E TUNETuneParameters#getFireAdTrackingLimited():31: 	at java.lang.Integer.parseInt(Integer.java:577)
+12-11 10:55:11.146 24289 24432 E TUNETuneParameters#getFireAdTrackingLimited():31: 	at java.lang.Integer.parseInt(Integer.java:650)
+12-11 10:55:11.146 24289 24432 E TUNETuneParameters#getFireAdTrackingLimited():31: 	at com.tune.TuneParameters.getFireAdTrackingLimited(Unknown Source:6)
+12-11 10:55:11.146 24289 24432 E TUNETuneParameters#getFireAdTrackingLimited():31: 	at com.tune.c.a(Unknown Source:940)
+12-11 10:55:11.146 24289 24432 E TUNETuneParameters#getFireAdTrackingLimited():31: 	at com.tune.Tune$4.run(Unknown Source:164)
+12-11 10:55:11.146 24289 24432 E TUNETuneParameters#getFireAdTrackingLimited():31: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+12-11 10:55:11.146 24289 24432 E TUNETuneParameters#getFireAdTrackingLimited():31: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+12-11 10:55:11.146 24289 24432 E TUNETuneParameters#getFireAdTrackingLimited():31: 	at java.lang.Thread.run(Thread.java:923)
+12-11 10:55:11.147 24345 18433 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@204516046@20.45.16 (150400-344294571):2)
+12-11 10:55:11.147 24345 18433 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@204516046@20.45.16 (150400-344294571):0)
+12-11 10:55:11.188 24289 24386 I AdrenoGLES-0: QUALCOMM build                   : 02fe52e, Ie73904e3bd
+12-11 10:55:11.188 24289 24386 I AdrenoGLES-0: Build Date                       : 06/27/20
+12-11 10:55:11.188 24289 24386 I AdrenoGLES-0: OpenGL ES Shader Compiler Version: EV031.31.04.00
+12-11 10:55:11.188 24289 24386 I AdrenoGLES-0: Local Branch                     : gfx-adreno.lnx.2.0
+12-11 10:55:11.188 24289 24386 I AdrenoGLES-0: Remote Branch                    : quic/gfx-adreno.lnx.2.0
+12-11 10:55:11.188 24289 24386 I AdrenoGLES-0: Remote Branch                    : NONE
+12-11 10:55:11.188 24289 24386 I AdrenoGLES-0: Reconstruct Branch               : NOTHING
+12-11 10:55:11.188 24289 24386 I AdrenoGLES-0: Build Config                     : S L 10.0.5 AArch64
+12-11 10:55:11.188 24289 24386 I AdrenoGLES-0: Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+12-11 10:55:11.194 24345 18433 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+12-11 10:55:11.194 24345 18433 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@204516046@20.45.16 (150400-344294571):2)
+12-11 10:55:11.194 24345 18433 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@204516046@20.45.16 (150400-344294571):0)
+12-11 10:55:11.207 24289 24386 I AdrenoGLES-0: PFP: 0x005ff112, ME: 0x005ff066
+12-11 10:55:11.209 24289 24386 W AdrenoUtils: <ReadGpuID_from_sysfs:197>: Failed to open /sys/class/kgsl/kgsl-3d0/gpu_model
+12-11 10:55:11.209 24289 24386 W AdrenoUtils: <ReadGpuID:221>: Failed to read chip ID from gpu_model. Fallback to use the GSL path
+12-11 10:55:11.217 24289 24402 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=89b6a1d0-ff82-430e-91f0-a967a86dee63, tags={ com.flipkart.android.notification.FkPNTaskWorker } ]
+12-11 10:55:11.240   638   638 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+12-11 10:55:11.240 24289 24386 I Gralloc4: mapper 4.x is not supported
+12-11 10:55:11.241   638   638 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@3.0::IMapper/default in either framework or device manifest.
+12-11 10:55:11.241 24289 24386 W Gralloc3: mapper 3.x is not supported
+12-11 10:55:11.329  1406  1469 D EventSequenceValidator: onActivityLaunchFinished during UNKNOWN.
+12-11 10:55:11.329  1406  1469 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+12-11 10:55:11.329  1406  1469 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+12-11 10:55:11.329  1406  1469 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onActivityLaunchFinished(EventSequenceValidator.java:185)
+12-11 10:55:11.329  1406  1469 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnActivityLaunchFinished(LaunchObserverRegistryImpl.java:175)
+12-11 10:55:11.329  1406  1469 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$QcawcFcJtEX4EhYptq_Vb4j368Y(Unknown Source:0)
+12-11 10:55:11.329  1406  1469 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$QcawcFcJtEX4EhYptq_Vb4j368Y.accept(Unknown Source:10)
+12-11 10:55:11.329  1406  1469 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+12-11 10:55:11.329  1406  1469 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+12-11 10:55:11.329  1406  1469 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+12-11 10:55:11.329  1406  1469 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+12-11 10:55:11.329  1406  1469 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+12-11 10:55:11.329  1406  1469 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+12-11 10:55:11.329  1406  1469 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+12-11 10:55:11.329  1406  1469 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+12-11 10:55:11.329  1406  1469 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+12-11 10:55:11.333  1406  1474 D ArtManagerInternalImpl: /data/misc/iorapd/com.flipkart.android/1200017/com.flipkart.android.SplashActivity/compiled_traces/compiled_trace.pb doesn't exist
+12-11 10:55:11.334  1406  1474 I ActivityTaskManager: Displayed com.flipkart.android/.SplashActivity: +741ms
+12-11 10:55:11.339 24240 24273 I appium  : channel read invoked!
+12-11 10:55:11.339 24240 24273 I appium  : channel read: GET /wd/hub/session/628d2f11-2f0a-4446-8fb2-381aaf273d10/appium/device/pixel_ratio
+12-11 10:55:11.340 24240 24273 I appium  : Get device pixel ratio
+12-11 10:55:11.340 24240 24273 I appium  : AppiumResponse: {"sessionId":"628d2f11-2f0a-4446-8fb2-381aaf273d10","value":3.5}
+12-11 10:55:11.358 24289 24338 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=f6dc1c7c-e976-43e9-869f-f0e25af558a5, tags={ com.flipkart.android.notification.FkPNTaskWorker } ]
+12-11 10:55:11.359 24240 24273 I appium  : channel read invoked!
+12-11 10:55:11.359 24240 24273 I appium  : channel read: GET /wd/hub/session/628d2f11-2f0a-4446-8fb2-381aaf273d10/appium/device/system_bars
+12-11 10:55:11.359   673  1486 W ServiceManager: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10340 pid=24289
+12-11 10:55:11.359   673  1486 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10340 => denied (500 us)
+12-11 10:55:11.360 24240 24273 I appium  : Get status bar height of the device
+12-11 10:55:11.361  1406  1644 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=23395, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10340 AdministratorUids: [] RequestorUid: 10340 RequestorPackageName: com.flipkart.android] ] (release request)
+12-11 10:55:11.362 24240 24273 I appium  : AppiumResponse: {"sessionId":"628d2f11-2f0a-4446-8fb2-381aaf273d10","value":{"statusBar":98}}
+12-11 10:55:11.373  1791  1791 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+12-11 10:55:11.374  2117  2117 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+12-11 10:55:11.374  2117  2117 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+12-11 10:55:11.375  1791  1791 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=899186000[****] simSlotIndex=0 carrierId=1963 displayName=Vodafone IN carrierName=Vodafone IN nameSource=0 iconTint=-16746133 number=[****] dataRoaming=0 iconBitmap=android.graphics.Bitmap@f22c85e mcc=404 mnc=86 countryIso=in isEmbedded=false nativeAccessRules=null cardString=899186000[****] cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=[] hplmns=[40486] subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+12-11 10:55:11.385 24240 24273 I appium  : channel read invoked!
+12-11 10:55:11.385 24240 24273 I appium  : channel read: GET /wd/hub/session/628d2f11-2f0a-4446-8fb2-381aaf273d10/window/current/size
+12-11 10:55:11.386 24240 24273 I appium  : Get window size of the device
+12-11 10:55:11.387 24240 24273 I appium  : AppiumResponse: {"sessionId":"628d2f11-2f0a-4446-8fb2-381aaf273d10","value":{"height":2712,"width":1440}}
+12-11 10:55:11.398  1406  1644 D ConnectivityService: NetReassign [no changes]
+12-11 10:55:11.399 24289 24468 D BinaryFileManagerRunner: Attempting operation for module: multiWidget
+12-11 10:55:11.399 24289 24468 D BinaryFileManagerRunner: Starting operation for module: multiWidget
+12-11 10:55:11.404 24289 24397 D BinaryFileManager: Fresh Download
+12-11 10:55:11.416 24289 24338 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=ffeb68c3-8285-44f1-9a22-1644de1d13bb, tags={ com.flipkart.android.notification.FkPNTaskWorker } ]
+12-11 10:55:11.454 19878 19878 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3308 
+12-11 10:55:11.459 19878 19878 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1887 
+12-11 10:55:11.459  1406  3272 I ActivityTaskManager: START u0 {cmp=com.flipkart.android/.activity.FirstLaunchActivity (has extras)} from uid 10340
+12-11 10:55:11.459  1406  1469 D EventSequenceValidator: IntentStarted during UNKNOWN. Intent { cmp=com.flipkart.android/.activity.FirstLaunchActivity (has extras) }
+12-11 10:55:11.459  1406  1469 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+12-11 10:55:11.459  1406  1469 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+12-11 10:55:11.459  1406  1469 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentStarted(EventSequenceValidator.java:106)
+12-11 10:55:11.459  1406  1469 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentStarted(LaunchObserverRegistryImpl.java:139)
+12-11 10:55:11.459  1406  1469 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$veRn_GhgLZLlOHOJ0ZYT6KcfYqo(Unknown Source:0)
+12-11 10:55:11.459  1406  1469 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$veRn_GhgLZLlOHOJ0ZYT6KcfYqo.accept(Unknown Source:10)
+12-11 10:55:11.459  1406  1469 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+12-11 10:55:11.459  1406  1469 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+12-11 10:55:11.459  1406  1469 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+12-11 10:55:11.459  1406  1469 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+12-11 10:55:11.459  1406  1469 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+12-11 10:55:11.459  1406  1469 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+12-11 10:55:11.459  1406  1469 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+12-11 10:55:11.459  1406  1469 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+12-11 10:55:11.459  1406  1469 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+12-11 10:55:11.461   671   671 D android.hardware.power@1.3-service.pixel-libperfmgr: LAUNCH: 1
+12-11 10:55:11.465 24345 18913 W NetworkScheduler: Error inserting flex_time=0 job_id=-1 period=2000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664311458 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:11.466  1406  1469 D EventSequenceValidator: onIntentFailed during UNKNOWN.
+12-11 10:55:11.466  1406  1469 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+12-11 10:55:11.466  1406  1469 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+12-11 10:55:11.466  1406  1469 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentFailed(EventSequenceValidator.java:130)
+12-11 10:55:11.466  1406  1469 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentFailed(LaunchObserverRegistryImpl.java:147)
+12-11 10:55:11.466  1406  1469 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$KukKmVpn5W_1xSV6Dnp8wW2H2Ks(Unknown Source:0)
+12-11 10:55:11.466  1406  1469 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$KukKmVpn5W_1xSV6Dnp8wW2H2Ks.accept(Unknown Source:2)
+12-11 10:55:11.466  1406  1469 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:264)
+12-11 10:55:11.466  1406  1469 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+12-11 10:55:11.466  1406  1469 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+12-11 10:55:11.466  1406  1469 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+12-11 10:55:11.466  1406  1469 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+12-11 10:55:11.466  1406  1469 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+12-11 10:55:11.466  1406  1469 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+12-11 10:55:11.466  1406  1469 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+12-11 10:55:11.466  1406  1469 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+12-11 10:55:11.498  1406  4306 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (461550052)
+12-11 10:55:11.517 24345 18643 W NetworkScheduler: Error inserting flex_time=9000 job_id=-1 period=20000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664311508 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:11.547 24289 24289 I PlayCore: UID: [10340]  PID: [24289] AppUpdateService : requestUpdateInfo(com.flipkart.android)
+12-11 10:55:11.548 24289 24393 I PlayCore: UID: [10340]  PID: [24289] AppUpdateService : Initiate binding to the service.
+12-11 10:55:11.549 24345 18643 W NetworkScheduler: Error inserting flex_time=9000 job_id=-1 period=20000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664311545 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:11.553 24289 24289 I FirebasePerformance: Session ID - d853757acaf446e898806cf59ab9eb13
+12-11 10:55:11.567 15503 15529 I Finsky  : [5098] allg.a(6): Package com.google.android.gms is verified.
+12-11 10:55:11.567 24289 24307 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10340; state: DISABLED
+12-11 10:55:11.574 24289 24289 I PlayCore: UID: [10340]  PID: [24289] AppUpdateService : ServiceConnectionImpl.onServiceConnected(ComponentInfo{com.android.vending/com.google.android.finsky.installservice.DevTriggeredUpdateService})
+12-11 10:55:11.574 24289 24393 I PlayCore: UID: [10340]  PID: [24289] AppUpdateService : linkToDeath
+12-11 10:55:11.581 15503 24501 I Finsky  : [5227] sap.a(5): Using cached document to get update info
+12-11 10:55:11.581 15503 24501 W Finsky  : [5227] sdg.e(2): No cached information about app com.flipkart.android, while trying to retrieve app details.
+12-11 10:55:11.582 15503 24501 E Finsky  : [5227] sap.a(7): In-app-update: Missing AppDetails!
+12-11 10:55:11.584 24289 24500 I FirebasePerformance: Session ID - d853757acaf446e898806cf59ab9eb13
+12-11 10:55:11.584 15503 24501 W Finsky  : [5227] sau.a(3): No cached information about app com.flipkart.android, while trying to retrieve the available version code.
+12-11 10:55:11.586 24289 24307 I PlayCore: UID: [10340]  PID: [24289] OnRequestInstallCallback : onRequestInfo
+12-11 10:55:11.586 24289 24393 I PlayCore: UID: [10340]  PID: [24289] AppUpdateService : Unbind from service.
+12-11 10:55:11.614  1406  1474 I ActivityTaskManager: Displayed com.flipkart.android/.activity.FirstLaunchActivity: +154ms
+12-11 10:55:11.616   671   671 D android.hardware.power@1.3-service.pixel-libperfmgr: LAUNCH: 0
+12-11 10:55:11.635 12570 21746 I PBSessionCacheImpl: Deleted sessionId[55285052306656312] from persistence.
+12-11 10:55:11.636 19878 19878 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3308 
+12-11 10:55:11.637 19878 19878 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1887 
+12-11 10:55:11.637 24345 18643 W NetworkScheduler: Error inserting flex_time=9000 job_id=-1 period=20000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664311624 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:11.654 12570 12639 W SearchServiceCore: Abort, client detached.
+12-11 10:55:11.662 24345 18643 W NetworkScheduler: Error inserting flex_time=9000 job_id=-1 period=20000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664311660 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:11.691 24345 17798 W NetworkScheduler: Error inserting flex_time=9000 job_id=-1 period=20000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664311686 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:11.721 24345 18643 W NetworkScheduler: Error inserting flex_time=9000 job_id=-1 period=20000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664311719 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:11.773 24289 24317 E FA      : Name must consist of letters, digits or _ (underscores). Type, name: event, WebView Errors
+12-11 10:55:11.773 24289 24317 E FA      : Invalid public event name. Event will not be logged (FE): WebView Errors
+12-11 10:55:11.792  1406  1466 I RoleManagerService: Granting default roles...
+12-11 10:55:11.801  1406  3271 W ActivityManager: Permission Denial: Accessing service com.google.android.music/.dial.DialMediaRouteProviderService from pid=21762, uid=10190 that is not exported from uid 10167
+12-11 10:55:11.816  3305  3305 D RegisteredNfcFServicesCache: Service unchanged, not updating
+12-11 10:55:11.824  1406  1579 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+12-11 10:55:11.827 24345 18913 W NetworkScheduler: Error inserting flex_time=9000 job_id=-1 period=20000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664311784 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:11.831 24345 24510 I Fitness : OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package:com.flipkart.android flg=0x45000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
+12-11 10:55:11.879 24289 24317 E FA      : Name must consist of letters, digits or _ (underscores). Type, name: event, Flipkart Errors
+12-11 10:55:11.879 24289 24317 E FA      : Invalid public event name. Event will not be logged (FE): Flipkart Errors
+12-11 10:55:11.883   984   984 D AF::TrackHandle: OpPlayAudio: track:58 usage:3 not muted
+12-11 10:55:11.890  2117  2117 D CarrierSvcBindHelper: No carrier app for: 0
+12-11 10:55:11.890  2117  2117 D ImsResolver: maybeAddedImsService, packageName: com.flipkart.android
+12-11 10:55:11.892 18590 24523 I EuiccGoogle: [55065] EuiccServiceImpl.onGetEuiccProfileInfoList: onGetEuiccProfileInfoList: slotId = -1
+12-11 10:55:11.892   984   984 D AF::TrackHandle: OpPlayAudio: track:58 usage:3 not muted
+12-11 10:55:11.894 24289 24511 E CursorWindow: Failed to read row 0, column 29 from a CursorWindow which has 1 rows, 29 columns.
+12-11 10:55:11.903   984   984 D AF::TrackHandle: OpPlayAudio: track:58 usage:3 not muted
+12-11 10:55:11.905 24345 24516 I Fitness : FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_CHANGED [CONTEXT service_id=17 ]
+12-11 10:55:11.913   984   984 D AF::TrackHandle: OpPlayAudio: track:58 usage:3 not muted
+12-11 10:55:11.918  1916  1916 D QcrilMsgTunnelIfaceManager: handleMessage what = 1
+12-11 10:55:11.919  1916  1916 I QcrilOemhookMsgTunnel: [0]invokeOemRilRequestRaw: serial=2417 length=16
+12-11 10:55:11.921  1916  1945 I QcrilOemhookMsgTunnel: [0]processOemHookResponse serial no: 2417 error: 0length=88
+12-11 10:55:11.922  1916  1916 D QcrilMsgTunnelIfaceManager: handleMessage what = 2
+12-11 10:55:11.923 18590 24523 I EuiccGoogle: [55065] UiccLogicalChannel.open: Locked on aid: A0000005591010FFFFFFFF8900000100
+12-11 10:55:11.932 21818 24191 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+12-11 10:55:11.954   984   984 D AF::TrackHandle: OpPlayAudio: track:58 usage:3 not muted
+12-11 10:55:11.973  2117  2117 E PhoneInterfaceManager: [PhoneIntfMgr] iccOpenLogicalChannel: Exception: com.android.internal.telephony.CommandException: NO_SUCH_ELEMENT
+12-11 10:55:11.973 18590 24523 E EuiccGoogle: [55065] UiccLogicalChannel.open: selectResponse is null. Unlocked for aid: A0000005591010FFFFFFFF8900000100
+12-11 10:55:11.973 18590 24523 W EuiccGoogle: [55065] EuiccServiceImpl.onGetEuiccProfileInfoList: slotId=-1. No eUICC is active. Return null.
+12-11 10:55:11.991 24289 24440 I FirebasePerformance: Session ID - d853757acaf446e898806cf59ab9eb13
+12-11 10:55:11.995 24289 24486 I FirebasePerformance: Session ID - d853757acaf446e898806cf59ab9eb13
+12-11 10:55:12.003 21818 24191 I Icing   : Indexing done com.google.android.gms-apps
+12-11 10:55:12.005 24289 24484 I FirebasePerformance: Session ID - d853757acaf446e898806cf59ab9eb13
+12-11 10:55:12.012 24289 24493 I FirebasePerformance: Session ID - d853757acaf446e898806cf59ab9eb13
+12-11 10:55:12.014 24289 24317 E FA      : Name must consist of letters, digits or _ (underscores). Type, name: event, Other Errors
+12-11 10:55:12.014 24289 24317 E FA      : Invalid public event name. Event will not be logged (FE): Other Errors
+12-11 10:55:12.015  1406  1406 I Telecom : DefaultDialerCache: Refreshing default dialer for user 0: now com.truecaller: DDC.oR@zBc
+12-11 10:55:12.015  1406  1406 W Looper  : Slow delivery took 220ms main h=android.app.ActivityThread$H c=android.app.-$$Lambda$LoadedApk$ReceiverDispatcher$Args$_BumDX2UKsnxLVrE6UJsJZkotuA@6298035 m=0
+12-11 10:55:12.020 24289 24408 I FirebasePerformance: Session ID - d853757acaf446e898806cf59ab9eb13
+12-11 10:55:12.074  1406  1466 W Looper  : Slow delivery took 213ms android.fg h=android.os.Handler c=<recycled PooledLambda@7e680ed> m=0
+12-11 10:55:12.091 24289 24317 E FA      : Name must consist of letters, digits or _ (underscores). Type, name: event, Push Notification
+12-11 10:55:12.091 24289 24317 E FA      : Invalid public event name. Event will not be logged (FE): Push Notification
+12-11 10:55:12.096 24289 24317 E FA      : Name must consist of letters, digits or _ (underscores). Type, name: event, Push Notification
+12-11 10:55:12.096 24289 24317 E FA      : Invalid public event name. Event will not be logged (FE): Push Notification
+12-11 10:55:12.101 24289 24317 E FA      : Name must consist of letters, digits or _ (underscores). Type, name: event, Push Notification
+12-11 10:55:12.101 24289 24317 E FA      : Invalid public event name. Event will not be logged (FE): Push Notification
+12-11 10:55:12.107  1406  1406 W Looper  : Drained
+12-11 10:55:12.136 24345 20157 E WakeLock: GCMSEND release without a matched acquire!
+12-11 10:55:12.143 24345 18643 W NetworkScheduler: Error inserting flex_time=9000 job_id=-1 period=20000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664312138 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:12.160 24345 18643 W NetworkScheduler: Error inserting flex_time=9000 job_id=-1 period=19000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664312144 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:12.163 24289 24317 E FA      : Name must consist of letters, digits or _ (underscores). Type, name: event, Rukmini Errors
+12-11 10:55:12.163 24289 24317 E FA      : Invalid public event name. Event will not be logged (FE): Rukmini Errors
+12-11 10:55:12.167 24345 18643 W NetworkScheduler: Error inserting flex_time=9000 job_id=-1 period=19000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664312151 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:12.175 24345 18643 W NetworkScheduler: Error inserting flex_time=9000 job_id=-1 period=19000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664312155 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:12.185 24345 18643 W NetworkScheduler: Error inserting flex_time=9000 job_id=-1 period=19000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664312180 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:12.185 23260 23284 I PermissionControllerServiceImpl: Updating user sensitive for uid 10340
+12-11 10:55:12.209 24345 18913 W NetworkScheduler: Error inserting flex_time=9000 job_id=-1 period=19000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664312203 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:12.220 24289 24327 I FirebaseRemoteConfig: Fetch succeeded!
+12-11 10:55:12.228 24289 24430 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 10:55:12.228 24289 24486 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 10:55:12.228 24289 24484 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 10:55:12.229 24289 24430 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 10:55:12.229 24289 24421 I FirebasePerformance: Session ID - d853757acaf446e898806cf59ab9eb13
+12-11 10:55:12.232 24345 18643 W NetworkScheduler: Error inserting flex_time=9000 job_id=-1 period=19000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664312226 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:12.232 24289 24408 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 10:55:12.233 24289 24430 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 10:55:12.233 24289 24493 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 10:55:12.233 24289 24440 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 10:55:12.233 24289 24430 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 10:55:12.234 24289 24430 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 10:55:12.267 24289 24421 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_max_length_minutes'.
+12-11 10:55:12.267 24289 24430 W FirebaseRemoteConfig: No value of type 'String' exists for parameter key 'sessions_feature_enabled'.
+12-11 10:55:12.284 24345 18643 W NetworkScheduler: Error inserting flex_time=9000 job_id=-1 period=19000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664312279 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:12.315 24289 24317 E FA      : Name must consist of letters, digits or _ (underscores). Type, name: event, Flipkart Errors
+12-11 10:55:12.315 24289 24317 E FA      : Invalid public event name. Event will not be logged (FE): Flipkart Errors
+12-11 10:55:12.323 24289 24317 E FA      : Name must consist of letters, digits or _ (underscores). Type, name: event, Other Errors
+12-11 10:55:12.323 24289 24317 E FA      : Invalid public event name. Event will not be logged (FE): Other Errors
+12-11 10:55:12.328 24345 18643 W NetworkScheduler: Error inserting flex_time=9000 job_id=-1 period=19000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664312322 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:12.357 24289 24317 E FA      : Name must consist of letters, digits or _ (underscores). Type, name: event, Flipkart Errors
+12-11 10:55:12.357 24289 24317 E FA      : Invalid public event name. Event will not be logged (FE): Flipkart Errors
+12-11 10:55:12.360 24289 24317 E FA      : Name must consist of letters, digits or _ (underscores). Type, name: event, Other Errors
+12-11 10:55:12.360 24289 24317 E FA      : Invalid public event name. Event will not be logged (FE): Other Errors
+12-11 10:55:12.364 24289 24317 E FA      : Name must consist of letters, digits or _ (underscores). Type, name: event, Flipkart Errors
+12-11 10:55:12.364 24289 24317 E FA      : Invalid public event name. Event will not be logged (FE): Flipkart Errors
+12-11 10:55:12.379 24345 18643 W NetworkScheduler: Error inserting flex_time=9000 job_id=-1 period=19000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664312371 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:12.406 24345 18643 W NetworkScheduler: Error inserting flex_time=9000 job_id=-1 period=19000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664312400 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:12.439 24345 18643 W NetworkScheduler: Error inserting flex_time=8000 job_id=-1 period=18000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664312437 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:12.463 24345 18643 W NetworkScheduler: Error inserting flex_time=8000 job_id=-1 period=18000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664312458 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:12.516 24345 18643 W NetworkScheduler: Error inserting flex_time=8000 job_id=-1 period=18000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664312513 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:12.534 24289 24317 E FA      : Name must consist of letters, digits or _ (underscores). Type, name: event, Other Errors
+12-11 10:55:12.534 24289 24317 E FA      : Invalid public event name. Event will not be logged (FE): Other Errors
+12-11 10:55:12.536 24289 24317 E FA      : Name must consist of letters, digits or _ (underscores). Type, name: event, Flipkart Errors
+12-11 10:55:12.536 24289 24317 E FA      : Invalid public event name. Event will not be logged (FE): Flipkart Errors
+12-11 10:55:12.541 24289 24317 E FA      : Name must consist of letters, digits or _ (underscores). Type, name: event, Other Errors
+12-11 10:55:12.541 24289 24317 E FA      : Invalid public event name. Event will not be logged (FE): Other Errors
+12-11 10:55:12.547 24345 18643 W NetworkScheduler: Error inserting flex_time=8000 job_id=-1 period=18000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664312542 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:12.585 24345 18643 W NetworkScheduler: Error inserting flex_time=8000 job_id=-1 period=18000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664312577 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:12.618 24345 18913 W NetworkScheduler: Error inserting flex_time=8000 job_id=-1 period=18000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664312613 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:12.624 24289 24468 D BinaryFileManager: Returning bundle: /data/user/0/com.flipkart.android/files/binaryfilemanager/multiWidget/e2d78d64513d21f5f2a1df9f48fc6be3-17.ota
+12-11 10:55:12.624 24289 24468 D BinaryFileManager: Config updated to version: 17
+12-11 10:55:12.628 24289 24317 E FA      : Name must consist of letters, digits or _ (underscores). Type, name: event, Flipkart Errors
+12-11 10:55:12.628 24289 24317 E FA      : Invalid public event name. Event will not be logged (FE): Flipkart Errors
+12-11 10:55:12.630 24289 24317 E FA      : Name must consist of letters, digits or _ (underscores). Type, name: event, Other Errors
+12-11 10:55:12.630 24289 24317 E FA      : Invalid public event name. Event will not be logged (FE): Other Errors
+12-11 10:55:12.633 24289 24317 E FA      : Name must consist of letters, digits or _ (underscores). Type, name: event, Flipkart Errors
+12-11 10:55:12.633 24289 24317 E FA      : Invalid public event name. Event will not be logged (FE): Flipkart Errors
+12-11 10:55:12.635 24289 24317 E FA      : Name must consist of letters, digits or _ (underscores). Type, name: event, Other Errors
+12-11 10:55:12.635 24289 24317 E FA      : Invalid public event name. Event will not be logged (FE): Other Errors
+12-11 10:55:12.642 24345 18643 W NetworkScheduler: Error inserting flex_time=8000 job_id=-1 period=18000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664312640 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:12.672 24345 18643 W NetworkScheduler: Error inserting flex_time=8000 job_id=-1 period=18000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664312668 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:12.712 24345 18643 W NetworkScheduler: Error inserting flex_time=8000 job_id=-1 period=18000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664312708 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:12.729 24289 24304 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.google.android.play.core.internal.i
+12-11 10:55:12.729 24289 24304 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+12-11 10:55:12.733 24289 24304 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.google.android.play.core.internal.i
+12-11 10:55:12.733 24289 24304 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+12-11 10:55:12.738 24289 24305 W System  : A resource failed to call close. 
+12-11 10:55:12.739 24289 24305 W System  : A resource failed to call close. 
+12-11 10:55:12.756 24345 18643 W NetworkScheduler: Error inserting flex_time=8000 job_id=-1 period=18000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664312753 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:12.772 24289 24317 E FA      : Name must consist of letters, digits or _ (underscores). Type, name: event, Flipkart Errors
+12-11 10:55:12.773 24289 24317 E FA      : Invalid public event name. Event will not be logged (FE): Flipkart Errors
+12-11 10:55:12.776 24289 24317 E FA      : Name must consist of letters, digits or _ (underscores). Type, name: event, Other Errors
+12-11 10:55:12.776 24289 24317 E FA      : Invalid public event name. Event will not be logged (FE): Other Errors
+12-11 10:55:12.778 24289 24317 E FA      : Name must consist of letters, digits or _ (underscores). Type, name: event, Flipkart Errors
+12-11 10:55:12.779 24289 24317 E FA      : Invalid public event name. Event will not be logged (FE): Flipkart Errors
+12-11 10:55:12.781 24289 24317 E FA      : Name must consist of letters, digits or _ (underscores). Type, name: event, Other Errors
+12-11 10:55:12.781 24289 24317 E FA      : Invalid public event name. Event will not be logged (FE): Other Errors
+12-11 10:55:12.783 24289 24317 E FA      : Name must consist of letters, digits or _ (underscores). Type, name: event, Flipkart Errors
+12-11 10:55:12.783 24289 24317 E FA      : Invalid public event name. Event will not be logged (FE): Flipkart Errors
+12-11 10:55:12.785 24345 18913 W NetworkScheduler: Error inserting flex_time=8000 job_id=-1 period=18000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664312779 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:12.786 24289 24317 E FA      : Name must consist of letters, digits or _ (underscores). Type, name: event, Other Errors
+12-11 10:55:12.786 24289 24317 E FA      : Invalid public event name. Event will not be logged (FE): Other Errors
+12-11 10:55:12.827 24345 18913 W NetworkScheduler: Error inserting flex_time=8000 job_id=-1 period=18000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664312823 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:12.845 24345 18913 W NetworkScheduler: Error inserting flex_time=8000 job_id=-1 period=18000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664312840 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:12.876 24345 18913 W NetworkScheduler: Error inserting flex_time=8000 job_id=-1 period=18000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664312874 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:12.897 24345 18643 W NetworkScheduler: Error inserting flex_time=8000 job_id=-1 period=18000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664312891 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:12.918 24345 18913 W NetworkScheduler: Error inserting flex_time=8000 job_id=-1 period=18000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664312911 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:12.938 24345 18643 W NetworkScheduler: Error inserting flex_time=8000 job_id=-1 period=17000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664312933 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:13.379  1406  1417 W System  : A resource failed to call release. 
+12-11 10:55:13.379  1406  1417 I chatty  : uid=1000(system) FinalizerDaemon identical 2 lines
+12-11 10:55:13.391  1406  1417 W System  : A resource failed to call release. 
+12-11 10:55:15.605  1034  1034 I perfetto: probes_producer.cc:329  Producer stop (id=5706)
+12-11 10:55:15.611  1034  1034 I perfetto: ftrace_procfs.cc:183    disabled ftrace
+12-11 10:55:15.618  1035  1035 I perfetto: ng_service_impl.cc:1948 Tracing session 5706 ended, total sessions:0
+12-11 10:55:15.709  1406  1466 W Looper  : Drained
+12-11 10:55:15.711  1066 24285 I iorapd  : Perfetto TraceBuffer saved to file: /data/misc/iorapd/com.flipkart.android/1200017/com.flipkart.android.activity.HomeFragmentHolderActivity/raw_traces/1607664315703532015.perfetto_trace.pb
+12-11 10:55:15.715  1406  2904 D ConnectivityService: requestNetwork for uid/pid:10153/22628 NetworkRequest [ TRACK_DEFAULT id=23398, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10153 AdministratorUids: [] RequestorUid: 10153 RequestorPackageName: com.google.android.apps.photos] ]
+12-11 10:55:15.715  1406  1644 D ConnectivityService: NetReassign [23398 : null → 457]
+12-11 10:55:15.715  1406  1720 D Ethernet: got request NetworkRequest [ TRACK_DEFAULT id=23398, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10153 AdministratorUids: [] RequestorUid: 10153 RequestorPackageName: com.google.android.apps.photos] ] with score 60 and providerId 5
+12-11 10:55:15.716  1406  1719 D WIFI_AWARE_FACTORY: got request NetworkRequest [ TRACK_DEFAULT id=23398, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10153 AdministratorUids: [] RequestorUid: 10153 RequestorPackageName: com.google.android.apps.photos] ] with score 60 and providerId 5
+12-11 10:55:15.716  1406  1619 D UntrustedWifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=23398, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10153 AdministratorUids: [] RequestorUid: 10153 RequestorPackageName: com.google.android.apps.photos] ] with score 60 and providerId 5
+12-11 10:55:15.716  1406  1619 D WifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=23398, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10153 AdministratorUids: [] RequestorUid: 10153 RequestorPackageName: com.google.android.apps.photos] ] with score 60 and providerId 5
+12-11 10:55:15.716  2117  2117 D PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ TRACK_DEFAULT id=23398, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10153 AdministratorUids: [] RequestorUid: 10153 RequestorPackageName: com.google.android.apps.photos] ] with score 60 and providerId 5
+12-11 10:55:15.720  2117  2117 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+12-11 10:55:15.720  2117  2117 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+12-11 10:55:15.721  1791  1791 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+12-11 10:55:15.723  1791  1791 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=899186000[****] simSlotIndex=0 carrierId=1963 displayName=Vodafone IN carrierName=Vodafone IN nameSource=0 iconTint=-16746133 number=[****] dataRoaming=0 iconBitmap=android.graphics.Bitmap@190243f mcc=404 mnc=86 countryIso=in isEmbedded=false nativeAccessRules=null cardString=899186000[****] cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=[] hplmns=[40486] subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+12-11 10:55:15.730  1406  1644 D ConnectivityService: NetReassign [no changes]
+12-11 10:55:15.741  1406  1644 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=23398, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10153 AdministratorUids: [] RequestorUid: 10153 RequestorPackageName: com.google.android.apps.photos] ] (release request)
+12-11 10:55:15.746  1791  1791 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+12-11 10:55:15.747  2117  2117 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+12-11 10:55:15.747  2117  2117 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+12-11 10:55:15.747  1791  1791 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=899186000[****] simSlotIndex=0 carrierId=1963 displayName=Vodafone IN carrierName=Vodafone IN nameSource=0 iconTint=-16746133 number=[****] dataRoaming=0 iconBitmap=android.graphics.Bitmap@d24d10c mcc=404 mnc=86 countryIso=in isEmbedded=false nativeAccessRules=null cardString=899186000[****] cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=[] hplmns=[40486] subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+12-11 10:55:15.758  1406  1644 D ConnectivityService: NetReassign [no changes]
+12-11 10:55:16.155 24240 24273 I appium  : channel read invoked!
+12-11 10:55:16.155 24240 24273 I appium  : channel read: POST /wd/hub/session/628d2f11-2f0a-4446-8fb2-381aaf273d10/element
+12-11 10:55:16.159 24240 24273 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 10:55:16.166 24240 24273 I appium  : Waiting up to 10000ms for device to be idle
+12-11 10:55:16.258 24240 24273 I appium  : AppiumResponse: {"sessionId":"628d2f11-2f0a-4446-8fb2-381aaf273d10","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 10:55:16.728 21818 21594 W ConnectionTracker: Exception thrown while unbinding
+12-11 10:55:16.728 21818 21594 W ConnectionTracker: java.lang.IllegalArgumentException: Service not registered: agey@d3e5c3b
+12-11 10:55:16.728 21818 21594 W ConnectionTracker: 	at android.app.LoadedApk.forgetServiceDispatcher(LoadedApk.java:1757)
+12-11 10:55:16.728 21818 21594 W ConnectionTracker: 	at android.app.ContextImpl.unbindService(ContextImpl.java:1874)
+12-11 10:55:16.728 21818 21594 W ConnectionTracker: 	at android.content.ContextWrapper.unbindService(ContextWrapper.java:792)
+12-11 10:55:16.728 21818 21594 W ConnectionTracker: 	at android.content.ContextWrapper.unbindService(ContextWrapper.java:792)
+12-11 10:55:16.728 21818 21594 W ConnectionTracker: 	at rgh.i(:com.google.android.gms@204516046@20.45.16 (150400-344294571):4)
+12-11 10:55:16.728 21818 21594 W ConnectionTracker: 	at rgh.d(:com.google.android.gms@204516046@20.45.16 (150400-344294571):2)
+12-11 10:55:16.728 21818 21594 W ConnectionTracker: 	at agez.y(:com.google.android.gms@204516046@20.45.16 (150400-344294571):3)
+12-11 10:55:16.728 21818 21594 W ConnectionTracker: 	at agel.a(:com.google.android.gms@204516046@20.45.16 (150400-344294571):3)
+12-11 10:55:16.728 21818 21594 W ConnectionTracker: 	at afwp.run(:com.google.android.gms@204516046@20.45.16 (150400-344294571):4)
+12-11 10:55:16.728 21818 21594 W ConnectionTracker: 	at bnit.run(:com.google.android.gms@204516046@20.45.16 (150400-344294571):2)
+12-11 10:55:16.728 21818 21594 W ConnectionTracker: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+12-11 10:55:16.728 21818 21594 W ConnectionTracker: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+12-11 10:55:16.728 21818 21594 W ConnectionTracker: 	at agbz.run(:com.google.android.gms@204516046@20.45.16 (150400-344294571):5)
+12-11 10:55:16.775 24240 24273 I appium  : channel read invoked!
+12-11 10:55:16.775 24240 24273 I appium  : channel read: POST /wd/hub/session/628d2f11-2f0a-4446-8fb2-381aaf273d10/element
+12-11 10:55:16.778 24240 24273 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 10:55:16.779 24240 24273 I appium  : Waiting up to 10000ms for device to be idle
+12-11 10:55:16.840 24240 24273 I appium  : AppiumResponse: {"sessionId":"628d2f11-2f0a-4446-8fb2-381aaf273d10","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 10:55:17.361 24240 24273 I appium  : channel read invoked!
+12-11 10:55:17.363 24240 24273 I appium  : channel read: POST /wd/hub/session/628d2f11-2f0a-4446-8fb2-381aaf273d10/element
+12-11 10:55:17.366 24240 24273 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 10:55:17.366 24240 24273 I appium  : Waiting up to 10000ms for device to be idle
+12-11 10:55:17.443 24240 24273 I appium  : AppiumResponse: {"sessionId":"628d2f11-2f0a-4446-8fb2-381aaf273d10","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 10:55:17.763   895   895 I android.hardware.health@2.0-service.wahoo: SRAM data: 3623000
+12-11 10:55:17.776  1791  3188 D PowerUI : can't show warning due to - plugged: true status unknown: false
+12-11 10:55:17.966 24240 24273 I appium  : channel read invoked!
+12-11 10:55:17.967 24240 24273 I appium  : channel read: POST /wd/hub/session/628d2f11-2f0a-4446-8fb2-381aaf273d10/element
+12-11 10:55:17.971 24240 24273 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 10:55:17.972 24240 24273 I appium  : Waiting up to 10000ms for device to be idle
+12-11 10:55:18.033 24240 24273 I appium  : AppiumResponse: {"sessionId":"628d2f11-2f0a-4446-8fb2-381aaf273d10","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 10:55:18.131   895   895 I android.hardware.health@2.0-service.wahoo: SRAM data: 3623000
+12-11 10:55:18.556 24240 24273 I appium  : channel read invoked!
+12-11 10:55:18.556 24240 24273 I appium  : channel read: POST /wd/hub/session/628d2f11-2f0a-4446-8fb2-381aaf273d10/element
+12-11 10:55:18.562 24240 24273 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 10:55:18.563 24240 24273 I appium  : Waiting up to 10000ms for device to be idle
+12-11 10:55:18.623 24240 24273 I appium  : AppiumResponse: {"sessionId":"628d2f11-2f0a-4446-8fb2-381aaf273d10","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 10:55:19.140 24240 24273 I appium  : channel read invoked!
+12-11 10:55:19.142 24240 24273 I appium  : channel read: POST /wd/hub/session/628d2f11-2f0a-4446-8fb2-381aaf273d10/element
+12-11 10:55:19.146 24240 24273 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 10:55:19.146 24240 24273 I appium  : Waiting up to 10000ms for device to be idle
+12-11 10:55:19.206 24240 24273 I appium  : AppiumResponse: {"sessionId":"628d2f11-2f0a-4446-8fb2-381aaf273d10","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 10:55:19.728 24240 24273 I appium  : channel read invoked!
+12-11 10:55:19.728 24240 24273 I appium  : channel read: POST /wd/hub/session/628d2f11-2f0a-4446-8fb2-381aaf273d10/element
+12-11 10:55:19.732 24240 24273 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 10:55:19.732 24240 24273 I appium  : Waiting up to 10000ms for device to be idle
+12-11 10:55:19.813 24240 24273 I appium  : AppiumResponse: {"sessionId":"628d2f11-2f0a-4446-8fb2-381aaf273d10","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 10:55:20.345 24240 24273 I appium  : channel read invoked!
+12-11 10:55:20.345 24240 24273 I appium  : channel read: POST /wd/hub/session/628d2f11-2f0a-4446-8fb2-381aaf273d10/element
+12-11 10:55:20.347 24240 24273 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 10:55:20.348 24240 24273 I appium  : Waiting up to 10000ms for device to be idle
+12-11 10:55:20.405 24240 24273 I appium  : AppiumResponse: {"sessionId":"628d2f11-2f0a-4446-8fb2-381aaf273d10","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 10:55:20.929 24240 24273 I appium  : channel read invoked!
+12-11 10:55:20.930 24240 24273 I appium  : channel read: POST /wd/hub/session/628d2f11-2f0a-4446-8fb2-381aaf273d10/element
+12-11 10:55:20.933 24240 24273 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 10:55:20.933 24240 24273 I appium  : Waiting up to 10000ms for device to be idle
+12-11 10:55:20.994 24240 24273 I appium  : AppiumResponse: {"sessionId":"628d2f11-2f0a-4446-8fb2-381aaf273d10","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 10:55:21.511 24240 24273 I appium  : channel read invoked!
+12-11 10:55:21.512 24240 24273 I appium  : channel read: POST /wd/hub/session/628d2f11-2f0a-4446-8fb2-381aaf273d10/element
+12-11 10:55:21.514 24240 24273 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 10:55:21.514 24240 24273 I appium  : Waiting up to 10000ms for device to be idle
+12-11 10:55:21.565 24240 24273 I appium  : AppiumResponse: {"sessionId":"628d2f11-2f0a-4446-8fb2-381aaf273d10","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 10:55:21.793 24345 18433 W NetworkScheduler: Error inserting flex_time=3599000 job_id=-1 period=7200000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=204516000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1607664321788 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0, error message: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE) [CONTEXT service_id=218 ]
+12-11 10:55:22.097 24240 24273 I appium  : channel read invoked!
+12-11 10:55:22.098 24240 24273 I appium  : channel read: POST /wd/hub/session/628d2f11-2f0a-4446-8fb2-381aaf273d10/element
+12-11 10:55:22.101 24240 24273 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 10:55:22.101 24240 24273 I appium  : Waiting up to 10000ms for device to be idle
+12-11 10:55:22.153 24240 24273 I appium  : AppiumResponse: {"sessionId":"628d2f11-2f0a-4446-8fb2-381aaf273d10","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 10:55:22.273   971  1023 I CHRE    : @ 824228.945: [ImuCal] [NanoSensorCal:GYRO_RPS] Offset | Temperature [C]: 0.006832, -0.001217, 0.001216 | 24.14
+12-11 10:55:22.273   971  1023 I CHRE    : @ 824228.945: [ImuCal] [NanoSensorCal:GYRO_RPS] Temp Sensitivity: 0.000017, -0.000145, 0.000008
+12-11 10:55:22.273   971  1023 I CHRE    : @ 824228.945: [ImuCal] [NanoSensorCal:GYRO_RPS] Temp Intercept: 0.006401, 0.002278, 0.000973
+12-11 10:55:22.672 24240 24273 I appium  : channel read invoked!
+12-11 10:55:22.673 24240 24273 I appium  : channel read: POST /wd/hub/session/628d2f11-2f0a-4446-8fb2-381aaf273d10/element
+12-11 10:55:22.676 24240 24273 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 10:55:22.677 24240 24273 I appium  : Waiting up to 10000ms for device to be idle
+12-11 10:55:22.737 24240 24273 I appium  : AppiumResponse: {"sessionId":"628d2f11-2f0a-4446-8fb2-381aaf273d10","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 10:55:23.266 24240 24273 I appium  : channel read invoked!
+12-11 10:55:23.266 24240 24273 I appium  : channel read: POST /wd/hub/session/628d2f11-2f0a-4446-8fb2-381aaf273d10/element
+12-11 10:55:23.270 24240 24273 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 10:55:23.270 24240 24273 I appium  : Waiting up to 10000ms for device to be idle
+12-11 10:55:23.334 24240 24273 I appium  : AppiumResponse: {"sessionId":"628d2f11-2f0a-4446-8fb2-381aaf273d10","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 10:55:23.854 24240 24273 I appium  : channel read invoked!
+12-11 10:55:23.855 24240 24273 I appium  : channel read: POST /wd/hub/session/628d2f11-2f0a-4446-8fb2-381aaf273d10/element
+12-11 10:55:23.860 24240 24273 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 10:55:23.860 24240 24273 I appium  : Waiting up to 10000ms for device to be idle
+12-11 10:55:23.924 24240 24273 I appium  : AppiumResponse: {"sessionId":"628d2f11-2f0a-4446-8fb2-381aaf273d10","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 10:55:24.451 24240 24273 I appium  : channel read invoked!
+12-11 10:55:24.451 24240 24273 I appium  : channel read: POST /wd/hub/session/628d2f11-2f0a-4446-8fb2-381aaf273d10/element
+12-11 10:55:24.454 24240 24273 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 10:55:24.455 24240 24273 I appium  : Waiting up to 10000ms for device to be idle
+12-11 10:55:24.517 24240 24273 I appium  : AppiumResponse: {"sessionId":"628d2f11-2f0a-4446-8fb2-381aaf273d10","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 10:55:24.949 22215 22215 I BiChannelGoogleApi: [FirebaseAuth: ] getGoogleApiForMethod() returned Gms: com.google.firebase.auth.api.internal.zzao@c3143e9
+12-11 10:55:24.954 22215 22272 I FirebaseAuth: [FirebaseAuth:] Preparing to create service connection to gms implementation
+12-11 10:55:24.961 21818 21818 D BoundBrokerSvc: onBind: Intent { act=com.google.firebase.auth.api.gms.service.START pkg=com.google.android.gms }
+12-11 10:55:24.961 21818 21818 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.firebase.auth.api.gms.service.START pkg=com.google.android.gms }
+12-11 10:55:24.974 21818 24191 W FirebaseAuth: [PhoneNumberAuthPostProcessor] postProcess starts
+12-11 10:55:24.974 21818 24191 W FirebaseAuth: [PhoneNumberAuthPostProcessor] postProcess ends
+12-11 10:55:24.978 21818 21818 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.auth.service.START pkg=com.google.android.gms }
+12-11 10:55:24.978 21818 21818 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.auth.service.START pkg=com.google.android.gms }
+12-11 10:55:24.984 21818 24191 I AuthChimeraService: Executing request: ProxyRequest[ url: https://securetoken.googleapis.com/v1/token?alt=proto&key=AIzaSyAfWLMYwLc6u-A5kyOKHLSNeoweH_S1_1g, method: 1 ] [CONTEXT service_id=16 ]
+12-11 10:55:25.038 24240 24273 I appium  : channel read invoked!
+12-11 10:55:25.038 24240 24273 I appium  : channel read: POST /wd/hub/session/628d2f11-2f0a-4446-8fb2-381aaf273d10/element
+12-11 10:55:25.041 24240 24273 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 10:55:25.042 24240 24273 I appium  : Waiting up to 10000ms for device to be idle
+12-11 10:55:25.087 24240 24273 I appium  : AppiumResponse: {"sessionId":"628d2f11-2f0a-4446-8fb2-381aaf273d10","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 10:55:25.127 21818  2586 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+12-11 10:55:25.138 21818  2586 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@204516046@20.45.16 (150400-344294571):2)
+12-11 10:55:25.138 21818  2586 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@204516046@20.45.16 (150400-344294571):0)
+12-11 10:55:25.216 21818  2586 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+12-11 10:55:25.217 21818  2586 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@204516046@20.45.16 (150400-344294571):2)
+12-11 10:55:25.217 21818  2586 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@204516046@20.45.16 (150400-344294571):0)
+12-11 10:55:25.610 24240 24273 I appium  : channel read invoked!
+12-11 10:55:25.610 24240 24273 I appium  : channel read: POST /wd/hub/session/628d2f11-2f0a-4446-8fb2-381aaf273d10/element
+12-11 10:55:25.614 24240 24273 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 10:55:25.615 24240 24273 I appium  : Waiting up to 10000ms for device to be idle
+12-11 10:55:25.669 24240 24273 I appium  : AppiumResponse: {"sessionId":"628d2f11-2f0a-4446-8fb2-381aaf273d10","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 10:55:25.694 21818  2586 E Volley  : [39667] NetworkUtility.d: Unexpected response code 429 for https://securetoken.googleapis.com/v1/token?alt=proto&key=AIzaSyAfWLMYwLc6u-A5kyOKHLSNeoweH_S1_1g
+12-11 10:55:25.695 21818 24191 I AuthChimeraService: Error description received from server: �Quota exceeded for quota metric 'Token exchange' and limit 'Token exchange per minute' of service 'securetoken.googleapis.com' for consumer 'project_number:996213618945'.�
+12-11 10:55:25.695 21818 24191 I AuthChimeraService: (type.googleapis.com/google.rpc.ErrorInfo�
+12-11 10:55:25.695 21818 24191 I AuthChimeraService: RATE_LIMIT_EXCEEDEDgoogleapis.com5
+12-11 10:55:25.695 21818 24191 I AuthChimeraService: quota_limit&SecureTokenRequestsPerMinutePerProject@
+12-11 10:55:25.695 21818 24191 I AuthChimeraService: quota_metric0securetoken.googleapis.com/secure_token_requests%
+12-11 10:55:25.695 21818 24191 I AuthChimeraService: servicesecuretoken.googleapis.com!
+12-11 10:55:25.695 21818 24191 I AuthChimeraService: consumerprojects/996213618945
+12-11 10:55:25.695 21818 24191 I AuthChimeraService: [CONTEXT service_id=16 ]
+12-11 10:55:26.194 24240 24273 I appium  : channel read invoked!
+12-11 10:55:26.195 24240 24273 I appium  : channel read: POST /wd/hub/session/628d2f11-2f0a-4446-8fb2-381aaf273d10/element
+12-11 10:55:26.198 24240 24273 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 10:55:26.198 24240 24273 I appium  : Waiting up to 10000ms for device to be idle
+12-11 10:55:26.250 24240 24273 I appium  : AppiumResponse: {"sessionId":"628d2f11-2f0a-4446-8fb2-381aaf273d10","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 10:55:26.773 24240 24273 I appium  : channel read invoked!
+12-11 10:55:26.774 24240 24273 I appium  : channel read: POST /wd/hub/session/628d2f11-2f0a-4446-8fb2-381aaf273d10/element
+12-11 10:55:26.777 24240 24273 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 10:55:26.777 24240 24273 I appium  : Waiting up to 10000ms for device to be idle
+12-11 10:55:26.828 24240 24273 I appium  : AppiumResponse: {"sessionId":"628d2f11-2f0a-4446-8fb2-381aaf273d10","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 10:55:27.347 24240 24273 I appium  : channel read invoked!
+12-11 10:55:27.348 24240 24273 I appium  : channel read: POST /wd/hub/session/628d2f11-2f0a-4446-8fb2-381aaf273d10/element
+12-11 10:55:27.350 24240 24273 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 10:55:27.351 24240 24273 I appium  : Waiting up to 10000ms for device to be idle
+12-11 10:55:27.393 24240 24273 I appium  : AppiumResponse: {"sessionId":"628d2f11-2f0a-4446-8fb2-381aaf273d10","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 10:55:27.914 24240 24273 I appium  : channel read invoked!
+12-11 10:55:27.914 24240 24273 I appium  : channel read: POST /wd/hub/session/628d2f11-2f0a-4446-8fb2-381aaf273d10/element
+12-11 10:55:27.917 24240 24273 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 10:55:27.918 24240 24273 I appium  : Waiting up to 10000ms for device to be idle
+12-11 10:55:27.967 24240 24273 I appium  : AppiumResponse: {"sessionId":"628d2f11-2f0a-4446-8fb2-381aaf273d10","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 10:55:28.486 24240 24273 I appium  : channel read invoked!
+12-11 10:55:28.486 24240 24273 I appium  : channel read: POST /wd/hub/session/628d2f11-2f0a-4446-8fb2-381aaf273d10/element
+12-11 10:55:28.489 24240 24273 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 10:55:28.490 24240 24273 I appium  : Waiting up to 10000ms for device to be idle
+12-11 10:55:28.537 24240 24273 I appium  : AppiumResponse: {"sessionId":"628d2f11-2f0a-4446-8fb2-381aaf273d10","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 10:55:29.057 24240 24273 I appium  : channel read invoked!
+12-11 10:55:29.057 24240 24273 I appium  : channel read: POST /wd/hub/session/628d2f11-2f0a-4446-8fb2-381aaf273d10/element
+12-11 10:55:29.060 24240 24273 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 10:55:29.060 24240 24273 I appium  : Waiting up to 10000ms for device to be idle
+12-11 10:55:29.118 24240 24273 I appium  : AppiumResponse: {"sessionId":"628d2f11-2f0a-4446-8fb2-381aaf273d10","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 10:55:29.639 24240 24273 I appium  : channel read invoked!
+12-11 10:55:29.641 24240 24273 I appium  : channel read: POST /wd/hub/session/628d2f11-2f0a-4446-8fb2-381aaf273d10/element
+12-11 10:55:29.643 24240 24273 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 10:55:29.643 24240 24273 I appium  : Waiting up to 10000ms for device to be idle
+12-11 10:55:29.684 24240 24273 I appium  : AppiumResponse: {"sessionId":"628d2f11-2f0a-4446-8fb2-381aaf273d10","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 10:55:30.201 24240 24273 I appium  : channel read invoked!
+12-11 10:55:30.201 24240 24273 I appium  : channel read: POST /wd/hub/session/628d2f11-2f0a-4446-8fb2-381aaf273d10/element
+12-11 10:55:30.202 24240 24273 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 10:55:30.203 24240 24273 I appium  : Waiting up to 10000ms for device to be idle
+12-11 10:55:30.240 24240 24273 I appium  : AppiumResponse: {"sessionId":"628d2f11-2f0a-4446-8fb2-381aaf273d10","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 10:55:30.769 24240 24273 I appium  : channel read invoked!
+12-11 10:55:30.770 24240 24273 I appium  : channel read: POST /wd/hub/session/628d2f11-2f0a-4446-8fb2-381aaf273d10/element
+12-11 10:55:30.773 24240 24273 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 10:55:30.773 24240 24273 I appium  : Waiting up to 10000ms for device to be idle
+12-11 10:55:30.829 24240 24273 I appium  : AppiumResponse: {"sessionId":"628d2f11-2f0a-4446-8fb2-381aaf273d10","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 10:55:31.351 24240 24273 I appium  : channel read invoked!
+12-11 10:55:31.352 24240 24273 I appium  : channel read: POST /wd/hub/session/628d2f11-2f0a-4446-8fb2-381aaf273d10/element
+12-11 10:55:31.355 24240 24273 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/sign_in_button'.
+12-11 10:55:31.355 24240 24273 I appium  : Waiting up to 10000ms for device to be idle
+12-11 10:55:31.405 24240 24273 I appium  : AppiumResponse: {"sessionId":"628d2f11-2f0a-4446-8fb2-381aaf273d10","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 10:55:31.480 24240 24273 I appium  : channel read invoked!
+12-11 10:55:31.480 24240 24273 I appium  : channel read: GET /wd/hub/session/628d2f11-2f0a-4446-8fb2-381aaf273d10/screenshot
+12-11 10:55:31.481 24240 24273 I appium  : Capture screenshot command
+12-11 10:55:31.696   638   638 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+12-11 10:55:31.696 24569 24569 I Gralloc4: mapper 4.x is not supported
+12-11 10:55:31.697   638   638 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@3.0::IMapper/default in either framework or device manifest.
+12-11 10:55:31.698 24569 24569 W Gralloc3: mapper 3.x is not supported
+12-11 10:55:31.722 24569 24569 W AdrenoUtils: <ReadGpuID_from_sysfs:197>: Failed to open /sys/class/kgsl/kgsl-3d0/gpu_model
+12-11 10:55:31.722 24569 24569 W AdrenoUtils: <ReadGpuID:221>: Failed to read chip ID from gpu_model. Fallback to use the GSL path
+12-11 10:55:32.344 24240 24273 I appium  : AppiumResponse: {"sessionId":"628d2f11-2f0a-4446-8fb2-381aaf273d10","value":"iVBORw0KGgoAAAANSUhEUgAABaAAAAtACAYAAADu24QXAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N13eFv12f\/xz9GwLMt7r+wdEkhIAoQVNgmhUKBhl0LZLaWlpXTAj1L6\ndDzt0xZoS2kplFJCWGW00JRdCCQQAiSMhAwyHY94b2v\/\/jAJcTQs2zqWbL9f18V1EUs652v5WJY+\...
+12-11 10:55:36.394 24345 18433 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.icing.service.IcingGcmTaskService started execution. cause:4 exec_start_elapsed_seconds: 824239 [CONTEXT service_id=218 ]
+12-11 10:55:36.395 21818 24191 I Icing   : Indexing com.google.android.gms-internal.3p:MobileApplication from com.google.android.gms using seqno 148
+12-11 10:55:36.396 24345 18433 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.icing.service.IcingGcmTaskService finished executing. cause:4 result: 1 elapsed_millis: 21 uptime_millis: 21 exec_start_elapsed_seconds: 824239 [CONTEXT service_id=218 ]
+12-11 10:55:36.403 15503 15503 I Finsky  : [2] adfo.onStartJob(3): SCH: onJobSchedulerWakeup with jobId 9000
+12-11 10:55:36.417 15503 15503 I Finsky  : [2] adbh.a(9): SCH: Scheduling fallback job with id: 9034, and delay: 43200000 ms
+12-11 10:55:36.432 15503 15503 I Finsky  : [2] adbh.b(9): SCH: Scheduling fallback in 64799998 (absolute: 889039953)
+12-11 10:55:36.492 15503 15503 I Finsky  : [2] adbq.handleMessage(4): SCH: DeviceState: DeviceState{currentTime=1607664336485, isCharging=true, isIdle=false, netAny=true, netNotRoaming=true, netUnmetered=true, batteryPercent=73.0}
+12-11 10:55:36.507 15503 24581 I Finsky  : [5229] addm.b(5): SCH: Jobs in database: 1-1337 3-994 12-1 26-1414141414 34-69 34-72 34-73 34-74 34-77 34-78 34-79 34-80 
+12-11 10:55:36.511 15503 15503 I Finsky  : [2] adbr.m(9): SCH: Running job: 12-1
+12-11 10:55:36.511 15503 15503 I Finsky  : [2] ContentSyncJob.s(1): [ContentSync] job started
+12-11 10:55:36.512 15503 15503 I Finsky  : [2] adbq.handleMessage(29): SCH: RunningQueue size: 1, PendingQueue size: 0
+12-11 10:55:36.512 15503 15503 I Finsky  : [2] adbq.handleMessage(32): SCH: Running queue: 12-1 
+12-11 10:55:36.585 15503 24583 I Finsky  : [5231] gsl.b(1): Completed 0 account content syncs with 0 successful.
+12-11 10:55:36.585 15503 15503 I Finsky  : [2] ContentSyncJob.a(1): [ContentSync] Installation state replication succeeded.
+12-11 10:55:36.586 15503 15503 I Finsky  : [2] adcl.n(4): SCH: jobFinished: 12-1. TimeElapsed: 75ms.
+12-11 10:55:36.586 15503 15503 I Finsky  : [2] adbr.b(3): SCH: Job 12-1 finished. Not rescheduling.
+12-11 10:55:36.587 15503 15503 I Finsky  : [2] adbq.handleMessage(29): SCH: RunningQueue size: 0, PendingQueue size: 0
+12-11 10:55:36.587 15503 15503 I Finsky  : [2] adbq.handleMessage(10): SCH: Executor finished
+12-11 10:55:36.643 15503 15503 I Finsky  : [2] addm.b(5): SCH: Jobs in database: 1-1337 3-994 26-1414141414 34-69 34-72 34-73 34-74 34-77 34-78 34-79 34-80 
+12-11 10:55:36.645 15503 15503 I Finsky  : [2] adby.d(37): SCH: ConstraintMapping: 1-1337, 34-78, 34-80,  -> L: 19987170ms, D: 64620463ms, C: false, I: false, N: 1
+12-11 10:55:36.646 15503 15503 I Finsky  : [2] adby.d(37): SCH: ConstraintMapping: 34-69, 34-72, 34-73, 34-74, 34-77, 34-79,  -> L: 454289238ms, D: 1750289238ms, C: false, I: true, N: 2
+12-11 10:55:36.646 15503 15503 I Finsky  : [2] adby.d(37): SCH: ConstraintMapping: 3-994, 34-69, 34-72, 34-73, 34-74, 34-77, 34-79,  -> L: 0ms, D: 84593060ms, C: true, I: true, N: 2
+12-11 10:55:36.646 15503 15503 I Finsky  : [2] adby.d(37): SCH: ConstraintMapping: 26-1414141414,  -> L: 16341382ms, D: 17241382ms, C: false, I: false, N: 0
+12-11 10:55:36.706 24240 24273 I appium  : channel read invoked!
+12-11 10:55:36.706 24240 24273 I appium  : channel read: DELETE /wd/hub/session/628d2f11-2f0a-4446-8fb2-381aaf273d10
+12-11 10:55:36.707 24240 24273 I appium  : Delete session command
+12-11 10:55:36.710 24240 24273 I appium  : Stopping uiautomator2 io.appium.uiautomator2.http io.appium.uiautomator2.server
+12-11 10:55:36.711 24240 24273 I appium  : AppiumResponse: {"sessionId":"628d2f11-2f0a-4446-8fb2-381aaf273d10","value":null}
+12-11 10:55:36.790  1406  3742 I ActivityManager: Force stopping com.flipkart.android appid=10340 user=0: from pid 24602
+12-11 10:55:36.791  1406  3742 I ActivityManager: Killing 24289:com.flipkart.android/u0a340 (adj 0): stop com.flipkart.android due to from pid 24602
+12-11 10:55:36.792  1406  3742 W ActivityTaskManager: Force removing ActivityRecord{826004b u0 com.flipkart.android/.activity.FirstLaunchActivity t3757 f}}: app died, no saved state
+12-11 10:55:36.819  2117  2117 D CarrierSvcBindHelper: No carrier app for: 0
+12-11 10:55:36.823 18590 24605 I EuiccGoogle: [55066] EuiccServiceImpl.onGetEuiccProfileInfoList: onGetEuiccProfileInfoList: slotId = -1
+12-11 10:55:36.825  3305  3305 D RegisteredNfcFServicesCache: Service unchanged, not updating
+12-11 10:55:36.826  1406  3742 W ActivityManager: Permission Denial: Accessing service com.google.android.music/.dial.DialMediaRouteProviderService from pid=21762, uid=10190 that is not exported from uid 10167
+12-11 10:55:36.832  1916  1916 D QcrilMsgTunnelIfaceManager: handleMessage what = 1
+12-11 10:55:36.833  1916  1916 I QcrilOemhookMsgTunnel: [0]invokeOemRilRequestRaw: serial=2418 length=16
+12-11 10:55:36.835  1916  1945 I QcrilOemhookMsgTunnel: [0]processOemHookResponse serial no: 2418 error: 0length=88
+12-11 10:55:36.835  1916  1916 D QcrilMsgTunnelIfaceManager: handleMessage what = 2
+12-11 10:55:36.837 18590 24605 I EuiccGoogle: [55066] UiccLogicalChannel.open: Locked on aid: A0000005591010FFFFFFFF8900000100
+12-11 10:55:36.851   868   868 I Zygote  : Process 24289 exited due to signal 9 (Killed)
+12-11 10:55:36.852 15503 15503 I Finsky  : [2] adby.f(7): SCH: Cancelling existing jobscheduler jobs: 9005 9006 9007 
+12-11 10:55:36.853 15503 15503 I Finsky  : [2] adby.e(23): SCH: Scheduling job Id: 9001, L: 19987170, D: 64620463, C: false, I: false, N: 1
+12-11 10:55:36.856  1406  3334 W WindowManager: Cannot find window which accessibility connection is added to
+12-11 10:55:36.858  1406  1469 W ActivityManager: setHasOverlayUi called on unknown pid: 24289
+12-11 10:55:36.862  2117  2117 E PhoneInterfaceManager: [PhoneIntfMgr] iccOpenLogicalChannel: Exception: com.android.internal.telephony.CommandException: NO_SUCH_ELEMENT
+12-11 10:55:36.863 18590 24605 E EuiccGoogle: [55066] UiccLogicalChannel.open: selectResponse is null. Unlocked for aid: A0000005591010FFFFFFFF8900000100
+12-11 10:55:36.863 18590 24605 W EuiccGoogle: [55066] EuiccServiceImpl.onGetEuiccProfileInfoList: slotId=-1. No eUICC is active. Return null.
+12-11 10:55:36.878  1406  1477 I libprocessgroup: Successfully killed process cgroup uid 10340 pid 24289 in 86ms
+12-11 10:55:36.891 19878 19878 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3308 
+12-11 10:55:36.892 19878 19878 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1887 
+12-11 10:55:36.898 12570 12639 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+12-11 10:55:36.899 24608 24610 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+12-11 10:55:36.909 15503 15503 I Finsky  : [2] adby.e(23): SCH: Scheduling job Id: 9002, L: 454289238, D: 1750289238, C: false, I: true, N: 2
+12-11 10:55:36.925 15503 15503 I Finsky  : [2] adby.e(8): SCH: Throttling wakeup for job 9003 (expected to run in 0 ms) due to recent wakeup
+12-11 10:55:36.926 15503 15503 I Finsky  : [2] adby.e(23): SCH: Scheduling job Id: 9003, L: 30000, D: 84593060, C: true, I: true, N: 2
+12-11 10:55:36.927 15503 15503 I Finsky  : [2] adby.e(23): SCH: Scheduling job Id: 9004, L: 16341382, D: 17241382, C: false, I: false, N: 0
+12-11 10:55:36.929 12570 12570 I BgTaskExecutorImpl: Starting EXCLUSIVE background task TNG_MINUS_ONE_SYNC.
+12-11 10:55:36.929 12570 12570 I BgTaskExecutorImpl: Starting EXCLUSIVE background task TNG_VOICE_SEARCH_SYNC.
+12-11 10:55:36.931 12570 12639 I TngMinusOneSync: Syncing TNG:-1
+12-11 10:55:36.932 12570 12639 I TngVoiceSearchSync: Syncing TNG:VoiceSearch
+12-11 10:55:36.971 24617 24619 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+12-11 10:55:37.008 24240 24262 I TestRunner: finished: startServer(io.appium.uiautomator2.server.test.AppiumUiAutomator2Server)
+12-11 10:55:37.011 24240 24240 I MonitoringInstr: Activities that are still in CREATED to STOPPED: 0
+12-11 10:55:37.012 24240 24262 I TestRunner: run finished: 1 tests, 0 failed, 0 ignored
+12-11 10:55:37.027 24624 24626 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4

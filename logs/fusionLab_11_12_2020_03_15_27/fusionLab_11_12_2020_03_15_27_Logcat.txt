@@ -1,0 +1,5 @@
+--------- beginning of main
+12-11 15:16:12.057   895   895 I android.hardware.health@2.0-service.wahoo: SRAM data: 3623000
+--------- beginning of system
+12-11 15:16:12.073  1791  3052 D PowerUI : can't show warning due to - plugged: true status unknown: false
+12-11 15:16:15.106 26090 22484 I CarrierServices: [40958] bvm.d: Resetting keep-alive timer. Next ping in 216s on i/f = wlan0

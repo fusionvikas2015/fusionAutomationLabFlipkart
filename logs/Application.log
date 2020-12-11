@@ -1,0 +1,33 @@
+09/10/2020 15:17:22  INFO BaseClass:143 -  Automation Framework Version:1.0
+09/10/2020 15:17:22  INFO BaseClass:146 - Please Wait ! Initiating Android Appium Driver...
+09/10/2020 15:17:22  INFO BaseClass:147 - androidDeviceID: 712KPPB1016952
+09/10/2020 15:17:22  INFO BaseClass:149 - Platform: 11
+09/10/2020 15:17:22  INFO BaseClass:151 - DeviceName: Pixel 2 XL
+09/10/2020 15:17:55  INFO BaseClass:183 - iOS Driver Initiated Successfully.Now initiating all the screens objects.
+09/10/2020 15:17:56  INFO BaseClass:21 - TC01_LoginToAmazon
+09/10/2020 15:17:56  INFO BaseClass:196 - 
+
+				============>>>>  Testcase Teardown  <<<<============
+09/10/2020 15:18:03  INFO BaseClass:143 -  Automation Framework Version:1.0
+09/10/2020 15:18:03  INFO BaseClass:146 - Please Wait ! Initiating Android Appium Driver...
+09/10/2020 15:18:03  INFO BaseClass:147 - androidDeviceID: 712KPPB1016952
+09/10/2020 15:18:04  INFO BaseClass:149 - Platform: 11
+09/10/2020 15:18:04  INFO BaseClass:151 - DeviceName: Pixel 2 XL
+09/10/2020 15:18:53  INFO BaseClass:183 - iOS Driver Initiated Successfully.Now initiating all the screens objects.
+09/10/2020 15:18:53  INFO BaseClass:60 - TC02_VerifyDetailsOnProductSearchScreenVsCheckoutScreen
+09/10/2020 15:18:57  INFO BaseClass:219 - Search bar Clicked
+09/10/2020 15:19:00  INFO BaseClass:245 - Typing  : 65-inch TV
+09/10/2020 15:19:09  INFO BaseClass:66 - Get the Product name , price and description before checkout
+09/10/2020 15:19:25  INFO BaseClass:196 - 
+
+				============>>>>  Testcase Teardown  <<<<============
+09/10/2020 15:19:33  INFO BaseClass:143 -  Automation Framework Version:1.0
+09/10/2020 15:19:33  INFO BaseClass:146 - Please Wait ! Initiating Android Appium Driver...
+09/10/2020 15:19:33  INFO BaseClass:147 - androidDeviceID: 712KPPB1016952
+09/10/2020 15:19:33  INFO BaseClass:149 - Platform: 11
+09/10/2020 15:19:33  INFO BaseClass:151 - DeviceName: Pixel 2 XL
+09/10/2020 15:19:49  INFO BaseClass:183 - iOS Driver Initiated Successfully.Now initiating all the screens objects.
+09/10/2020 15:19:49  INFO BaseClass:30 - TC02_VerifyDetailsOnProductSearchScreenVsCheckoutScreen
+09/10/2020 15:19:52  INFO BaseClass:196 - 
+
+				============>>>>  Testcase Teardown  <<<<============

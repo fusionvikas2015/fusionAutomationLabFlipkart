@@ -1,0 +1,716 @@
+--------- beginning of main
+12-11 15:15:42.413 23014 23089 W SearchServiceCore: Abort, client detached.
+12-11 15:15:42.561  6690  6702 I lipkart.androi: Background young concurrent copying GC freed 506271(37MB) AllocSpace objects, 227(26MB) LOS objects, 65% free, 12MB/36MB, paused 369us total 134.833ms
+12-11 15:15:42.567  6690  6703 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.google.android.play.core.internal.i
+12-11 15:15:42.567  6690  6703 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+--------- beginning of system
+12-11 15:15:44.641  1406  1741 D ConnectivityService: Data stall detected with methods: 2
+12-11 15:15:44.641  1962  6503 D NetworkMonitor/488: isDataStall: result=true, tcp packets received=0, latest tcp fail rate=100
+12-11 15:15:44.641  1962  6503 D NetworkMonitor/488: Suspecting data stall, reevaluate
+12-11 15:15:44.660  1962  6857 D NetworkMonitor/488: PROBE_DNS www.google.com 15ms OK 2404:6800:4009:80b::2004,172.217.160.196
+12-11 15:15:44.664  1962  6858 D NetworkMonitor/488: PROBE_DNS connectivitycheck.gstatic.com 20ms OK 2404:6800:4009:802::2003,216.58.203.131
+12-11 15:15:45.050  1962  6858 D NetworkMonitor/488: PROBE_HTTP http://connectivitycheck.gstatic.com/generate_204 time=382ms ret=204 request={Connection=[close], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Connection=[close], Content-Length=[0], Date=[Fri, 11 Dec 2020 09:45:44 GMT], X-Android-Received-Millis=[1607679945049], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1607679944999]}
+12-11 15:15:45.224  1962  6857 D NetworkMonitor/488: PROBE_HTTPS https://www.google.com/generate_204 time=560ms ret=204 request={Connection=[close], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Alt-Svc=[h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"], Connection=[close], Content-Length=[0], Date=[Fri, 11 Dec 2020 09:45:44 GMT], X-Android-Received-Millis=[1607679945223], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1607679945116]}
+12-11 15:15:45.233  1962  6856 D NetworkMonitor/488: isCaptivePortal: isSuccessful()=true isPortal()=false RedirectUrl=null isPartialConnectivity()=false Time=583ms
+12-11 15:15:45.233  1406  1475 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.conn.NETWORK_CONDITIONS_MEASURED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+12-11 15:15:45.238  1406  1644 D ConnectivityService: [488 CELLULAR] validation passed
+12-11 15:15:45.386  1034  1034 I perfetto: probes_producer.cc:329  Producer stop (id=5807)
+12-11 15:15:45.387  1034  1034 I perfetto: ftrace_procfs.cc:183    disabled ftrace
+12-11 15:15:45.391  1035  1035 I perfetto: ng_service_impl.cc:1948 Tracing session 5807 ended, total sessions:0
+12-11 15:15:45.400  1066  6686 I iorapd  : Perfetto TraceBuffer saved to file: /data/misc/iorapd/com.flipkart.android/1200017/com.flipkart.android.activity.HomeFragmentHolderActivity/raw_traces/1607679945397909612.perfetto_trace.pb
+12-11 15:15:47.436  6643  6674 I appium  : channel read invoked!
+12-11 15:15:47.436  6643  6674 I appium  : channel read: POST /wd/hub/session/9597bf0b-8fc6-48d1-b37e-4c6eebd74452/orientation
+12-11 15:15:47.443  6643  6674 I appium  : AppiumResponse: {"sessionId":"9597bf0b-8fc6-48d1-b37e-4c6eebd74452","value":"PORTRAIT"}
+12-11 15:15:47.471  6643  6674 I appium  : channel read invoked!
+12-11 15:15:47.471  6643  6674 I appium  : channel read: POST /wd/hub/session/9597bf0b-8fc6-48d1-b37e-4c6eebd74452/orientation
+12-11 15:15:47.474  6643  6674 I appium  : AppiumResponse: {"sessionId":"9597bf0b-8fc6-48d1-b37e-4c6eebd74452","value":"PORTRAIT"}
+12-11 15:15:47.546  6643  6674 I appium  : channel read invoked!
+12-11 15:15:47.546  6643  6674 I appium  : channel read: POST /wd/hub/session/9597bf0b-8fc6-48d1-b37e-4c6eebd74452/element
+12-11 15:15:47.549  6643  6674 I appium  : Find element command using 'id' with selector 'com.flipkart.android:id/search_widget_textbox'.
+12-11 15:15:47.559  6643  6674 I appium  : Waiting up to 10000ms for device to be idle
+12-11 15:15:47.609 23014 23030 W earchbox:searc: Reducing the number of considered missed Gc histogram windows from 107 to 100
+12-11 15:15:47.672  6643  6674 I appium  : AppiumResponse: {"sessionId":"9597bf0b-8fc6-48d1-b37e-4c6eebd74452","value":{"ELEMENT":"2986d66b-4c5e-4ed5-9e84-96a50bd151cc","element-6066-11e4-a52e-4f735466cecf":"2986d66b-4c5e-4ed5-9e84-96a50bd151cc"}}
+12-11 15:15:47.703  6643  6674 I appium  : channel read invoked!
+12-11 15:15:47.703  6643  6674 I appium  : channel read: POST /wd/hub/session/9597bf0b-8fc6-48d1-b37e-4c6eebd74452/element/2986d66b-4c5e-4ed5-9e84-96a50bd151cc/click
+12-11 15:15:47.705  6643  6674 I appium  : Click element command
+12-11 15:15:47.751  1406  1484 V DisplayPowerController: Brightness [0.16909936] reason changing to: 'automatic', previous reason: 'automatic [ dim ]'.
+12-11 15:15:47.774  6643  6674 I appium  : Waiting up to 10000ms for device to be idle
+12-11 15:15:47.775  6643  6674 I appium  : AppiumResponse: {"sessionId":"9597bf0b-8fc6-48d1-b37e-4c6eebd74452","value":null}
+12-11 15:15:47.818  6690  6690 W System.err: java.net.MalformedURLException: no protocol: auto_suggest_search
+12-11 15:15:47.818  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:601)
+12-11 15:15:47.818  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:498)
+12-11 15:15:47.818  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:447)
+12-11 15:15:47.818  6690  6690 W System.err: 	at com.flipkart.android.utils.cc.getUrlPath(Unknown Source:2)
+12-11 15:15:47.818  6690  6690 W System.err: 	at com.flipkart.android.bottomnavigation.c.a(Unknown Source:139)
+12-11 15:15:47.818  6690  6690 W System.err: 	at com.flipkart.android.bottomnavigation.c.update(Unknown Source:135)
+12-11 15:15:47.818  6690  6690 W System.err: 	at com.flipkart.android.bottomnavigation.c$b.onBackStackChanged(Unknown Source:4)
+12-11 15:15:47.818  6690  6690 W System.err: 	at androidx.fragment.app.h.m(Unknown Source:21)
+12-11 15:15:47.818  6690  6690 W System.err: 	at androidx.fragment.app.h.a(Unknown Source:206)
+12-11 15:15:47.818  6690  6690 W System.err: 	at androidx.fragment.app.h.b(Unknown Source:88)
+12-11 15:15:47.818  6690  6690 W System.err: 	at androidx.fragment.app.h.k(Unknown Source:21)
+12-11 15:15:47.818  6690  6690 W System.err: 	at androidx.fragment.app.h$1.run(Unknown Source:2)
+12-11 15:15:47.818  6690  6690 W System.err: 	at android.os.Handler.handleCallback(Handler.java:938)
+12-11 15:15:47.818  6690  6690 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+12-11 15:15:47.818  6690  6690 W System.err: 	at android.os.Looper.loop(Looper.java:223)
+12-11 15:15:47.818  6690  6690 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+12-11 15:15:47.818  6690  6690 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+12-11 15:15:47.818  6690  6690 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+12-11 15:15:47.818  6690  6690 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+12-11 15:15:47.818  6690  6690 W System.err: java.net.MalformedURLException: no protocol: auto_suggest_search
+12-11 15:15:47.818  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:601)
+12-11 15:15:47.818  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:498)
+12-11 15:15:47.818  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:447)
+12-11 15:15:47.818  6690  6690 W System.err: 	at com.flipkart.android.utils.cc.getUrlPath(Unknown Source:2)
+12-11 15:15:47.819  6690  6690 W System.err: 	at com.flipkart.android.reactnative.nativeuimodules.reactbottombar.ReactBottomNavigationFragment.findBottomBarEligibleUrl(Unknown Source:48)
+12-11 15:15:47.819  6690  6690 W System.err: 	at com.flipkart.android.bottomnavigation.c.update(Unknown Source:151)
+12-11 15:15:47.819  6690  6690 W System.err: 	at com.flipkart.android.bottomnavigation.c$b.onBackStackChanged(Unknown Source:4)
+12-11 15:15:47.819  6690  6690 W System.err: 	at androidx.fragment.app.h.m(Unknown Source:21)
+12-11 15:15:47.819  6690  6690 W System.err: 	at androidx.fragment.app.h.a(Unknown Source:206)
+12-11 15:15:47.819  6690  6690 W System.err: 	at androidx.fragment.app.h.b(Unknown Source:88)
+12-11 15:15:47.819  6690  6690 W System.err: 	at androidx.fragment.app.h.k(Unknown Source:21)
+12-11 15:15:47.819  6690  6690 W System.err: 	at androidx.fragment.app.h$1.run(Unknown Source:2)
+12-11 15:15:47.819  6690  6690 W System.err: 	at android.os.Handler.handleCallback(Handler.java:938)
+12-11 15:15:47.819  6690  6690 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+12-11 15:15:47.819  6690  6690 W System.err: 	at android.os.Looper.loop(Looper.java:223)
+12-11 15:15:47.819  6690  6690 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+12-11 15:15:47.819  6690  6690 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+12-11 15:15:47.819  6690  6690 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+12-11 15:15:47.819  6690  6690 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+12-11 15:15:47.819  6690  6690 W System.err: java.net.MalformedURLException: no protocol: auto_suggest_search
+12-11 15:15:47.819  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:601)
+12-11 15:15:47.819  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:498)
+12-11 15:15:47.819  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:447)
+12-11 15:15:47.819  6690  6690 W System.err: 	at com.flipkart.android.utils.cc.getUrlPath(Unknown Source:2)
+12-11 15:15:47.819  6690  6690 W System.err: 	at com.flipkart.android.reactnative.nativeuimodules.reactbottombar.ReactBottomNavigationFragment.findBottomBarEligibleUrl(Unknown Source:113)
+12-11 15:15:47.819  6690  6690 W System.err: 	at com.flipkart.android.bottomnavigation.c.update(Unknown Source:151)
+12-11 15:15:47.819  6690  6690 W System.err: 	at com.flipkart.android.bottomnavigation.c$b.onBackStackChanged(Unknown Source:4)
+12-11 15:15:47.819  6690  6690 W System.err: 	at androidx.fragment.app.h.m(Unknown Source:21)
+12-11 15:15:47.819  6690  6690 W System.err: 	at androidx.fragment.app.h.a(Unknown Source:206)
+12-11 15:15:47.819  6690  6690 W System.err: 	at androidx.fragment.app.h.b(Unknown Source:88)
+12-11 15:15:47.819  6690  6690 W System.err: 	at androidx.fragment.app.h.k(Unknown Source:21)
+12-11 15:15:47.819  6690  6690 W System.err: 	at androidx.fragment.app.h$1.run(Unknown Source:2)
+12-11 15:15:47.819  6690  6690 W System.err: 	at android.os.Handler.handleCallback(Handler.java:938)
+12-11 15:15:47.819  6690  6690 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+12-11 15:15:47.819  6690  6690 W System.err: 	at android.os.Looper.loop(Looper.java:223)
+12-11 15:15:47.819  6690  6690 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+12-11 15:15:47.819  6690  6690 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+12-11 15:15:47.819  6690  6690 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+12-11 15:15:47.819  6690  6690 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+12-11 15:15:47.819  6690  6690 W System.err: java.net.MalformedURLException: no protocol: auto_suggest_search
+12-11 15:15:47.819  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:601)
+12-11 15:15:47.819  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:498)
+12-11 15:15:47.819  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:447)
+12-11 15:15:47.819  6690  6690 W System.err: 	at com.flipkart.android.utils.cc.getUrlPath(Unknown Source:2)
+12-11 15:15:47.819  6690  6690 W System.err: 	at com.flipkart.android.reactnative.nativeuimodules.reactbottombar.ReactBottomNavigationFragment.findBottomBarEligibleUrl(Unknown Source:113)
+12-11 15:15:47.819  6690  6690 W System.err: 	at com.flipkart.android.bottomnavigation.c.update(Unknown Source:151)
+12-11 15:15:47.819  6690  6690 W System.err: 	at com.flipkart.android.bottomnavigation.c$b.onBackStackChanged(Unknown Source:4)
+12-11 15:15:47.819  6690  6690 W System.err: 	at androidx.fragment.app.h.m(Unknown Source:21)
+12-11 15:15:47.820  6690  6690 W System.err: 	at androidx.fragment.app.h.a(Unknown Source:206)
+12-11 15:15:47.820  6690  6690 W System.err: 	at androidx.fragment.app.h.b(Unknown Source:88)
+12-11 15:15:47.820  6690  6690 W System.err: 	at androidx.fragment.app.h.k(Unknown Source:21)
+12-11 15:15:47.820  6690  6690 W System.err: 	at androidx.fragment.app.h$1.run(Unknown Source:2)
+12-11 15:15:47.820  6690  6690 W System.err: 	at android.os.Handler.handleCallback(Handler.java:938)
+12-11 15:15:47.820  6690  6690 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+12-11 15:15:47.820  6690  6690 W System.err: 	at android.os.Looper.loop(Looper.java:223)
+12-11 15:15:47.820  6690  6690 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+12-11 15:15:47.820  6690  6690 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+12-11 15:15:47.820  6690  6690 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+12-11 15:15:47.820  6690  6690 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+12-11 15:15:47.820  6690  6690 W System.err: java.net.MalformedURLException: no protocol: auto_suggest_search
+12-11 15:15:47.820  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:601)
+12-11 15:15:47.820  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:498)
+12-11 15:15:47.820  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:447)
+12-11 15:15:47.820  6690  6690 W System.err: 	at com.flipkart.android.utils.cc.getUrlPath(Unknown Source:2)
+12-11 15:15:47.820  6690  6690 W System.err: 	at com.flipkart.android.reactnative.nativeuimodules.reactbottombar.ReactBottomNavigationFragment.findBottomBarEligibleUrl(Unknown Source:113)
+12-11 15:15:47.820  6690  6690 W System.err: 	at com.flipkart.android.bottomnavigation.c.update(Unknown Source:151)
+12-11 15:15:47.820  6690  6690 W System.err: 	at com.flipkart.android.bottomnavigation.c$b.onBackStackChanged(Unknown Source:4)
+12-11 15:15:47.820  6690  6690 W System.err: 	at androidx.fragment.app.h.m(Unknown Source:21)
+12-11 15:15:47.820  6690  6690 W System.err: 	at androidx.fragment.app.h.a(Unknown Source:206)
+12-11 15:15:47.820  6690  6690 W System.err: 	at androidx.fragment.app.h.b(Unknown Source:88)
+12-11 15:15:47.820  6690  6690 W System.err: 	at androidx.fragment.app.h.k(Unknown Source:21)
+12-11 15:15:47.820  6690  6690 W System.err: 	at androidx.fragment.app.h$1.run(Unknown Source:2)
+12-11 15:15:47.820  6690  6690 W System.err: 	at android.os.Handler.handleCallback(Handler.java:938)
+12-11 15:15:47.820  6690  6690 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+12-11 15:15:47.820  6690  6690 W System.err: 	at android.os.Looper.loop(Looper.java:223)
+12-11 15:15:47.820  6690  6690 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+12-11 15:15:47.820  6690  6690 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+12-11 15:15:47.820  6690  6690 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+12-11 15:15:47.820  6690  6690 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+12-11 15:15:47.820  6690  6690 W System.err: java.net.MalformedURLException: no protocol: auto_suggest_search
+12-11 15:15:47.821  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:601)
+12-11 15:15:47.822  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:498)
+12-11 15:15:47.822  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:447)
+12-11 15:15:47.822  6690  6690 W System.err: 	at com.flipkart.android.utils.cc.getUrlPath(Unknown Source:2)
+12-11 15:15:47.822  6690  6690 W System.err: 	at com.flipkart.android.reactnative.nativeuimodules.reactbottombar.ReactBottomNavigationFragment.findBottomBarEligibleUrl(Unknown Source:113)
+12-11 15:15:47.822  6690  6690 W System.err: 	at com.flipkart.android.bottomnavigation.c.update(Unknown Source:151)
+12-11 15:15:47.822  6690  6690 W System.err: 	at com.flipkart.android.bottomnavigation.c$b.onBackStackChanged(Unknown Source:4)
+12-11 15:15:47.822  6690  6690 W System.err: 	at androidx.fragment.app.h.m(Unknown Source:21)
+12-11 15:15:47.822  6690  6690 W System.err: 	at androidx.fragment.app.h.a(Unknown Source:206)
+12-11 15:15:47.822  6690  6690 W System.err: 	at androidx.fragment.app.h.b(Unknown Source:88)
+12-11 15:15:47.822  6690  6690 W System.err: 	at androidx.fragment.app.h.k(Unknown Source:21)
+12-11 15:15:47.822  6690  6690 W System.err: 	at androidx.fragment.app.h$1.run(Unknown Source:2)
+12-11 15:15:47.822  6690  6690 W System.err: 	at android.os.Handler.handleCallback(Handler.java:938)
+12-11 15:15:47.822  6690  6690 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+12-11 15:15:47.822  6690  6690 W System.err: 	at android.os.Looper.loop(Looper.java:223)
+12-11 15:15:47.822  6690  6690 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+12-11 15:15:47.822  6690  6690 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+12-11 15:15:47.822  6690  6690 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+12-11 15:15:47.822  6690  6690 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+12-11 15:15:47.822  6690  6690 W System.err: java.net.MalformedURLException: no protocol: auto_suggest_search
+12-11 15:15:47.822  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:601)
+12-11 15:15:47.822  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:498)
+12-11 15:15:47.822  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:447)
+12-11 15:15:47.822  6690  6690 W System.err: 	at com.flipkart.android.utils.cc.getUrlPath(Unknown Source:2)
+12-11 15:15:47.822  6690  6690 W System.err: 	at com.flipkart.android.reactnative.nativeuimodules.reactbottombar.ReactBottomNavigationFragment.findBottomBarEligibleUrl(Unknown Source:113)
+12-11 15:15:47.822  6690  6690 W System.err: 	at com.flipkart.android.bottomnavigation.c.update(Unknown Source:151)
+12-11 15:15:47.822  6690  6690 W System.err: 	at com.flipkart.android.bottomnavigation.c$b.onBackStackChanged(Unknown Source:4)
+12-11 15:15:47.822  6690  6690 W System.err: 	at androidx.fragment.app.h.m(Unknown Source:21)
+12-11 15:15:47.822  6690  6690 W System.err: 	at androidx.fragment.app.h.a(Unknown Source:206)
+12-11 15:15:47.822  6690  6690 W System.err: 	at androidx.fragment.app.h.b(Unknown Source:88)
+12-11 15:15:47.822  6690  6690 W System.err: 	at androidx.fragment.app.h.k(Unknown Source:21)
+12-11 15:15:47.822  6690  6690 W System.err: 	at androidx.fragment.app.h$1.run(Unknown Source:2)
+12-11 15:15:47.822  6690  6690 W System.err: 	at android.os.Handler.handleCallback(Handler.java:938)
+12-11 15:15:47.822  6690  6690 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+12-11 15:15:47.822  6690  6690 W System.err: 	at android.os.Looper.loop(Looper.java:223)
+12-11 15:15:47.822  6690  6690 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+12-11 15:15:47.822  6690  6690 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+12-11 15:15:47.822  6690  6690 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+12-11 15:15:47.822  6690  6690 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+12-11 15:15:47.822  6690  6690 W System.err: java.net.MalformedURLException: no protocol: auto_suggest_search
+12-11 15:15:47.822  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:601)
+12-11 15:15:47.822  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:498)
+12-11 15:15:47.822  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:447)
+12-11 15:15:47.822  6690  6690 W System.err: 	at com.flipkart.android.utils.cc.getUrlPath(Unknown Source:2)
+12-11 15:15:47.822  6690  6690 W System.err: 	at com.flipkart.android.reactnative.nativeuimodules.reactbottombar.ReactBottomNavigationFragment.findBottomBarEligibleUrl(Unknown Source:113)
+12-11 15:15:47.822  6690  6690 W System.err: 	at com.flipkart.android.bottomnavigation.c.update(Unknown Source:151)
+12-11 15:15:47.822  6690  6690 W System.err: 	at com.flipkart.android.bottomnavigation.c$b.onBackStackChanged(Unknown Source:4)
+12-11 15:15:47.822  6690  6690 W System.err: 	at androidx.fragment.app.h.m(Unknown Source:21)
+12-11 15:15:47.822  6690  6690 W System.err: 	at androidx.fragment.app.h.a(Unknown Source:206)
+12-11 15:15:47.822  6690  6690 W System.err: 	at androidx.fragment.app.h.b(Unknown Source:88)
+12-11 15:15:47.822  6690  6690 W System.err: 	at androidx.fragment.app.h.k(Unknown Source:21)
+12-11 15:15:47.822  6690  6690 W System.err: 	at androidx.fragment.app.h$1.run(Unknown Source:2)
+12-11 15:15:47.822  6690  6690 W System.err: 	at android.os.Handler.handleCallback(Handler.java:938)
+12-11 15:15:47.822  6690  6690 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+12-11 15:15:47.822  6690  6690 W System.err: 	at android.os.Looper.loop(Looper.java:223)
+12-11 15:15:47.822  6690  6690 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+12-11 15:15:47.822  6690  6690 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+12-11 15:15:47.822  6690  6690 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+12-11 15:15:47.822  6690  6690 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+12-11 15:15:47.823  6690  6690 W System.err: java.net.MalformedURLException: no protocol: auto_suggest_search
+12-11 15:15:47.823  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:601)
+12-11 15:15:47.823  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:498)
+12-11 15:15:47.823  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:447)
+12-11 15:15:47.823  6690  6690 W System.err: 	at com.flipkart.android.utils.cc.getUrlPath(Unknown Source:2)
+12-11 15:15:47.823  6690  6690 W System.err: 	at com.flipkart.android.reactnative.nativeuimodules.reactbottombar.ReactBottomNavigationFragment.findBottomBarEligibleUrl(Unknown Source:113)
+12-11 15:15:47.823  6690  6690 W System.err: 	at com.flipkart.android.bottomnavigation.c.update(Unknown Source:151)
+12-11 15:15:47.823  6690  6690 W System.err: 	at com.flipkart.android.bottomnavigation.c$b.onBackStackChanged(Unknown Source:4)
+12-11 15:15:47.823  6690  6690 W System.err: 	at androidx.fragment.app.h.m(Unknown Source:21)
+12-11 15:15:47.823  6690  6690 W System.err: 	at androidx.fragment.app.h.a(Unknown Source:206)
+12-11 15:15:47.823  6690  6690 W System.err: 	at androidx.fragment.app.h.b(Unknown Source:88)
+12-11 15:15:47.823  6690  6690 W System.err: 	at androidx.fragment.app.h.k(Unknown Source:21)
+12-11 15:15:47.823  6690  6690 W System.err: 	at androidx.fragment.app.h$1.run(Unknown Source:2)
+12-11 15:15:47.823  6690  6690 W System.err: 	at android.os.Handler.handleCallback(Handler.java:938)
+12-11 15:15:47.823  6690  6690 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+12-11 15:15:47.823  6690  6690 W System.err: 	at android.os.Looper.loop(Looper.java:223)
+12-11 15:15:47.823  6690  6690 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+12-11 15:15:47.823  6690  6690 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+12-11 15:15:47.823  6690  6690 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+12-11 15:15:47.823  6690  6690 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+12-11 15:15:47.823  6690  6690 W System.err: java.net.MalformedURLException: no protocol: auto_suggest_search
+12-11 15:15:47.823  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:601)
+12-11 15:15:47.823  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:498)
+12-11 15:15:47.823  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:447)
+12-11 15:15:47.823  6690  6690 W System.err: 	at com.flipkart.android.utils.cc.getUrlPath(Unknown Source:2)
+12-11 15:15:47.823  6690  6690 W System.err: 	at com.flipkart.android.reactnative.nativeuimodules.reactbottombar.ReactBottomNavigationFragment.findBottomBarEligibleUrl(Unknown Source:113)
+12-11 15:15:47.823  6690  6690 W System.err: 	at com.flipkart.android.bottomnavigation.c.update(Unknown Source:151)
+12-11 15:15:47.823  6690  6690 W System.err: 	at com.flipkart.android.bottomnavigation.c$b.onBackStackChanged(Unknown Source:4)
+12-11 15:15:47.823  6690  6690 W System.err: 	at androidx.fragment.app.h.m(Unknown Source:21)
+12-11 15:15:47.823  6690  6690 W System.err: 	at androidx.fragment.app.h.a(Unknown Source:206)
+12-11 15:15:47.823  6690  6690 W System.err: 	at androidx.fragment.app.h.b(Unknown Source:88)
+12-11 15:15:47.823  6690  6690 W System.err: 	at androidx.fragment.app.h.k(Unknown Source:21)
+12-11 15:15:47.823  6690  6690 W System.err: 	at androidx.fragment.app.h$1.run(Unknown Source:2)
+12-11 15:15:47.823  6690  6690 W System.err: 	at android.os.Handler.handleCallback(Handler.java:938)
+12-11 15:15:47.823  6690  6690 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+12-11 15:15:47.823  6690  6690 W System.err: 	at android.os.Looper.loop(Looper.java:223)
+12-11 15:15:47.823  6690  6690 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+12-11 15:15:47.823  6690  6690 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+12-11 15:15:47.823  6690  6690 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+12-11 15:15:47.823  6690  6690 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+12-11 15:15:47.823  6690  6690 W System.err: java.net.MalformedURLException: no protocol: auto_suggest_search
+12-11 15:15:47.823  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:601)
+12-11 15:15:47.823  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:498)
+12-11 15:15:47.823  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:447)
+12-11 15:15:47.823  6690  6690 W System.err: 	at com.flipkart.android.utils.cc.getUrlPath(Unknown Source:2)
+12-11 15:15:47.823  6690  6690 W System.err: 	at com.flipkart.android.reactnative.nativeuimodules.reactbottombar.ReactBottomNavigationFragment.findBottomBarEligibleUrl(Unknown Source:113)
+12-11 15:15:47.823  6690  6690 W System.err: 	at com.flipkart.android.bottomnavigation.c.update(Unknown Source:151)
+12-11 15:15:47.823  6690  6690 W System.err: 	at com.flipkart.android.bottomnavigation.c$b.onBackStackChanged(Unknown Source:4)
+12-11 15:15:47.823  6690  6690 W System.err: 	at androidx.fragment.app.h.m(Unknown Source:21)
+12-11 15:15:47.823  6690  6690 W System.err: 	at androidx.fragment.app.h.a(Unknown Source:206)
+12-11 15:15:47.823  6690  6690 W System.err: 	at androidx.fragment.app.h.b(Unknown Source:88)
+12-11 15:15:47.823  6690  6690 W System.err: 	at androidx.fragment.app.h.k(Unknown Source:21)
+12-11 15:15:47.823  6690  6690 W System.err: 	at androidx.fragment.app.h$1.run(Unknown Source:2)
+12-11 15:15:47.823  6690  6690 W System.err: 	at android.os.Handler.handleCallback(Handler.java:938)
+12-11 15:15:47.823  6690  6690 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+12-11 15:15:47.823  6690  6690 W System.err: 	at android.os.Looper.loop(Looper.java:223)
+12-11 15:15:47.823  6690  6690 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+12-11 15:15:47.823  6690  6690 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+12-11 15:15:47.823  6690  6690 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+12-11 15:15:47.823  6690  6690 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+12-11 15:15:47.823  6690  6690 W System.err: java.net.MalformedURLException: no protocol: auto_suggest_search
+12-11 15:15:47.823  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:601)
+12-11 15:15:47.823  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:498)
+12-11 15:15:47.823  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:447)
+12-11 15:15:47.823  6690  6690 W System.err: 	at com.flipkart.android.utils.cc.getUrlPath(Unknown Source:2)
+12-11 15:15:47.823  6690  6690 W System.err: 	at com.flipkart.android.reactnative.nativeuimodules.reactbottombar.ReactBottomNavigationFragment.findBottomBarEligibleUrl(Unknown Source:113)
+12-11 15:15:47.823  6690  6690 W System.err: 	at com.flipkart.android.bottomnavigation.c.update(Unknown Source:151)
+12-11 15:15:47.823  6690  6690 W System.err: 	at com.flipkart.android.bottomnavigation.c$b.onBackStackChanged(Unknown Source:4)
+12-11 15:15:47.823  6690  6690 W System.err: 	at androidx.fragment.app.h.m(Unknown Source:21)
+12-11 15:15:47.823  6690  6690 W System.err: 	at androidx.fragment.app.h.a(Unknown Source:206)
+12-11 15:15:47.823  6690  6690 W System.err: 	at androidx.fragment.app.h.b(Unknown Source:88)
+12-11 15:15:47.824  6690  6690 W System.err: 	at androidx.fragment.app.h.k(Unknown Source:21)
+12-11 15:15:47.824  6690  6690 W System.err: 	at androidx.fragment.app.h$1.run(Unknown Source:2)
+12-11 15:15:47.824  6690  6690 W System.err: 	at android.os.Handler.handleCallback(Handler.java:938)
+12-11 15:15:47.824  6690  6690 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+12-11 15:15:47.824  6690  6690 W System.err: 	at android.os.Looper.loop(Looper.java:223)
+12-11 15:15:47.824  6690  6690 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+12-11 15:15:47.824  6690  6690 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+12-11 15:15:47.824  6690  6690 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+12-11 15:15:47.824  6690  6690 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+12-11 15:15:47.824  6690  6690 W System.err: java.net.MalformedURLException: no protocol: auto_suggest_search
+12-11 15:15:47.824  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:601)
+12-11 15:15:47.824  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:498)
+12-11 15:15:47.824  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:447)
+12-11 15:15:47.824  6690  6690 W System.err: 	at com.flipkart.android.utils.cc.getUrlPath(Unknown Source:2)
+12-11 15:15:47.824  6690  6690 W System.err: 	at com.flipkart.android.reactnative.nativeuimodules.reactbottombar.ReactBottomNavigationFragment.findBottomBarEligibleUrl(Unknown Source:113)
+12-11 15:15:47.824  6690  6690 W System.err: 	at com.flipkart.android.bottomnavigation.c.update(Unknown Source:151)
+12-11 15:15:47.824  6690  6690 W System.err: 	at com.flipkart.android.bottomnavigation.c$b.onBackStackChanged(Unknown Source:4)
+12-11 15:15:47.824  6690  6690 W System.err: 	at androidx.fragment.app.h.m(Unknown Source:21)
+12-11 15:15:47.824  6690  6690 W System.err: 	at androidx.fragment.app.h.a(Unknown Source:206)
+12-11 15:15:47.824  6690  6690 W System.err: 	at androidx.fragment.app.h.b(Unknown Source:88)
+12-11 15:15:47.824  6690  6690 W System.err: 	at androidx.fragment.app.h.k(Unknown Source:21)
+12-11 15:15:47.824  6690  6690 W System.err: 	at androidx.fragment.app.h$1.run(Unknown Source:2)
+12-11 15:15:47.824  6690  6690 W System.err: 	at android.os.Handler.handleCallback(Handler.java:938)
+12-11 15:15:47.824  6690  6690 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+12-11 15:15:47.824  6690  6690 W System.err: 	at android.os.Looper.loop(Looper.java:223)
+12-11 15:15:47.824  6690  6690 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+12-11 15:15:47.824  6690  6690 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+12-11 15:15:47.824  6690  6690 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+12-11 15:15:47.824  6690  6690 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+12-11 15:15:47.824  6690  6690 W System.err: java.net.MalformedURLException: no protocol: auto_suggest_search
+12-11 15:15:47.824  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:601)
+12-11 15:15:47.824  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:498)
+12-11 15:15:47.824  6690  6690 W System.err: 	at java.net.URL.<init>(URL.java:447)
+12-11 15:15:47.824  6690  6690 W System.err: 	at com.flipkart.android.utils.cc.getUrlPath(Unknown Source:2)
+12-11 15:15:47.824  6690  6690 W System.err: 	at com.flipkart.android.reactnative.nativeuimodules.reactbottombar.ReactBottomNavigationFragment.findBottomBarEligibleUrl(Unknown Source:113)
+12-11 15:15:47.824  6690  6690 W System.err: 	at com.flipkart.android.bottomnavigation.c.update(Unknown Source:151)
+12-11 15:15:47.824  6690  6690 W System.err: 	at com.flipkart.android.bottomnavigation.c$b.onBackStackChanged(Unknown Source:4)
+12-11 15:15:47.824  6690  6690 W System.err: 	at androidx.fragment.app.h.m(Unknown Source:21)
+12-11 15:15:47.824  6690  6690 W System.err: 	at androidx.fragment.app.h.a(Unknown Source:206)
+12-11 15:15:47.824  6690  6690 W System.err: 	at androidx.fragment.app.h.b(Unknown Source:88)
+12-11 15:15:47.824  6690  6690 W System.err: 	at androidx.fragment.app.h.k(Unknown Source:21)
+12-11 15:15:47.824  6690  6690 W System.err: 	at androidx.fragment.app.h$1.run(Unknown Source:2)
+12-11 15:15:47.824  6690  6690 W System.err: 	at android.os.Handler.handleCallback(Handler.java:938)
+12-11 15:15:47.824  6690  6690 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+12-11 15:15:47.824  6690  6690 W System.err: 	at android.os.Looper.loop(Looper.java:223)
+12-11 15:15:47.824  6690  6690 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+12-11 15:15:47.824  6690  6690 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+12-11 15:15:47.824  6690  6690 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+12-11 15:15:47.824  6690  6690 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+12-11 15:15:47.865  6690  6690 E RecyclerView: No adapter attached; skipping layout
+12-11 15:15:47.866  2153  2153 V InlineSuggestionRenderService: handleDestroySuggestionViews called for 0:1633217165
+12-11 15:15:47.880 19878 19878 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3308 
+12-11 15:15:47.889 19878 19878 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1887 
+12-11 15:15:47.898 19878 19878 I GoogleInputMethodService: GoogleInputMethodService.onStartInputView():2012 
+12-11 15:15:47.912  6690  6690 I AssistStructure: Flattened final assist data: 3816 bytes, containing 1 windows, 25 views
+12-11 15:15:47.913  1406  2061 D ContentCapturePerUserService: Notified activity assist data for activity: Token{ac884bc ActivityRecord{539fc45 u0 com.flipkart.android/.activity.HomeFragmentHolderActivity t3850}} without a session Id
+12-11 15:15:47.925 24345 24345 W lhl     : Pending fill request while another request in the same session was triggered. [CONTEXT service_id=177 ]
+12-11 15:15:47.937 19878 19878 I KeyboardViewUtil: KeyboardViewUtil.getKeyboardHeightRatio():175 systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+12-11 15:15:47.937 19878 19878 I AndroidIME: AbstractIme.onActivate():84 LatinIme.onActivate() : EditorInfo = Package = com.flipkart.android : Type = Text : Learning = Disable : Suggestion = Hide : AutoCorrection = Disable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+12-11 15:15:47.937 19878 19878 I Delight5Facilitator: Delight5Facilitator.initializeForIme():594 initializeForIme() : Locale = [en_US, es_US], layout = qwerty
+12-11 15:15:47.937 19878 19878 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.cancelShutdown():55 cancelShutdown()
+12-11 15:15:47.937 19878 19878 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.syncLanguagePacks():67 syncLanguagePacks()
+12-11 15:15:47.940 19878 28138 I SpeechFactory: SpeechRecognitionFactory.maybeScheduleAutoPackDownloadForFallback():160 maybeScheduleAutoPackDownloadForFallback()
+12-11 15:15:47.940 19878 19878 I LatinIme: LatinIme.updateEnableInlineSuggestionsOnDecoderSideFlags():1221 inline flag updated to:false
+12-11 15:15:47.941 19878 28138 I FallbackOnDeviceRecognitionProvider: FallbackOnDeviceRecognitionProvider.maybeScheduleAutoPackDownload():196 maybeScheduleAutoPackDownload() for language tag en-US
+12-11 15:15:47.941 19878 28138 I FallbackOnDeviceRecognitionProvider: FallbackOnDeviceRecognitionProvider.maybeScheduleAutoPackDownload():196 maybeScheduleAutoPackDownload() for language tag es-US
+12-11 15:15:47.942 19878 19878 I KeyboardWrapper: KeyboardWrapper.consumeEvent():281 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+12-11 15:15:47.952 19878 19878 I KeyboardViewUtil: KeyboardViewUtil.calculateMaxKeyboardBodyHeight():66 leave 473 height for app when screen height:2712, header height:154 and isFullscreenMode:false, so the max keyboard body height is:2085
+12-11 15:15:47.956 19878 19878 I KeyboardViewUtil: KeyboardViewUtil.calculateMaxKeyboardBodyHeight():66 leave 473 height for app when screen height:2712, header height:154 and isFullscreenMode:false, so the max keyboard body height is:2085
+12-11 15:15:47.957 19878 19934 I Delight5Decoder: Delight5DecoderWrapper.handleMessage():1834 handleMessage(): UPDATE_KEYBOARD_LAYOUT
+12-11 15:15:47.960 19878 19878 W KeyboardModeManager: KeyboardModeManager.setInputView():307 setInputView() : inputView = com.google.android.apps.inputmethod.libs.framework.core.InputView{65dc64b V.E...... ......ID 0,0-1440,2614}
+12-11 15:15:47.960 19878 19878 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():112 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+12-11 15:15:47.960 19878 19878 I AndroidIME: KeyboardViewManager.getInputViewBottomGapFromScreen():276 get inputViewBottomGapFromScreen = 168 from keyboard size helper.
+12-11 15:15:47.960 19878 19878 I GoogleInputMethodService: GoogleInputMethodService$10.getKeyboardBottomCoverNavigationHeight():3219 Returns default 0 as the coverNavigationHeight while extendsTouchBelowSpace=false decorViewWindowInsets=WindowInsets{
+12-11 15:15:47.960 19878 19878 I GoogleInputMethodService:     statusBars=Insets{left=0, top=0, right=0, bottom=0} max=Insets{left=0, top=0, right=0, bottom=0} vis=true
+12-11 15:15:47.960 19878 19878 I GoogleInputMethodService:     navigationBars=Insets{left=0, top=0, right=0, bottom=168} max=Insets{left=0, top=0, right=0, bottom=168} vis=true
+12-11 15:15:47.960 19878 19878 I GoogleInputMethodService:     =Insets{left=0, top=0, right=0, bottom=0} max=null vis=false
+12-11 15:15:47.960 19878 19878 I GoogleInputMethodService:     ime=Insets{left=0, top=0, right=0, bottom=0} max=null vis=false
+12-11 15:15:47.960 19878 19878 I GoogleInputMethodService:     systemGestures=Insets{left=0, top=0, right=0, bottom=168} max=Insets{left=0, top=0, right=0, bottom=168} vis=true
+12-11 15:15:47.960 19878 19878 I GoogleInputMethodService:     mandatorySystemGestures=Insets{left=0, top=0, right=0, bottom=168} max=Insets{left=0, top=0, right=0, bottom=168} vis=true
+12-11 15:15:47.960 19878 19878 I GoogleInputMethodService:     tappableElement=Insets{left=0, top=0, right=0, bottom=168} max=Insets{left=0, top=0, right=0, bottom=168} vis=true
+12-11 15:15:47.960 19878 19878 I GoogleInputMethodService:     displayCutout=Insets{left=0, top=0, right=0, bottom=0} max=null vis=false
+12-11 15:15:47.960 19878 19878 I GoogleInputMethodService:     windowDecor=null max=null vis=false
+12-11 15:15:47.960 19878 19878 I GoogleInputMethodService:     
+12-11 15:15:47.960 19878 19878 I GoogleInputMethodService:     }
+12-11 15:15:47.960 19878 19878 W AndroidIME: KeyboardViewManager.initializeViews():345 initializeViews() : keyboard full width = -1; root view width = 1440; measured keyboard height = 2782
+12-11 15:15:47.960 19878 19878 I AndroidIME: KeyboardViewManager.updateKeyboardHeaderViewWidth():767 keyboard header ratio:1.000000 body ratio:1.000000
+12-11 15:15:47.960 19878 19878 I AndroidIME: KeyboardViewManager.updateKeyboardHeaderViewWidth():767 keyboard header ratio:1.000000 body ratio:1.000000
+12-11 15:15:47.960 19878 19878 I AndroidIME: KeyboardViewManager.getInputViewBottomGapFromScreen():276 get inputViewBottomGapFromScreen = 168 from keyboard size helper.
+12-11 15:15:47.960 19878 19878 I GoogleInputMethodService: GoogleInputMethodService$10.getKeyboardBottomCoverNavigationHeight():3219 Returns default 0 as the coverNavigationHeight while extendsTouchBelowSpace=false decorViewWindowInsets=WindowInsets{
+12-11 15:15:47.960 19878 19878 I GoogleInputMethodService:     statusBars=Insets{left=0, top=0, right=0, bottom=0} max=Insets{left=0, top=0, right=0, bottom=0} vis=true
+12-11 15:15:47.960 19878 19878 I GoogleInputMethodService:     navigationBars=Insets{left=0, top=0, right=0, bottom=168} max=Insets{left=0, top=0, right=0, bottom=168} vis=true
+12-11 15:15:47.960 19878 19878 I GoogleInputMethodService:     =Insets{left=0, top=0, right=0, bottom=0} max=null vis=false
+12-11 15:15:47.960 19878 19878 I GoogleInputMethodService:     ime=Insets{left=0, top=0, right=0, bottom=0} max=null vis=false
+12-11 15:15:47.960 19878 19878 I GoogleInputMethodService:     systemGestures=Insets{left=0, top=0, right=0, bottom=168} max=Insets{left=0, top=0, right=0, bottom=168} vis=true
+12-11 15:15:47.960 19878 19878 I GoogleInputMethodService:     mandatorySystemGestures=Insets{left=0, top=0, right=0, bottom=168} max=Insets{left=0, top=0, right=0, bottom=168} vis=true
+12-11 15:15:47.960 19878 19878 I GoogleInputMethodService:     tappableElement=Insets{left=0, top=0, right=0, bottom=168} max=Insets{left=0, top=0, right=0, bottom=168} vis=true
+12-11 15:15:47.960 19878 19878 I GoogleInputMethodService:     displayCutout=Insets{left=0, top=0, right=0, bottom=0} max=null vis=false
+12-11 15:15:47.960 19878 19878 I GoogleInputMethodService:     windowDecor=null max=null vis=false
+12-11 15:15:47.960 19878 19878 I GoogleInputMethodService:     
+12-11 15:15:47.960 19878 19878 I GoogleInputMethodService:     }
+12-11 15:15:47.962  1406  1741 I AssistStructure: Flattened final assist data: 3340 bytes, containing 1 windows, 25 views
+12-11 15:15:47.962 19878 19878 I VoiceImeExtension: VoiceImeExtension.shouldStartVoiceInputAutomatically():342 No private IME option set to start voice input.
+12-11 15:15:47.971 21818 21818 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.wallet.service.BIND pkg=com.google.android.gms }
+12-11 15:15:47.971 21818 21818 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.wallet.service.BIND pkg=com.google.android.gms }
+12-11 15:15:48.002 21818 21818 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+12-11 15:15:48.002 21818 21818 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+12-11 15:15:48.006 21818 21818 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+12-11 15:15:48.013 21818 21818 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+12-11 15:15:48.013 21818 21818 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+12-11 15:15:48.015 21818 21818 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+12-11 15:15:48.061  6690  6690 E View    : isRecyclable decremented below 0: unmatched pair of setIsRecyable() calls for ViewHolder{9acc089 position=1 id=44, oldPos=-1, pLpos:-1}
+12-11 15:15:48.062  6690  6690 E View    : isRecyclable decremented below 0: unmatched pair of setIsRecyable() calls for ViewHolder{33c78b6 position=0 id=157, oldPos=-1, pLpos:-1}
+12-11 15:15:48.068  3282  3282 I A       : Receiving sys ui event of type com.google.android.apps.googlequicksearchbox.nga.ON_KEYBOARD_SHOWING_CHANGED.
+12-11 15:15:48.808  6643  6674 I appium  : channel read invoked!
+12-11 15:15:48.809  6643  6674 I appium  : channel read: POST /wd/hub/session/9597bf0b-8fc6-48d1-b37e-4c6eebd74452/element
+12-11 15:15:48.812  6643  6674 I appium  : Find element command using 'id' with selector 'com.flipkart.android:id/search_autoCompleteTextView'.
+12-11 15:15:48.812  6643  6674 I appium  : Waiting up to 10000ms for device to be idle
+12-11 15:15:48.865  6643  6674 I appium  : AppiumResponse: {"sessionId":"9597bf0b-8fc6-48d1-b37e-4c6eebd74452","value":{"ELEMENT":"f6cee0ee-9ec2-4b74-bf80-b181b64968fd","element-6066-11e4-a52e-4f735466cecf":"f6cee0ee-9ec2-4b74-bf80-b181b64968fd"}}
+12-11 15:15:48.884  6643  6674 I appium  : channel read invoked!
+12-11 15:15:48.884  6643  6674 I appium  : channel read: POST /wd/hub/session/9597bf0b-8fc6-48d1-b37e-4c6eebd74452/element/f6cee0ee-9ec2-4b74-bf80-b181b64968fd/click
+12-11 15:15:48.886  6643  6674 I appium  : Click element command
+12-11 15:15:48.942  6643  6674 I appium  : Waiting up to 10000ms for device to be idle
+12-11 15:15:49.415  6643  6674 I appium  : AppiumResponse: {"sessionId":"9597bf0b-8fc6-48d1-b37e-4c6eebd74452","value":null}
+12-11 15:15:49.447  6643  6674 I appium  : channel read invoked!
+12-11 15:15:49.447  6643  6674 I appium  : channel read: POST /wd/hub/session/9597bf0b-8fc6-48d1-b37e-4c6eebd74452/element
+12-11 15:15:49.450  6643  6674 I appium  : Find element command using 'id' with selector 'com.flipkart.android:id/search_autoCompleteTextView'.
+12-11 15:15:49.450  6643  6674 I appium  : Waiting up to 10000ms for device to be idle
+12-11 15:15:49.494  6643  6674 I appium  : AppiumResponse: {"sessionId":"9597bf0b-8fc6-48d1-b37e-4c6eebd74452","value":{"ELEMENT":"df4546d5-639c-4790-8472-79b2d8dc537f","element-6066-11e4-a52e-4f735466cecf":"df4546d5-639c-4790-8472-79b2d8dc537f"}}
+12-11 15:15:49.524  6643  6674 I appium  : channel read invoked!
+12-11 15:15:49.524  6643  6674 I appium  : channel read: POST /wd/hub/session/9597bf0b-8fc6-48d1-b37e-4c6eebd74452/element/df4546d5-639c-4790-8472-79b2d8dc537f/value
+12-11 15:15:49.525  6643  6674 I appium  : send keys to element command
+12-11 15:15:49.553 19878 19878 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1887 
+12-11 15:15:49.553 19878 19878 W SessionManager: SessionManager.beginSession():53 Try to begin an already begun session [INPUT_SESSION], end it first
+12-11 15:15:49.553 19878 19878 W SessionManager: SessionManager.endSession():96 Child session [INPUT_VIEW_SESSION] is not ended while ending session [{IME_SESSION=1607679947937, INPUT_VIEW_SESSION=1607679947898, INPUT_SESSION=1607679947889, TRAINING_CACHE_SESSION=1607679947937}], ending it now.
+12-11 15:15:49.553 19878 19878 W SessionManager: SessionManager.endSession():96 Child session [IME_SESSION] is not ended while ending session [{IME_SESSION=1607679947937, INPUT_VIEW_SESSION=1607679947898, INPUT_SESSION=1607679947889, TRAINING_CACHE_SESSION=1607679947937}], ending it now.
+12-11 15:15:49.553 19878 19878 W SessionManager: SessionManager.endSession():96 Child session [TRAINING_CACHE_SESSION] is not ended while ending session [{IME_SESSION=1607679947937, INPUT_VIEW_SESSION=1607679947898, INPUT_SESSION=1607679947889, TRAINING_CACHE_SESSION=1607679947937}], ending it now.
+12-11 15:15:49.555 19878 19878 I GoogleInputMethodService: GoogleInputMethodService.onStartInputView():2012 
+12-11 15:15:49.565 19878 19878 I KeyboardViewUtil: KeyboardViewUtil.getKeyboardHeightRatio():175 systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+12-11 15:15:49.565 19878 19878 I InlineSuggestionCandidateViewController: InlineSuggestionCandidateViewController.setInlineSuggestionCandidateImpl():1207 set  to inlineSuggestionTextView
+12-11 15:15:49.570 19878 19878 I KeyboardWrapper: KeyboardWrapper.consumeEvent():281 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+12-11 15:15:49.570 19878 19878 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.shutdown():77 shutdown()
+12-11 15:15:49.570 19878 19878 W SessionManager: SessionManager.endSession():88 Try to end a not begun session [TRAINING_CACHE_SESSION].
+12-11 15:15:49.570 19878 19878 I AndroidIME: AbstractIme.onDeactivate():161 LatinIme.onDeactivate()
+12-11 15:15:49.571 19878 19878 W SessionManager: SessionManager.endSession():88 Try to end a not begun session [IME_SESSION].
+12-11 15:15:49.571 19878 19878 I AndroidIME: AbstractIme.onActivate():84 LatinIme.onActivate() : EditorInfo = Package = com.flipkart.android : Type = Text : Learning = Disable : Suggestion = Hide : AutoCorrection = Disable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+12-11 15:15:49.571 19878 19878 I Delight5Facilitator: Delight5Facilitator.initializeForIme():594 initializeForIme() : Locale = [en_US, es_US], layout = qwerty
+12-11 15:15:49.571 19878 19878 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.cancelShutdown():55 cancelShutdown()
+12-11 15:15:49.571 19878 19878 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.syncLanguagePacks():67 syncLanguagePacks()
+12-11 15:15:49.571 19878 19878 I LatinIme: LatinIme.updateEnableInlineSuggestionsOnDecoderSideFlags():1221 inline flag updated to:false
+12-11 15:15:49.571 19878 28138 I SpeechFactory: SpeechRecognitionFactory.maybeScheduleAutoPackDownloadForFallback():160 maybeScheduleAutoPackDownloadForFallback()
+12-11 15:15:49.571 19878 28138 I FallbackOnDeviceRecognitionProvider: FallbackOnDeviceRecognitionProvider.maybeScheduleAutoPackDownload():196 maybeScheduleAutoPackDownload() for language tag en-US
+12-11 15:15:49.571 19878 28138 I FallbackOnDeviceRecognitionProvider: FallbackOnDeviceRecognitionProvider.maybeScheduleAutoPackDownload():196 maybeScheduleAutoPackDownload() for language tag es-US
+12-11 15:15:49.572 19878 19878 I KeyboardWrapper: KeyboardWrapper.consumeEvent():281 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+12-11 15:15:49.574 19878 19878 I KeyboardViewUtil: KeyboardViewUtil.calculateMaxKeyboardBodyHeight():66 leave 473 height for app when screen height:2712, header height:154 and isFullscreenMode:false, so the max keyboard body height is:2085
+12-11 15:15:49.575 19878 19934 I Delight5Decoder: Delight5DecoderWrapper.handleMessage():1834 handleMessage(): UPDATE_KEYBOARD_LAYOUT
+12-11 15:15:49.575 19878 19878 I KeyboardViewUtil: KeyboardViewUtil.calculateMaxKeyboardBodyHeight():66 leave 473 height for app when screen height:2712, header height:154 and isFullscreenMode:false, so the max keyboard body height is:2085
+12-11 15:15:49.576 19878 19878 W KeyboardModeManager: KeyboardModeManager.setInputView():307 setInputView() : inputView = com.google.android.apps.inputmethod.libs.framework.core.InputView{65dc64b V.E...... ......ID 0,0-1440,2614}
+12-11 15:15:49.576 19878 19878 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():112 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+12-11 15:15:49.576 19878 19878 I AndroidIME: KeyboardViewManager.getInputViewBottomGapFromScreen():276 get inputViewBottomGapFromScreen = 168 from keyboard size helper.
+12-11 15:15:49.576 19878 19878 I GoogleInputMethodService: GoogleInputMethodService$10.getKeyboardBottomCoverNavigationHeight():3219 Returns default 0 as the coverNavigationHeight while extendsTouchBelowSpace=false decorViewWindowInsets=WindowInsets{
+12-11 15:15:49.576 19878 19878 I GoogleInputMethodService:     statusBars=Insets{left=0, top=0, right=0, bottom=0} max=Insets{left=0, top=0, right=0, bottom=0} vis=true
+12-11 15:15:49.576 19878 19878 I GoogleInputMethodService:     navigationBars=Insets{left=0, top=0, right=0, bottom=168} max=Insets{left=0, top=0, right=0, bottom=168} vis=true
+12-11 15:15:49.576 19878 19878 I GoogleInputMethodService:     =Insets{left=0, top=0, right=0, bottom=0} max=null vis=false
+12-11 15:15:49.576 19878 19878 I GoogleInputMethodService:     ime=Insets{left=0, top=0, right=0, bottom=0} max=null vis=false
+12-11 15:15:49.576 19878 19878 I GoogleInputMethodService:     systemGestures=Insets{left=0, top=0, right=0, bottom=168} max=Insets{left=0, top=0, right=0, bottom=168} vis=true
+12-11 15:15:49.576 19878 19878 I GoogleInputMethodService:     mandatorySystemGestures=Insets{left=0, top=0, right=0, bottom=168} max=Insets{left=0, top=0, right=0, bottom=168} vis=true
+12-11 15:15:49.576 19878 19878 I GoogleInputMethodService:     tappableElement=Insets{left=0, top=0, right=0, bottom=168} max=Insets{left=0, top=0, right=0, bottom=168} vis=true
+12-11 15:15:49.576 19878 19878 I GoogleInputMethodService:     displayCutout=Insets{left=0, top=0, right=0, bottom=0} max=null vis=false
+12-11 15:15:49.576 19878 19878 I GoogleInputMethodService:     windowDecor=null max=null vis=false
+12-11 15:15:49.576 19878 19878 I GoogleInputMethodService:     
+12-11 15:15:49.576 19878 19878 I GoogleInputMethodService:     }
+12-11 15:15:49.576 19878 19878 W AndroidIME: KeyboardViewManager.initializeViews():345 initializeViews() : keyboard full width = -1; root view width = 1440; measured keyboard height = 2782
+12-11 15:15:49.576 19878 19878 I AndroidIME: KeyboardViewManager.updateKeyboardHeaderViewWidth():767 keyboard header ratio:1.000000 body ratio:1.000000
+12-11 15:15:49.576 19878 19878 I AndroidIME: KeyboardViewManager.updateKeyboardHeaderViewWidth():767 keyboard header ratio:1.000000 body ratio:1.000000
+12-11 15:15:49.576 19878 19878 I AndroidIME: KeyboardViewManager.getInputViewBottomGapFromScreen():276 get inputViewBottomGapFromScreen = 168 from keyboard size helper.
+12-11 15:15:49.576 19878 19878 I GoogleInputMethodService: GoogleInputMethodService$10.getKeyboardBottomCoverNavigationHeight():3219 Returns default 0 as the coverNavigationHeight while extendsTouchBelowSpace=false decorViewWindowInsets=WindowInsets{
+12-11 15:15:49.576 19878 19878 I GoogleInputMethodService:     statusBars=Insets{left=0, top=0, right=0, bottom=0} max=Insets{left=0, top=0, right=0, bottom=0} vis=true
+12-11 15:15:49.576 19878 19878 I GoogleInputMethodService:     navigationBars=Insets{left=0, top=0, right=0, bottom=168} max=Insets{left=0, top=0, right=0, bottom=168} vis=true
+12-11 15:15:49.576 19878 19878 I GoogleInputMethodService:     =Insets{left=0, top=0, right=0, bottom=0} max=null vis=false
+12-11 15:15:49.576 19878 19878 I GoogleInputMethodService:     ime=Insets{left=0, top=0, right=0, bottom=0} max=null vis=false
+12-11 15:15:49.576 19878 19878 I GoogleInputMethodService:     systemGestures=Insets{left=0, top=0, right=0, bottom=168} max=Insets{left=0, top=0, right=0, bottom=168} vis=true
+12-11 15:15:49.576 19878 19878 I GoogleInputMethodService:     mandatorySystemGestures=Insets{left=0, top=0, right=0, bottom=168} max=Insets{left=0, top=0, right=0, bottom=168} vis=true
+12-11 15:15:49.576 19878 19878 I GoogleInputMethodService:     tappableElement=Insets{left=0, top=0, right=0, bottom=168} max=Insets{left=0, top=0, right=0, bottom=168} vis=true
+12-11 15:15:49.576 19878 19878 I GoogleInputMethodService:     displayCutout=Insets{left=0, top=0, right=0, bottom=0} max=null vis=false
+12-11 15:15:49.576 19878 19878 I GoogleInputMethodService:     windowDecor=null max=null vis=false
+12-11 15:15:49.576 19878 19878 I GoogleInputMethodService:     
+12-11 15:15:49.576 19878 19878 I GoogleInputMethodService:     }
+12-11 15:15:49.577  6690  6690 E View    : isRecyclable decremented below 0: unmatched pair of setIsRecyable() calls for ViewHolder{d5a2902 position=2 id=163, oldPos=-1, pLpos:-1}
+12-11 15:15:49.577  6690  6690 E View    : isRecyclable decremented below 0: unmatched pair of setIsRecyable() calls for ViewHolder{9acc089 position=1 id=44, oldPos=-1, pLpos:-1}
+12-11 15:15:49.577  6690  6690 E View    : isRecyclable decremented below 0: unmatched pair of setIsRecyable() calls for ViewHolder{33c78b6 position=0 id=157, oldPos=-1, pLpos:-1}
+12-11 15:15:49.578 19878 19878 I VoiceImeExtension: VoiceImeExtension.shouldStartVoiceInputAutomatically():342 No private IME option set to start voice input.
+12-11 15:15:49.584 21818 21818 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+12-11 15:15:49.584 21818 21818 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+12-11 15:15:49.587 21818 21818 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+12-11 15:15:49.590 21818 21818 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+12-11 15:15:49.590 21818 21818 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+12-11 15:15:49.592 21818 21818 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+12-11 15:15:49.637  6690  6690 E View    : isRecyclable decremented below 0: unmatched pair of setIsRecyable() calls for ViewHolder{9acc089 position=1 id=44, oldPos=-1, pLpos:-1}
+12-11 15:15:49.637  6690  6690 E View    : isRecyclable decremented below 0: unmatched pair of setIsRecyable() calls for ViewHolder{33c78b6 position=0 id=157, oldPos=-1, pLpos:-1}
+12-11 15:15:50.190 19878 19878 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1887 
+12-11 15:15:50.190 19878 19878 W SessionManager: SessionManager.beginSession():53 Try to begin an already begun session [INPUT_SESSION], end it first
+12-11 15:15:50.190 19878 19878 W SessionManager: SessionManager.endSession():96 Child session [INPUT_VIEW_SESSION] is not ended while ending session [{IME_SESSION=1607679949571, INPUT_VIEW_SESSION=1607679949555, INPUT_SESSION=1607679949554, TRAINING_CACHE_SESSION=1607679949571}], ending it now.
+12-11 15:15:50.190 19878 19878 W SessionManager: SessionManager.endSession():96 Child session [IME_SESSION] is not ended while ending session [{IME_SESSION=1607679949571, INPUT_VIEW_SESSION=1607679949555, INPUT_SESSION=1607679949554, TRAINING_CACHE_SESSION=1607679949571}], ending it now.
+12-11 15:15:50.190 19878 19878 W SessionManager: SessionManager.endSession():96 Child session [TRAINING_CACHE_SESSION] is not ended while ending session [{IME_SESSION=1607679949571, INPUT_VIEW_SESSION=1607679949555, INPUT_SESSION=1607679949554, TRAINING_CACHE_SESSION=1607679949571}], ending it now.
+12-11 15:15:50.191 19878 19878 I GoogleInputMethodService: GoogleInputMethodService.onStartInputView():2012 
+12-11 15:15:50.198  6643  6674 I appium  : AppiumResponse: {"sessionId":"9597bf0b-8fc6-48d1-b37e-4c6eebd74452","value":null}
+12-11 15:15:50.259 19878 19878 I KeyboardViewUtil: KeyboardViewUtil.getKeyboardHeightRatio():175 systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+12-11 15:15:50.259 19878 19878 I InlineSuggestionCandidateViewController: InlineSuggestionCandidateViewController.setInlineSuggestionCandidateImpl():1207 set  to inlineSuggestionTextView
+12-11 15:15:50.260 19878 19878 I KeyboardWrapper: KeyboardWrapper.consumeEvent():281 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+12-11 15:15:50.260 19878 19878 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.shutdown():77 shutdown()
+12-11 15:15:50.260 19878 19878 W SessionManager: SessionManager.endSession():88 Try to end a not begun session [TRAINING_CACHE_SESSION].
+12-11 15:15:50.260 19878 19878 I AndroidIME: AbstractIme.onDeactivate():161 LatinIme.onDeactivate()
+12-11 15:15:50.261 19878 19878 W SessionManager: SessionManager.endSession():88 Try to end a not begun session [IME_SESSION].
+12-11 15:15:50.261 19878 19878 I AndroidIME: AbstractIme.onActivate():84 LatinIme.onActivate() : EditorInfo = Package = com.flipkart.android : Type = Text : Learning = Disable : Suggestion = Hide : AutoCorrection = Disable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+12-11 15:15:50.261 19878 19878 I Delight5Facilitator: Delight5Facilitator.initializeForIme():594 initializeForIme() : Locale = [en_US, es_US], layout = qwerty
+12-11 15:15:50.261 19878 19878 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.cancelShutdown():55 cancelShutdown()
+12-11 15:15:50.261 19878 19878 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.syncLanguagePacks():67 syncLanguagePacks()
+12-11 15:15:50.261 19878 28138 I SpeechFactory: SpeechRecognitionFactory.maybeScheduleAutoPackDownloadForFallback():160 maybeScheduleAutoPackDownloadForFallback()
+12-11 15:15:50.261 19878 19878 I LatinIme: LatinIme.updateEnableInlineSuggestionsOnDecoderSideFlags():1221 inline flag updated to:false
+12-11 15:15:50.261 19878 28138 I FallbackOnDeviceRecognitionProvider: FallbackOnDeviceRecognitionProvider.maybeScheduleAutoPackDownload():196 maybeScheduleAutoPackDownload() for language tag en-US
+12-11 15:15:50.261 19878 28138 I FallbackOnDeviceRecognitionProvider: FallbackOnDeviceRecognitionProvider.maybeScheduleAutoPackDownload():196 maybeScheduleAutoPackDownload() for language tag es-US
+12-11 15:15:50.263 19878 19878 I KeyboardWrapper: KeyboardWrapper.consumeEvent():281 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+12-11 15:15:50.265 19878 19878 I KeyboardViewUtil: KeyboardViewUtil.calculateMaxKeyboardBodyHeight():66 leave 473 height for app when screen height:2712, header height:154 and isFullscreenMode:false, so the max keyboard body height is:2085
+12-11 15:15:50.267 19878 19878 I KeyboardViewUtil: KeyboardViewUtil.calculateMaxKeyboardBodyHeight():66 leave 473 height for app when screen height:2712, header height:154 and isFullscreenMode:false, so the max keyboard body height is:2085
+12-11 15:15:50.267 19878 19878 W KeyboardModeManager: KeyboardModeManager.setInputView():307 setInputView() : inputView = com.google.android.apps.inputmethod.libs.framework.core.InputView{65dc64b V.E...... ......ID 0,0-1440,2614}
+12-11 15:15:50.267 19878 19878 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():112 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+12-11 15:15:50.267 19878 19878 I AndroidIME: KeyboardViewManager.getInputViewBottomGapFromScreen():276 get inputViewBottomGapFromScreen = 168 from keyboard size helper.
+12-11 15:15:50.267 19878 19878 I GoogleInputMethodService: GoogleInputMethodService$10.getKeyboardBottomCoverNavigationHeight():3219 Returns default 0 as the coverNavigationHeight while extendsTouchBelowSpace=false decorViewWindowInsets=WindowInsets{
+12-11 15:15:50.267 19878 19878 I GoogleInputMethodService:     statusBars=Insets{left=0, top=0, right=0, bottom=0} max=Insets{left=0, top=0, right=0, bottom=0} vis=true
+12-11 15:15:50.267 19878 19878 I GoogleInputMethodService:     navigationBars=Insets{left=0, top=0, right=0, bottom=168} max=Insets{left=0, top=0, right=0, bottom=168} vis=true
+12-11 15:15:50.267 19878 19878 I GoogleInputMethodService:     =Insets{left=0, top=0, right=0, bottom=0} max=null vis=false
+12-11 15:15:50.267 19878 19878 I GoogleInputMethodService:     ime=Insets{left=0, top=0, right=0, bottom=0} max=null vis=false
+12-11 15:15:50.267 19878 19878 I GoogleInputMethodService:     systemGestures=Insets{left=0, top=0, right=0, bottom=168} max=Insets{left=0, top=0, right=0, bottom=168} vis=true
+12-11 15:15:50.267 19878 19878 I GoogleInputMethodService:     mandatorySystemGestures=Insets{left=0, top=0, right=0, bottom=168} max=Insets{left=0, top=0, right=0, bottom=168} vis=true
+12-11 15:15:50.267 19878 19878 I GoogleInputMethodService:     tappableElement=Insets{left=0, top=0, right=0, bottom=168} max=Insets{left=0, top=0, right=0, bottom=168} vis=true
+12-11 15:15:50.267 19878 19878 I GoogleInputMethodService:     displayCutout=Insets{left=0, top=0, right=0, bottom=0} max=null vis=false
+12-11 15:15:50.267 19878 19878 I GoogleInputMethodService:     windowDecor=null max=null vis=false
+12-11 15:15:50.267 19878 19878 I GoogleInputMethodService:     
+12-11 15:15:50.267 19878 19878 I GoogleInputMethodService:     }
+12-11 15:15:50.267 19878 19878 W AndroidIME: KeyboardViewManager.initializeViews():345 initializeViews() : keyboard full width = -1; root view width = 1440; measured keyboard height = 2782
+12-11 15:15:50.267 19878 19878 I AndroidIME: KeyboardViewManager.updateKeyboardHeaderViewWidth():767 keyboard header ratio:1.000000 body ratio:1.000000
+12-11 15:15:50.267 19878 19878 I AndroidIME: KeyboardViewManager.updateKeyboardHeaderViewWidth():767 keyboard header ratio:1.000000 body ratio:1.000000
+12-11 15:15:50.268 19878 19878 I AndroidIME: KeyboardViewManager.getInputViewBottomGapFromScreen():276 get inputViewBottomGapFromScreen = 168 from keyboard size helper.
+12-11 15:15:50.268 19878 19878 I GoogleInputMethodService: GoogleInputMethodService$10.getKeyboardBottomCoverNavigationHeight():3219 Returns default 0 as the coverNavigationHeight while extendsTouchBelowSpace=false decorViewWindowInsets=WindowInsets{
+12-11 15:15:50.268 19878 19878 I GoogleInputMethodService:     statusBars=Insets{left=0, top=0, right=0, bottom=0} max=Insets{left=0, top=0, right=0, bottom=0} vis=true
+12-11 15:15:50.268 19878 19878 I GoogleInputMethodService:     navigationBars=Insets{left=0, top=0, right=0, bottom=168} max=Insets{left=0, top=0, right=0, bottom=168} vis=true
+12-11 15:15:50.268 19878 19878 I GoogleInputMethodService:     =Insets{left=0, top=0, right=0, bottom=0} max=null vis=false
+12-11 15:15:50.268 19878 19878 I GoogleInputMethodService:     ime=Insets{left=0, top=0, right=0, bottom=0} max=null vis=false
+12-11 15:15:50.268 19878 19878 I GoogleInputMethodService:     systemGestures=Insets{left=0, top=0, right=0, bottom=168} max=Insets{left=0, top=0, right=0, bottom=168} vis=true
+12-11 15:15:50.268 19878 19878 I GoogleInputMethodService:     mandatorySystemGestures=Insets{left=0, top=0, right=0, bottom=168} max=Insets{left=0, top=0, right=0, bottom=168} vis=true
+12-11 15:15:50.268 19878 19878 I GoogleInputMethodService:     tappableElement=Insets{left=0, top=0, right=0, bottom=168} max=Insets{left=0, top=0, right=0, bottom=168} vis=true
+12-11 15:15:50.268 19878 19878 I GoogleInputMethodService:     displayCutout=Insets{left=0, top=0, right=0, bottom=0} max=null vis=false
+12-11 15:15:50.268 19878 19878 I GoogleInputMethodService:     windowDecor=null max=null vis=false
+12-11 15:15:50.268 19878 19878 I GoogleInputMethodService:     
+12-11 15:15:50.268 19878 19878 I GoogleInputMethodService:     }
+12-11 15:15:50.268 19878 19878 I VoiceImeExtension: VoiceImeExtension.shouldStartVoiceInputAutomatically():342 No private IME option set to start voice input.
+12-11 15:15:50.278 21818 21818 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+12-11 15:15:50.278 21818 21818 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+12-11 15:15:50.280 21818 21818 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+12-11 15:15:50.284 21818 21818 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+12-11 15:15:50.284 21818 21818 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+12-11 15:15:50.287 21818 21818 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+12-11 15:15:50.308 19878 19934 I Delight5Decoder: Delight5DecoderWrapper.handleMessage():1834 handleMessage(): UPDATE_KEYBOARD_LAYOUT
+12-11 15:15:50.329 19878 19878 W InputContextProxy: InputContextProxy.applyClientDiffInternal():844 Ignore [FetchSuggestions] diff due to stale request: 8239<8240, inputStateId=6116, lastInputStateId=6117
+12-11 15:15:50.346  6879  6879 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-11 15:15:50.348  6879  6879 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+12-11 15:15:50.348  6879  6879 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+12-11 15:15:50.348  6879  6879 I AndroidRuntime: Using default boot image
+12-11 15:15:50.348  6879  6879 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+12-11 15:15:50.348  6879  6879 I AndroidRuntime: Leaving lock profiling enabled
+12-11 15:15:50.349  6879  6879 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+12-11 15:15:50.346  6879  6879 W app_process: type=1400 audit(0.0:61129): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=18866 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+12-11 15:15:50.346  6879  6879 I chatty  : uid=2000(shell) app_process identical 2 lines
+12-11 15:15:50.346  6879  6879 W app_process: type=1400 audit(0.0:61132): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=18866 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+12-11 15:15:50.436  6879  6879 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+12-11 15:15:50.436  6879  6879 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+12-11 15:15:50.447  6879  6879 I app_process: The ClassLoaderContext is a special shared library.
+12-11 15:15:50.464  6879  6879 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+12-11 15:15:50.470  6879  6879 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+12-11 15:15:50.479  6879  6879 D AndroidRuntime: Shutting down VM
+12-11 15:15:50.538 19878 19878 I InlineSuggestionCandidateViewController: InlineSuggestionCandidateViewController.textCandidatesUpdated():693 Not showing inline suggestion tooltip v2; has candidates
+12-11 15:15:50.737   971  1023 I CHRE    : @ 839857.416: [ImuCal] [NanoSensorCal:GYRO_RPS] Offset | Temperature [C]: 0.006949, -0.000643, 0.000968 | 24.45
+12-11 15:15:50.737   971  1023 I CHRE    : @ 839857.416: [ImuCal] [NanoSensorCal:GYRO_RPS] Temp Sensitivity: -0.000016, -0.000225, 0.000082
+12-11 15:15:50.737   971  1023 I CHRE    : @ 839857.416: [ImuCal] [NanoSensorCal:GYRO_RPS] Temp Intercept: 0.007276, 0.004799, -0.000951
+12-11 15:15:50.932  6643  6674 I appium  : channel read invoked!
+12-11 15:15:50.932  6643  6674 I appium  : channel read: POST /wd/hub/session/9597bf0b-8fc6-48d1-b37e-4c6eebd74452/element
+12-11 15:15:50.934  6643  6674 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/filter_text'.
+12-11 15:15:50.934  6643  6674 I appium  : Waiting up to 10000ms for device to be idle
+12-11 15:15:51.203  6643  6674 I appium  : AppiumResponse: {"sessionId":"9597bf0b-8fc6-48d1-b37e-4c6eebd74452","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 15:15:51.731  6643  6674 I appium  : channel read invoked!
+12-11 15:15:51.731  6643  6674 I appium  : channel read: POST /wd/hub/session/9597bf0b-8fc6-48d1-b37e-4c6eebd74452/element
+12-11 15:15:51.734  6643  6674 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/filter_text'.
+12-11 15:15:51.734  6643  6674 I appium  : Waiting up to 10000ms for device to be idle
+12-11 15:15:51.801  6643  6674 I appium  : AppiumResponse: {"sessionId":"9597bf0b-8fc6-48d1-b37e-4c6eebd74452","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 15:15:52.324  6643  6674 I appium  : channel read invoked!
+12-11 15:15:52.325  6643  6674 I appium  : channel read: POST /wd/hub/session/9597bf0b-8fc6-48d1-b37e-4c6eebd74452/element
+12-11 15:15:52.328  6643  6674 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/filter_text'.
+12-11 15:15:52.329  6643  6674 I appium  : Waiting up to 10000ms for device to be idle
+12-11 15:15:52.401  6643  6674 I appium  : AppiumResponse: {"sessionId":"9597bf0b-8fc6-48d1-b37e-4c6eebd74452","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 15:15:52.925  6643  6674 I appium  : channel read invoked!
+12-11 15:15:52.925  6643  6674 I appium  : channel read: POST /wd/hub/session/9597bf0b-8fc6-48d1-b37e-4c6eebd74452/element
+12-11 15:15:52.930  6643  6674 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/filter_text'.
+12-11 15:15:52.930  6643  6674 I appium  : Waiting up to 10000ms for device to be idle
+12-11 15:15:52.998  6643  6674 I appium  : AppiumResponse: {"sessionId":"9597bf0b-8fc6-48d1-b37e-4c6eebd74452","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 15:15:53.264   975   975 I rmt_storage: rmt_storage_connect_cb: clnt_h=0x39d conn_h=0x71d3bf80f0
+12-11 15:15:53.264   975   975 I rmt_storage: rmt_storage_rw_iovec_cb: /boot/modem_fs2: req_h=0x39d msg_id=3: R/W request received
+12-11 15:15:53.264   975   975 I rmt_storage: wakelock acquired: 1, error no: 42
+12-11 15:15:53.264   975  1317 I rmt_storage: rmt_storage_client_thread: /boot/modem_fs2: Unblock worker thread (th_id: 486447529152)
+12-11 15:15:53.303   975  1317 I rmt_storage: rmt_storage_client_thread: /boot/modem_fs2: req_h=0x39d msg_id=3: Bytes written = 2097152
+12-11 15:15:53.303   975  1317 I rmt_storage: rmt_storage_client_thread: /boot/modem_fs2: req_h=0x39d msg_id=3: Send response: res=0 err=0
+12-11 15:15:53.303   975  1317 I rmt_storage: rmt_storage_client_thread: /boot/modem_fs2: About to block rmt_storage client thread (th_id: 486447529152) wakelock released: 1, error no: 0
+12-11 15:15:53.303   975  1317 I rmt_storage: 
+12-11 15:15:53.304   975   975 I rmt_storage: rmt_storage_disconnect_cb: clnt_h=0x39d conn_h=0x71d3bf80f0
+12-11 15:15:53.516  6643  6674 I appium  : channel read invoked!
+12-11 15:15:53.517  6643  6674 I appium  : channel read: POST /wd/hub/session/9597bf0b-8fc6-48d1-b37e-4c6eebd74452/element
+12-11 15:15:53.520  6643  6674 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/filter_text'.
+12-11 15:15:53.520  6643  6674 I appium  : Waiting up to 10000ms for device to be idle
+12-11 15:15:53.598  6643  6674 I appium  : AppiumResponse: {"sessionId":"9597bf0b-8fc6-48d1-b37e-4c6eebd74452","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 15:15:54.110  6643  6674 I appium  : channel read invoked!
+12-11 15:15:54.111  6643  6674 I appium  : channel read: POST /wd/hub/session/9597bf0b-8fc6-48d1-b37e-4c6eebd74452/element
+12-11 15:15:54.112  6643  6674 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/filter_text'.
+12-11 15:15:54.112  6643  6674 I appium  : Waiting up to 10000ms for device to be idle
+12-11 15:15:54.158  6643  6674 I appium  : AppiumResponse: {"sessionId":"9597bf0b-8fc6-48d1-b37e-4c6eebd74452","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 15:15:54.680  6643  6674 I appium  : channel read invoked!
+12-11 15:15:54.680  6643  6674 I appium  : channel read: POST /wd/hub/session/9597bf0b-8fc6-48d1-b37e-4c6eebd74452/element
+12-11 15:15:54.690  6643  6674 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/filter_text'.
+12-11 15:15:54.690  6643  6674 I appium  : Waiting up to 10000ms for device to be idle
+12-11 15:15:54.754  6643  6674 I appium  : AppiumResponse: {"sessionId":"9597bf0b-8fc6-48d1-b37e-4c6eebd74452","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 15:15:55.275  6643  6674 I appium  : channel read invoked!
+12-11 15:15:55.275  6643  6674 I appium  : channel read: POST /wd/hub/session/9597bf0b-8fc6-48d1-b37e-4c6eebd74452/element
+12-11 15:15:55.280  6643  6674 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/filter_text'.
+12-11 15:15:55.281  6643  6674 I appium  : Waiting up to 10000ms for device to be idle
+12-11 15:15:55.350  6643  6674 I appium  : AppiumResponse: {"sessionId":"9597bf0b-8fc6-48d1-b37e-4c6eebd74452","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 15:15:55.872  6643  6674 I appium  : channel read invoked!
+12-11 15:15:55.872  6643  6674 I appium  : channel read: POST /wd/hub/session/9597bf0b-8fc6-48d1-b37e-4c6eebd74452/element
+12-11 15:15:55.877  6643  6674 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/filter_text'.
+12-11 15:15:55.877  6643  6674 I appium  : Waiting up to 10000ms for device to be idle
+12-11 15:15:55.968  6643  6674 I appium  : AppiumResponse: {"sessionId":"9597bf0b-8fc6-48d1-b37e-4c6eebd74452","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 15:15:56.502  6643  6674 I appium  : channel read invoked!
+12-11 15:15:56.503  6643  6674 I appium  : channel read: POST /wd/hub/session/9597bf0b-8fc6-48d1-b37e-4c6eebd74452/element
+12-11 15:15:56.507  6643  6674 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/filter_text'.
+12-11 15:15:56.507  6643  6674 I appium  : Waiting up to 10000ms for device to be idle
+12-11 15:15:56.608  6643  6674 I appium  : AppiumResponse: {"sessionId":"9597bf0b-8fc6-48d1-b37e-4c6eebd74452","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 15:15:57.124  6643  6674 I appium  : channel read invoked!
+12-11 15:15:57.125  6643  6674 I appium  : channel read: POST /wd/hub/session/9597bf0b-8fc6-48d1-b37e-4c6eebd74452/element
+12-11 15:15:57.128  6643  6674 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/filter_text'.
+12-11 15:15:57.128  6643  6674 I appium  : Waiting up to 10000ms for device to be idle
+12-11 15:15:57.177  6643  6674 I appium  : AppiumResponse: {"sessionId":"9597bf0b-8fc6-48d1-b37e-4c6eebd74452","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 15:15:57.449   895   895 I android.hardware.health@2.0-service.wahoo: SRAM data: 3623000
+12-11 15:15:57.467  1791  3045 D PowerUI : can't show warning due to - plugged: true status unknown: false
+12-11 15:15:57.698  6643  6674 I appium  : channel read invoked!
+12-11 15:15:57.699  6643  6674 I appium  : channel read: POST /wd/hub/session/9597bf0b-8fc6-48d1-b37e-4c6eebd74452/element
+12-11 15:15:57.705  6643  6674 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/filter_text'.
+12-11 15:15:57.706  6643  6674 I appium  : Waiting up to 10000ms for device to be idle
+12-11 15:15:57.769  6643  6674 I appium  : AppiumResponse: {"sessionId":"9597bf0b-8fc6-48d1-b37e-4c6eebd74452","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 15:15:58.296  6643  6674 I appium  : channel read invoked!
+12-11 15:15:58.297  6643  6674 I appium  : channel read: POST /wd/hub/session/9597bf0b-8fc6-48d1-b37e-4c6eebd74452/element
+12-11 15:15:58.301  6643  6674 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/filter_text'.
+12-11 15:15:58.301  6643  6674 I appium  : Waiting up to 10000ms for device to be idle
+12-11 15:15:58.390  6643  6674 I appium  : AppiumResponse: {"sessionId":"9597bf0b-8fc6-48d1-b37e-4c6eebd74452","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 15:15:58.923  6643  6674 I appium  : channel read invoked!
+12-11 15:15:58.923  6643  6674 I appium  : channel read: POST /wd/hub/session/9597bf0b-8fc6-48d1-b37e-4c6eebd74452/element
+12-11 15:15:58.929  6643  6674 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/filter_text'.
+12-11 15:15:58.930  6643  6674 I appium  : Waiting up to 10000ms for device to be idle
+12-11 15:15:59.007  6643  6674 I appium  : AppiumResponse: {"sessionId":"9597bf0b-8fc6-48d1-b37e-4c6eebd74452","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 15:15:59.528  6643  6674 I appium  : channel read invoked!
+12-11 15:15:59.529  6643  6674 I appium  : channel read: POST /wd/hub/session/9597bf0b-8fc6-48d1-b37e-4c6eebd74452/element
+12-11 15:15:59.535  6643  6674 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/filter_text'.
+12-11 15:15:59.535  6643  6674 I appium  : Waiting up to 10000ms for device to be idle
+12-11 15:15:59.609  6643  6674 I appium  : AppiumResponse: {"sessionId":"9597bf0b-8fc6-48d1-b37e-4c6eebd74452","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 15:16:00.010 17770  6904 D EventNotificationJob: Running EventNotificationJob, isDetail=true
+12-11 15:16:00.088 17770  6904 D EventNotificationJob: Interval is 15 minutes
+12-11 15:16:00.089 17770  6904 D EventNotificationJob: processEventList() on [37] events. First cleaning up expired notifications.
+12-11 15:16:00.090 17770  6904 D EventNotificationJob: Finished cleaning up notifications. Event notification list had 1 items, 1 unique IDs, added 1 notifications in id set.
+12-11 15:16:00.093 17770  6904 D outlook.Notifications: No reminder enabled. Skip event: [[32768:db5e8000-a79e-08d8-abb0-010000000000]]
+12-11 15:16:00.094 17770  6904 D outlook.Notifications: No reminder enabled. Skip event: [[32768:db5e8000-a79e-08d8-e6b0-010000000000]]
+12-11 15:16:00.095 17770  6904 D outlook.Notifications: No reminder enabled. Skip event: [[32768:05c84000-a868-08d8-acb0-010000000000]]
+12-11 15:16:00.097 17770  6904 D outlook.Notifications: No reminder enabled. Skip event: [[32768:05c84000-a868-08d8-e7b0-010000000000]]
+12-11 15:16:00.098 17770  6904 D EventNotificationJob:   finished processing events.
+12-11 15:16:00.125  6643  6674 I appium  : channel read invoked!
+12-11 15:16:00.125  6643  6674 I appium  : channel read: POST /wd/hub/session/9597bf0b-8fc6-48d1-b37e-4c6eebd74452/element
+12-11 15:16:00.127  6643  6674 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/filter_text'.
+12-11 15:16:00.127  6643  6674 I appium  : Waiting up to 10000ms for device to be idle
+12-11 15:16:00.150   895   895 I android.hardware.health@2.0-service.wahoo: SRAM data: 3623000
+12-11 15:16:00.157  1791  3178 D PowerUI : can't show warning due to - plugged: true status unknown: false
+12-11 15:16:00.655  6643  6674 I appium  : AppiumResponse: {"sessionId":"9597bf0b-8fc6-48d1-b37e-4c6eebd74452","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 15:16:01.170  6643  6674 I appium  : channel read invoked!
+12-11 15:16:01.171  6643  6674 I appium  : channel read: POST /wd/hub/session/9597bf0b-8fc6-48d1-b37e-4c6eebd74452/element
+12-11 15:16:01.173  6643  6674 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/filter_text'.
+12-11 15:16:01.174  6643  6674 I appium  : Waiting up to 10000ms for device to be idle
+12-11 15:16:01.228  6643  6674 I appium  : AppiumResponse: {"sessionId":"9597bf0b-8fc6-48d1-b37e-4c6eebd74452","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 15:16:01.751  6643  6674 I appium  : channel read invoked!
+12-11 15:16:01.752  6643  6674 I appium  : channel read: POST /wd/hub/session/9597bf0b-8fc6-48d1-b37e-4c6eebd74452/element
+12-11 15:16:01.755  6643  6674 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/filter_text'.
+12-11 15:16:01.756  6643  6674 I appium  : Waiting up to 10000ms for device to be idle
+12-11 15:16:01.809  6643  6674 I appium  : AppiumResponse: {"sessionId":"9597bf0b-8fc6-48d1-b37e-4c6eebd74452","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 15:16:02.336  6643  6674 I appium  : channel read invoked!
+12-11 15:16:02.336  6643  6674 I appium  : channel read: POST /wd/hub/session/9597bf0b-8fc6-48d1-b37e-4c6eebd74452/element
+12-11 15:16:02.340  6643  6674 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/filter_text'.
+12-11 15:16:02.341  6643  6674 I appium  : Waiting up to 10000ms for device to be idle
+12-11 15:16:02.408  6643  6674 I appium  : AppiumResponse: {"sessionId":"9597bf0b-8fc6-48d1-b37e-4c6eebd74452","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 15:16:02.924  6643  6674 I appium  : channel read invoked!
+12-11 15:16:02.925  6643  6674 I appium  : channel read: POST /wd/hub/session/9597bf0b-8fc6-48d1-b37e-4c6eebd74452/element
+12-11 15:16:02.928  6643  6674 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/filter_text'.
+12-11 15:16:02.928  6643  6674 I appium  : Waiting up to 10000ms for device to be idle
+12-11 15:16:02.972  6643  6674 I appium  : AppiumResponse: {"sessionId":"9597bf0b-8fc6-48d1-b37e-4c6eebd74452","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 15:16:03.502  6643  6674 I appium  : channel read invoked!
+12-11 15:16:03.502  6643  6674 I appium  : channel read: POST /wd/hub/session/9597bf0b-8fc6-48d1-b37e-4c6eebd74452/element
+12-11 15:16:03.505  6643  6674 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/filter_text'.
+12-11 15:16:03.506  6643  6674 I appium  : Waiting up to 10000ms for device to be idle
+12-11 15:16:03.559  6643  6674 I appium  : AppiumResponse: {"sessionId":"9597bf0b-8fc6-48d1-b37e-4c6eebd74452","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 15:16:04.074  6643  6674 I appium  : channel read invoked!
+12-11 15:16:04.074  6643  6674 I appium  : channel read: POST /wd/hub/session/9597bf0b-8fc6-48d1-b37e-4c6eebd74452/element
+12-11 15:16:04.077  6643  6674 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/filter_text'.
+12-11 15:16:04.077  6643  6674 I appium  : Waiting up to 10000ms for device to be idle
+12-11 15:16:04.122  6643  6674 I appium  : AppiumResponse: {"sessionId":"9597bf0b-8fc6-48d1-b37e-4c6eebd74452","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 15:16:04.649  6643  6674 I appium  : channel read invoked!
+12-11 15:16:04.649  6643  6674 I appium  : channel read: POST /wd/hub/session/9597bf0b-8fc6-48d1-b37e-4c6eebd74452/element
+12-11 15:16:04.652  6643  6674 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/filter_text'.
+12-11 15:16:04.652  6643  6674 I appium  : Waiting up to 10000ms for device to be idle
+12-11 15:16:04.690  6643  6674 I appium  : AppiumResponse: {"sessionId":"9597bf0b-8fc6-48d1-b37e-4c6eebd74452","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 15:16:05.208  6643  6674 I appium  : channel read invoked!
+12-11 15:16:05.208  6643  6674 I appium  : channel read: POST /wd/hub/session/9597bf0b-8fc6-48d1-b37e-4c6eebd74452/element
+12-11 15:16:05.210  6643  6674 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/filter_text'.
+12-11 15:16:05.210  6643  6674 I appium  : Waiting up to 10000ms for device to be idle
+12-11 15:16:05.264  6643  6674 I appium  : AppiumResponse: {"sessionId":"9597bf0b-8fc6-48d1-b37e-4c6eebd74452","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 15:16:05.783  6643  6674 I appium  : channel read invoked!
+12-11 15:16:05.783  6643  6674 I appium  : channel read: POST /wd/hub/session/9597bf0b-8fc6-48d1-b37e-4c6eebd74452/element
+12-11 15:16:05.785  6643  6674 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/filter_text'.
+12-11 15:16:05.786  6643  6674 I appium  : Waiting up to 10000ms for device to be idle
+12-11 15:16:05.838  6643  6674 I appium  : AppiumResponse: {"sessionId":"9597bf0b-8fc6-48d1-b37e-4c6eebd74452","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 15:16:06.365  6643  6674 I appium  : channel read invoked!
+12-11 15:16:06.366  6643  6674 I appium  : channel read: POST /wd/hub/session/9597bf0b-8fc6-48d1-b37e-4c6eebd74452/element
+12-11 15:16:06.370  6643  6674 I appium  : Find element command using 'id' with selector 'com.amazon.mShop.android.shopping:id/filter_text'.
+12-11 15:16:06.370  6643  6674 I appium  : Waiting up to 10000ms for device to be idle
+12-11 15:16:06.416  6643  6674 I appium  : AppiumResponse: {"sessionId":"9597bf0b-8fc6-48d1-b37e-4c6eebd74452","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the ...
+12-11 15:16:06.513  6643  6674 I appium  : channel read invoked!
+12-11 15:16:06.514  6643  6674 I appium  : channel read: GET /wd/hub/session/9597bf0b-8fc6-48d1-b37e-4c6eebd74452/screenshot
+12-11 15:16:06.515  6643  6674 I appium  : Capture screenshot command
+12-11 15:16:06.643   638   638 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+12-11 15:16:06.644  6907  6907 I Gralloc4: mapper 4.x is not supported
+12-11 15:16:06.644   638   638 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@3.0::IMapper/default in either framework or device manifest.
+12-11 15:16:06.644  6907  6907 W Gralloc3: mapper 3.x is not supported
+12-11 15:16:06.658  6907  6907 W AdrenoUtils: <ReadGpuID_from_sysfs:197>: Failed to open /sys/class/kgsl/kgsl-3d0/gpu_model
+12-11 15:16:06.659  6907  6907 W AdrenoUtils: <ReadGpuID:221>: Failed to read chip ID from gpu_model. Fallback to use the GSL path
+12-11 15:16:07.284  6643  6674 I appium  : AppiumResponse: {"sessionId":"9597bf0b-8fc6-48d1-b37e-4c6eebd74452","value":"iVBORw0KGgoAAAANSUhEUgAABaAAAAtACAYAAADu24QXAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N13eFvl3cbx+xwtL1neduyELJIQZkIGAQKEVVagBcoqqwVa6ABKd0v7\nUnjf7lJa2lIobRlll11aCIRNQhgJSYAMAtl2vJdsS9Y67x+KTRzJtpxYlmx\/P9eVq8VD57EsS\/Z9\n...
