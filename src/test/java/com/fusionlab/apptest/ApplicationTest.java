@@ -24,35 +24,35 @@ public class ApplicationTest extends BaseClass {
 	@Test(dataProviderClass = DataProviders.class, dataProvider = "credentialDP")
 	public void TC01_Verify_Valid_Login_Into_The_App(Hashtable<String, String> data) throws Exception {
 		logger.info("TC01_Verify_Valid_Login_Into_The_App");
-//		HomeScreen.doValidLoginIntoTheApp(data.get("username"), data.get("password"));
+		HomeScreen.doValidLoginIntoTheApp(data.get("username"), data.get("password"));
 	}
 
 	@Test(dataProviderClass = DataProviders.class, dataProvider = "searchProductDP")
 	public void TC02_VerifyDetailsOnProductSearchScreenVsCheckoutScreen(Hashtable<String, String> data)
 			throws Exception {
 		logger.info("TC02_VerifyDetailsOnProductSearchScreenVsCheckoutScreen");
-//		driver.rotate(ScreenOrientation.PORTRAIT);
-//
-//		logger.info("seraching the product by category");
-//		HomeScreen.searchProductOnHomeScreen(data.get("Category"));
-//
-//		logger.info("Applying Filter with Brand.");
-//		ProductSearchScreen.applyFilter(data.get("Product"));
-//
-//		logger.info("Sorting the product from low to high");
-//		SortProductScreen.sortTheProduct(2);
-//
-//		logger.info("Selecting the first product from the product list");
-//		SortProductScreen.selectTheProduct(0);
-//		String beforeAddingToCartPrice = SortProductScreen.getThePrice();
-//
-//		logger.info("Checkout the added product");
-//		CheckoutScreen.buyAddedProductToCart();
-//
-//		logger.info("Validating the price on payment screen");
-//		String afterAddingToCartPrice = PaymentGatewayScreen.getThePriceOnPaymentScreen();
-//
-//		Assert.assertEquals(beforeAddingToCartPrice, afterAddingToCartPrice);
+		driver.rotate(ScreenOrientation.PORTRAIT);
+
+		logger.info("seraching the product by category");
+		HomeScreen.searchProductOnHomeScreen(data.get("Category"));
+
+		logger.info("Applying Filter with Brand.");
+		ProductSearchScreen.applyFilter(data.get("Product"));
+
+		logger.info("Sorting the product from low to high");
+		SortProductScreen.sortTheProduct(2);
+
+		logger.info("Selecting the first product from the product list");
+		SortProductScreen.selectTheProduct(0);
+		String beforeAddingToCartPrice = SortProductScreen.getThePrice();
+
+		logger.info("Checkout the added product");
+		CheckoutScreen.buyAddedProductToCart();
+
+		logger.info("Validating the price on payment screen");
+		String afterAddingToCartPrice = PaymentGatewayScreen.getThePriceOnPaymentScreen();
+
+		Assert.assertEquals(beforeAddingToCartPrice, afterAddingToCartPrice);
 
 	}
 
